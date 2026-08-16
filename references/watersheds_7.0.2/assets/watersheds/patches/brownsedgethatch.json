@@ -1,9 +1,0 @@
-[
-  {
-    "op": "replace",
-    "enabled": true,
-    "path": "/dropsByType/tallplant-brownsedge-land-normal-*/0/code",
-    "value": "thatch",
-    "file": "game:blocktypes/plant/reedpapyrus.json"
-  }
-]

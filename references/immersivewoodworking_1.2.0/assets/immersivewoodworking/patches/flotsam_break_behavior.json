@@ -1,3 +1,0 @@
-[
-    { "file": "game:blocktypes/aquatic/flotsam.json", "op": "Add", "path": "/behaviors/-", "value": { "name": "iw-flotsambreak" } }
-]

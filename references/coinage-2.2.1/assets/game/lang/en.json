@@ -1,6 +1,0 @@
-{
-    "tabname-coinage": "Coinage",
-    "gamemechanicinfo-coinage": "Coins",
-    "gamemechanicinfo-coinage-title": "Coins",
-    "gamemechanicinfo-coinage-text": "<strong>Planchets</strong><br/>The first step to minting your own coins is to create a <a href=\"handbook://item-coinage:punch-iron\">coin punch</a>. <hk>rightmouse</hk> click with the punch to begin creating a shape for your coins. Once your punch is ready, use it together with metal plates to create <a href=\"handbooksearch://planchet\">planchets</a>.<br/><br/><strong>Minting</strong><br/>Create custom coin designs by <hk>rightmouse</hk> clicking with a <a href=\"handbook://item-coinage:trussell-iron\">Trussell</a>. Hold the trussell and a hammer, place your planchets in a <a href=\"handbooksearch://coining pile\">coining pile</a> together with an <a href=\"handbook://item-coinage:anvildie-iron\">anvil die</a>, and <hk>rightmouse</hk> click the pile to mint coins.<br/><br/>Remember to copy your design to a new trussell before the original breaks! Place a blank trussell in the coining pile, hold the old one, and hammer the design in.<br/>Your coin punch can be similarly copied by crafting it together with a blank one."
-}

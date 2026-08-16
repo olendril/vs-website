@@ -1,5 +1,0 @@
-[
-	{ "op": "add", "path": "/storageFlags", "value": 33, "file": "wool:itemtypes/resource/fleece.json", "side": "server" },
-	{ "op": "add", "path": "/storageFlags", "value": 33, "file": "wool:itemtypes/resource/fibers.json", "side": "server" },
-	{ "op": "add", "path": "/storageFlags", "value": 33, "file": "wool:itemtypes/resource/twine.json", "side": "server" }
-]

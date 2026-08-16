@@ -1,9 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/attributes/inContainerTexture",
-    "value": { "base": "em:item/resource/crushed/ore/incontainer/bonemeal" },
-    "file": "game:itemtypes/resource/crushed/bonemeal.json",
-    "side": "Server"
-  }
-]

@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addmerge",
-    "path": "/attributes/codePrefixes/-",
-    "value": "talldrygrass",
-    "file": "game:itemtypes/tool/scythe.json",
-    "side": "Server"
-  }
-]

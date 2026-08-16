@@ -1,9 +1,0 @@
-{
-	code: "kombucha-earthball-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-earthball", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-earthball-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-earthball", litres: 10 }
-}

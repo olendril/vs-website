@@ -1,9 +1,0 @@
-{
-	code: "tea-sickener-cold",
-	sealHours: 16,
-	ingredients: [
-		{ type: "item", code: "game:waterportion", litres: 1 },
-		{ type: "block", code: "game:mushroom-sickener-normal", quantity: 1 }
-	],
-	output: { type: "item", code: "steepandbrew:tea-sickener-cold", litres: 1 }
-}

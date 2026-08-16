@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addeach",
-    "path": "/0/ingredients/S/allowedVariants/-",
-    "value": [ "kimberlite", "obsidian", "suevite" ],
-    "file": "game:recipes/grid/stonebrick.json",
-    "side": "Server"
-  }
-]

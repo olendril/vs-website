@@ -1,3 +1,0 @@
-[
-	{ "op": "replace", "path": "/0/sealHours", "value": 48, "file": "game:recipes/barrel/dye/woad.json", "side": "Server" }
-]

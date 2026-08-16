@@ -1,9 +1,0 @@
-{
-	code: "decoct-coffee-cold",
-	sealHours: 16,
-	ingredients: [
-		{ type: "item", code: "game:waterportion", litres: 1 },
-		{ type: "item", code: "steepandbrew:coffee-ground", quantity: 1 }
-	],
-	output: { type: "item", code: "steepandbrew:decoct-coffee-cold", litres: 1 }
-}

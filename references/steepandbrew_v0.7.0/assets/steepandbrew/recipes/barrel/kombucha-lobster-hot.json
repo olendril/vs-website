@@ -1,9 +1,0 @@
-{
-	code: "kombucha-lobster-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-lobster", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-lobster-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-lobster", litres: 10 }
-}

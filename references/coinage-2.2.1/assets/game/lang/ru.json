@@ -1,6 +1,0 @@
-﻿{
-    "tabname-coinage": "Coinage",
-    "gamemechanicinfo-coinage": "Монеты",
-    "gamemechanicinfo-coinage-title": "Монеты",
-    "gamemechanicinfo-coinage-text": "<strong>Планшеты</strong><br/>Первый шаг к чеканке собственных монет — создание <a href=\"handbook://item-coinage:punch-iron\">монетного пуансона</a>. <hk>rightmouse</hk> нажмите пуансоном, чтобы начать формирование формы для монет. Когда пуансон готов, используйте его вместе с металлическими пластинами, чтобы изготовить <a href=\"handbooksearch://planchet\">планшеты</a>.<br/><br/><strong>Чеканка</strong><br/>Создавайте уникальные дизайны монет, <hk>rightmouse</hk> нажимая <a href=\"handbook://item-coinage:trussell-iron\">трусселем</a>. Держа труссель и молот, поместите планшеты в <a href=\"handbooksearch://coining pile\">чеканочную стопку</a> вместе с <a href=\"handbook://item-coinage:anvildie-iron\">наковальней-матрицей</a> и <hk>rightmouse</hk> нажмите по стопке, чтобы отчеканить монеты.<br/><br/>Не забудьте скопировать дизайн на новый труссель, прежде чем оригинал сломается! Поместите пустой труссель в чеканочную стопку, возьмите старый и вбейте дизайн молотом.<br/>Монетный пуансон можно скопировать аналогичным образом, изготовив его вместе с пустым."
-}

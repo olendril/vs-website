@@ -1,9 +1,0 @@
-{
-	code: "kombucha-ironstomach-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-ironstomach", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-ironstomach-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-ironstomach", litres: 10 }
-}

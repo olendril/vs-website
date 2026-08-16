@@ -1,9 +1,0 @@
-{
-	code: "kombucha-woad-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-woad", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-woad-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-woad", litres: 10 }
-}

@@ -1,9 +1,0 @@
-{
-	code: "kombucha-edelweiss-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-edelweiss", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-edelweiss-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-edelweiss", litres: 10 }
-}

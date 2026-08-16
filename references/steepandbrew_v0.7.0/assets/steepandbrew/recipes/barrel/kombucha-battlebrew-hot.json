@@ -1,9 +1,0 @@
-{
-	code: "kombucha-battlebrew-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-battlebrew", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-battlebrew-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-battlebrew", litres: 10 }
-}

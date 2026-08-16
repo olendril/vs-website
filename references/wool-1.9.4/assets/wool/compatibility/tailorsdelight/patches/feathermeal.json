@@ -1,7 +1,0 @@
-[
-	{
-	"op": "replace", "path": "/0/ingredients/0",
-	"value": { "code": "feather", "validStacks": [ { "type": "item", "code": "tailorsdelight:down-*", "quantity": 1 } ], "minQuantity": 1, "maxQuantity": 1 },
-	"file": "wool:recipes/cooking/feathermeal.json", "side": "Server"
-	}
-]

@@ -1,9 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/entityClassByType/*-populated-*",
-    "value": "fgcbeehive",
-    "file": "blocktypes/reed/skep.json",
-    "side": "server"
-  }
-]

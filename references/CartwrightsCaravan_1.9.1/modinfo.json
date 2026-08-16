@@ -1,9 +1,0 @@
-{
-  "type": "content",
-  "modid": "cartwrightscaravan",
-  "name": "Cartwrights Caravan",
-  "description": "Adds seraph-pulled/pushed carts, sleds, and market stalls with storage and decoration options.",
-  "authors": [ "Freakyuser396" ],
-  "version": "1.9.1",
-  "dependencies": { "game": "1.22.0" }
-}

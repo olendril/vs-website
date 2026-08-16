@@ -1,8 +1,0 @@
-{
-  "type": "code",
-  "name": "Geology Additions",
-  "modid": "geoaddons",
-  "authors": ["small_fern","Catasteroid"],
-  "description": "Adds additional rock types and minerals to better represent real-world Geology in VS.",
-  "version": "1.4.8"
-}

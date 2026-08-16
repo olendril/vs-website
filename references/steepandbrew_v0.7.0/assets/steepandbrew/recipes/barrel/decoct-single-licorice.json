@@ -1,9 +1,0 @@
-{
-	code: "decoct-licorice-cold",
-	sealHours: 16,
-	ingredients: [
-		{ type: "item", code: "game:waterportion", litres: 1 },
-		{ type: "item", code: "game:spice-licorice-raw", quantity: 1 }
-	],
-	output: { type: "item", code: "steepandbrew:decoct-licorice-cold", litres: 1 }
-}

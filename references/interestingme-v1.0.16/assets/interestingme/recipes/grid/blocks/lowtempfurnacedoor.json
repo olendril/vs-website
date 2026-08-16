@@ -1,9 +1,0 @@
-{
-	ingredientPattern: "CCC,CCC,C_C",
-	ingredients: {
-		"C": { type: "block", code: "game:mudbrick-light", "quantity": 2 }
-	},
-	width: 3,
-	height: 3,
-	output: { type: "block", code: "interestingme:lowtempfurnacedoor-closed-north", quantity: 1 }
-}

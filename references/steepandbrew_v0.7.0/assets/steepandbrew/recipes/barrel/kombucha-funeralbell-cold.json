@@ -1,9 +1,0 @@
-{
-	code: "kombucha-funeralbell-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-funeralbell", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-funeralbell-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-funeralbell", litres: 10 }
-}

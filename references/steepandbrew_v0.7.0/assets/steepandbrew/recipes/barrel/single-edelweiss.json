@@ -1,9 +1,0 @@
-{
-	code: "tea-edelweiss-cold",
-	sealHours: 16,
-	ingredients: [
-		{ type: "item", code: "game:waterportion", litres: 1 },
-		{ type: "block", code: "game:flower-edelweiss-free", quantity: 1 }
-	],
-	output: { type: "item", code: "steepandbrew:tea-edelweiss-cold", litres: 1 }
-}

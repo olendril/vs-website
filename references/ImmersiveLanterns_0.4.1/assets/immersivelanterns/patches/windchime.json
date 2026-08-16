@@ -1,8 +1,0 @@
-[
-  {
-    "op": "add",
-    "file": "windchimes:blocktypes/windchime.json",
-    "path": "/entityClass",
-    "value": "ImmersiveLanterns.BlockEntityWindChime"
-  }
-]

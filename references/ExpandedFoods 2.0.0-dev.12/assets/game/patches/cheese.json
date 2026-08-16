@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addmerge",
-    "path": "/attributes/handbook",
-    "value": { "groupBy": ["cheese-*"] },
-    "side": "server",
-    "file": "itemtypes/food/cheese.json"
-  }
-]

@@ -1,9 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/crushingProps",
-    "value": { "crushedStack": { "type": "item", "code": "bricklayers:crushed-bones", "stacksize": 1 }, "hardnessTier": 1 },
-    "file": "game:itemtypes/resource/bone.json",
-    "side": "Server"
-  }
-]

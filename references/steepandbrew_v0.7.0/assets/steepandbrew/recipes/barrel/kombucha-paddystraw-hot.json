@@ -1,9 +1,0 @@
-{
-	code: "kombucha-paddystraw-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-paddystraw", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-paddystraw-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-paddystraw", litres: 10 }
-}

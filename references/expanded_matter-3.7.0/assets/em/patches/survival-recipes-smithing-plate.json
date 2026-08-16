@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addeach",
-    "path": "/ingredient/allowedVariants/-",
-    "value": [ "uranium" ],
-    "file": "game:recipes/smithing/plate.json",
-    "side": "Server"
-  }
-]

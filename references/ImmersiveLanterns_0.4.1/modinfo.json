@@ -1,9 +1,0 @@
-{
-  "type": "code",
-  "modid": "immersivelanterns",
-  "name": "Immersive Lanterns",
-  "side" : "universal",
-  "description": "Lanterns react to movement and make noise",
-  "version": "0.4.1",
-  "authors": [ "SaltyWater" ]
-}

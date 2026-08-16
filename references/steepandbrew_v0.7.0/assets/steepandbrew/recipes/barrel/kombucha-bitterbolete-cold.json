@@ -1,9 +1,0 @@
-{
-	code: "kombucha-bitterbolete-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-bitterbolete", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-bitterbolete-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-bitterbolete", litres: 10 }
-}

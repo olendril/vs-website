@@ -1,9 +1,0 @@
-{
-	code: "kombucha-fieldmushroom-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-fieldmushroom", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-fieldmushroom-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-fieldmushroom", litres: 10 }
-}

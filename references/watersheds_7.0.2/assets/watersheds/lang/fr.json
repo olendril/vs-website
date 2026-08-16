@@ -1,8 +1,0 @@
-{
-    "block-wellpulley-*": "Poulie de puits",
-    "wellpulley-handbook-help-title": "Comment utiliser",
-    "wellpulley-handbook-help-text": "Une poulie de puits utilise un <a href=\"handbooksearch://Rouleau de corde\">rouleau de corde</a> et un <a href=\"handbooksearch://Seau en bois\">seau en bois</a> pour puiser de l'eau douce ou salée en profondeur.<br>Elle permet de remplir rapidement des seaux à partir d'eau située loin en contrebas, sans avoir à descendre.<br><br><strong>Installation :</strong>Placez le rouleau de corde dans l'emplacement actif de votre barre d'outil, faites <hk>rightmouse</hk> sur la poulie pour enrouler la corde autour, puis attachez-la à un autre point d'ancrage, comme une autre poulie ou une clôture.<br>Une fois la corde fixée, placez un seau sur la poulie avec <hk>rightmouse</hk>.<br><br><strong>Remonter de l'eau :</strong> La poulie étant maintenant équipée d'un seau, vous pouvez utiliser <hk>Ctrl</hk> + <hk>rightmouse</hk> pour descendre et remonter le seau. Si le seau trouve de l'eau avant d'atteindre sa profondeur maximale, il se remplira d'eau douce ou salée. <br><br>Voir aussi : Puits</a>",
-    "wellpulley-raisebucketfirst": "Remontez d'abord le seau",
-    "wellpulley-waitbucketstop": "Attendez que le seau cesse de bouger",
-    "wellpulley-finishraising": "Finissez d'abord de remonter le seau"
-}

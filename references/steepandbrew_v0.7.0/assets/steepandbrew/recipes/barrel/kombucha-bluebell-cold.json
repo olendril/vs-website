@@ -1,9 +1,0 @@
-{
-	code: "kombucha-bluebell-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-bluebell", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-bluebell-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-bluebell", litres: 10 }
-}

@@ -1,9 +1,0 @@
-{
-	code: "kombucha-forestspring-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-forestspring", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-forestspring-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-forestspring", litres: 10 }
-}

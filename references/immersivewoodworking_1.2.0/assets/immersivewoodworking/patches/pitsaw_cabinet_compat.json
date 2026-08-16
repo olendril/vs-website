@@ -1,8 +1,0 @@
-[
-	{ "file": "game:recipes/grid/cabinet", "op": "Remove", "path": "/0/ingredients/S/code" },
-	{ "file": "game:recipes/grid/cabinet", "op": "Remove", "path": "/1/ingredients/S/code" },
-	{ "file": "game:recipes/grid/cabinet", "op": "Remove", "path": "/2/ingredients/S/code" },
-	{ "file": "game:recipes/grid/cabinet", "op": "Remove", "path": "/3/ingredients/S/code" },
-	{ "file": "game:recipes/grid/cabinet", "op": "Remove", "path": "/4/ingredients/S/code" },
-	{ "file": "game:recipes/grid/cabinet", "op": "Remove", "path": "/5/ingredients/S/code" }
-]

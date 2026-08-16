@@ -1,9 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/0/enabled",
-    "value": false,
-    "file": "game:recipes/barrel/dye/white.json",
-    "side": "Server"
-  }
-]

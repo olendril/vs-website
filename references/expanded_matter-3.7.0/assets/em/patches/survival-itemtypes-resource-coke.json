@@ -1,4 +1,0 @@
-[
-	{ "op": "replace", "path": "/combustibleProps/burnDuration", "value": 80, "file": "game:itemtypes/resource/coke.json", "side": "Server" },
-	{ "op": "replace", "path": "/attributes/inForge/durationMul", "value": 1.60, "file": "game:itemtypes/resource/coke.json", "side": "Server" }
-]

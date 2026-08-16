@@ -1,9 +1,0 @@
-{
-	code: "kombucha-healerstonic-cold",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-healerstonic", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-healerstonic-cold", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-healerstonic", litres: 10 }
-}

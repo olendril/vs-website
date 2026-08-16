@@ -1,9 +1,0 @@
-{
-	code: "kombucha-goldcap-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-goldcap", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-goldcap-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-goldcap", litres: 10 }
-}

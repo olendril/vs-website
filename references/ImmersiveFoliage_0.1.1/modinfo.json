@@ -1,9 +1,0 @@
-{
-  "type": "code",
-  "modid": "immersivefoliage",
-  "name": "Immersive Foliage",
-  "side" : "client",
-  "description": "Dynamic foliage that reacts to entities, both physically and audibly.",
-  "version": "0.1.1",
-  "authors": [ "SaltyWater" ]
-}

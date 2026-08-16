@@ -1,9 +1,0 @@
-{
-	code: "kombucha-devilstooth-hot",
-	sealHours: 336,
-	ingredients: [
-		{ type: "item", code: "steepandbrew:scoby-devilstooth", quantity: 1, consumeQuantity: 0 },
-		{ type: "item", code: "steepandbrew:tea-devilstooth-hot", litres: 10 }
-	],
-	output: { type: "item", code: "steepandbrew:kombucha-devilstooth", litres: 10 }
-}

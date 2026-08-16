@@ -1,9 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/0/sealHours",
-    "value": 62,
-    "file": "game:recipes/barrel/dye/pink.json",
-    "side": "Server"
-  }
-]

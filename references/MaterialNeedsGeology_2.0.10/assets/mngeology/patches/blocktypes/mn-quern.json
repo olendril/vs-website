@@ -1,8 +1,0 @@
-[
-	{
-	"op": "addmerge",
-	"path": "/variantgroups/0/states",
-	"value": [ "komatiite", "monzonite", "syenite", "pyroxenite" ],
-	"file": "game:blocktypes/stone/quern.json"
-	},
-]
