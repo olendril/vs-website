@@ -1,0 +1,49 @@
+[
+	{
+	"name": "high-fertility-soil",
+	"ingredientPattern": "WBW,CSC,WBW",
+	"enabled": true,
+	"ingredients": {
+		"C": { "type": "item", "code": "game:compost", "quantity": 2 },
+		"W": { "type": "item", "code": "wool:fertilizer-organic-*", "quantity": 2 },
+		"S": { "type": "block", "code": "game:soil-medium-none", "quantity": 1 },
+		"B": { "type": "item", "code": "game:bonemeal", "quantity": 2 }
+	},
+	"recipeGroup": 4,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:soil-compost-none", "quantity": 1 }
+        },
+
+	{
+	"name": "medium-fertility-soil",
+	"ingredientPattern": "HBH,RSR,WBW",
+	"enabled": true,
+	"ingredients": {
+		"R": { "type": "item", "code": "game:rot", "quantity": 4 },
+		"W": { "type": "item", "code": "wool:fertilizer-organic-*", "quantity": 2 },
+		"H": { "type": "item", "code": "wool:fertilizer-organic-*", "quantity": 1 },
+		"S": { "type": "block", "code": "game:soil-low-none", "quantity": 1 },
+		"B": { "type": "item", "code": "game:bonemeal", "quantity": 1 }
+	},
+	"recipeGroup": 4,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:soil-medium-none", "quantity": 1 }
+        },
+
+	{
+	"name": "low-fertility-soil",
+	"ingredientPattern": "WBW,BSB,WBW",
+	"enabled": true,
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:fertilizer-organic-*", "quantity": 1 },
+		"S": { "type": "block", "code": "game:soil-verylow-none", "quantity": 1 },
+		"B": { "type": "item", "code": "game:bonemeal", "quantity": 1 }
+	},
+	"recipeGroup": 4,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:soil-low-none", "quantity": 1 }
+        }
+]

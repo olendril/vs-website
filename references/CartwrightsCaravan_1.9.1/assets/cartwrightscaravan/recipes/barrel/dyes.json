@@ -1,0 +1,326 @@
+[
+  {
+    "code": "canopycoloringnormal",
+    "sealHours": 10,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 10,
+        "consumeLitres": 10
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-basic-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-basic-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "closedcanopycoloringnormal",
+    "sealHours": 12,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 12,
+        "consumeLitres": 12
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-closed-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-closed-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "ornatecanopycoloringnormal",
+    "sealHours": 10,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 10,
+        "consumeLitres": 10
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-ornate-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-ornate-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "leathercanopycoloringnormal",
+    "sealHours": 12,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 12,
+        "consumeLitres": 12
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-leather-*",
+        "name": "material",
+        "allowedVariants": [ "brown" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-leather-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "tentcoloringAnormal",
+    "sealHours": 5,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 5,
+        "consumeLitres": 5
+      },
+      {
+        "type": "item",
+        "code": "cartsidetent-cloth-high-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartsidetent-cloth-high-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "tentcoloringBnormal",
+    "sealHours": 5,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 5,
+        "consumeLitres": 5
+      },
+      {
+        "type": "item",
+        "code": "cartsidetent-cloth-low-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartsidetent-cloth-low-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "gripcoloringAnormal",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 2,
+        "consumeLitres": 2
+      },
+      {
+        "type": "item",
+        "code": "cartswearable-saddlelong-basic-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-basic-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "gripcoloringBnormal",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 2,
+        "consumeLitres": 2
+      },
+      {
+        "type": "item",
+        "code": "cartswearable-saddleshort-basic-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-basic-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "gripcoloringCnormal",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 2,
+        "consumeLitres": 2
+      },
+      {
+        "type": "item",
+        "code": "cartswearable-saddlelong-leather-*",
+        "name": "material",
+        "allowedVariants": [ "brown" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-leather-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "gripcoloringDnormal",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 2,
+        "consumeLitres": 2
+      },
+      {
+        "type": "item",
+        "code": "cartswearable-saddleshort-leather-*",
+        "name": "material",
+        "allowedVariants": [ "brown" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-leather-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "sidecoloringnormal",
+    "sealHours": 3,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 3,
+        "consumeLitres": 3
+      },
+      {
+        "type": "item",
+        "code": "cartsideboard-cloth-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-cloth-{color}",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "sidecoloringnormalB",
+    "sealHours": 3,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-*",
+        "name": "color",
+        "allowedVariants": [ "white", "black", "green", "blue", "orange", "red", "yellow", "purple", "pink", "gray" ],
+        "litres": 3,
+        "consumeLitres": 3
+      },
+      {
+        "type": "item",
+        "code": "cartsideboard-leather-*",
+        "name": "material",
+        "allowedVariants": [ "brown" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-leather-{color}",
+      "stackSize": 1
+    }
+  }
+]

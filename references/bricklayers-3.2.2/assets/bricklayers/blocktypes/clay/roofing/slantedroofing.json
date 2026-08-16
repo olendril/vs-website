@@ -1,0 +1,26 @@
+{
+	"inheritFrom": "game:blocktypes/roofing/slantedroofing.json",
+	"code": "slantedroofing",
+	"variantgroups": [
+		{ "code": "material", "states": [ "malachite", "green", "blurple", "purple" ] },
+		{ "loadFromProperties": "game:abstract/horizontalorientation" },
+                { "code": "cover", "states": [ "free", "snow" ] }
+	],
+	"behaviors": [ { "name": "HorizontalOrientable", "properties": {  "dropBlockFace": "east", "drop": { "type": "block", "code": "bricklayers:slantedroofing-{material}-east-free" } } } ],
+	"shapeByType": {
+		"*-north-*":	{ "base": "game:block/roofing/main/shingles-clay-{cover}", "rotateY": 90 },
+		"*-west-*":	{ "base": "game:block/roofing/main/shingles-clay-{cover}", "rotateY": 180 },
+		"*-south-*":	{ "base": "game:block/roofing/main/shingles-clay-{cover}", "rotateY": 270 },
+		"*-east-*":	{ "base": "game:block/roofing/main/shingles-clay-{cover}", "rotateY": 0 }
+	},
+	"texturesByType": {
+		"*": { "material": { "base": "bricklayers:block/clay/shingles/{material}" } }
+        },
+	"blockmaterialByType": {
+		"*": "Ceramic"
+	},
+	"creativeinventory": { "general": [ "*-east-free" ], "decorative": [ "*-east-free" ], "ceramics": [ "*-east-free" ] },
+	"soundsbyType": {
+		"*": { "walk": "game:walk/stone", "place": "game:block/ceramicplace" }
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"inheritFrom": "game:itemtypes/resource/shingle.json",
+	"code": "clayshingle",
+	"variantgroups": [
+		{ "code": "state", "states": [ "raw", "burned" ] },
+		{ "code": "color", "states": [ "malachite", "green", "blurple", "purple" ] }
+	],
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "Stacking",
+			"placeRemoveSound": "game:sounds/block/ceramicplace",
+			"stackingModel": "game:block/clay/shinglepile",
+			"modelItemsToStackSizeRatio": 2,
+			"stackingCapacity": 192,
+			"transferQuantity": 1,
+			"bulkTransferQuantity": 6,
+			"maxFireable": 48,
+			"upSolid": true,
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0625, "z2": 1 },
+			"cbScaleYByLayer": 0.0833333333333333
+                }
+        }],
+	"skipVariants": [ "clayshingle-raw-green", "clayshingle-raw-blurple", "clayshingle-raw-purple" ],
+	"shape": { "base": "game:item/shingle" },
+	"texturesByType": {
+		"*-raw-*": { "material": { "base": "bricklayers:block/clay/raw/malachite" } },
+		"*-burned-*": { "material": { "base": "bricklayers:block/clay/shingles/{color}" } }
+        },
+	"attributesByType":{
+		"*-raw-malachite": {
+			"beehivekiln": {
+				"0": { "type": "item", "code": "bricklayers:clayshingle-burned-malachite" },
+				"1": { "type": "item", "code": "bricklayers:clayshingle-burned-green" },
+				"2": { "type": "item", "code": "bricklayers:clayshingle-burned-blurple" },
+				"3": { "type": "item", "code": "bricklayers:clayshingle-burned-purple" }
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"clayshingle-raw-malachite": {
+			"meltingPoint": 850,
+			"meltingDuration": 7.5,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "item", "code": "bricklayers:clayshingle-burned-green" },
+			"requiresContainer": false
+                }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "ceramics": ["*"] }
+}

@@ -1,0 +1,38 @@
+﻿[
+    {
+        "side": "server",
+        "file": "game:entities/animal/mammal/raccoon-baby",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:entities/animal/mammal/raccoon-baby",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:entities/animal/mammal/raccoon-adult",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:entities/animal/mammal/raccoon-adult",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

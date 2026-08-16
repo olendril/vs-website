@@ -1,0 +1,29 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/franckeite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/-",
+		"value": [
+			"franckeite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/franckeite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-franckeite",
+		"value": [
+			"poor",
+			"medium"
+		]
+	}
+]

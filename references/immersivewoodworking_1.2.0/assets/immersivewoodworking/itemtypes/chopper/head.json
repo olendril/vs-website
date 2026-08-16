@@ -1,0 +1,49 @@
+{
+	code: "chopperhead",
+	maxstacksize: 1,
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"] }
+	],
+	durabilitybytype: {
+		"chopperhead-gold": 125,
+		"chopperhead-silver": 125,
+		"chopperhead-copper": 250,
+		"chopperhead-tinbronze": 400,
+		"chopperhead-bismuthbronze": 500,
+		"chopperhead-blackbronze": 600,
+		"chopperhead-iron": 900,
+		"chopperhead-meteoriciron": 1200,
+		"chopperhead-steel": 1800
+	},
+	shape: { base: "immersivewoodworking:item/chopper/head" },
+	heldTpIdleAnimation: "holdbothhandslarge",
+	textures: {
+		"metal": { base: "game:block/metal/ingot/{metal}" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	attributes: {
+		handbook: {
+			extraSections: [
+				{ title: "immersivewoodworking:chopperpart-handbook-title", text: "immersivewoodworking:chopperpart-handbook-text" }
+			]
+		}
+	},
+	tpHandTransform: {
+		translation: { x: -0.8, y: -0.65, z: -0.275 },
+		rotation: { x: -40, y: 21, z: -92 },
+		scale: 0.89
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.1, z: 0 },
+		rotation: { x: 91, y: 0, z: 46 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 3.39
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 3, y: -16, z: 0 },
+		rotation: { x: -22.6, y: -24, z: -180 },
+		origin: { x: 0.5, y: 0.5, z: 0.5 },
+		scale: 2.75
+	}
+}

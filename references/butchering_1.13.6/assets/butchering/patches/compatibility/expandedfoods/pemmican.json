@@ -1,0 +1,202 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw/butchering:smoked-none-primemeat",
+    "value": {
+      "saturation": 220,
+      "foodcategory": "Protein",
+      "health": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw/butchering:smoked-none-*",
+    "value": {
+      "saturation": 150,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw/butchering:smoked-cured-*",
+    "value": {
+      "saturation": 130,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw/butchering:smoked-none-*",
+    "value": {
+      "saturation": 150,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/pemmicanfish.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/*-raw/butchering:smoked-cured-*",
+    "value": {
+      "saturation": 130,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/pemmicanfish.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/4/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/5/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/4/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/5/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/4/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/5/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/4/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/5/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/pemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/4/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-fish",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/fishpemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/5/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-fish",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/fishpemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/4/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-fish",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/fishpemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/5/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-fish",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/fishpemmican.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }
+]

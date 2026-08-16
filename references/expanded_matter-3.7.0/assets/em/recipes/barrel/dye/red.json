@@ -1,0 +1,92 @@
+[
+	{
+		"code": "dye-red-alum",
+		"name": "dye-red-litharge-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-litharge", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-alum",
+		"name": "dye-red-hematite-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-hematite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-cassiterite",
+		"name": "dye-red-litharge-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-litharge", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-cassiterite",
+		"name": "dye-red-hematite-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-hematite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-chromite",
+		"name": "dye-red-litharge-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-litharge", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-chromite",
+		"name": "dye-red-hematite-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-hematite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+
+	{
+		"code": "dye-red-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cadmiumselenide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cadmiumselenide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+	{
+		"code": "dye-red-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cadmiumselenide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 2 }
+	},
+
+	{
+		"code": "dye-red",
+		"name": "dye-red-cobaltsulfate",
+		"sealHours": 12,
+		"ingredients": [
+			{ "type": "item", "code": "game:waterportion", "litres": 3 },
+			{ "type": "item", "code": "em:powdered-ore-cobaltsulfate", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-red", "litres": 3 }
+	}
+]

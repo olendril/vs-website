@@ -1,0 +1,15 @@
+{
+  "type": "content",
+  "modid": "wool",
+  "name": "Wool & More",
+  "description" : "Harvest, process, trade and craft animal hair, fleece and wool.",
+  "authors": [ "Tels", "Phiwa" ],
+  "contributors": [ "DeanBro", "DejFidOFF", "justOmi", "Macoto Hino", "Morok", "Ruddi", "SkyTheSkunny", "Wailwolf" ],
+  "version": "1.9.4",
+  "dependencies": {
+	"game": "1.22.0",
+	"survival": "1.22.0",
+	"shearlib": "1.3.0"
+  },
+  "website": "https://gitlab.com/codesmiths/vs_wool"
+}

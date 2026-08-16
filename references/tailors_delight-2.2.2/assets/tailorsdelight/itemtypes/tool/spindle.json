@@ -1,0 +1,70 @@
+{
+	"code": "spindle",
+	"damagedby": [ "blockbreaking", "attacking" ],
+	"tool": "hammer",
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+	],
+	"variantgroups": [
+		{ "code": "type", "states": [ "wood" ] }
+	],
+	"shape": { "base": "tailorsdelight:item/tool/spindle" },
+	"tags": [ "tool", "tool-spindle"],
+	"attributes": {
+		"handbook": { "groupBy": [ "spindle-*" ] },
+		"shelvable": true,
+		"onshelfTransform": {
+			"translation": { "x": 0.045, "y": -0.175, "z": 0 },
+			"rotation": { "x": 0, "y": 91, "z": 0 },
+			"scale": 0.65
+		},
+		"scrollrackable": true,
+                "onscrollrackTransform": {
+			"translation": { "x": 0.1, "y": -0.31, "z": 0.7 },
+                        "rotation": { "x": -40, "y": -50, "z": -167 },
+                        "origin": { "x": 0.09, "y": 0.25, "z": 0.5 },
+			"scale": 0.62
+                },
+		"toolrackTransform": {
+			"translation": { "x": -0.1, "y": 0.45, "z": 0.05 },
+			"rotation": { "x": 0, "y": -106, "z": 1 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.15
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0.05, "y": -0.18, "z": 0 },
+			"rotation": { "x": 0, "y": 99, "z": 0 },
+			"scale": 0.65
+		}
+	},
+	"heldTpHitAnimation": "breaktool",
+	"heldTpUseAnimation": "knap",
+	"texturesByType": {
+		"*": {
+			"handle": { "base": "game:item/tool/handle" },
+			"weight": { "base": "tailorsdelight:item/horn-dark" }
+		}
+	},
+	"durabilityByType": {
+		"spindle-wood": 300
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"guiTransform": {
+		"rotate": false,
+		"translation": { "x": 0, "y": 2, "z": 0 },
+		"rotation": { "x": -63, "y": 21, "z": 99 },
+		"origin": { "x": 0.48, "y": 0.1, "z": 0.5 },
+		"scale": 1.56
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.03, "z": 0 },
+		"rotation": { "x": -90, "y": 0, "z": -49 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.45 },
+		"scale": 3.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.1, "y": -0.6, "z": -1.27 },
+		"rotation": { "x": -110, "y": -86, "z": 12 },
+		"scale": 0.61
+	}
+}

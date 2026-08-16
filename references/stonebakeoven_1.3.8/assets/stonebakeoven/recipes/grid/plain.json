@@ -1,0 +1,299 @@
+[
+	{
+		"ingredientPattern": "HPC,FMF,_R_",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "game:rockpolished-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"M": {
+				"type": "item",
+				"code": "game:metalplate-copper"
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"F": {
+				"type": "item",
+				"code": "game:clay-fire",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "ovenbakingtopplain-{rock}"
+		}
+	},
+	{
+		"ingredientPattern": "HRC,FMF",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"M": {
+				"type": "item",
+				"code": "game:metalplate-copper",
+				"quantity": 2
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"F": {
+				"type": "item",
+				"code": "game:clay-fire",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "ovencontrollerplain-{rock}-extinct-east"
+		}
+	},
+	{
+		"ingredientPattern": "HPC,R_R",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "game:rockpolished-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "ovengrillplain-{rock}-cold-east"
+		}
+	},
+	{
+		"ingredientPattern": "HPC,_RR",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "game:rockpolished-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "ovengrillplainextra-corner-{rock}-cold-east"
+		}
+	},
+	{
+		"ingredientPattern": "HPC,_R_",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "game:rockpolished-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "ovengrillplainextra-endcap-{rock}-cold-east"
+		}
+	},
+	{
+		"ingredientPattern": "HPC,RRR",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "game:rockpolished-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ]
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "block",
+			"code": "ovengrillplainextra-tjunction-{rock}-cold-east"
+		}
+	},
+	{
+		"ingredientPattern": "HPC,FSM,_R_",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "block",
+				"code": "game:polishedrockslab-*-down-free",
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"kimberlite",
+					"suevite",
+					"whitemarble",
+					"redmarble",
+					"greenmarble"
+				]
+			},
+			"M": {
+				"type": "item",
+				"code": "game:metalplate-copper"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:chutesection-copper"
+			},
+			"R": {
+				"type": "block",
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [
+					"andesite",
+					"chalk",
+					"chert",
+					"conglomerate",
+					"limestone",
+					"claystone",
+					"granite",
+					"sandstone",
+					"shale",
+					"basalt",
+					"peridotite",
+					"phyllite",
+					"slate",
+					"bauxite",
+					"kimberlite",
+					"suevite",
+					"whitemarble",
+					"redmarble",
+					"greenmarble"
+				]
+			},
+			"F": {
+				"type": "item",
+				"code": "game:clay-fire",
+				"quantity": 8
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "ovencookingtopplain-{rock}"
+		}
+	}
+]

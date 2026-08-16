@@ -1,0 +1,38 @@
+{
+  "CollectibleTypes": [
+    "game:BlockPie",
+    "game:ItemCheese",
+    "foodshelves:BlockFruitBasket",
+    "foodshelves:BlockVegetableBasket",
+    "foodshelves:BlockEggBasket",
+    "foodshelves:BlockMushroomBasket",
+    "foodshelves:BlockGlassJar"
+  ],
+  "CollectibleCodes": [
+    "game:crock-*-fired",
+    "game:claypot-*-fired",
+    "game:claypot-*-cooked",
+    "game:bowl-*-fired",
+    "game:bowl-*-meal",
+    "game:vegetable-pumpkin",
+    "game:pickledvegetable-pumpkin",
+
+    "*bread-*",
+    "*dough-*",
+
+    "expandedfoods:cookedveggie-pumpkin-*",
+    "expandedfoods:cookedveggie-pickledpumpkin-*",
+    "expandedfoods:muffin-*",
+    "expandedfoods:acornmuffin-*",
+    "expandedfoods:breadedball-*",
+    "expandedfoods:dumpling-*",
+    "expandedfoods:plaindoughball-*",
+    "expandedfoods:fruitbar-*",
+    "expandedfoods:pasta-dough",
+
+    "wildcraftfruit:nutbar-*",
+    "wildcraftfruit:nut-halva",
+    "wildcraftfruit:nut-pacoca",
+    "wildcraftfruit:nut-marzipan"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+	"code": "fertilizer",
+	"behaviors": [ { "name": "GroundStorable", "properties": { "layout": "Messy12", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } } ],
+	"variantgroups": [
+		{ "code": "type", "states": [ "organic" ] },
+		{ "code": "base", "states": [ "horn", "wool", "fish", "feather" ] }
+	],
+	"attributes": {
+		"inContainerTexture": { "base": "wool:item/resource/fertilizer/{base}" },
+		"displaycaseable": true,
+		"shelvable": true,
+		"onDisplayTransform": {
+			"translation": { "x": 0.05, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.65
+		}
+	},
+	"tags": [ "fertilizer" ],
+	"attributesByType": {
+		"fertilizer-organic-wool": {
+			"fertilizerProps": { "n": 12, "p": 3, "k": 5 },
+			"fertilizerTextureCode": "compost"
+		},
+		"fertilizer-organic-horn": {
+			"fertilizerProps": { "n": 15, "p": 2, "k": 1 },
+			"fertilizerTextureCode": "horn"
+		},
+		"fertilizer-organic-fish": {
+			"fertilizerProps": { "n": 10, "p": 5, "k": 1 },
+			"fertilizerTextureCode": "fish"
+		},
+		"fertilizer-organic-feather": {
+			"fertilizerProps": { "n": 12, "p": 1, "k": 1 },
+			"fertilizerTextureCode": "feather"
+		}
+	},
+	"replaceable": 900,
+	"resistance": 1,
+	"emitSideAo": { "all": false },
+	"textures": { "all": { "base": "wool:item/resource/fertilizer/{base}" } },
+        "shapeByType": {
+		"*": { "base": "wool:item/resource/pellets" }
+	},
+        "creativeinventoryByType": {
+		"*": { "general": ["*"], "items": ["*"] }
+	},
+        "maxstacksize": 64,
+        "materialDensity": 500,
+	"heldTpIdleAnimation": "holdbothhands",
+	"heldRightReadyAnimation": "holdbothhands",
+	"tpHandTransform": {
+		"translation": { "x": -1.67, "y": -1.25, "z": -0.8 },
+		"rotation": { "x": 70, "y": 11, "z": -65 },
+		"scale": 0.41
+        },
+	"guiTransform": {
+		"translation": { "x": -2, "y": 1, "z": -25 },
+                "rotation": { "x": 158, "y": 28, "z": 3 },
+		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+		"scale": 2.5
+        }
+}

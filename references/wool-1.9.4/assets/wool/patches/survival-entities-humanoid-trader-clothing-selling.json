@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addeach",
+    "path": "/selling/list/-",
+    "value": [
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-gray", "type": "item", "stacksize": 1, "stock": { "avg": 1.5, "var": 0.75 }, "price": { "avg": 5, "var": 1 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-white", "type": "item", "stacksize": 1, "stock": { "avg": 1.5, "var": 0.75 }, "price": { "avg": 6, "var": 1 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-pinkgray", "type": "item", "stacksize": 1, "stock": { "avg": 1.5, "var": 0.75 }, "price": { "avg": 7, "var": 1 } },
+	{ "code": "wool:cloth-wool-plain", "type": "item", "stacksize": 1, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 2, "var": 0.75 } },
+	{ "code": "wool:cloth-wool-gray", "type": "item", "stacksize": 1, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 2, "var": 0.75 } }
+    ],
+    "file": "game:config/tradelists/trader-clothing.json",
+    "side": "Server"
+  }
+]

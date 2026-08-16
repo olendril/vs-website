@@ -1,0 +1,9 @@
+{
+  "type": "code",
+  "modid": "chiseledwallmounting",
+  "name": "Chiseled Wall Mounting",
+  "authors": [ "Queltis" ],
+  "description": "Mounts wall fixtures and wall-leaning ground tools flush against recessed chiseled surfaces.",
+  "version": "0.3.0",
+  "dependencies": { "game": "1.22.0", "survival": "1.22.0" }
+}

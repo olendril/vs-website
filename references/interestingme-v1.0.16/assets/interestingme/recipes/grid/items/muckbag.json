@@ -1,0 +1,197 @@
+[
+	{
+		"ingredientPattern": "LNL,LLL,RLR",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-tinbronze",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rod-tinbronze"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-leather",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "LNL,LLL,RLR",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-bismuthbronze",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rod-bismuthbronze"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-leather",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "LNL,LLL,RLR",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-blackbronze",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rod-blackbronze"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-leather",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "LNL,LLL,RLR",
+		"ingredients": {
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rod-steel"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-hardened",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "TSP",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:flaxtwine",
+				"quantity": 2
+			},
+			"S": {
+				"type": "item",
+				"code": "game:linensack"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*"
+			}
+		},
+		"width": 1,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-linen",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "RHR,H_H,SHS",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hide-pelt-medium",
+				"quantity": 1
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-rawhide",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "RHR,SHS",
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hide-pelt-large"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 4
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "interestingme:muckbag-rawhide",
+			"quantity": 1
+		}
+	}
+
+]

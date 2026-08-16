@@ -1,0 +1,29 @@
+[
+  {
+    "enabled":  false,
+    "code": "woaddye",
+    "sealHours": 0.1,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:dye-woad",
+        "litres": 10,
+        "consumeLitres": 10
+      },
+      {
+        "type": "item",
+        "code": "cartsmisc-unwoader"
+      }
+    ],
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:dye-blue",
+      "litres": 10
+    }
+  }
+
+]

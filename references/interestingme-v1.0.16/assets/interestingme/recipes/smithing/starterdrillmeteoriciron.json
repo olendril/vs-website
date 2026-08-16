@@ -1,0 +1,22 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-meteoriciron"
+  },
+  "pattern": [
+    [
+      "##########",
+      "##########"
+    ],
+    [
+      "##########",
+      "##########"
+    ]
+  ],
+  "name": "Meteoric Iron Short Hand Drill",
+  "code": "interestingme:starterdrillmeteoriciron",
+  "output": {
+    "type": "item",
+    "code": "interestingme:starterdrillmeteoriciron"
+  }
+}

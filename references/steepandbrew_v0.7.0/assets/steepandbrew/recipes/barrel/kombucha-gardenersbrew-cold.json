@@ -1,0 +1,9 @@
+{
+	code: "kombucha-gardenersbrew-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-gardenersbrew", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-gardenersbrew-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-gardenersbrew", litres: 10 }
+}

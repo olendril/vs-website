@@ -1,0 +1,77 @@
+{
+	"code": "twine",
+	"behaviors": [ { "name": "GroundStorable", "properties": { "layout": "Messy12", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.16, "z2": 1 } } } ],
+	"attributes": {
+		"handbook": { "groupBy": [ "twine-mordant", "twine-*" ] },
+		"handbookByType": {
+			"@^twine-(gold|silver)": { "extraSections": [ { "title": "game:handbook-item-usage", "text": "tailorsdelight:handbook-item-twine-{color}" } ] }
+		},
+		"inContainerTextureByType": {
+			"@^twine-(gold|silver)": { "base": "game:block/metal/ingot/{color}",
+						   "blendedOverlays": [ { "base": "tailorsdelight:overlays/darken", "blendMode": "Darken" } ] },
+			"twine-red": { "base": "game:block/cloth/linen/{color}", "blendedOverlays": [ { "base": "tailorsdelight:overlays/darken", "blendMode": "Darken" } ] },
+			"@^twine-(darkblue|darkbrown|darkgreen|darkred)": { "base": "tailorsdelight:block/cloth/dark/{color}" },
+			"*":         { "base": "game:block/cloth/linen/{color}" }
+		},
+		"displaycaseable": true,
+		"shelvable": true,
+		"scrollrackable": true,
+		"onDisplayTransform": {
+			"rotation": { "x": 0, "y": -90, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.55
+		},
+		"groundStorageTransform": {
+			"translation": { "x": -0.01, "y": -0.226, "z": 0 },
+			"rotation": { "x": 0, "y": -40, "z": 0 },
+			"scale": 0.55
+		},
+		"onscrollrackTransform": {
+			"translation": { "x": -0.47, "y": -0.48, "z": 0.34 },
+			"rotation": { "x": -45, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 0.55
+		},
+		"onShelfTransform": {
+			"translation": { "x": 0, "y": -0.25, "z": 0 },
+			"rotation": { "x": 0, "y": -40, "z": 0 },
+			"scale": 0.5
+		}
+	},
+	"variantgroups": [
+		{ "code": "color", "states": [ "mordant", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow",
+			  "darkblue", "darkbrown", "darkgreen", "darkred",
+			  "gold", "silver" ] }
+	],
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"shape": { "base": "game:item/resource/flaxtwine" },
+	"texturesByType": {
+		"@^twine-(gold|silver)": { "linen": { "base": "game:block/metal/ingot/{color}",
+					   "blendedOverlays": [ { "base": "tailorsdelight:overlays/darken", "blendMode": "Darken" } ] } },
+		"twine-red": { "linen": { "base": "game:block/cloth/linen/{color}", "blendedOverlays": [ { "base": "tailorsdelight:overlays/darken", "blendMode": "Darken" } ] } },
+		"@^twine-(darkblue|darkbrown|darkgreen|darkred)": { "linen": { "base": "tailorsdelight:block/cloth/dark/{color}" } },
+		"*":         { "linen": { "base": "game:block/cloth/linen/{color}" } }
+	},
+	"vertexFlagsByType": {
+		"@^twine-(gold|silver)": { "reflectiveMode": 3 },
+                "*": { }
+        },
+	"maxstacksize": 32,
+	"materialDensity": 210,
+	"guiTransform": {
+		"rotation": { "x": 1, "y": 43, "z": -37 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 2.41
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -1, "z": -1.3 },
+		"rotation": { "x": -93, "y": -3, "z": -5 },
+		"scale": 0.51
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.3, "y": 0.0, "z": 0.5299 },
+		"scale": 4
+	}
+}

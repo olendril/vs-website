@@ -1,0 +1,17 @@
+{
+  "Type": "code",
+  "Name": "ClimateScalePatch",
+  "Version": "1.1.0",
+  "NetworkVersion": null,
+  "Description": "Configurable climate channel generation for Vintage Story. Independently control rainfall, temperature and forest distribution during world generation.",
+  "Website": "",
+  "ModID": "climatescalepatch",
+  "Authors": [
+    "Chilimunyaka"
+  ],
+  "Side": "Server",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependencies": {
+  }
+}

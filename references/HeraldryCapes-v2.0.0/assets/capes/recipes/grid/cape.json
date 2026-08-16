@@ -1,0 +1,12 @@
+[
+    {
+        "ingredientPattern": "P__,_C_,__C",
+        "ingredients": {
+            "P": { "type": "item", "code": "game:plank-*" },
+            "C": { "type": "item", "code": "game:cloth-plain" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "capes:cape", "attributes": { "types": { "layer1": "color_plain" } } }
+    }
+]

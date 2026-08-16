@@ -1,0 +1,14 @@
+[
+	{
+		"ingredientPattern": "C__,HHH,WWW",
+		"ingredients": {
+			"C": { "type": "block", "code": "wool:wool-plain" },
+			"H": { "type": "block", "code": "game:hay-normal-ud" },
+			"W": { "type": "item", "code": "game:plank-*", "quantity": 2 }
+		},
+		"recipeGroup": 2,
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:bed-wood-head-north" }
+	}
+]

@@ -1,0 +1,38 @@
+{
+	code: "jaw-crusher",
+	class: "BlockIMEDescribed",
+	entityClass: "JawCrusher",
+	creativeinventory: { "general": ["*"], "construction": ["*"] },
+	shape: { base: "interestingme:block/mechanical/jawcrusher" },
+	drawtype: "json",
+	blockmaterial: "Wood",
+	textures: {
+		oak1: { base: "game:block/wood/planks/oak1" },
+		iron: { base: "game:block/metal/plate/iron" }
+	},
+	replaceable: 200,
+	resistance: 4,
+	lightAbsorption: 99,
+	sidesolid: { all: true },
+	sideopaque: { all: false },
+	collisionboxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+	],
+	selectionboxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+	],
+	sounds: {
+		place: "block/planks",
+		break: "block/planks",
+		hit: "block/planks",
+		walk: "walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge",
+	heldRightReadyAnimation: "heldblockready",
+	heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

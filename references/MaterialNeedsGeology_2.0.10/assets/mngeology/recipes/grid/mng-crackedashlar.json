@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "HS	C_",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", "isTool": true },
+		"C": { type: "item", code: "game:chisel-*", "isTool": true },
+		"S": { type: "block", code: "game:stonebricks-*", name: "rock", allowedVariants: [ "arenite", "arkose", "komatiite", "marl", "monzonite", "pyroxenite", "serpentinite", "syenite", "tufa", "wacke" ] }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "game:crackedstonebricks-{rock}", quantity: 1 }
+}

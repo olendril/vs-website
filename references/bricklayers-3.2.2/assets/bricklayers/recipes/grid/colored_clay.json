@@ -1,0 +1,37 @@
+[
+	{
+	"ingredientPattern": "LC,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-malachite" },
+		"F": { "type": "item", "code": "game:clay-*", "quantity": 3, "allowedVariants": [ "red", "blue", "fire" ], "name": "clay" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-malachite", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "LC,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-chromiumoxide" },
+		"F": { "type": "item", "code": "game:clay-*", "quantity": 3, "allowedVariants": [ "red", "blue", "fire" ], "name": "clay" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-malachite", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "LC,FF",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime" },
+		"C": { "type": "item", "code": "em:powdered-ore-manganeseoxide" },
+		"F": { "type": "item", "code": "game:clay-*", "quantity": 3, "allowedVariants": [ "red", "blue", "fire" ], "name": "clay" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-malachite", "quantity": 8 }
+	}
+]

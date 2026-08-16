@@ -1,0 +1,9 @@
+{
+	code: "kombucha-blacktrumpet-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-blacktrumpet", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-blacktrumpet-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-blacktrumpet", litres: 10 }
+}

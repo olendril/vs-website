@@ -1,0 +1,18 @@
+{
+  code: "blastingfuse",
+  maxstacksize: 64,
+  creativeinventory: { "general": ["*"], "items": ["*"] },
+  shape: { base: "interestingme:item/tool/blastingfuse" },
+  textures: {
+    material: { base: "interestingme:fuserope" },
+    rope: { base: "interestingme:fuserope" },
+    ropeold: { base: "interestingme:fuserope" }
+  },
+  guiTransform: {
+    rotation: { x: -90, y: 20, z: 7 },
+    scale: 2.02
+  },
+  tpHandTransform: {
+    translation: { x: -1.5, y: -1.2, z: -1.4 }
+  }
+}

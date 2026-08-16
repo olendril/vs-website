@@ -1,0 +1,10 @@
+[
+	{
+	"op": "replace",
+	"enabled": true,
+	"path": "/ingredients/C",
+	"value": { "type": "item", "code": "game:powder-charcoal", "quantity": 2 },
+	"file": "game:recipes/grid/blastingpowder.json",
+	"side": "Server"
+	}
+]

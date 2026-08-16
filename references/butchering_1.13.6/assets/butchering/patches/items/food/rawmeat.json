@@ -1,0 +1,24 @@
+[
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/redmeat-raw",
+    "value": {
+      "satiety": 40,
+      "health": -1,
+      "foodcategory": "Protein"
+    },
+    "file": "game:itemtypes/food/redmeat.json"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/bushmeat-raw",
+    "value": {
+      "satiety": 30,
+      "health": -1,
+      "foodcategory": "Protein"
+    },
+    "file": "game:itemtypes/food/bushmeat.json"
+  }
+]

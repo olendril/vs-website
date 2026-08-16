@@ -1,0 +1,67 @@
+{
+	"code": "kneedle",
+	"damagedby": [ "blockbreaking", "attacking" ],
+	"tool": "hammer",
+	"attributes": {
+		"handbook": {
+			"groupBy": ["kneedle-*"]
+		},
+		"displaycaseable": true,
+		"shelvable": true,
+		"onDisplayTransform": {
+			"translation": { "x": -0.07, "y": 0.024, "z": 0 },
+			"rotation": { "x": 0, "y": 40, "z": 0 },
+			"scale": 1
+		},
+		"toolrackTransform": {
+			"translation": { "x": 0.2, "y": 0.9, "z": 0.1 },
+			"rotation": { "x": 0, "y": 150, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 1.7
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 138, "z": 0 },
+			"scale": 1
+		}
+	},
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+	],
+	"variantgroups": [
+		{ "code": "type", "states": [ "wood", "bone", "horn" ] }
+	],
+	"shape": { "base": "wool:item/tool/kneedle" },
+	"heldTpHitAnimation": "breaktool",
+	"heldTpUseAnimation": "knap",
+	"durabilityByType": {
+		"kneedle-bone": 200,
+		"kneedle-wood": 300,
+		"kneedle-horn": 500,
+		"*": 500
+	},
+	"texturesByType": {
+		"kneedle-wood": { "all": { "base": "game:block/wood/oak" } },
+		"kneedle-bone": { "all": { "base": "game:block/creature/bone-yellow" } },
+		"kneedle-horn": { "all": { "base": "wool:item/horn-light" } }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"guiTransform": {
+		"rotate": false,
+		"translation": { "x": 0, "y": 5, "z": 0 },
+		"rotation": { "x": -31, "y": 56, "z": -36 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 4.3
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": -0.04, "z": 0 },
+		"rotation": { "x": -90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.45 },
+		"scale": 6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.85, "y": -0.15, "z": -0.48 },
+		"rotation": { "x": 0, "y": 0, "z": -30 },
+		"scale": 1
+	}
+}

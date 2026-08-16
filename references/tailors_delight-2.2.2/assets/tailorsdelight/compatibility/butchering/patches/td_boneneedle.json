@@ -1,0 +1,30 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook/exclude",
+    "value": true,
+    "file": "butchering:itemtypes/tool/needle.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/boneneedle.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/sewingkitbone.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/sewingkitbone.json",
+    "side": "Server"
+  }
+]

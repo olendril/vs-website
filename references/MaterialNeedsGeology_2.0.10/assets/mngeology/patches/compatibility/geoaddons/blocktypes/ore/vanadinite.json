@@ -1,0 +1,62 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-vanadinite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-vanadinite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-vanadinite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-vanadinite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-vanadinite-marl-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-vanadinite-tufa-free"
+	},
+]

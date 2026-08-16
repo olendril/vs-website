@@ -1,0 +1,132 @@
+{
+  code: "t&g-winebottle", 
+  class: "BlockLiquidContainerTopOpened",
+  variantgroups: [
+		{ code: "glass", states: ["red", "blue", "green", "plain", "brown", "smoky"] },
+	],
+  creativeinventory: 
+  {
+    general: ["*"], "decorative": ["*"]
+	},
+
+  shape: {    base: "shapes/block/winebottleuncorked"  },
+  blockmaterial: "Glass",
+  maxStackSize: 4,
+  replaceable: 1,
+  resistance: 0.25,
+  liquidSelectable: 1,
+  lightabsorption: 1,
+
+  behaviors: [
+	{ name: "GroundStorable", properties: { layout: "Quadrants", collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 
+	} } },
+	{ name: "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" 
+	},
+	{ name: "RightClickPickup"
+	},
+	],
+  
+  textures: {
+		"cork":  { base: "game:block/wood/omoktabletop/bottom"},
+		"glass":  { base: "block/glass/{glass}*"},
+	},
+  
+  	guiTransform: 
+	{
+		origin: { x: 0.5, y: 0.25, z: 0.5 },
+		rotation: { x: -12, y: -100, z: 12 },
+		scale: 2.8
+	},	
+	tpHandTransform: {
+		translation: { x: -0.49, y: -0.4, z: -0.42 },
+		rotation: { x: 90, y: -5, z: -90 },
+		scale: 1.2
+	},
+	fpHandTransform: 
+	{
+		scale: 1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.075, z: 0 },
+		rotation: { x: 4, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 6
+	},
+
+
+attributes: 
+	{
+		shelvable: true,
+		onshelfTransform: {
+			translation: { x: 0, y: -0.408, z: 0.45 },
+			rotation: { x: 0, y: 90, z: 90 },
+			scale: 1.4
+		},
+		shelvable: "Halves",
+		
+		displayable: {
+            shelf: {
+                size: { width: 3, height: 3, length: 8 },
+				RandYRotAngle: 0,
+				"transform": {
+                    scale: 1,
+					translation: { x: 0, y: -0.42, z: 0.28 },
+					rotation: { x: 90, y: 0, z: 0 },
+                },
+            },
+        },
+		
+		bottlerackable: true,
+		onbottlerackTransform:{
+			translation: { x: 0, y: -0.06, z: 0.02 }
+		},
+
+		displaycaseable: true,
+		displaycase: {
+			minHeight: 0.8,
+		},
+		
+		"handbook": {
+		"groupBy": [ "t&g-winebottle-*" ]
+		},
+		
+		scrollrackable: true,
+		onscrollrackTransform: {
+			translation: { x: -0.6, y: -0.16, z: 0.498 },
+			rotation: { x: 45, y: 0, z: -90 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.4
+		},
+		
+		groundStorageTransform: 
+		{
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.4
+		},
+		
+		onDisplayTransform: 
+		{
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			rotation: { x: 0, y: 90, z: 0 },
+			scale: 1.7
+		},		
+		liquidContainerProps: 
+		{
+				capacityLitres: 2,
+				transferSizeLitres: 0.25,
+				emptyShapeLoc: "shapes/block/winebottlecorked",
+				opaqueContentShapeLoc: "shapes/block/winebottleliquidcontentsfull",
+				liquidContentShapeLoc: "shapes/block/winebottleliquidcontentsfull",
+		},	
+		
+
+	},
+	
+	sounds: {
+		"place": "game:block/loosestone1",
+		"hit": "game:tool/breakreinforced",
+		"break": "game:block/glass",
+		"walk": "game:walk/stone2"
+		}	
+	
+}

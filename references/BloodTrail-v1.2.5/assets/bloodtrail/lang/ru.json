@@ -1,0 +1,77 @@
+﻿{
+  "bloodtrail-server": "Blood Trail (Сервер)",
+  "bloodtrail-client": "Blood Trail (Клиент)",
+
+  "missing-permission": "У вас нет прав на управление настройками сервера",
+
+  // Server Settings
+  "Config.Setting.CausedByPlayer": "Урон нанесен игроком",
+  "Config.Hint.CausedByPlayer": "Только урон от игрока вызывает кровотечение.",
+  "Config.Setting.BleedingDuration": "Длительность кровотечения (сек)",
+  "Config.Hint.BleedingDuration": "Время кровотечения после атаки",
+  "Config.Setting.DamageThreshold": "Порог урона",
+  "Config.Hint.DamageThreshold": "Кровотечение начинается при превышении этого урона.",
+  "Config.Setting.BleedingChance": "Вероятность кровотечения %",
+  "Config.Hint.BleedingChance": "Вероятность срабатывания кровотечения.",
+
+  // Tab -> DOT (Mostly Machine translated)
+  "Config.Setting.Tab.DOT": "Урон от кровотечения",
+  "Config.Setting.BleedDamageEnabled": "Включить эффект кровотечения",
+  "Config.Hint.BleedDamageEnabled": "Если включено, существа будут терять здоровье во время кровотечения.",
+  "Config.Setting.BleedDamageTick": "Интервал кровотечения (сек)",
+  "Config.Hint.BleedDamageTick": "Как часто наносится урон от кровотечения (1.0 — каждую секунду).",
+  "Config.Setting.BleedDamage": "Размер урона",
+  "Config.Hint.BleedDamage": "Количество здоровья, теряемого за один интервал кровотечения.",
+
+  // Client Settings
+  "Config.Setting.BleedEffect": "Эффект кровотечения",
+  "Config.Hint.BleedEffect": "Отключает мод локально при выключении.",
+
+  // Tab -> Duration
+  "Config.Setting.Tab.Duration": "Длительность",
+  "Config.Setting.BleedTickInMS": "Тик крови (мс)",
+  "Config.Hint.BleedTickInMS": "Частота капель в мс. Выше = меньше лагов.",
+  "Config.Setting.BloodDuration": "Длительность крови (сек)",
+  "Config.Hint.BloodDuration": "Время до исчезновения крови.",
+  "Config.Setting.BleedDurationAfterDeath": "После смерти (сек)",
+  "Config.Hint.BleedDurationAfterDeath": "Прекратить кровотечение через X сек после смерти.",
+  "Config.Setting.BloodDurationUnderRain": "Под дождем (сек)",
+  "Config.Hint.BloodDurationUnderRain": "Время до исчезновения крови под дождем.",
+
+  // Tab -> Amount
+  "Config.Setting.Tab.Amount": "Количество",
+  "Config.Setting.MinBloodParticlesAmount": "Мин. частиц",
+  "Config.Hint.MinBloodParticlesAmount": "Минимум частиц за тик.",
+  "Config.Setting.MinBloodParticleAmountRunning": "Мин. частиц при беге",
+  "Config.Hint.MinBloodParticleAmountRunning": "Минимум частиц за тик, когда существо бежит.",
+  "Config.Setting.MaxBloodParticlesAmount": "Макс. частиц",
+  "Config.Hint.MaxBloodParticlesAmount": "Максимум частиц за тик.",
+  "Config.Setting.MaxBloodParticlesAmountRunning": "Макс. частиц при беге",
+  "Config.Hint.MaxBloodParticlesAmountRunning": "Максимум частиц за тик, когда существо бежит.",
+
+  // Tab -> Size
+  "Config.Setting.Tab.Size": "Размер",
+  "Config.Setting.MinBloodParticlesSize": "Мин. размер частиц",
+  "Config.Hint.MinBloodParticlesSize": "Минимальный размер частицы.",
+  "Config.Setting.MaxBloodParticlesSize": "Макс. размер частиц",
+  "Config.Hint.MaxBloodParticlesSize": "Максимальный размер частицы.",
+  "Config.Setting.MaxBloodParticlesSizeRunning": "Макс. размер частиц при беге",
+  "Config.Hint.MaxBloodParticlesSizeRunning": "Максимальный размер частицы, когда существо бежит.",
+
+  // Tab -> Extra
+  "Config.Setting.Tab.Extra": "Дополнительно",
+  "Config.Setting.BloodSpread": "Распространение крови",
+  "Config.Hint.BloodSpread": "Размер лужи крови",
+  "Config.Setting.DisappearInWater": "Исчезает в воде",
+  "Config.Hint.DisappearInWater": "Вода растворяет кровь.",
+  "Config.Setting.AffectedByRain": "Зависит от дождя",
+  "Config.Hint.AffectedByRain": "Дождь сокращает время существования.",
+  "Config.Setting.AffectedByRunning": "Зависит от бега",
+  "Config.Hint.AffectedByRunning": "Бег изменяет поведение частиц.",
+  "Config.Setting.ConfettiBlood": "Кровь-конфетти",
+  "Config.Hint.ConfettiBlood": "Заменяет кровь на конфетти.",
+  "Config.Setting.RainbowBlood": "Радужные частицы",
+  "Config.Hint.RainbowBlood": "Разноцветная радужная кровь",
+  "Config.Setting.BloodParticlesColor": "Цвет частиц",
+  "Config.Hint.BloodParticlesColor": "Цвет частиц."
+}

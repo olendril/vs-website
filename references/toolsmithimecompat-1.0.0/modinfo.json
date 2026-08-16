@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "toolsmithimecompat",
+  "name": "Toolsmith - Interesting ME Compatibility",
+  "authors": ["Olendril"],
+  "description": "Makes Interesting Mining & Extraction muck shovels compatible with Toolsmith multipart rendering and lifecycle features.",
+  "version": "1.0.0",
+  "side": "Universal",
+  "dependencies": {
+    "game": "1.22.0",
+    "interestingme": "1.0.16",
+    "toolsmith": "1.2.18"
+  }
+}

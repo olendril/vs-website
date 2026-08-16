@@ -1,0 +1,250 @@
+{
+	"code": "butcherybag",
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [ "primitive", "standard", "leather", "sturdyleather" ]
+		}
+	],
+	"attributes": {
+		"backpackByType": {
+			"butcherybag-primitive": {
+				"quantitySlots": 3,
+				"storageFlags": 32768,
+				"slotBgColor": "#75251e"
+			},
+			"butcherybag-standard": {
+				"quantitySlots": 4,
+				"storageFlags": 32768,
+				"slotBgColor": "#75251e"
+			},
+			"butcherybag-leather": {
+				"quantitySlots": 5,
+				"storageFlags": 32768,
+				"slotBgColor": "#75251e"
+			},
+			"butcherybag-sturdyleather": {
+				"quantitySlots": 6,
+				"storageFlags": 32768,
+				"slotBgColor": "#75251e"
+			}
+		},
+		"wearableAttachment": true,
+		"attachableToEntity": {
+			"categoryCode": "backpack",
+			"attachedShapeByType": {
+				"butcherybag-primitive": { "base": "items/bags/butcherybagreed" },
+				"butcherybag-standard": { "base": "items/bags/butcherybagpelt" },
+				"butcherybag-leather": { "base": "items/bags/butcherybagleather" },
+				"butcherybag-sturdyleather": { "base": "items/bags/butcherybagsturdyleather" }
+			}
+		},
+		"groundStorageTransformByType": {
+			"butcherybag-primitive": {
+				"translation": {
+					"x": 0.05,
+					"y": 0.2,
+					"z": 0.15
+				},
+				"rotation": {
+					"x": 0,
+					"y": -2,
+					"z": 0
+				},
+				"origin": {
+					"x": 0.6,
+					"y": -0.2,
+					"z": -0.1
+				},
+				"scale": 1.5
+			},
+			"butcherybag-standard": {
+				"translation": {
+					"x": 0.15,
+					"y": 0.15,
+					"z": 0.05
+				},
+				"rotation": {
+					"x": 0,
+					"y": 4,
+					"z": 0
+				},
+				"origin": {
+					"x": 0.6,
+					"y": -0.2,
+					"z": -0.1
+				},
+				"scale": 1.8
+			},
+			"butcherybag-leather": {
+				"translation": {
+					"x": -0.35,
+					"y": -0,
+					"z": 0.4
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 90
+				},
+				"origin": {
+					"x": 0.5,
+					"y": 0.3,
+					"z": 0.4
+				},
+				"scale": 1.5
+			},
+			"butcherybag-sturdyleather": {
+				"translation": {
+					"x": -0.35,
+					"y": -0,
+					"z": 0.4
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 90
+				},
+				"origin": {
+					"x": 0.5,
+					"y": 0.3,
+					"z": 0.4
+				},
+				"scale": 1.5
+			}
+		}
+	},
+	"behaviors": [
+		{ "name": "HeldBag" },
+		{ 
+			"name": "GroundStoredHeldBag",
+			"properties": {
+				"dialogTitleLangCode": "handbasketcontents"
+			}
+		},
+		{
+			"name": "GroundStorable",
+			"propertiesByType": {
+				"butcherybag-primitive": {
+					"layout": "SingleCenter",
+					"collisionBox": {
+						"x1": 0.2,
+						"y1": 0,
+						"z1": 0.2,
+						"x2": 0.8,
+						"y2": 0.9,
+						"z2": 0.8
+					}
+				},
+				"butcherybag-standard": {
+					"layout": "SingleCenter",
+					"collisionBox": {
+						"x1": 0.2,
+						"y1": 0,
+						"z1": 0.2,
+						"x2": 0.8,
+						"y2": 0.9,
+						"z2": 0.8
+					}
+				},
+				"butcherybag-leather": {
+					"layout": "SingleCenter",
+					"collisionBox": {
+						"x1": 0.05,
+						"y1": 0,
+						"z1": 0.05,
+						"x2": 0.95,
+						"y2": 0.45,
+						"z2": 0.95
+					}
+				},
+				"butcherybag-sturdyleather": {
+					"layout": "SingleCenter",
+					"collisionBox": {
+						"x1": 0.05,
+						"y1": 0,
+						"z1": 0.05,
+						"x2": 0.95,
+						"y2": 0.45,
+						"z2": 0.95
+					}
+				}
+			}
+		}
+	],
+	"maxstacksize": 1,
+	"shapeByType": {
+		"butcherybag-primitive": { "base": "items/bags/butcherybagreed" },
+		"butcherybag-standard": { "base": "items/bags/butcherybagpelt" },
+		"butcherybag-leather": { "base": "items/bags/butcherybagleather" },
+		"butcherybag-sturdyleather": { "base": "items/bags/butcherybagsturdyleather" }
+	},
+	"storageFlags": 2,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"butchering": [ "*" ]
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 1,
+			"y": 0.3,
+			"z": 0
+		},
+		"rotation": {
+			"x": -22,
+			"y": 122,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.45,
+			"y": 0.13,
+			"z": 0.15
+		},
+		"scale": 2.16
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0.2
+		},
+		"rotation": {
+			"x": 47,
+			"y": -80,
+			"z": 33
+		},
+		"scale": 1.61
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.7,
+			"y": -0.5,
+			"z": -0.6
+		},
+		"rotation": {
+			"x": -4,
+			"y": 47,
+			"z": -17
+		},
+		"scale": 0.81
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": -0.2,
+			"z": 0.5
+		},
+		"scale": 4.5
+	}
+}

@@ -1,0 +1,212 @@
+{
+	"code": "cartcarcass",
+	"behaviors": [ { "name": "UnstableFalling" } ],
+	"class": "BlockRequireSolidGround",
+	"entityClass": "Transient",
+	"attributes": {
+		"transientProps": {
+			"convertFrom": "*",
+			"convertTo": "game:air",
+			"inGameHours": "120"
+		},
+		"handbook": {
+			"groupBy": [ "cartcarcass-*" ]
+		}
+	},
+	"creativeinventory": {
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "basiccart", "slimcart", "classicstall", "slantedstall", "openstall", "basicsled" ]
+		},
+		{
+			"code": "wood",
+			"states": [ "aged" ],
+			"loadFromProperties": "game:block/wood"
+		}
+	],
+	"skipVariants": [
+		"*-aged"
+	],
+	"shape": {
+		"base": "block/carcass/carcass-{type}",
+		"alternates": [
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 45
+			},
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 90
+			},
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 135
+			},
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 180
+			},
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 225
+			},
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 270
+			},
+			{
+				"base": "block/carcass/carcass-{type}",
+				"rotateY": 315
+			}
+		]
+	},
+	"texturesByType": {
+		"*cart-*": {
+			"blackbronze": { "base": "game:block/metal/plate/blackbronze" },
+			"iron": { "base": "game:block/metal/plate/iron" },
+			"oak-h": { "base": "game:block/wood/bark/{wood}-h" },
+			"oak": { "base": "game:block/wood/debarked/{wood}" },
+			"oak1": { "base": "game:block/wood/planks/{wood}1" },
+			"top": { "base": "game:block/wood/echochamber/top" },
+			"generic": { "base": "game:block/wood/planks/generic" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*stall-*": {
+			"blackbronze": { "base": "game:block/metal/plate/blackbronze" },
+			"iron": { "base": "game:block/metal/plate/iron" },
+			"oak-h": { "base": "game:block/wood/bark/{wood}-h" },
+			"oak": { "base": "game:block/wood/debarked/{wood}" },
+			"oak1": { "base": "game:block/wood/planks/{wood}1" },
+			"top": { "base": "game:block/wood/echochamber/top" },
+			"generic": { "base": "game:block/wood/planks/generic" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*": {
+			"oak": { "base": "game:block/wood/bark/{wood}" },
+			"oak-h": { "base": "game:block/wood/bark/{wood}-h" },
+			"oak1": { "base": "game:block/wood/planks/{wood}1" }
+		}
+	},
+	"randomDrawOffset": true,
+	"lightAbsorption": 0,
+	"resistance": 1,
+	"dropsByType": {
+		"*sled*": [
+			{
+				"type": "item",
+				"code": "cartwrightscaravan:cartconstruction-frame-{type}-{wood}",
+				"quantityByType": {
+					"*": {
+						"avg": 1,
+						"var": 0
+					}
+				}
+			}
+		],
+		"*basiccart*": [
+			{
+				"type": "item",
+				"code": "cartwrightscaravan:cartconstruction-unfinished-{type}-{wood}",
+				"quantityByType": {
+					"*": {
+						"avg": 1,
+						"var": 0
+					}
+				}
+			}
+		],
+		"*slimcart*": [
+			{
+				"type": "item",
+				"code": "cartwrightscaravan:cartconstruction-unfinished-{type}-{wood}",
+				"quantityByType": {
+					"*": {
+						"avg": 1,
+						"var": 0
+					}
+				}
+			}
+		],
+		"*stall*": [
+			{
+				"type": "item",
+				"code": "cartwrightscaravan:cartconstruction-unfinished-{type}-{wood}",
+				"quantityByType": {
+					"*": {
+						"avg": 1,
+						"var": 0
+					}
+				}
+			}
+		],
+		"*": [
+			{
+				"type": "item",
+				"code": "cartwrightscaravan:cartconstruction-unfinished-{type}-{wood}",
+				"quantityByType": {
+					"*": {
+						"avg": 1,
+						"var": 0
+					}
+				}
+			}
+		]
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"selectionbox": {
+		"x1": -1,
+		"y1": 0,
+		"z1": -1,
+		"x2": 2,
+		"y2": 0.8,
+		"z2": 2
+	},
+	"collisionbox": null,
+	"materialDensity": 3000,
+	"guiTransform": {
+		"rotation": {
+			"x": -22.5937,
+			"y": 132,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.22,
+			"z": 0.5
+		},
+		"scale": 1.25
+	},
+	"fpHandTransform": {
+		"rotation": {
+			"x": 0,
+			"y": -24,
+			"z": 0
+		}
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.3,
+			"y": -0.7,
+			"z": -0.8
+		},
+		"rotation": {
+			"x": 2,
+			"y": 31,
+			"z": -25
+		},
+		"scale": 0.6
+	},
+	"groundTransform": {
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 2
+	}
+}

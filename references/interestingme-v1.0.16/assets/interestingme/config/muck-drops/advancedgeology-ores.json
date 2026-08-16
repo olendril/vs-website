@@ -1,0 +1,125 @@
+{
+  "requiresMod": "advancedgeology",
+  "entries": [
+    {
+      "blockCode": "game:ore-poor-chalcopyrite-*",
+      "oreCode": "game:ore-chalcopyrite",
+      "stoneLayers": { "avg": 5, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 1, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-medium-chalcopyrite-*",
+      "oreCode": "game:ore-chalcopyrite",
+      "stoneLayers": { "avg": 4, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 2, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-rich-chalcopyrite-*",
+      "oreCode": "game:ore-chalcopyrite",
+      "stoneLayers": { "avg": 3, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 3, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-bountiful-chalcopyrite-*",
+      "oreCode": "game:ore-chalcopyrite",
+      "stoneLayers": { "avg": 2, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 4, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-poor-tetrahedrite-*",
+      "oreCode": "game:ore-tetrahedrite",
+      "stoneLayers": { "avg": 5, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 1, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-medium-tetrahedrite-*",
+      "oreCode": "game:ore-tetrahedrite",
+      "stoneLayers": { "avg": 4, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 2, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-rich-tetrahedrite-*",
+      "oreCode": "game:ore-tetrahedrite",
+      "stoneLayers": { "avg": 3, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 3, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-bountiful-tetrahedrite-*",
+      "oreCode": "game:ore-tetrahedrite",
+      "stoneLayers": { "avg": 2, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 4, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-poor-nickeline-*",
+      "oreCode": "game:ore-nickeline",
+      "stoneLayers": { "avg": 5, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 1, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-medium-nickeline-*",
+      "oreCode": "game:ore-nickeline",
+      "stoneLayers": { "avg": 4, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 2, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-rich-nickeline-*",
+      "oreCode": "game:ore-nickeline",
+      "stoneLayers": { "avg": 3, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 3, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-bountiful-nickeline-*",
+      "oreCode": "game:ore-nickeline",
+      "stoneLayers": { "avg": 2, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 4, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-poor-garnierite-*",
+      "oreCode": "game:ore-garnierite",
+      "stoneLayers": { "avg": 5, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 1, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-medium-garnierite-*",
+      "oreCode": "game:ore-garnierite",
+      "stoneLayers": { "avg": 4, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 2, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-rich-garnierite-*",
+      "oreCode": "game:ore-garnierite",
+      "stoneLayers": { "avg": 3, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 3, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-bountiful-garnierite-*",
+      "oreCode": "game:ore-garnierite",
+      "stoneLayers": { "avg": 2, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 4, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-poor-siderite-*",
+      "oreCode": "game:ore-siderite",
+      "stoneLayers": { "avg": 5, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 1, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-medium-siderite-*",
+      "oreCode": "game:ore-siderite",
+      "stoneLayers": { "avg": 4, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 2, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-rich-siderite-*",
+      "oreCode": "game:ore-siderite",
+      "stoneLayers": { "avg": 3, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 3, "var": 0, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:ore-bountiful-siderite-*",
+      "oreCode": "game:ore-siderite",
+      "stoneLayers": { "avg": 2, "var": 1, "dist": "UNIFORM" },
+      "oreLayers": { "avg": 4, "var": 0, "dist": "UNIFORM" }
+    }
+	]
+}

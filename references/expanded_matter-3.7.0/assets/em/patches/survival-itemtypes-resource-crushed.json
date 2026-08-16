@@ -1,0 +1,106 @@
+[
+	{
+	"op": "add",
+	"path": "/grindingPropsByType",
+	"value": {
+		"*-alum": { "groundStack": { "type": "item", "code": "game:powder-alum", "stacksize": 2 } },
+		"*-bauxite": { "groundStack": { "type": "item", "code": "em:powdered-stone-bauxite", "stacksize": 2 } },
+		"*-cassiterite": { "groundStack": { "type": "item", "code": "em:powdered-ore-cassiterite", "stacksize": 2 } },
+		"*-chromite": { "groundStack": { "type": "item", "code": "em:powdered-ore-chromite", "stacksize": 2 } },
+		"*-cinnabar": { "groundStack": { "type": "item", "code": "game:powder-cinnabar", "stacksize": 2 } },
+		"*-galena": { "groundStack": { "type": "item", "code": "em:powdered-ore-galena", "stacksize": 2 } },
+		"*-ilmenite": { "groundStack": { "type": "item", "code": "em:powdered-ore-ilmenite", "stacksize": 2 } },
+		"*-iron": { "groundStack": { "type": "item", "code": "game:powder-iron-raw", "stacksize": 2 } },
+		"*-lapislazuli": { "groundStack": { "type": "item", "code": "game:powder-lapislazuli", "stacksize": 2 } },
+		"*-leadoxide": { "groundStack": { "type": "item", "code": "em:powdered-ore-leadoxide", "stacksize": 2 } },
+		"*-olivine": { "groundStack": { "type": "item", "code": "em:powdered-ore-olivine", "stacksize": 2 } },
+		"*-peridotite": { "groundStack": { "type": "item", "code": "em:powdered-stone-peridotite", "quantity": 2 } },
+		"*-sphalerite": { "groundStack": { "type": "item", "code": "em:powdered-ore-sphalerite", "stacksize": 2 } },
+		"*-quartz": { "groundStack": { "type": "item", "code": "em:powdered-ore-quartz", "stacksize": 2 } }
+	},
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/attributesByType",
+	"value": {
+		"crushed-leadoxide": { "handbook": { "exclude": true } },
+		"crushed-chromite": {
+			"handbook": {
+				"groupBy": ["crushed-*"],
+				"extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-crushed-chromite" } ]
+				},
+			"displaycaseable": true,
+			"shelvable": true,
+			"dissolveInWater": true,
+			"onDisplayTransform": {
+				"translation": { "x": 0.05, "y": 0, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.65
+			}
+		},
+		"*-iron": { "bloomeryFuelRatio": 30 },
+		"*": {
+			"displaycaseable": true,
+			"shelvable": true, "dissolveInWater": true,
+			"onDisplayTransform": {
+				"translation": { "x": 0.05, "y": 0, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.65
+			}
+		}
+	},
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/combustiblePropsByType/*-galena",
+	"value": {
+		"meltingPoint": 327,
+		"meltingDuration": 30,
+		"smeltedRatio": 20,
+		"smeltedStack": { "type": "item", "code": "game:ingot-lead" }
+	},
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/classByType",
+	"value": { "*-galena": "ItemNugget" },
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/storageFlagsByType",
+	"value": { "*-galena": 5 },
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/dimensionsByType",
+	"value": { "*-galena": { "width": 0.0625, "height": 0.0625, "length": 0.0625 } },
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/combustiblePropsByType/*-iron",
+	"value": {
+		"meltingPoint": 1482,
+		"meltingDuration": 30,
+		"smeltedRatio": 20,
+		"smeltedStack": { "type": "item", "code": "game:ironbloom" }
+	},
+	"file": "game:itemtypes/resource/crushed/crushed.json",
+	"side": "Server"
+	}
+]

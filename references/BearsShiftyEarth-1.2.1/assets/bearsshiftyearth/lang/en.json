@@ -1,0 +1,8 @@
+{
+  "hello": "Skkkkrrrrt!",
+  "settings-initializing-file": "No config file found. Created a new one.",
+  "settings-missing-error": "Aborting mod initialization; can't find the settings object at all.",
+  "settings-load-error": "Bad things happened while reading config file, falling back to default values.",
+
+  "error-reflection-fallchance": "Failed to set SidewaysFallChance, reflection failed (has the field been renamed in the last update?)"
+}

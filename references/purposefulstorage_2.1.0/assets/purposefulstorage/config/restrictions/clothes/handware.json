@@ -1,0 +1,10 @@
+{
+  "CollectibleTypes": [],
+  "CollectibleCodes": [
+    "*:clothes-hand-*",
+    "game:clothes-nadiya-hand-*",
+    "game:clothes-nadiya-arm-*",
+    "*:clothes-arm-*"
+  ],
+  "BlacklistedCodes": []
+}

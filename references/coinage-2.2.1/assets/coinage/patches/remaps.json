@@ -1,0 +1,20 @@
+﻿[
+	{
+		"file": "game:config/remaps.json",
+		"path": "/coinage:v1.5.0",
+		"op": "add",
+		"value": [
+			"/iir remapq coinage:punchpart-steel coinage:punchpart force",
+			"/iir remapq coinage:punch-steel coinage:punch force"
+		]
+	},
+	{
+		"file": "game:config/remaps.json",
+		"path": "/coinage:v2.0.0",
+		"op": "add",
+		"value": [
+			"/iir remapq coinage:anvildie-steel coinage:anvildie force",
+			"/iir remapq coinage:trussell-steel coinage:trussell force"
+		]
+	}
+]

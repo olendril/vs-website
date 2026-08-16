@@ -1,8 +1,8 @@
 ---
 title: Getting Started
-description: Placeholder for the first steps for joining the server.
+description: Prepare Vintage Story, install the server package set, and join.
 ---
 
 # Getting Started
 
-This section will explain how to prepare Vintage Story and join the server.
+Use the [joining guide](./joining/) to connect, then read the [rules](./rules/) before building in the shared world. The [Mods inventory](/mods/) documents the installed Vintage Story 1.22 package set.

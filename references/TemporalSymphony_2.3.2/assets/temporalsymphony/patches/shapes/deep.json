@@ -1,0 +1,72 @@
+[
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/0/rotationX",
+    "value": 5.5,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/0/rotationY",
+    "value": -10,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/0/rotationZ",
+    "value": -10,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/1/rotationX",
+    "value": -5.5,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/1/rotationY",
+    "value": 10,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/1/rotationZ",
+    "value": -10,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/2/rotationX",
+    "value": -5.5,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/2/rotationY",
+    "value": -5.5,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/3/rotationX",
+    "value": 5.5,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/0/children/3/rotationY",
+    "value": 5.5,
+    "file": "game:shapes/entity/lore/shiver/deep.json"
+  }
+]

@@ -1,0 +1,17 @@
+[
+	{
+	"op": "replace",
+	"path": "/0/ingredients/C/code",
+	"value": "bricklayers:cement-tile",
+	"file": "game:recipes/grid/tile-block.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "replace",
+	"path": "/0/ingredients/C/code",
+	"value": "bricklayers:cement-tile",
+	"file": "game:recipes/grid/slabs/tileslab.json",
+	"side": "Server"
+	}
+]

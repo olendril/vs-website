@@ -1,0 +1,59 @@
+[
+	{
+	"ingredientPattern": "BTN",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"T": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-face-tailor-mask" }
+	},
+
+	{
+	"ingredientPattern": "PTN",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-face-hunter-mask" }
+	},
+	{
+	"ingredientPattern": "PTN",
+	"enabled": true,
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:leather-normal-plain", "quantity": 3 },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 3 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-face-hunter-mask" }
+	},
+
+	{
+	"ingredientPattern": "BWB,TNK",
+	"enabled": true,
+	"requiresTrait": "pilferer",
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"B": { "type": "item", "code": "game:plank-*", "name": "wood", "allowedVariants": [ "baldcypress", "larch" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"T": { "type": "item", "code": "wool:twine-wool-pink", "quantity": 3 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-face-malefactor-mask" }
+	}
+]

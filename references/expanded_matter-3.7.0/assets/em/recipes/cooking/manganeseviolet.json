@@ -1,0 +1,23 @@
+[
+	{
+	"code": "manganeseviolet",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "em:powdered-ore-manganeseviolet" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "sulfur", "minQuantity": 1, "maxQuantity": 1, "portionSizeLitres": 0.2,
+		"validStacks": [ { "type": "item", "code": "game:acid-full-sulfuric", "shapeElement": "game:bowl/water" } ]
+		},
+		{ "code": "manganese", "minQuantity": 1, "maxQuantity": 1, "validStacks": [ { "type": "item", "code": "em:crushed-ore-rhodochrosite" } ] },
+		{ "code": "phosphor", "minQuantity": 1, "maxQuantity": 1, "validStacks": [ { "type": "item", "code": "em:crushed-ore-phosphorite" } ] },
+		{ "code": "nitrogen_carbon", "minQuantity": 1, "maxQuantity": 1, "portionSizeLitres": 1, "validStacks": [ { "type": "item", "code": "game:rot" } ] }
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-manganeseviolet", "quantity": 2 }
+	}
+]

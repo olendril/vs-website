@@ -1,0 +1,12 @@
+{
+	"dressmakers:handbook-description":			"Descripción",
+
+	"dressmakers:setting_enable_common_clothing":		"Ropa común",
+	"dressmakers:setting_enable_class_clothing":		"Ropa específica para cada clase",
+
+	"dressmakers:setting_enable_common_clothing_comment":	"Habilitar recetas para prendas de vestir comunes de VS Vanilla",
+	"dressmakers:setting_enable_class_clothing_comment":	"Habilitar recetas para prendas de vestir VS Vanilla específicas de clase",
+
+	"dressmakers:settings_title_clothing_recipes":		"Recetas de Modistas para ropa VS vainilla",
+	"dressmakers:settings_title_mod_recipes":		"Compatibilidad con otros mods"
+}

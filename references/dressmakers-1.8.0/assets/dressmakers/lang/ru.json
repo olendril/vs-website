@@ -1,0 +1,15 @@
+{
+	"dressmakers:handbook-description":			"Описание",
+
+	"dressmakers:setting_enable_common_clothing":		"Обычная одежда",
+	"dressmakers:setting_enable_class_clothing":		"Одежда для определенного класса",
+	"dressmakers:setting_enable_nadiyan_clothing":		"Одежда Надиян",
+
+	"dressmakers:setting_enable_common_clothing_comment":	"Включить рецепты для обычных предметов одежды",
+	"dressmakers:setting_enable_class_clothing_comment":	"Включить рецепты для предметов одежды для определенного класса",
+	"dressmakers:setting_enable_nadiyan_clothing_comment":	"Включить рецепты для предметов одежды Надиян",
+	"dressmakers:setting_enable_wool_comment":		"Добавить несколько альтернативных рецептов с использованием шерсти",
+
+	"dressmakers:settings_title_clothing_recipes":		"Рецепты Dressmakers для одежды",
+	"dressmakers:settings_title_mod_recipes":		"Совместимость с другими модами"
+}

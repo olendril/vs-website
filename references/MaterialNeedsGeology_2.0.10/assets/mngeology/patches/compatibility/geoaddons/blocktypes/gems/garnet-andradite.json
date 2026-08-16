@@ -1,0 +1,82 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-garnetandradite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-garnetandradite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-garnetandradite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-garnetandradite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-garnetandradite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-garnetandradite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-garnetandradite-marl-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-garnetandradite-tufa-free"
+	},
+]

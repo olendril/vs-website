@@ -1,0 +1,62 @@
+{
+	code: "sawmill",
+	class: "iw-sawmill",
+	entityClass: "iw-sawmill",
+	behaviors: [ { name: "HorizontalOrientable" } ],
+	variantgroups: [
+		{ code: "type", states: [ "frame" ] },
+		{ code: "side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapeByType: {
+		"*-north": { base: "immersivewoodworking:block/sawmill/sawmill_frame", rotateY: 180 },
+		"*-east":  { base: "immersivewoodworking:block/sawmill/sawmill_frame", rotateY: 90 },
+		"*-south": { base: "immersivewoodworking:block/sawmill/sawmill_frame", rotateY: 0 },
+		"*-west":  { base: "immersivewoodworking:block/sawmill/sawmill_frame", rotateY: 270 }
+	},
+	textures: {
+		"metal":         { base: "game:block/metal/plate/iron" },
+		"oak":           { base: "game:block/wood/debarked/oak" },
+		"wood":          { base: "game:block/wood/planks/oak1" },
+		"wood_corner":   { base: "game:block/wood/debarked/oak" },
+		"debarked_wood": { base: "game:block/wood/debarked/oak" },
+		"rope":          { base: "game:item/resource/rope" },
+		"0":             { base: "game:block/wood/debarked/oak" }
+	},
+	attributes: {
+		handbook: {
+			include: true,
+			extraSections: [
+				{ title: "immersivewoodworking:sawmill-handbook-title", text: "immersivewoodworking:sawmill-handbook-text" }
+			]
+		}
+	},
+	sideopaque: { all: false },
+	sidesolid: { all: false },
+	lightAbsorption: 0,
+	creativeinventory: { "general": ["*-north"] },
+	blockmaterial: "Wood",
+	heldTpIdleAnimation: "holdbothhandslarge",
+	heldRightReadyAnimation: "heldblockready",
+	heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -0.8, y: -0.8, z: -0.6 },
+		rotation: { x: 6, y: 16, z: -77 },
+		scale: 0.53
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -122, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3
+	},
+	maxStackSize: 1,
+	resistance: 3.5,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks"
+	},
+	collisionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 },
+	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+}

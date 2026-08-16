@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "arthursjournal",
+  "name": "Wanderer's Sketchbook",
+  "side" : "universal",
+  "authors": ["JeanPierre"],
+  "description": "Adds a sketchbook in which you can draw and write!",
+  "version": "2.0.5",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

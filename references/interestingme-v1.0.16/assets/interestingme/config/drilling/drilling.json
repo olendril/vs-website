@@ -1,0 +1,36 @@
+{
+  configVersion: 3,
+  initialDepthBlocks: 0.0,
+  incrementDepthBlocks: 1.0,
+  selectionRadius: 0.09,
+  minHoleSpacing: 0.33,
+  defaultMaxDepthBlocks: 4.0,
+  starterDrillMaxDepthBlocks: 4.0,
+  handDrillMinDepthBlocks: 4.0,
+  handDrillMaxDepthBlocks: 8.0,
+  longHandDrillMinDepthBlocks: 8.0,
+  longHandDrillMaxDepthBlocks: 12.0,
+  depthDisplayDecimals: 3,
+  allowedVerticalAngles: [-90, -75, -60, -45, -30, -15, 0, 15, 30, 45, 60, 75, 90],
+  placeholderDudChance: 0.06,
+  placeholderHangfireChance: 0.04,
+  placeholderRodBreakChancePerIncrement: 0.001,
+  explosives: [
+    {
+      itemCode: "game:blastingpowder",
+      minimumBlastRadius: 0.75,
+      maximumBlastRadius: 0.75,
+      microblastSpacingBlocks: 0.5,
+      searchRadiusMultiplier: 1.5,
+      secondarySearchRadiusMultiplier: 0.5,
+      hangfireChance: 0.04,
+      hangfireDelayMinSeconds: 5.0,
+      hangfireDelayMaxSeconds: 30.0,
+      dudChance: 0.02,
+      hardFailChance: 0.01,
+      sympatheticDetonationChance: 0.5,
+      gasCutChance: 0.5,
+      microblastStepDelayMs: 50
+    }
+  ]
+}

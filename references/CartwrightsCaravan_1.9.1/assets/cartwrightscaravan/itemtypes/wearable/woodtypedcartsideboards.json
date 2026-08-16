@@ -1,0 +1,90 @@
+{
+	"code": "cartsideboard",
+
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"wood"
+			]
+		},
+		{
+			"code": "form",
+			"states": [
+				"tall",
+				"short",
+				"crossedinside",
+				"crossedoutside"
+			]
+		}
+	],
+	"allowedVariants": [
+		"*-wood-*"
+	],
+	"attributesByType": {
+		"*": {
+			"handbook": {
+				"groupBy": [ "cartsideboard*" ]
+			},
+			"attachableToEntity": {
+				"texturePrefixCode": "",
+				"categoryCodeByType": {
+					"*": "cartsideboards"
+				},
+				"attachedShapeBySlotCodeByType": {
+					"*": {
+						"*ight*": { "base": "item/cartsideboard/cartsideboard-{type}-{form}" },
+						"*torage*": { "base": "item/cartsideboard/cartsideboard-{type}-{form}-inventory" },
+						"*lanket*": { "base": "item/cartsideboard/cartsideboard-{type}-{form}-divider" },
+						"*": { "base": "item/cartsideboard/cartsideboard-{type}-{form}-inventory" }
+					}
+				}
+			}
+		}
+	},
+	"behaviorsByType": {
+		"*": [
+			{ "name": "GroundStorable" }
+		]
+	},
+	"shapeByType": {
+		"*": { "base": "item/cartsideboard/cartsideboard-{type}-{form}-inventory" }
+	},
+	"texturesByType": {
+		"*side*": {
+			"oak-h": { "base": "game:block/wood/bark/oak-h" },
+			"oak": { "base": "game:block/wood/debarked/oak" },
+			"oak1": { "base": "game:block/wood/planks/oak1" },
+			"iron": { "base": "game:block/metal/plate/iron" }
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 8,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"cartwrightscaravan": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 137,
+			"y": -123,
+			"z": -8
+		},
+		"origin": {
+			"x": 0.8,
+			"y": -0,
+			"z": 0.3
+		},
+		"scale": 1.05
+	}
+}	
+
+

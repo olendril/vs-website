@@ -1,0 +1,9 @@
+{
+	code: "tea-catmint-cold",
+	sealHours: 16,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1 },
+		{ type: "block", code: "game:flower-catmint-free", quantity: 1 }
+	],
+	output: { type: "item", code: "steepandbrew:tea-catmint-cold", litres: 1 }
+}

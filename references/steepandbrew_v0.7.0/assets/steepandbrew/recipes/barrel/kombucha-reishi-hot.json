@@ -1,0 +1,9 @@
+{
+	code: "kombucha-reishi-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-reishi", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-reishi-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-reishi", litres: 10 }
+}

@@ -1,0 +1,57 @@
+{
+	"code": "panel-hide",
+	"behaviors": [
+		{ "name": "Decor", "properties": { "sides": [ "north", "east", "south", "west", "up", "down" ], "thickness": 0.0312, "removable": true } }
+	],
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "panel-hide-*" ]
+		}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "pelt" ] }
+	],
+	"shape": { "base": "tailorsdelight:block/basic/layers/05voxel" },
+	"sidesolid": { "all": false, "down": true },
+	"sideopaque": { "all": false, "down": true },
+	"emitSideAo": { "all": false },
+	"combustibleProps": {
+		"burnTemperature": 400,
+		"burnDuration": 12
+	},
+	"blockmaterial": "Cloth",
+        "maxstacksize": 32,
+	"creativeinventory": { "general": [ "*" ], "decorative": [ "*" ], "panels": [ "*" ] },
+	"materialDensity": 250,
+	"replaceable": 900,
+	"resistance": 1,
+	"lightAbsorption": 1,
+	"texturesByType": {
+		"panel-hide-pelt": {
+			"all": { "base": "game:item/resource/hide/raw",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light", "blendMode": "Lighten" }
+				] }
+		}
+	},
+	"vertexFlags": { "zOffset": 1 },
+	"sounds": {
+		"place": "game:block/leather",
+		"break": "game:block/leather",
+		"hit": "game:block/leather",
+		"walk": "game:block/leather"
+	},
+	"selectionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1 },
+	"collisionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.0312, "z2": 1 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0312, "z": 0.5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.6, "y": -1.19, "z": -1.69 },
+		"rotation": { "x": 66, "y": 89, "z": 154 },
+		"scale": 0.45
+	},
+	"groundTransform": { "scale": 3.5 }
+}

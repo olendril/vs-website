@@ -1,0 +1,92 @@
+[
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "game:chisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "1row1col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 1x1",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "1row1col", "material": "aged" } } 
+	},
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "game:chisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "1row2col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 1x2",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "1row2col", "material": "aged" } } 
+	},
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "game:chisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "2row1col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 2x1",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "2row1col", "material": "aged" } } 
+	},
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "game:chisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "2row2col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 2x2",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "2row2col", "material": "aged" } } 
+	},
+
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "truechisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "1row1col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 1x1 truechisel",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "1row1col", "material": "aged" } } 
+	},
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "truechisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "1row2col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 1x2 truechisel",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "1row2col", "material": "aged" } } 
+	},
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "truechisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "2row1col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 2x1 truechisel",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "2row1col", "material": "aged" } } 
+	},
+	{
+		ingredientPattern: "L	H",
+		ingredients: {
+			"L": { type: "item", code: "truechisel-*", quantity: 1, "isTool": true },
+			"H": { type: "block", code: "game:bookshelf","attributes":{"type": "2row2col"}, quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		name: "Decorative Bookshelf 2x2 truechisel",
+		output: { type: "block", code: "decobookshelf", attributes: { "type": "2row2col", "material": "aged" } } 
+	}
+
+]

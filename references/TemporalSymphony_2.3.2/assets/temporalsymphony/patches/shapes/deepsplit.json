@@ -1,0 +1,86 @@
+[
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/1/children/0/rotationX",
+    "value": 18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/1/children/0/rotationY",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "replace",
+    "path": "/elements/0/children/0/children/0/children/1/children/0/rotationZ",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/1/children/1/rotationX",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/1/children/1/rotationY",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "replace",
+    "path": "/elements/0/children/0/children/0/children/1/children/1/rotationZ",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/2/children/0/rotationX",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/2/children/0/rotationY",
+    "value": 18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "replace",
+    "path": "/elements/0/children/0/children/0/children/2/children/0/rotationZ",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/2/children/1/rotationX",
+    "value": 18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/elements/0/children/0/children/0/children/2/children/1/rotationY",
+    "value": 18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  },
+  {
+    "enabled": true,
+    "op": "replace",
+    "path": "/elements/0/children/0/children/0/children/2/children/1/rotationZ",
+    "value": -18,
+    "file": "game:shapes/entity/lore/shiver/deepsplit.json"
+  }
+]

@@ -1,0 +1,42 @@
+[
+	{
+	"ingredientPattern": "TT,TT",
+	"ingredients": {
+		"T": { "type": "item", "code": "wool:fibers-generic-*", "name": "color", "skipVariants": [ "lightbrown", "redbrown" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "wool:twine-wool-{color}" }
+	},
+
+	{
+	"ingredientPattern": "TT,TT",
+	"ingredients": {
+		"T": { "type": "item", "code": "wool:fibers-angora-white" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "wool:twine-wool-white" }
+	},
+
+	{
+	"ingredientPattern": "TT,TT",
+	"ingredients": {
+		"T": { "type": "item", "code": "wool:fibers-generic-redbrown" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "wool:twine-wool-brown" }
+	},
+
+	{
+	"ingredientPattern": "TB,BT",
+	"ingredients": {
+		"T": { "type": "item", "code": "wool:fibers-generic-lightbrown" },
+		"B": { "type": "item", "code": "wool:fibers-generic-black" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "wool:twine-wool-brown" }
+	}
+]

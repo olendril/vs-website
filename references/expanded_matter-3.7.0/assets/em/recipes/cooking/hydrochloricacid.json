@@ -1,0 +1,31 @@
+[
+	{
+	"code": "hydrochloricacid",
+	"comment": "Take equal parts of sweet salt, Bitter salt, Ṭabarzad salt, Andarānī salt, Indian salt, salt of Al-Qilī, and salt of Urine. After adding an equal weight of good crystallised Sal-ammoniac, dissolve by moisture, and distil (the mixture). There will distil over a strong water, which will cleave stone (sakhr) instantly.",
+	"perishableProps": { "type": "None", "freshHours": { "avg": 72 }, "transitionHours": { "avg": 72 }, "transitionRatio": 1, "transitionedStack": { "type": "item", "code": "game:acid-full-hydrochloric" } },
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "saltpeter", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:saltpeter", "quantity": 1 } ]
+		},
+		{
+		"code": "alum", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:powder-alum" } ]
+		},
+		{
+		"code": "salt", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:salt" } ]
+		},
+		{
+		"code": "sulfate", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [
+			{ "type": "item", "code": "game:sulfate-full-copper", "shapeElement": "bowl/water" },
+			{ "type": "item", "code": "game:sulfate-full-iron", "shapeElement": "bowl/water" }
+		],
+		"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "game:acid-full-hydrochloric", "quantity": 100 }
+	}
+]

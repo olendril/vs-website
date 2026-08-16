@@ -1,0 +1,26 @@
+[
+  {
+    "ingredientPattern": "P__,PP_,P_P",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:plank-{wood}" }
+    },
+    "width": 3, "height": 3, "recipeGroup": 1,
+    "output": {
+      "type": "block",
+      "code": "schematicrack-normal-east",
+      "attributes": {
+        "PSAttributes": {
+          "wood": "{wood}"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "P__,PP_,P_P",
+    "ingredients": {
+      "P": { "type": "item", "code": "*:plank-*" }
+    },
+    "width": 3, "height": 3, "recipeGroup": 1,
+    "output": { "type": "block", "code": "schematicrack-normal-east" }
+  }
+]

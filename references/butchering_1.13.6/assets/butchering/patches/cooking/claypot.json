@@ -1,0 +1,45 @@
+[
+  // Prime Meat
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/butchering:primemeat-raw",
+    "value": [ "meat", "group6" ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+  },
+  // Smoked Prime Meat
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/butchering:smoked-none-primemeat",
+    "value": [ "meat", "group6" ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+  },
+  // Smoked Redmeat
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/butchering:smoked-*-redmeat",
+    "value": [ "meat", "group6" ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+  },
+  // Smoked Fish
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/butchering:smoked-*-fish",
+    "value": [ "meat", "group4" ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+  },
+  // Blood
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/butchering:bloodportion",
+    "value": [ "water", "blood" ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/blood",
+    "value": {
+      "base": "butchering:block/liquid/blood"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+  }
+]

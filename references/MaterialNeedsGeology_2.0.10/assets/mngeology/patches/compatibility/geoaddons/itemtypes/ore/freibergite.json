@@ -1,0 +1,122 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-freibergite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-freibergite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-freibergite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-freibergite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-freibergite-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-freibergite-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-freibergite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-freibergite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-freibergite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-freibergite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-freibergite-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-freibergite-syenite"
+	},
+]

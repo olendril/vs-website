@@ -1,0 +1,9 @@
+{
+	code: "kombucha-witchhat-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-witchhat", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-witchhat-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-witchhat", litres: 10 }
+}

@@ -1,0 +1,21 @@
+{
+  code: "hightempfurnacedoor-top",
+  class: "BlockHighTempFurnaceDoorTop",
+  shape: { base: "interestingme:block/empty" },
+  drawtype: "json",
+  blockmaterial: "Ceramic",
+  replaceable: 0,
+  resistance: 5,
+  lightAbsorption: 0,
+  drops: [],
+  sidesolid: {
+    all: false
+  },
+  sideopaque: {
+    all: false
+  },
+  collisionboxes: [],
+  selectionboxes: [
+    { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+  ]
+}

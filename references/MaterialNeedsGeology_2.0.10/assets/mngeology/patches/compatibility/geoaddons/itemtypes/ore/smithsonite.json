@@ -1,0 +1,202 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-smithsonite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-smithsonite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-smithsonite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-smithsonite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-smithsonite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-smithsonite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-rich-smithsonite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-smithsonite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-smithsonite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-rich-smithsonite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-smithsonite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-smithsonite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-smithsonite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-smithsonite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-smithsonite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-smithsonite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-smithsonite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-smithsonite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-smithsonite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-smithsonite-tufa"
+	},
+]

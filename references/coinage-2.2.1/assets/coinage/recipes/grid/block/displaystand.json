@@ -1,0 +1,181 @@
+[
+    {
+        "ingredientPattern": "NS,P_",
+        "name": "displaystand1",
+        "height": 2,
+        "width": 2,
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "coinage:displaystand-floor",
+            "attributes": {
+                "type": "basic1",
+                "material": "{wood}"
+            }
+        }
+    },
+    {
+        "ingredientPattern": "SNS,_P_",
+        "name": "displaystand2",
+        "height": 2,
+        "width": 3,
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "coinage:displaystand-floor",
+            "attributes": {
+                "type": "basic2",
+                "material": "{wood}"
+            }
+        }
+    },
+    {
+        "ingredientPattern": "_S_,SNS,PPP",
+        "name": "displaystand3",
+        "height": 3,
+        "width": 3,
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "coinage:displaystand-floor",
+            "attributes": {
+                "type": "basic3",
+                "material": "{wood}"
+            }
+        }
+    },
+    {
+        "ingredientPattern": "SS_,SNS,PPP",
+        "name": "displaystand4",
+        "height": 3,
+        "width": 3,
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "coinage:displaystand-floor",
+            "attributes": {
+                "type": "basic4",
+                "material": "{wood}"
+            }
+        }
+    },
+    {
+        "ingredientPattern": "SSS,SNS,PPP",
+        "name": "displaystand5",
+        "height": 3,
+        "width": 3,
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "coinage:displaystand-floor",
+            "attributes": {
+                "type": "basic5",
+                "material": "{wood}"
+            }
+        }
+    },
+
+    {
+        "ingredientPattern": "PPP,PRG,PNP",
+        "name": "displaystand6",
+        "height": 3,
+        "width": 3,
+        "ingredients": {
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rod-*"
+            },
+            "G": {
+                "type": "block",
+                "code": "game:glass-plain"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "coinage:displaystand-wall",
+            "attributes": {
+                "type": "shelf",
+                "material": "{wood}"
+            }
+        }
+    }
+]

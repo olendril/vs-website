@@ -1,0 +1,20 @@
+[
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-fired*/attachableToEntity",
+    "value": {
+      "categoryCode": "small1"
+    },
+    "file": "clayworks:blocktypes/clay/crock.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-fired*/attachableToEntity/attachedShape",
+    "value": { "base": "cartwrightscaravan:item/small/clayworkscrock" },
+    "file": "clayworks:blocktypes/clay/crock.json",
+    "side": "Server"
+  }
+]

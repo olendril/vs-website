@@ -1,0 +1,101 @@
+﻿[
+  {
+    "enabled": "true",
+    "id": "hoddrinkwater",
+    "graphicCode": "game:waterportion",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "game:waterportion"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinkboiledwater",
+    "graphicCode": "hydrateordiedrate:waterportion-boiled-natural-clean",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-boiled-natural-clean"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinkdistilledwater",
+    "graphicCode": "hydrateordiedrate:istilledwaterportion",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-fresh-distilled-clean"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinkrainwater",
+    "graphicCode": "hydrateordiedrate:waterportion-fresh-rain-clean",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-fresh-rain-clean"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinkboiledrainwater",
+    "graphicCode": "hydrateordiedrate:boildwaterportion-fresh-rain-clean",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-boiled-rain-clean"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinkfreshwellwater",
+    "graphicCode": "hydrateordiedrate:waterportion-fresh-well-clean",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-fresh-well-clean"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinkfreshwellwater",
+    "graphicCode": "hydrateordiedrate:waterportion-fresh-well-clean",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-fresh-well-clean"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hoddrinktaintedwellwater",
+    "graphicCode": "hydrateordiedrate:waterportion-fresh-well-tainted",
+    "criteriaType": "EatAny",
+    "criteriaData": [
+      "hydrateordiedrate:waterportion-fresh-well-tainted"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hodplacewellwinch",
+    "graphicCode": "hydrateordiedrate:winch-oak-east",
+    "criteriaType": "CreateAnyFromGridRecipe",
+    "criteriaData": [
+      "hydrateordiedrate:winch*"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hodplacekeg",
+    "graphicCode": "hydrateordiedrate:keg-tapped",
+    "criteriaType": "CreateAnyFromGridRecipe",
+    "criteriaData": [
+      "hydrateordiedrate:keg-*"
+    ]
+  },
+  {
+    "enabled": "true",
+    "id": "hodplacetun",
+    "graphicCode": "hydrateordiedrate:tun-east",
+    "criteriaType": "CreateAnyFromGridRecipe",
+    "criteriaData": [
+      "hydrateordiedrate:tun*"
+    ]
+  }
+]

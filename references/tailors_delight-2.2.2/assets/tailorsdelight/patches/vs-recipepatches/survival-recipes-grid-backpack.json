@@ -1,0 +1,18 @@
+[
+  {
+    "op": "addmerge",
+    "enabled": true,
+    "path": "/0/enabled",
+    "value": false,
+    "file": "game:recipes/grid/backpack.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "enabled": true,
+    "path": "/1/enabled",
+    "value": false,
+    "file": "game:recipes/grid/backpack.json",
+    "side": "Server"
+  }
+]

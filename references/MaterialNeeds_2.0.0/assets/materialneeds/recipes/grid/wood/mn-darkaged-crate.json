@@ -1,0 +1,13 @@
+[
+{
+	ingredientPattern: "WWW,WSW,WWW",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-veryaged", name: "wood", quantity: 2 },
+		"S": { type: "item", code: "game:saw-*", isTool: true  }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "materialneeds:crate", attributes: { lidState: "closed", type: "wood-darkaged" }  }
+},
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/attachableToEntity/categoryCode",
+    "value": "weapon",
+    "file": "game:itemtypes/tool/bow.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributesByType/blade-falx-*/attachableToEntity/categoryCode",
+    "value": "weapon",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributesByType/blade-blackguard-iron/attachableToEntity/categoryCode",
+    "value": "weapon",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/7/forCategoryCodes/-",
+    "value": ["weapon"],
+    "file": "game:entities/animal/mammal/hooved/elk-tamed.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/8/forCategoryCodes/-",
+    "value": ["weapon"],
+    "file": "game:entities/animal/mammal/hooved/elk-tamed.json",
+    "side": "Server"
+  },
+]

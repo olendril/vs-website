@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+	"canChisel": true,
+	"chiselShapeFromCollisionBox": true
+    },
+    "file": "game:blocktypes/soil/mudbrickslab.json",
+    "side": "Server"
+  }
+]

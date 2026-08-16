@@ -1,10 +1,12 @@
 ---
 title: Guides
-description: Placeholder for gameplay and mod guides.
+description: Practical guides organized around survival playstyles and projects.
 ---
 
 # Guides
 
-This section will contain practical guides for playing on the server.
+These guides follow the server's survival playstyles: gathering, building, exploration, industry, and the systems that connect them. Each guide separates the practical journey from details that belong in the in-game handbook.
 
-![Vintage Story server icon](/favicon.svg)
+## Available guides
+
+- [Mining](./mining/): Prospect, extract, process, and smelt ore from the Stone Age into a steel-era mining operation.

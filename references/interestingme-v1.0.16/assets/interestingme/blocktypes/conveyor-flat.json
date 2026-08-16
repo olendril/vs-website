@@ -1,0 +1,46 @@
+{
+	code: "conveyor-flat",
+	variantgroups: [
+		{ code: "side", states: ["north", "east", "south", "west"] }
+	],
+	class: "BlockConveyorFlat",
+	entityClass: "ConveyorFlat",
+	creativeinventory: { "general": ["conveyor-flat-north"], "construction": ["conveyor-flat-north"] },
+	shapeByType: {
+		"*-north": { base: "interestingme:block/mechanical/conveyorflat", rotateY: 270 },
+		"*-east": { base: "interestingme:block/mechanical/conveyorflat", rotateY: 180 },
+		"*-south": { base: "interestingme:block/mechanical/conveyorflat", rotateY: 90 },
+		"*-west": { base: "interestingme:block/mechanical/conveyorflat", rotateY: 0 }
+	},
+	drawtype: "json",
+	blockmaterial: "Wood",
+	textures: {
+		oak1: { base: "game:block/wood/planks/oak1" },
+		conveyor: { base: "interestingme:block/mechanical/conveyor" }
+	},
+	replaceable: 200,
+	resistance: 2.5,
+	lightAbsorption: 99,
+	sidesolid: { all: true },
+	sideopaque: { all: true },
+	collisionboxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+	],
+	selectionboxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+	],
+	sounds: {
+		place: "block/planks",
+		break: "block/planks",
+		hit: "block/planks",
+		walk: "walk/wood"
+	},
+	heldTpIdleAnimation: "holdbothhandslarge",
+	heldRightReadyAnimation: "heldblockready",
+	heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"code": "crushed-metal",
+	"comment": "Pure metals only, no oxides, no compounds and no blends.",
+	"classByType": {
+		"@^crushed-metal-(copper|gold|lead|silver|tin|zinc|uranium)$": "ItemNugget"
+	},
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Messy12", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+	],
+	"attributes": {
+		"inContainerTexture": { "base": "em:item/resource/crushed/metal/incontainer/{type}" },
+		"displaycaseable": true,
+		"shelvable": true,
+		"onDisplayTransform": { "translation": { "x": 0.05, "y": 0, "z": 0 }, "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.8 },
+		"onShelfTransform": { "translation": { "x": 0, "y": -0.1, "z": -0.03 }, "rotation": { "y": -5 }, "scale": 0.8 },
+		"bloomeryFuelRatio": 30
+	},
+	"comment_smelting": "dimensions and storageFlags to make these smeltable in a crucible.",
+	"dimensions": { "width": 0.0625, "height": 0.0625, "length": 0.0625 },
+	"storageFlagsByType": {
+		"@^crushed-metal-(copper|gold|lead|silver|tin|zinc|uranium)$": 5
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [
+			"copper", "gold", "lead", "nickel", "rusty", "silver", "temporal", "tin", "titanium", "uranium", "zinc"
+		] }
+	],
+	"attributesByType": {
+		"@^crushed-metal-(temporal|uranium)": {
+			"handbook": { "extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-crushed-metal-{type}" } ] }
+		}
+	},
+	"textures": {
+		"all": { "base": "em:item/resource/crushed/metal/incontainer/{type}" }
+	},
+        "shapeByType": {
+		"crushed-metal-temporal": { "base": "em:item/resource/crushed_glow" },
+		"crushed-metal-uranium": { "base": "em:item/resource/crushed_glow" },
+		"*": { "base": "em:item/resource/crushed" }
+	},
+	"glowLevelByType": {
+		"crushed-metal-temporal": 200,
+		"crushed-metal-uranium": 10
+	},
+	"vertexFlagsByType": {
+		"crushed-metal-temporal": { "glow": 180 },
+		"crushed-metal-uranium": { "glow": 40 }
+	},
+	"lightHsvByType": {
+		"crushed-metal-temporal": [ 32, 5, 3 ],
+		"crushed-metal-uranium": [ 17, 4, 3 ]
+	},
+	"creativeinventoryByType": {
+		"crushed-metal-temporal": { "general": ["*"], "items": ["*"], "glass": ["*"], "luminous": ["*"] },
+		"crushed-metal-uranium": { "general": ["*"], "items": ["*"], "glass": ["*"], "luminous": ["*"] },
+		"*": { "general": ["*"], "items": ["*"] }
+	},
+	"combustiblePropsByType": {
+		"crushed-metal-copper": {
+			"meltingPoint": 1084,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-copper" }
+		},
+		"crushed-metal-gold": {
+			"meltingPoint": 1063,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-gold" }
+		},
+		"crushed-metal-lead": {
+			"meltingPoint": 327,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-lead" }
+		},
+		"crushed-metal-nickel": {
+			"meltingPoint": 1325,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-nickel" }
+		},
+		"crushed-metal-silver": {
+			"meltingPoint": 961,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-silver" }
+		},
+		"crushed-metal-tin": {
+			"meltingPoint": 232,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-tin" }
+		},
+		"crushed-metal-uranium": {
+			"meltingPoint": 1132,
+			"meltingDuration": 40,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-uranium" }
+		},
+		"crushed-metal-zinc": {
+			"meltingPoint": 419,
+			"meltingDuration": 30,
+			"smeltedRatio": 20,
+			"smeltedStack": { "type": "item", "code": "game:ingot-zinc" }
+		}
+	},
+        "grindingPropsByType": {
+		"crushed-metal-titanium": { "groundStack": { "type": "item", "code": "em:powdered-ore-ilmenite", "quantity": 2 } },
+		"*": { "groundStack": { "type": "item", "code": "em:powdered-metal-{type}", "quantity": 2 } }
+	},
+	"maxstacksize": 64,
+	"materialDensity": 900,
+	"heldTpIdleAnimation": "holdbothhands",
+	"guiTransform": {
+		"translation": { "x": 3, "y": 1, "z": -25 },
+		"rotation": { "x": 158, "y": 22, "z": 3 },
+		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+		"scale": 2.54
+	},
+	"tpHandTransform": { "translation": { "x": -1.35, "y": -0.85, "z": -0.55 }, "rotation": { "x": 70, "y": 11, "z": -65 }, "scale": 0.6 },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.2, "z": 0 },
+		"rotation": { "x": -4, "y": 8, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 1.92
+	}
+}

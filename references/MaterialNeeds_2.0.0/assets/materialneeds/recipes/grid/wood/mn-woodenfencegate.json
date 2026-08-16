@@ -1,0 +1,11 @@
+[{
+	ingredientPattern: "SPS	SPS",
+	ingredients: {
+		"P": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["veryaged"] },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "game:woodenfencegate-veryaged-n-closed-left-free", quantity: 1  }
+},
+]

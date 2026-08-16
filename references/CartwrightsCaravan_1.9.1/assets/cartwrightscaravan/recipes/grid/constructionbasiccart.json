@@ -1,0 +1,108 @@
+[
+  {
+    "code": "framewidecart",
+    "ingredientPattern": "WRW,OSO,WRW",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:supportbeam-*",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress" ],
+        "quantity": 16
+      },
+      "S": {
+        "type": "item",
+        "code": "cartschematics-carts",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-carts"
+        }
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin",
+        "quantity": 4
+      },
+      "O": {
+        "type": "item",
+        "code": "game:rope",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartconstruction-frame-basiccart-{wood}"
+    }
+  },
+  {
+    "code": "unfinishedwidecart",
+    "ingredientPattern": "WRW,RFR,WRW",
+    "ingredients": {
+      "W": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress"  ],
+        "quantity": 16
+      },
+      "F": {
+        "type": "item",
+        "code": "cartconstruction-frame-basiccart-*",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress"  ],
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "name": "metal",
+        "allowedVariants": [ "iron", "steel", "meteoriciron" ],
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartconstruction-unfinished-basiccart-{wood}"
+    }
+  },
+  {
+    "code": "finishedwidecart",
+    "ingredientPattern": "WRW,RUR,WRW",
+    "ingredients": {
+      "W": {
+        "type": "item",
+        "code": "cartsmisc-wheelspoked"
+      },
+      "U": {
+        "type": "item",
+        "code": "cartconstruction-unfinished-basiccart-*",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress" ],
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "name": "metal",
+        "allowedVariants": [ "iron", "steel", "meteoriciron" ],
+        "quantity": 4
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cart-cart-basiccart-classic-{wood}"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+	{
+	"ingredientPattern": "SAS, L ,SKS",
+	"ingredients": {
+		"S": { "type": "item", "code": "wildcrafttree:willowcane-*" },
+		"L": { "type": "item", "code": "game:cloth-*", "name": "color", "quantity": 1, "skipVariants": [ "mordant" ] },
+		"A": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "tailorsdelight:panel-cloth-full-none-{color}", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "SAS, L ,SKS",
+	"ingredients": {
+		"S": { "type": "item", "code": "wildcrafttree:willowcane-*" },
+		"L": { "type": "item", "code": "tailorsdelight:checkeredcloth-*", "name": "color", "quantity": 1 },
+		"A": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "tailorsdelight:panel-cloth-full-checker-{color}", "quantity": 1 }
+	}
+]

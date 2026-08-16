@@ -1,0 +1,21 @@
+﻿[
+    // Elephantidae
+    {
+        "side": "server",
+        "file": "elephantidae:entities/land/elephantidae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "elephantidae:entities/land/elephantidae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

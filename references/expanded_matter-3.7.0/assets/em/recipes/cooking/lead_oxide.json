@@ -1,0 +1,21 @@
+[
+	{
+	"code": "lead_oxide",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "em:powdered-ore-galena" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "sulfur", "minQuantity": 1, "maxQuantity": 1, "portionSizeLitres": 0.2,
+		"validStacks": [ { "type": "item", "code": "game:acid-full-sulfuric", "shapeElement": "game:bowl/water" } ]
+		},
+		{ "code": "lead", "minQuantity": 1, "maxQuantity": 1, "validStacks": [ { "type": "item", "code": "em:powdered-metal-lead" } ] }
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-galena", "quantity": 1 }
+	}
+]

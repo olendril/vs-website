@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "file": "windchimes:shapes/block/bamboo.json",
+    "path": "/animations/0/keyframes/0/elements/chime1",
+    "value": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+  },
+  {
+    "op": "add",
+    "file": "windchimes:shapes/block/bamboo.json",
+    "path": "/animations/0/keyframes/0/elements/chime2",
+    "value": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+  },
+  {
+    "op": "add",
+    "file": "windchimes:shapes/block/bamboo.json",
+    "path": "/animations/0/keyframes/0/elements/chime3",
+    "value": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+  },
+  {
+    "op": "add",
+    "file": "windchimes:shapes/block/bamboo.json",
+    "path": "/animations/0/keyframes/0/elements/chime4",
+    "value": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+  }
+]

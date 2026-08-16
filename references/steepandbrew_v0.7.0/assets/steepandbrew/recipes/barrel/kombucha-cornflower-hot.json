@@ -1,0 +1,9 @@
+{
+	code: "kombucha-cornflower-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-cornflower", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-cornflower-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-cornflower", litres: 10 }
+}

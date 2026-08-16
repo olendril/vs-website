@@ -1,0 +1,31 @@
+[
+	{
+	"code": "darkbrown-leather",
+	"sealHours": 16,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-iron", "litres": 1, "consumeLitres": 1 },
+		{ "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "stackSize": 1 }
+	},
+
+	{
+	"code": "black-leather",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-iron", "litres": 1, "consumeLitres": 1 },
+		{ "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:leather-normal-black", "stackSize": 1 }
+	},
+
+	{
+	"code": "purple-leather",
+	"sealHours": 16,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-copper", "litres": 1, "consumeLitres": 1 },
+		{ "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "game:leather-normal-purple", "stackSize": 1 }
+	}
+]

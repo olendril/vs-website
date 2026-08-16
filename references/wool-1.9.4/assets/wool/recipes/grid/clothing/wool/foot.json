@@ -1,0 +1,118 @@
+[
+	{
+	"ingredientPattern": "CSC,BTB,GTG",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-plain", "quantity": 2 },
+		"B": { "type": "item", "code": "game:cloth-black", "quantity": 2 },
+		"G": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-wool-lined-knee-high-boots" }
+	},
+
+	{
+	"ingredientPattern": "CSC,BTB,GTG",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-plain", "quantity": 2 },
+		"B": { "type": "item", "code": "game:cloth-black", "quantity": 2 },
+		"G": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-wool-lined-knee-high-boots" }
+	},
+
+	{
+	"ingredientPattern": "TKT,LSL",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"S": { "type": "item", "code": "game:stick" },
+		"L": { "type": "item", "code": "game:leather-normal-gray", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-shepherd-sandals" }
+	},
+
+	{
+	"ingredientPattern": "C_C",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-foot-peasent-slippers" }
+	},
+
+	{
+	"ingredientPattern": "CTC,BNB",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown", "quantity": 2 },
+		"T": { "type": "item", "code": "game:leather-normal-plain" },
+		"N": { "type": "item", "code": "game:leather-normal-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-commoner-boots" }
+	},
+
+	{
+	"ingredientPattern": "RPR,CTC,WKW",
+	"ingredients": {
+		"R": { "type": "item", "code": "wool:twine-wool-red", "quantity": 2 },
+		"P": { "type": "item", "code": "wool:twine-wool-pink" },
+		"C": { "type": "item", "code": "wool:cloth-wool-pink", "quantity": 2 },
+		"T": { "type": "item", "code": "game:hide-pelt-small", "quantity": 2 },
+		"W": { "type": "item", "code": "wool:cloth-wool-plain", "quantity": 2 },
+		"K": { "type": "item", "code": "wool:kneedle-*", "isTool": true, "toolDurabilityCost": 8 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-fur-lined-reindeer-herder-shoes" }
+	},
+
+	{
+	"ingredientPattern": "BTB,K_K",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"K": { "type": "item", "code": "wool:cloth-wool-black", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-black", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-survivor" }
+	},
+
+	{
+	"name": "nomad boots",
+	"ingredientPattern": "GNG,KSK,D_D",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:twine-wool-gray" },
+		"N": { "type": "item", "code": "wool:twine-wool-gray" },
+		"K": { "type": "item", "code": "wool:cloth-wool-black", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "wool:cloth-wool-darkgreen" }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-nomad-boots" }
+	}
+]

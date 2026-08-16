@@ -1,0 +1,22 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/CollectibleCodes",
+	"value": [
+		"bricklayers:crockcolored-burned-*",
+		"bricklayers:coloredbowl-burnt-*",
+		"bricklayers:coloredbowl-meal-*",
+		"bricklayers:porcelainbowl-burnt-*",
+		"bricklayers:porcelainbowl-meal-*",
+		"bricklayers:glazedbowl-meal-*",
+		"bricklayers:glazedbowl-burnt-*",
+		"bricklayers:coloredmug-burnt-*",
+		"bricklayers:glazedmug-burnt-*",
+		"bricklayers:coloredsmallpot-burnt-*",
+		"bricklayers:coloredlargepot-burnt-*"
+	],
+	"dependsOn": [ { "modid": "foodshelves" } ],
+	"file": "foodshelves:config/restrictions/general/holderuniversal.json",
+	"side": "Server"
+	}
+]

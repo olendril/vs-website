@@ -1,0 +1,22 @@
+[
+  {
+    "op": "addeach",
+    "path": "/buying/list/-",
+    "value": [
+	{ "code": "wool:sack-wool-plain",  "type": "item", "stacksize": 1, "stock": { "avg": 2, "var": 0.5 }, "price": { "avg": 1, "var": 0 } },
+	{ "code": "wool:twine-wool-brown", "type": "item", "stacksize": 6, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 1, "var": 0 } },
+	{ "code": "wool:twine-wool-black", "type": "item", "stacksize": 5, "stock": { "avg": 4, "var": 1 }, "price": { "avg": 1, "var": 0 } },
+	{ "code": "wool:cloth-wool-plain", "type": "item", "stacksize": 1, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 1, "var": 0 } },
+	{ "code": "wool:cloth-wool-brown", "type": "item", "stacksize": 2, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 3, "var": 0 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-gray",     "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 4, "var": 1 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-white",    "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 5, "var": 1 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-pinkgray", "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 6, "var": 1 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-plain-brown",    "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 9, "var": 1 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-wool-fishbone-brown", "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 11, "var": 0.75 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-mohair-plain-white",  "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 13, "var": 0.75 } },
+	{ "code": "wool:clothes-upperbodyover-sweater-qivuit-plain-brown",  "type": "item", "stacksize": 1, "stock": { "avg": 1, "var": 0 }, "price": { "avg": 14, "var": 0.75 } }
+    ],
+    "file": "game:config/tradelists/trader-clothing.json",
+    "side": "Server"
+  }
+]

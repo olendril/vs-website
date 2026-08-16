@@ -1,0 +1,151 @@
+[
+	{
+	"ingredientPattern": "HS,KA",
+	"comment": "There are no raw bear heads, so converting their hide to raw bundle will destroy the head",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-raw-*", "name": "species", "quantity": 3, "tags": ["size-small"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-raw", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-raw-*", "name": "species", "quantity": 1, "tags": ["size-medium"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-raw", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-raw-*", "name": "species", "quantity": 1, "tags": ["size-large"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-raw", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-raw-*", "name": "species", "quantity": 1, "tags": ["size-huge"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-raw", "quantity": 3 }
+	},
+
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "name": "species", "quantity": 3, "tags": ["size-small", "hide-generic"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"name": "pelt-medium-to-leatherbundle-pelt",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "name": "species", "quantity": 1, "tags": ["size-medium", "hide-generic"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "name": "species", "quantity": 1, "tags": ["size-large", "hide-generic"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "name": "species", "quantity": 1, "tags": ["size-huge", "hide-generic"] },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"comment": "These variants are so that you don't lose the head. There are no small bear hides in VS, so we start with medium.",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-bear-*-complete", "name": "type", "tags": ["size-medium"], "returnedStack": { "type": "item", "code": "game:hide-pelt-bear-{type}-head" } },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"recipeGroup": 7,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-bear-*-complete", "name": "type", "tags": ["size-large"], "returnedStack": { "type": "item", "code": "game:hide-pelt-bear-{type}-head" } },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"recipeGroup": 7,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "HS,KA",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-bear-*-complete", "name": "type", "tags": ["size-huge"], "returnedStack": { "type": "item", "code": "game:hide-pelt-bear-{type}-head" } },
+		"S": { "type": "item", "code": "game:stick" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"recipeGroup": 7,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt", "quantity": 3 }
+	}
+]

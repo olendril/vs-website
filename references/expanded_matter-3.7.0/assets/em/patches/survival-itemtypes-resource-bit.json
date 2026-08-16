@@ -1,0 +1,48 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingPropsByType",
+    "value": {
+      "metalbit-copper": { "crushedStack": { "type": "item", "code": "em:crushed-metal-copper", "stacksize": 1 }, "hardnessTier": 2 },
+      "metalbit-cupronickel": { "crushedStack": { "type": "item", "code": "em:crushed-ore-cupronickel", "stacksize": 1 }, "hardnessTier": 3 },
+      "metalbit-chromite": { "crushedStack": { "type": "item", "code": "game:crushed-chromite" }, "quantity": { "avg": 0.33 }, "hardnessTier": 4 },
+      "metalbit-electrum": { "crushedStack": { "type": "item", "code": "em:crushed-ore-electrum", "stacksize": 1 }, "hardnessTier": 1 },
+      "metalbit-gold": { "crushedStack": { "type": "item", "code": "em:crushed-metal-gold", "stacksize": 1 }, "hardnessTier": 1 },
+      "metalbit-iron": { "crushedStack": { "type": "item", "code": "game:crushed-iron", "stacksize": 1 }, "hardnessTier": 3 },
+      "metalbit-lead": { "crushedStack": { "type": "item", "code": "em:crushed-metal-lead", "stacksize": 1 }, "hardnessTier": 1 },
+      "metalbit-nickel": { "crushedStack": { "type": "item", "code": "em:crushed-metal-nickel", "stacksize": 1 }, "hardnessTier": 3 },
+      "metalbit-silver": { "crushedStack": { "type": "item", "code": "em:crushed-metal-silver", "stacksize": 1 }, "hardnessTier": 1 },
+      "metalbit-tin": { "crushedStack": { "type": "item", "code": "em:crushed-metal-tin", "stacksize": 1 }, "hardnessTier": 1 },
+      "metalbit-titanium": { "crushedStack": { "type": "item", "code": "em:crushed-metal-titanium", "stacksize": 1 }, "hardnessTier": 4 },
+      "metalbit-uranium": { "crushedStack": { "type": "item", "code": "em:crushed-metal-uranium", "stacksize": 1 }, "hardnessTier": 4 },
+      "metalbit-zinc": { "crushedStack": { "type": "item", "code": "em:crushed-metal-zinc", "stacksize": 1 }, "hardnessTier": 1
+      }
+    },
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-uranium",
+    "value": {
+	"meltingPoint": 1132,
+	"meltingDuration": 40,
+	"smeltedRatio": 20,
+	"smeltedStack": { "type": "item", "code": "game:ingot-uranium" }
+    },
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType/*-uranium",
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType/*-chromium",
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  }
+]

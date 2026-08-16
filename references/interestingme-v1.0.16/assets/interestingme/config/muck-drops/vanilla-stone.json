@@ -1,0 +1,252 @@
+[
+  // ── IME Muck Drop Table — Vanilla Stone Blocks ───────────────────────────
+  // All vanilla Vintage Story rock types that should produce stone muck when
+  // broken. Stone blocks produce only stone layers (no oreCode).
+  //
+  // stoneCode is set explicitly so the composition correctly identifies the
+  // rock type (e.g. "game:rock-granite") rather than using the full block
+  // variant code. This matters for machine processing — a Shaker Table
+  // processing granite muck vs. limestone muck may behave differently.
+  //
+  // Layer counts (Design Doc §2.2): Stone = 5±1 layers per block.
+  // Cracked stone = 3±1 (slightly less yield, as per the design doc table).
+  //
+  // To exclude a block from muck production, simply remove its entry.
+  // Optional gating: add "requiresMod": "modid" to an entry, or use the
+  // top-level wrapper form in MuckDropTable if you want to gate an entire file.
+  // To add modded stone types, create a new file in this same folder.
+
+  // ── Igneous ──────────────────────────────────────────────────────────────
+
+  {
+    "blockCode": "game:rock-granite",
+    "stoneCode": "game:rock-granite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-andesite",
+    "stoneCode": "game:rock-andesite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-basalt",
+    "stoneCode": "game:rock-basalt",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-obsidian",
+    "stoneCode": "game:rock-obsidian",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-peridotite",
+    "stoneCode": "game:rock-peridotite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-kimberlite",
+    "stoneCode": "game:rock-kimberlite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+
+  // ── Sedimentary ───────────────────────────────────────────────────────────
+
+  {
+    "blockCode": "game:rock-chalk",
+    "stoneCode": "game:rock-chalk",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-chert",
+    "stoneCode": "game:rock-chert",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-conglomerate",
+    "stoneCode": "game:rock-conglomerate",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-limestone",
+    "stoneCode": "game:rock-limestone",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-travertine",
+    "stoneCode": "game:rock-travertine",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-halite",
+    "stoneCode": "game:rock-halite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-sandstone",
+    "stoneCode": "game:rock-sandstone",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-claystone",
+    "stoneCode": "game:rock-claystone",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-bauxite",
+    "stoneCode": "game:rock-bauxite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+
+  // ── Metamorphic ───────────────────────────────────────────────────────────
+
+  {
+    "blockCode": "game:rock-phyllite",
+    "stoneCode": "game:rock-phyllite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-shale",
+    "stoneCode": "game:rock-shale",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-slate",
+    "stoneCode": "game:rock-slate",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-suevite",
+    "stoneCode": "game:rock-suevite",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-redmarble",
+    "stoneCode": "game:rock-redmarble",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-whitemarble",
+    "stoneCode": "game:rock-whitemarble",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+  {
+    "blockCode": "game:rock-greenmarble",
+    "stoneCode": "game:rock-greenmarble",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+
+  // ── Cracked variants (slightly less yield — Design Doc §2.2) ─────────────
+  // Cracked stone has been weakened by stress, so it produces less waste rock.
+  // These use wildcards to catch all rock type variants of cracked stone.
+  // The wildcard entry does not override individual entries above (exact wins).
+
+  {
+    "blockCode": "game:crackedrock-*",
+    "stoneCode": null,
+    "stoneLayers": {
+      "avg": 4,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  },
+
+  //
+  {
+    "requiresMod": "interestingoregen",
+    "blockCode": "interestingoregen:saltpeterore",
+    "stoneCode": "interestingoregen:saltpeterore",
+    "stoneLayers": {
+      "avg": 6,
+      "var": 1,
+      "dist": "UNIFORM"
+    }
+  }
+]

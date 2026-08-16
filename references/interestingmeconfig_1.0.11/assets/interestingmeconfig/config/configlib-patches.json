@@ -1,0 +1,860 @@
+{
+  "version": 2,
+  "file": "interestingmeconfig.json",
+  "settings": [
+    {
+      "code": "muck_bag_rawhide_capacity_layers",
+      "type": "integer",
+      "ingui": "Rawhide muckbag capacity (layers)",
+      "tab": "Muck Storage",
+      "default": 24,
+      "range": {
+        "min": 0,
+        "max": 144,
+        "step": 1
+      },
+      "comment": "Maximum muck layers a rawhide muckbag can hold."
+    },
+    {
+      "code": "muck_bag_linen_capacity_layers",
+      "type": "integer",
+      "ingui": "Linen muckbag capacity (layers)",
+      "tab": "Muck Storage",
+      "default": 32,
+      "range": {
+        "min": 0,
+        "max": 192,
+        "step": 1
+      },
+      "comment": "Maximum muck layers a linen muckbag can hold."
+    },
+    {
+      "code": "muck_bag_leather_capacity_layers",
+      "type": "integer",
+      "ingui": "Leather muckbag capacity (layers)",
+      "tab": "Muck Storage",
+      "default": 40,
+      "range": {
+        "min": 0,
+        "max": 240,
+        "step": 1
+      },
+      "comment": "Maximum muck layers a leather muckbag can hold."
+    },
+    {
+      "code": "muck_bag_hardened_capacity_layers",
+      "type": "integer",
+      "ingui": "Hardened muckbag capacity (layers)",
+      "tab": "Muck Storage",
+      "default": 48,
+      "range": {
+        "min": 0,
+        "max": 288,
+        "step": 1
+      },
+      "comment": "Maximum muck layers a hardened muckbag can hold."
+    },
+    {
+      "code": "muck_bin_capacity_layers",
+      "type": "integer",
+      "ingui": "Muckbin capacity (layers)",
+      "tab": "Muck Storage",
+      "default": 32,
+      "range": {
+        "min": 0,
+        "max": 192,
+        "step": 1
+      },
+      "comment": "Maximum muck layers a placed or carried muckbin can hold."
+    },
+    {
+      "code": "muck_pile_mining_speed_multiplier",
+      "type": "float",
+      "ingui": "Muck pile mining speed multiplier",
+      "tab": "Muck Mining",
+      "default": 1.0,
+      "range": {
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.05
+      },
+      "comment": "Multiplier applied when mining muck piles with a muck shovel."
+    },
+    {
+      "code": "muck_mining_durability_cost",
+      "type": "float",
+      "ingui": "Muck shovel durability cost",
+      "tab": "Muck Mining",
+      "default": 1.0,
+      "range": {
+        "min": 0.0,
+        "max": 2.0,
+        "step": 0.1
+      },
+      "comment": "Average durability damage applied when mining muck piles with a muck shovel. Fractional values are accumulated per item. Set to 0 for no durability cost."
+    },
+    {
+      "code": "ore_only_muck_from_ores",
+      "type": "boolean",
+      "ingui": "Only ore blocks create muck",
+      "tab": "Muck Drops",
+      "default": false,
+      "comment": "When enabled, regular stone blocks use their vanilla drops instead of creating muck."
+    },
+    {
+      "code": "conveyor_flat_move_interval_ms",
+      "type": "integer",
+      "ingui": "Flat conveyor move interval (ms)",
+      "tab": "Machines",
+      "default": 500,
+      "range": {
+        "min": 250,
+        "max": 750,
+        "step": 25
+      },
+      "comment": "Lower values move muck faster."
+    },
+    {
+      "code": "conveyor_split_move_interval_ms",
+      "type": "integer",
+      "ingui": "Split conveyor move interval (ms)",
+      "tab": "Machines",
+      "default": 500,
+      "range": {
+        "min": 250,
+        "max": 750,
+        "step": 25
+      },
+      "comment": "Lower values split muck faster."
+    },
+    {
+      "code": "bucket_lift_move_interval_ms",
+      "type": "integer",
+      "ingui": "Bucket lift move interval (ms)",
+      "tab": "Machines",
+      "default": 500,
+      "range": {
+        "min": 250,
+        "max": 750,
+        "step": 25
+      },
+      "comment": "Lower values lift muck faster."
+    },
+    {
+      "code": "conveyor_flat_power_draw",
+      "type": "float",
+      "ingui": "Flat conveyor power draw",
+      "tab": "Machines",
+      "default": 10.0,
+      "range": {
+        "min": 5.0,
+        "max": 15.0,
+        "step": 0.5
+      },
+      "comment": "Power consumed by a running flat conveyor."
+    },
+    {
+      "code": "conveyor_split_power_draw",
+      "type": "float",
+      "ingui": "Split conveyor power draw",
+      "tab": "Machines",
+      "default": 12.0,
+      "range": {
+        "min": 6.0,
+        "max": 18.0,
+        "step": 0.5
+      },
+      "comment": "Power consumed by a running split conveyor."
+    },
+    {
+      "code": "bucket_lift_power_draw",
+      "type": "float",
+      "ingui": "Bucket lift power draw",
+      "tab": "Machines",
+      "default": 15.0,
+      "range": {
+        "min": 7.5,
+        "max": 22.5,
+        "step": 0.5
+      },
+      "comment": "Power consumed by a running bucket lift."
+    },
+    {
+      "code": "jaw_crusher_power_draw",
+      "type": "float",
+      "ingui": "Jaw crusher power draw",
+      "tab": "Machines",
+      "default": 20.0,
+      "range": {
+        "min": 10.0,
+        "max": 30.0,
+        "step": 0.5
+      },
+      "comment": "Power consumed by a running jaw crusher."
+    },
+    {
+      "code": "power_connector_power_draw",
+      "type": "float",
+      "ingui": "Power connector draw",
+      "tab": "Machines",
+      "default": 2.0,
+      "range": {
+        "min": 1.0,
+        "max": 3.0,
+        "step": 0.1
+      },
+      "comment": "Power consumed by an IME power connector."
+    },
+    {
+      "code": "jaw_crusher_interval_multiplier",
+      "type": "float",
+      "ingui": "Jaw crusher speed multiplier",
+      "tab": "Machines",
+      "default": 1.0,
+      "range": {
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.05
+      },
+      "comment": "Multiplier for jaw crusher processing speed."
+    },
+    {
+      "code": "jaw_crusher_fine_chance",
+      "type": "float",
+      "ingui": "Jaw crusher fine output chance",
+      "tab": "Machines",
+      "default": 0.75,
+      "range": {
+        "min": 0.5,
+        "max": 1.0,
+        "step": 0.01
+      },
+      "comment": "Chance for coarse muck to become fine muck in the jaw crusher."
+    },
+    {
+      "code": "muck_screen_coarse_chance",
+      "type": "float",
+      "ingui": "Muck screen coarse output chance",
+      "tab": "Machines",
+      "default": 0.75,
+      "range": {
+        "min": 0.5,
+        "max": 1.0,
+        "step": 0.01
+      },
+      "comment": "Chance for raw muck to become coarse instead of fine in the muck screen."
+    },
+    {
+      "code": "sluice_fine_deposit_chance",
+      "type": "float",
+      "ingui": "Sluice fine deposit chance",
+      "tab": "Sluices",
+      "default": 0.6,
+      "range": {
+        "min": 0.2,
+        "max": 1.0,
+        "step": 0.01
+      },
+      "comment": "Base chance that fine muck deposits ore concentration in sluice baffles."
+    },
+    {
+      "code": "sluice_raw_deposit_chance",
+      "type": "float",
+      "ingui": "Sluice raw deposit chance",
+      "tab": "Sluices",
+      "default": 0.35,
+      "range": {
+        "min": 0.0,
+        "max": 0.7,
+        "step": 0.01
+      },
+      "comment": "Base chance that raw muck deposits ore concentration in sluice baffles."
+    },
+    {
+      "code": "stick_sluice_efficiency_multiplier",
+      "type": "float",
+      "ingui": "Stick sluice efficiency multiplier",
+      "tab": "Sluices",
+      "default": 0.5,
+      "range": {
+        "min": 0.25,
+        "max": 0.75,
+        "step": 0.05
+      },
+      "comment": "Efficiency multiplier for stick sluice baffles."
+    },
+    {
+      "code": "sluice_max_stored_concentration",
+      "type": "float",
+      "ingui": "Sluice max stored concentration",
+      "tab": "Sluices",
+      "default": 800.0,
+      "range": {
+        "min": 0.0,
+        "max": 4800.0,
+        "step": 10.0
+      },
+      "comment": "Maximum stored ore concentration in normal sluice baffles."
+    },
+    {
+      "code": "stick_sluice_max_stored_concentration",
+      "type": "float",
+      "ingui": "Stick sluice max stored concentration",
+      "tab": "Sluices",
+      "default": 400.0,
+      "range": {
+        "min": 0.0,
+        "max": 2400.0,
+        "step": 10.0
+      },
+      "comment": "Maximum stored ore concentration in stick sluice baffles."
+    },
+    {
+      "code": "drilling_initial_depth_blocks",
+      "type": "float",
+      "ingui": "Initial drill depth (blocks)",
+      "tab": "Drilling",
+      "default": 0.0,
+      "range": {
+        "min": 0.0,
+        "max": 2.0,
+        "step": 0.1
+      },
+      "comment": "Starting depth for newly placed drill holes."
+    },
+    {
+      "code": "drilling_increment_depth_blocks",
+      "type": "float",
+      "ingui": "Drill depth step (blocks)",
+      "tab": "Drilling",
+      "default": 1.0,
+      "range": {
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.1
+      },
+      "comment": "Depth added per successful drill increment."
+    },
+    {
+      "code": "drilling_selection_radius",
+      "type": "float",
+      "ingui": "Drill hole selection radius",
+      "tab": "Drilling",
+      "default": 0.09,
+      "range": {
+        "min": 0.045,
+        "max": 0.135,
+        "step": 0.005
+      },
+      "comment": "Interaction radius used when selecting drill holes."
+    },
+    {
+      "code": "drilling_min_hole_spacing",
+      "type": "float",
+      "ingui": "Minimum drill hole spacing",
+      "tab": "Drilling",
+      "default": 0.33,
+      "range": {
+        "min": 0.165,
+        "max": 0.495,
+        "step": 0.005
+      },
+      "comment": "Minimum spacing between drill holes."
+    },
+    {
+      "code": "drilling_default_max_depth_blocks",
+      "type": "float",
+      "ingui": "Default max drill depth",
+      "tab": "Drilling",
+      "default": 4.0,
+      "range": {
+        "min": 2.0,
+        "max": 6.0,
+        "step": 0.1
+      },
+      "comment": "Fallback maximum drill depth."
+    },
+    {
+      "code": "drilling_starter_drill_max_depth_blocks",
+      "type": "float",
+      "ingui": "Starter drill max depth",
+      "tab": "Drilling",
+      "default": 4.0,
+      "range": {
+        "min": 2.0,
+        "max": 6.0,
+        "step": 0.1
+      },
+      "comment": "Maximum depth for starter drills."
+    },
+    {
+      "code": "drilling_hand_drill_min_depth_blocks",
+      "type": "float",
+      "ingui": "Hand drill min depth",
+      "tab": "Drilling",
+      "default": 4.0,
+      "range": {
+        "min": 2.0,
+        "max": 6.0,
+        "step": 0.1
+      },
+      "comment": "Minimum depth for hand drills."
+    },
+    {
+      "code": "drilling_hand_drill_max_depth_blocks",
+      "type": "float",
+      "ingui": "Hand drill max depth",
+      "tab": "Drilling",
+      "default": 8.0,
+      "range": {
+        "min": 4.0,
+        "max": 12.0,
+        "step": 0.1
+      },
+      "comment": "Maximum depth for hand drills."
+    },
+    {
+      "code": "drilling_long_hand_drill_min_depth_blocks",
+      "type": "float",
+      "ingui": "Long hand drill min depth",
+      "tab": "Drilling",
+      "default": 8.0,
+      "range": {
+        "min": 4.0,
+        "max": 12.0,
+        "step": 0.1
+      },
+      "comment": "Minimum depth for long hand drills."
+    },
+    {
+      "code": "drilling_long_hand_drill_max_depth_blocks",
+      "type": "float",
+      "ingui": "Long hand drill max depth",
+      "tab": "Drilling",
+      "default": 12.0,
+      "range": {
+        "min": 6.0,
+        "max": 18.0,
+        "step": 0.1
+      },
+      "comment": "Maximum depth for long hand drills."
+    },
+    {
+      "code": "drilling_depth_display_decimals",
+      "type": "integer",
+      "ingui": "Depth display decimals",
+      "tab": "Drilling",
+      "default": 3,
+      "range": {
+        "min": 0,
+        "max": 6,
+        "step": 1
+      },
+      "comment": "Decimal places shown for drill depth."
+    },
+    {
+      "code": "drilling_placeholder_dud_chance",
+      "type": "float",
+      "ingui": "Fallback explosive dud chance",
+      "tab": "Drilling",
+      "default": 0.06,
+      "range": {
+        "min": 0.0,
+        "max": 0.12,
+        "step": 0.005
+      },
+      "comment": "Fallback dud chance for placeholder explosive config."
+    },
+    {
+      "code": "drilling_placeholder_hangfire_chance",
+      "type": "float",
+      "ingui": "Fallback explosive hangfire chance",
+      "tab": "Drilling",
+      "default": 0.04,
+      "range": {
+        "min": 0.0,
+        "max": 0.08,
+        "step": 0.005
+      },
+      "comment": "Fallback hangfire chance for placeholder explosive config."
+    },
+    {
+      "code": "drilling_placeholder_rod_break_chance_per_increment",
+      "type": "float",
+      "ingui": "Rod break chance per depth step",
+      "tab": "Drilling",
+      "default": 0.001,
+      "range": {
+        "min": 0.0,
+        "max": 0.002,
+        "step": 0.0001
+      },
+      "comment": "Chance that a drill rod breaks per drilling increment."
+    },
+    {
+      "code": "blasting_fuse_stack_size",
+      "type": "integer",
+      "ingui": "Blasting fuse stack size",
+      "tab": "Items",
+      "default": 64,
+      "range": {
+        "min": 32,
+        "max": 96,
+        "step": 1
+      },
+      "comment": "Maximum stack size for blasting fuses."
+    },
+    {
+      "code": "clay_plug_stack_size",
+      "type": "integer",
+      "ingui": "Clay plug stack size",
+      "tab": "Items",
+      "default": 64,
+      "range": {
+        "min": 32,
+        "max": 96,
+        "step": 1
+      },
+      "comment": "Maximum stack size for clay plugs."
+    },
+    {
+      "code": "metal_prill_stack_size",
+      "type": "integer",
+      "ingui": "Metal prill stack size",
+      "tab": "Items",
+      "default": 500,
+      "range": {
+        "min": 250,
+        "max": 750,
+        "step": 1
+      },
+      "comment": "Maximum stack size for metal prills."
+    },
+    {
+      "code": "hand_drill_durability",
+      "type": "integer",
+      "ingui": "Hand drill durability",
+      "tab": "Tool Durability",
+      "default": 400,
+      "range": {
+        "min": 200,
+        "max": 600,
+        "step": 1
+      },
+      "comment": "Durability of the hand drill item."
+    },
+    {
+      "code": "short_drill_durability",
+      "type": "integer",
+      "ingui": "Short drill durability",
+      "tab": "Tool Durability",
+      "default": 800,
+      "range": {
+        "min": 400,
+        "max": 1200,
+        "step": 1
+      },
+      "comment": "Durability of the short drill item."
+    },
+    {
+      "code": "meteoric_short_drill_durability",
+      "type": "integer",
+      "ingui": "Meteoric short drill durability",
+      "tab": "Tool Durability",
+      "default": 1000,
+      "range": {
+        "min": 500,
+        "max": 1500,
+        "step": 1
+      },
+      "comment": "Durability of the meteoric short drill item."
+    },
+    {
+      "code": "long_drill_durability",
+      "type": "integer",
+      "ingui": "Long drill durability",
+      "tab": "Tool Durability",
+      "default": 600,
+      "range": {
+        "min": 300,
+        "max": 900,
+        "step": 1
+      },
+      "comment": "Durability of the long drill item."
+    },
+    {
+      "code": "steel_long_hand_drill_durability",
+      "type": "integer",
+      "ingui": "Steel long hand drill durability",
+      "tab": "Tool Durability",
+      "default": 600,
+      "range": {
+        "min": 300,
+        "max": 900,
+        "step": 1
+      },
+      "comment": "Durability of the steel long hand drill item."
+    },
+    {
+      "code": "medium_drill_durability",
+      "type": "integer",
+      "ingui": "Medium drill durability",
+      "tab": "Tool Durability",
+      "default": 1400,
+      "range": {
+        "min": 700,
+        "max": 2100,
+        "step": 1
+      },
+      "comment": "Durability of the medium drill item."
+    },
+    {
+      "code": "meteoric_medium_drill_durability",
+      "type": "integer",
+      "ingui": "Meteoric medium drill durability",
+      "tab": "Tool Durability",
+      "default": 800,
+      "range": {
+        "min": 400,
+        "max": 1200,
+        "step": 1
+      },
+      "comment": "Durability of the meteoric medium drill item."
+    },
+    {
+      "code": "super_long_drill_durability",
+      "type": "integer",
+      "ingui": "Super-long drill durability",
+      "tab": "Tool Durability",
+      "default": 1000,
+      "range": {
+        "min": 500,
+        "max": 1500,
+        "step": 1
+      },
+      "comment": "Durability of the super-long drill item."
+    },
+    {
+      "code": "quickmatch_durability",
+      "type": "integer",
+      "ingui": "Quickmatch durability",
+      "tab": "Tool Durability",
+      "default": 256,
+      "range": {
+        "min": 128,
+        "max": 384,
+        "step": 1
+      },
+      "comment": "Durability of the quickmatch item."
+    },
+    {
+      "code": "copper_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Copper muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 500,
+      "range": {
+        "min": 250,
+        "max": 750,
+        "step": 1
+      },
+      "comment": "Durability of the copper muck shovel."
+    },
+    {
+      "code": "bismuth_bronze_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Bismuth bronze muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 700,
+      "range": {
+        "min": 350,
+        "max": 1050,
+        "step": 1
+      },
+      "comment": "Durability of the bismuth bronze muck shovel."
+    },
+    {
+      "code": "black_bronze_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Black bronze muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 800,
+      "range": {
+        "min": 400,
+        "max": 1200,
+        "step": 1
+      },
+      "comment": "Durability of the black bronze muck shovel."
+    },
+    {
+      "code": "tin_bronze_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Tin bronze muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 700,
+      "range": {
+        "min": 350,
+        "max": 1050,
+        "step": 1
+      },
+      "comment": "Durability of the tin bronze muck shovel."
+    },
+    {
+      "code": "iron_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Iron muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 1100,
+      "range": {
+        "min": 550,
+        "max": 1650,
+        "step": 1
+      },
+      "comment": "Durability of the iron muck shovel."
+    },
+    {
+      "code": "meteoric_iron_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Meteoric iron muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 1300,
+      "range": {
+        "min": 650,
+        "max": 1950,
+        "step": 1
+      },
+      "comment": "Durability of the meteoric iron muck shovel."
+    },
+    {
+      "code": "steel_muck_shovel_durability",
+      "type": "integer",
+      "ingui": "Steel muck shovel durability",
+      "tab": "Tool Durability",
+      "default": 1600,
+      "range": {
+        "min": 800,
+        "max": 2400,
+        "step": 1
+      },
+      "comment": "Durability of the steel muck shovel."
+    },
+    {
+      "code": "muck_pile_block_resistance",
+      "type": "float",
+      "ingui": "Muck pile block resistance",
+      "tab": "Muck Mining",
+      "default": 1.5,
+      "range": {
+        "min": 0.75,
+        "max": 2.25,
+        "step": 0.05
+      },
+      "comment": "Block resistance of muck piles. Higher values make muck piles slower to break."
+    }
+  ],
+  "patches": {
+    "number": {
+      "interestingme:blocktypes/muckpile.json": {
+        "resistance": "muck_pile_block_resistance"
+      },
+      "interestingme:itemtypes/muckshovelcopper.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 3.5"
+      },
+      "interestingme:itemtypes/muckshovelbismuthbronze.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 4"
+      },
+      "interestingme:itemtypes/muckshovelblackbronze.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 4"
+      },
+      "interestingme:itemtypes/muckshoveltinbronze.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 4"
+      },
+      "interestingme:itemtypes/muckshoveliron.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 4"
+      },
+      "interestingme:itemtypes/muckshovelmeteoriciron.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 4"
+      },
+      "interestingme:itemtypes/muckshovelsteel.json": {
+        "miningspeed/soil": "muck_pile_mining_speed_multiplier * 4"
+      },
+      "interestingme:config/muck-drops/vanilla-stone.json": {
+        "0..21/stoneLayers/avg": "6 * (1 - ore_only_muck_from_ores)",
+        "0..21/stoneLayers/var": "1 * (1 - ore_only_muck_from_ores)",
+        "22/stoneLayers/avg": "4 * (1 - ore_only_muck_from_ores)",
+        "22/stoneLayers/var": "1 * (1 - ore_only_muck_from_ores)",
+        "23/stoneLayers/avg": "6 * (1 - ore_only_muck_from_ores)",
+        "23/stoneLayers/var": "1 * (1 - ore_only_muck_from_ores)"
+      },
+      "interestingme:config/muck-drops/advancedgeology-stone.json": {
+        "0..7/stoneLayers/avg": "6 * (1 - ore_only_muck_from_ores)",
+        "0..7/stoneLayers/var": "1 * (1 - ore_only_muck_from_ores)"
+      }
+    },
+    "integer": {
+      "interestingme:itemtypes/blastingfuse.json": {
+        "maxstacksize": "blasting_fuse_stack_size"
+      },
+      "interestingme:itemtypes/clayplug.json": {
+        "maxstacksize": "clay_plug_stack_size"
+      },
+      "interestingme:itemtypes/handdrill.json": {
+        "durability": "hand_drill_durability"
+      },
+      "interestingme:itemtypes/longdrill.json": {
+        "durability": "long_drill_durability"
+      },
+      "interestingme:itemtypes/longhanddrillsteel.json": {
+        "durability": "steel_long_hand_drill_durability"
+      },
+      "interestingme:itemtypes/mediumdrill.json": {
+        "durability": "medium_drill_durability"
+      },
+      "interestingme:itemtypes/mediumdrillmeteoriciron.json": {
+        "durability": "meteoric_medium_drill_durability"
+      },
+      "interestingme:itemtypes/metalprill.json": {
+        "maxstacksize": "metal_prill_stack_size"
+      },
+      "interestingme:itemtypes/muckbag.json": {
+        "attributes/slotCountByType/*-rawhide": "muck_bag_rawhide_capacity_layers / 8",
+        "attributes/slotCountByType/*-linen": "muck_bag_linen_capacity_layers / 8",
+        "attributes/slotCountByType/*-leather": "muck_bag_leather_capacity_layers / 8",
+        "attributes/slotCountByType/*-hardened": "muck_bag_hardened_capacity_layers / 8"
+      },
+      "interestingme:itemtypes/muckshovelbismuthbronze.json": {
+        "durability": "bismuth_bronze_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/muckshovelblackbronze.json": {
+        "durability": "black_bronze_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/muckshovelcopper.json": {
+        "durability": "copper_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/muckshoveliron.json": {
+        "durability": "iron_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/muckshovelmeteoriciron.json": {
+        "durability": "meteoric_iron_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/muckshovelsteel.json": {
+        "durability": "steel_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/muckshoveltinbronze.json": {
+        "durability": "tin_bronze_muck_shovel_durability"
+      },
+      "interestingme:itemtypes/quickmatch.json": {
+        "durability": "quickmatch_durability"
+      },
+      "interestingme:itemtypes/shortdrill.json": {
+        "durability": "short_drill_durability"
+      },
+      "interestingme:itemtypes/shortdrillmeteoriciron.json": {
+        "durability": "meteoric_short_drill_durability"
+      },
+      "interestingme:itemtypes/superlongdrill.json": {
+        "durability": "super_long_drill_durability"
+      }
+    }
+  }
+}

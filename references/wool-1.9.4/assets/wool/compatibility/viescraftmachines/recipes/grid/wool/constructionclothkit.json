@@ -1,0 +1,28 @@
+[
+	{
+	"ingredientPattern": "XFX,XMX,XFX",
+	"enabled": "false",
+	"ingredients": {
+		"X": { "type": "item", "code": "wool:cloth-wool-*", "name": "cloth", "allowedVariants": [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ] },
+		"F": { "type": "item", "code": "viescraftmachines:frameparts", "quantity": 4 },
+		"M": { "type": "item", "code": "viescraftmachines:logiccircuit", "quantity": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "viescraftmachines:constructionclothkit-basic", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "XFX,XMX,XFX",
+	"ingredients": {
+		"X": { "type": "item", "code": "wool:cloth-wool-plain" },
+		"F": { "type": "item", "code": "viescraftmachines:frameparts", "quantity": 4 },
+		"M": { "type": "item", "code": "viescraftmachines:logiccircuit", "quantity": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "viescraftmachines:constructionclothkit-basic", "quantity": 1 }
+	}
+]

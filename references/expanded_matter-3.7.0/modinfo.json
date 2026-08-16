@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "em",
+  "name": "Expanded Matter",
+  "description" : "A library that extends the base game with new materials and variants.",
+  "authors": [ "Tels", "Phiwa" ],
+  "contributors": [ "alricard", "Ashantin", "ChimMAG", "Dracomancer", "Drakker", "dimeymer", "Grigoriewich", "jjallie1", "Wailwolf", "Nahuel-Campos", "Macoto Hino", "Darce", "ElectroNikkel", "DeanBro", "justOmi" ],
+  "version": "3.7.0",
+  "dependencies": {
+	"game": "1.22.0",
+	"survival": "1.22.0"
+  },
+  "website": "https://gitlab.com/codesmiths/vs_expanded_matter"
+}

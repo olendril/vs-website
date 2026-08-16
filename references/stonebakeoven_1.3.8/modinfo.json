@@ -1,0 +1,17 @@
+{
+    "type": "code",
+    "modid": "stonebakeoven",
+    "name": "Stone Bake Oven",
+    "side": "universal",
+    "authors": [
+        "Captain Oats", "G3rste"
+    ],
+    "contributors": [
+        "Exuriel"
+    ],
+    "description": "Creates a usable large stone oven for baking and more.",
+    "version": "1.3.8",
+    "dependencies": {
+        "game": ""
+    }
+}

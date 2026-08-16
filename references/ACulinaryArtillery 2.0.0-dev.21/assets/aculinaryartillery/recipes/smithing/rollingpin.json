@@ -1,0 +1,31 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "blackbronze", "copper", "iron", "bismuthbronze", "meteoriciron", "steel", "tinbronze" ]
+	},
+	"pattern": [
+		[
+			"_######_",
+			"_######_",
+			"_######_"
+		],
+		[
+			"_######_",
+			"########",
+			"_######_"
+		],
+		[
+			"_######_",
+			"_######_",
+			"_######_"
+		]
+	],
+	"name": "rollingpin",
+	"code": "rollingpin-{metal}",
+	"output": {
+		"type": "item",
+		"code": "rollingpin-{metal}"
+	}
+}

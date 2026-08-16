@@ -1,0 +1,44 @@
+{
+	code: "sawhorse",
+	class: "iw-sawhorse",
+	entityClass: "iw-sawhorse",
+	attributes: {
+		handbook: {
+			include: true,
+			extraSections: [
+				{ title: "immersivewoodworking:sawhorse-handbook-title", text: "immersivewoodworking:sawhorse-handbook-text" }
+			]
+		},
+		collisionBoxes: {
+			trestle: { x1: -0.115, y1: 0,    z1: 0.388,  x2: 1.049, y2: 1.005, z2: 0.675 },
+			log:     { x1: 0.146,  y1: 0.58, z1: -0.812, x2: 0.854, y2: 1.287, z2: 0.812 }
+		},
+		selectionBoxes: {
+			trestle: { x1: -0.115, y1: 0,    z1: 0.388,  x2: 1.049, y2: 1.005, z2: 0.675 },
+			log:     { x1: 0.146,  y1: 0.58, z1: -0.812, x2: 0.854, y2: 1.287, z2: 0.812 }
+		}
+	},
+	behaviors: [
+		{ name: "Unstable", properties: { attachedToFaces: ["down"] } }
+	],
+	shape: { base: "immersivewoodworking:block/sawhorses_p3" },
+	textures: {
+		"oak":  { base: "game:block/wood/debarked/oak" },
+		"rope": { base: "game:item/resource/rope" }
+	},
+	sideopaque: { all: false },
+	sidesolid: { all: false },
+	lightAbsorption: 0,
+	blockmaterial: "Wood",
+	maxStackSize: 1,
+	resistance: 1.5,
+	drops: [],
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks"
+	},
+	collisionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 },
+	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+}

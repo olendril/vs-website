@@ -1,0 +1,117 @@
+{
+    "code": "pile",
+    "class": "pile",
+    "entityClass": "bepile",
+    "behaviors": [
+        { "name": "Container" },
+        {
+            "name": "UnstableFalling",
+            "properties": {
+                "fallSound": null,
+                "dustIntensity": 2
+            }
+        },
+        {
+            "name": "NWOrientable"
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "wood",
+            "states": [ "oak", "maple", "purpleheart", "redwood", "walnut", "ebony" ]
+        },
+        {
+            "code": "orientation",
+            "states": [ "ns", "we" ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*-ns" ],
+        "coinage": [ "*-ns" ]
+    },
+    "blockmaterial": "wood",
+    "shapeByType": {
+        "*-ns": {
+            "base": "block/pile"
+        },
+        "*-we": {
+            "base": "block/pile",
+            "rotateY": 90
+        }
+    },
+    "textures": {
+        "wood": { "base": "game:block/wood/treetrunk/{wood}" },
+        "wood-bark": { "base": "game:block/wood/bark/{wood}" },
+        "steel": { "base": "game:block/metal/anvil/steel" }
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "walk": "game:walk/wood1",
+        "hit": "game:block/planks",
+        "break": "game:block/planks"
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "coinage:pile-{wood}-ns"
+        }
+    ],
+    "facecullmode": "default",
+    "lightAbsorption": 0,
+    "emitSideAo": { "all": false },
+    "sideopaque": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "maxstacksize": 1,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldRightReadyAnimation": "heldblockready",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "selectionBox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.5,
+        "z2": 0.9375
+    },
+    "collisionBox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.5,
+        "z2": 0.9375
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": -6,
+            "z": 0
+        },
+        "rotation": {
+            "x": -32,
+            "y": -50,
+            "z": 0
+        },
+        "scale": 1.61
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.8,
+            "y": -1,
+            "z": -0.5
+        },
+        "rotation": {
+            "x": -43,
+            "y": 0,
+            "z": -95
+        },
+        "scale": 0.78
+    },
+    "groundTransform": {
+        "scale": 2.78
+    }
+}

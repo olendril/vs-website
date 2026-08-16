@@ -1,0 +1,44 @@
+[
+	{
+	"op": "remove",
+	"comment": "we enable both missing variants, so can remove this entirely",
+	"path": "/allowedVariants",
+	"file": "game:itemtypes/liquid/acid.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "replace",
+	"comment": "is quite transparent",
+	"path": "/attributes/waterTightContainerProps/textureByType/*-nitric",
+	"value": { "base": "game:block/liquid/dye/yellow", "alpha": 40 },
+	"file": "game:itemtypes/liquid/acid.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "replace",
+	"comment": "is quite transparent",
+	"path": "/attributes/waterTightContainerProps/textureByType/*-hydrochloric",
+	"value": { "base": "game:block/liquid/dye/green", "alpha": 60 },
+	"file": "game:itemtypes/liquid/acid.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "replace",
+	"comment": "not so transparent for the handbook",
+	"path": "/textureByType/*-hydrochloric",
+	"value": { "base": "game:block/liquid/dye/white", "alpha": 85 },
+	"file": "game:itemtypes/liquid/acid.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/nutritionProps",
+	"value": { "saturation": 0, "health": -25, "foodcategory": "NoNutrition" },
+	"file": "game:itemtypes/liquid/acid.json",
+	"side": "Server"
+	}
+]

@@ -1,0 +1,214 @@
+[
+	{
+	"code": "dyingwooltwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-*", "name": "color", "litres": 0.5, "consumeLitres": 0.5,
+			"allowedVariants": [ "black", "blue", "brown", "gray", "green", "orange", "pink", "purple",  "white", "yellow" ] },
+		{ "type": "item", "code": "wool:twine-wool-mordant" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-{color}" }
+	},
+
+	{
+	"code": "dyingwooltannintwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:strongtanninportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-mordant" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-brown" }
+	},
+
+	{
+	"code": "dyingwoolwoadtwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-woad", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-blue" }
+	},
+
+	{
+	"code": "dyingwooltannintwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:strongtanninportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-brown" }
+	},
+
+	{
+	"code": "dyingwoolblacktwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-black", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "gray", "brown" ] }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-black" }
+	},
+
+	{
+	"code": "dyingwoolgraytwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-black", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-white" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-gray" }
+	},
+
+	{
+	"code": "dyingwoolorangetwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-orange", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-yellow" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-orange" }
+	},
+
+	{
+	"code": "dyingwoolredtwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "mordant", "orange", "yellow" ] }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-red" }
+	},
+
+	{
+	"code": "dyingwoolpurpletwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-blue" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-purple" }
+	},
+
+	{
+	"code": "dyingwoolpurpleredtwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-blue", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-red" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-purple" }
+	},
+
+	{
+	"code": "dyingwoolpinktwine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-white" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-pink" }
+	},
+
+
+	{
+	"code": "dyingwoolcloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-*", "name": "color", "litres": 0.5, "consumeLitres": 0.5,
+			"allowedVariants": [ "black", "blue", "brown", "gray", "green", "orange", "pink", "purple",  "white", "yellow" ] },
+		{ "type": "item", "code": "wool:cloth-wool-mordant" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-{color}" }
+	},
+
+	{
+	"code": "dyingwoolwoadcloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-woad", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-blue" }
+	},
+
+	{
+	"code": "dyingwoolblackcloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-black", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-*", "name": "color", "allowedVariants": [ "gray", "brown" ] }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-black" }
+	},
+
+	{
+	"code": "dyingwoolgraycloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-black", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-white" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-gray" }
+	},
+
+	{
+	"code": "dyingwoolorangecloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-orange", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-yellow" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-orange" }
+	},
+
+	{
+	"code": "dyingwoolredcloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-*", "name": "color", "allowedVariants": [ "mordant", "orange", "yellow" ] }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-red" }
+	},
+
+	{
+	"code": "dyingwoolpurplecloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-blue" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-purple" }
+	},
+
+	{
+	"code": "dyingwoolpurpleredcloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-blue", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-red" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-purple" }
+	},
+
+	{
+	"code": "dyingwoolpinkcloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:dye-red", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-white" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-pink" }
+	},
+
+	{
+	"code": "dyingwoolbrowncloth",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:strongtanninportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:cloth-wool-*", "name": "color", "allowedVariants": [ "plain", "mordant" ] }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-brown" }
+	}
+]

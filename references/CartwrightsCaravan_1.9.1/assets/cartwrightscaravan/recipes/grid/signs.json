@@ -1,0 +1,642 @@
+[
+  {
+    "code": "sign0",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:redmeat-raw*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-rawmeat"
+    }
+  },
+  {
+    "code": "sign1",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:fruit-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-berry"
+    }
+  },
+  {
+    "code": "sign2",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:book-normal-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-book"
+    }
+  },
+  {
+    "code": "sign3",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:bread-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-bread"
+    }
+  },
+  {
+    "code": "sign4",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:charcoal",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-charcoal"
+    }
+  },
+  {
+    "code": "sign5",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:hide-raw-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-hide"
+    }
+  },
+  {
+    "code": "sign6",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-ingot"
+    }
+  },
+  {
+    "code": "sign7",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-rustygear"
+    }
+  },
+  {
+    "code": "sign8",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:sewingkit",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-sewingkit"
+    }
+  },
+  {
+    "code": "sign9",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-temporalgear"
+    }
+  },
+  {
+    "code": "sign10",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "block",
+        "code": "game:anvil-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-anvil"
+    }
+  },
+  {
+    "code": "sign11",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:pickaxe-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-pickaxe"
+    }
+  },
+  {
+    "code": "sign12",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:vegetable-cabbage",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-cabbage"
+    }
+  },
+  {
+    "code": "sign13",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "block",
+        "code": "game:wagonwheels-spoked-west",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-wheel"
+    }
+  },
+  {
+    "code": "sign14",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-hammer"
+    }
+  },
+  {
+    "code": "sign15",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:blade-falx-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-falx"
+    }
+  },
+  {
+    "code": "sign16",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:burnedbrick-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-brick"
+    }
+  },
+  {
+    "code": "sign17",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:bandage-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-bandage"
+    }
+  },
+  {
+    "code": "sign18",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:axe-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-axe"
+    }
+  },
+  {
+    "code": "sign19",
+    "ingredientPattern": "SCM",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "cartschematics-signs",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-signs"
+        }
+      },
+      "C": {
+        "type": "block",
+        "code": "game:sign-ground*",
+        "quantity": 1
+      },
+      "M": {
+        "type": "item",
+        "code": "game:nugget-*",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsign-single-oak-wood-orechunk"
+    }
+  }
+]

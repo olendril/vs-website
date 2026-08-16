@@ -1,0 +1,99 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*": [
+        {
+          "name": "AOGHayStorable",
+          "properties": {
+            "layout": "Stacking",
+            "placeRemoveSound": "game:sounds/block/plant",
+            "stackingModel": "artofgrowing:block/haystorage",
+            "stackingTextures": {
+              "normal-top": "artofgrowing:block/thatch/normal-top",
+              "straw1": "artofgrowing:block/thatch/straw1"
+            },
+            "modelItemsToStackSizeRatio": 1.25,
+            "stackingCapacity": 128,
+            "maxStackingHeight": 1,
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.0625,
+              "z2": 1
+            },
+            "cbScaleYByLayer": 0.125,
+            "burnHoursPerItem": 0.1,
+            "transferQuantity": 1,
+            "bulkTransferQuantity": 8,
+            "dropUse": 8,
+            "canDrop": "Block",
+            "dropBlock": "artofgrowing:thatchhay-normal-ud"
+          }
+        }
+      ]
+    },
+    "file": "game:itemtypes/resource/thatch.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/class",
+    "value": "AOGItemDryGrass",
+    "file": "game:itemtypes/resource/thatch.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "foodTags": [ "grass" ],
+      "placeSound": "block/plant",
+      "handbook": {
+        "include": true,
+        "extraSections": [
+          {
+            "title": "artofgrowing:block-handbooktitle-thatchhay",
+            "text": "artofgrowing:block-handbooktext-thatchhay"
+          },
+          {
+            "title": "game:item-handbooktitle-drygrass",
+            "text": "game:item-handbooktext-drygrass"
+          }
+        ]
+      }
+    },
+    "file": "game:itemtypes/resource/thatch.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {
+      "bundle": { "base": "artofgrowing:item/resource/thatchbundle" }
+    },
+    "file": "game:itemtypes/resource/thatch.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 4320 },
+        "transitionHours": { "avg": 448 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "artofgrowing:agedgrass"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "game:itemtypes/resource/thatch.json",
+    "side": "Server"
+  }
+]

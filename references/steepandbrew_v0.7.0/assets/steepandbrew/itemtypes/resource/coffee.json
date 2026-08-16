@@ -1,0 +1,75 @@
+{
+  code: "coffee",
+  variantgroups: [
+    { code: "state", states: ["green", "roasted", "ground"] }
+  ],
+  maxstacksize: 64,
+  creativeinventory: { "general": ["*"], "items": ["*"] },
+  shapeByType: {
+    "*-ground": { base: "game:item/resource/crushed/normal" },
+    "*": { base: "game:item/resource/crushed/normal" }
+  },
+  textureByType: {
+    "*-green": { base: "steepandbrew:item/resource/coffee-green" },
+    "*-roasted": { base: "steepandbrew:item/resource/coffee-roasted" },
+    "*-ground": { base: "steepandbrew:item/resource/coffee-ground" }
+  },
+  attributes: {
+    handbook: {
+      groupBy: ["coffee-*"]
+    },
+    foodTagsByType: {
+      "*-green": ["coffee", "seed"],
+      "*-roasted": ["coffee"],
+      "*-ground": ["coffee", "ground"]
+    }
+  },
+  combustiblePropsByType: {
+    "coffee-green": {
+      meltingPoint: 160,
+      meltingDuration: 16,
+      smeltedRatio: 1,
+      smeltingType: "cook",
+      smeltedStack: { type: "item", code: "coffee-roasted" },
+      requiresContainer: false
+    }
+  },
+  grindingPropsByType: {
+    "*-roasted": {
+      groundStack: { type: "item", code: "coffee-ground", quantity: 1 }
+    }
+  },
+  transitionablePropsByType: {
+    "*-green": [{
+      type: "Perish",
+      freshHours: { avg: 2160 },
+      transitionHours: { avg: 168 },
+      transitionedStack: { type: "item", code: "game:rot" },
+      transitionRatio: 0.2
+    }],
+    "*-roasted": [{
+      type: "Perish",
+      freshHours: { avg: 1440 },
+      transitionHours: { avg: 168 },
+      transitionedStack: { type: "item", code: "game:rot" },
+      transitionRatio: 0.2
+    }],
+    "*-ground": [{
+      type: "Perish",
+      freshHours: { avg: 720 },
+      transitionHours: { avg: 168 },
+      transitionedStack: { type: "item", code: "game:rot" },
+      transitionRatio: 0.2
+    }]
+  },
+  materialDensity: 550,
+  guiTransform: {
+    rotation: { x: 171, y: 57, z: -20 },
+    origin: { x: 0.46, y: 0.11, z: 0.46 },
+    scale: 2.64
+  },
+  groundTransform: {
+    origin: { x: 0.5, y: 0, z: 0.5 },
+    scale: 3
+  }
+}

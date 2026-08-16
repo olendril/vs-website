@@ -1,0 +1,49 @@
+[
+	{
+	"comment": "Intentionally giving only 3 to encourage coloring twine instead of ripping apart colored cloth.",
+	"ingredientPattern": "K,C",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-*", "name": "color", "quantity": 1, "skipVariants": [ "mordant", "plain" ] },
+		"K": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:twine-{color}", "quantity": 3 }
+	},
+
+	{
+	"comment": "Intentionally giving only 3 to encourage coloring twine instead of ripping apart colored cloth.",
+	"ingredientPattern": "K,C",
+	"ingredients": {
+		"C": { "type": "item", "code": "tailorsdelight:cloth-*", "name": "color", "quantity": 1 },
+		"K": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:twine-{color}", "quantity": 3 }
+	},
+
+	{
+	"ingredientPattern": "H,G,F",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"G": { "type": "item", "code": "game:nugget-nativegold", "quantity": 1 },
+		"F": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:twine-gold" }
+	},
+
+	{
+	"ingredientPattern": "H,S,F",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"S": { "type": "item", "code": "game:nugget-nativesilver", "quantity": 1 },
+		"F": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:twine-silver" }
+	}
+]

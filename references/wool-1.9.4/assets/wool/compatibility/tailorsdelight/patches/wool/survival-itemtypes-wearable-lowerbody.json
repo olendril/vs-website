@@ -1,0 +1,89 @@
+[
+  {
+    "op": "replace",
+    "comment": "peasent gown",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/3/ingredientPattern",
+    "value": "CNC,CTC",
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/3/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "commoner trousers",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/4/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "commoner trousers",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/5/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "survivor pants",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/6/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "homespun pants",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/7/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "merchant pants",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/8/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "brass", "zinc", "copper" ] },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "woolen reindeer herder trousers",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/10/ingredients/H",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-horn" },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "nomad trousers",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/11/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "horn" ] },
+    "file": "wool:recipes/grid/clothing/wool/lowerbody.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/idleSoundChance",
+    "value": 0.4,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/sounds",
+    "value": {
+      "hurt": "creature/bell/hurt",
+      "death": "creature/bell/death",
+      "idle": {
+        "path": "creature/bell/bell",
+        "range": 32,
+        "pitch": {
+          "avg": 1,
+          "var": 0.1
+        }
+      }
+    },
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  }
+]

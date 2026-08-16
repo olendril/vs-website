@@ -1,0 +1,86 @@
+[
+	{
+	"ingredientPattern": "BT,CS",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"C": { "type": "block", "code": "wool:wool-plain" },
+		"S": { "type": "block", "code": "primitivesurvival:stake-empty" }
+	},
+	"recipeGroup": 8,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:firework-missile", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TB,CS",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"C": { "type": "block", "code": "wool:wool-plain" },
+		"S": { "type": "block", "code": "primitivesurvival:stake-empty" }
+	},
+	"recipeGroup": 8,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:firework-fountain", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TB,FS",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"F": { "type": "item", "code": "game:bamboostakes" },
+		"S": { "type": "block", "code": "primitivesurvival:stake-empty" }
+	},
+	"recipeGroup": 8,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:firework-bamboobarrage", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TB,FS",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"F": { "type": "item", "code": "game:fruit-cherry", "quantity": 2 },
+		"S": { "type": "block", "code": "primitivesurvival:stake-empty" }
+	},
+	"recipeGroup": 8,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:firework-cherrybomb", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "BTN,CSN",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"C": { "type": "block", "code": "wool:wool-plain" },
+		"S": { "type": "block", "code": "primitivesurvival:stake-empty" },
+		"N": { "type": "item", "code": "game:beenade-*" }
+	},
+	"recipeGroup": 8,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:firework-beehive", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "BBB,CST",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"C": { "type": "block", "code": "wool:wool-plain" },
+		"S": { "type": "block", "code": "primitivesurvival:stake-empty" }
+	},
+	"recipeGroup": 8,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:firework-boomer", "quantity": 4 }
+	}
+]

@@ -1,0 +1,39 @@
+﻿[
+    // Fowlmod
+    {
+        "side": "server",
+        "file": "fowlmod:entities/animal/bird/duck-adult",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "fowlmod:entities/animal/bird/duck-adult",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+        {
+        "side": "server",
+        "file": "fowlmod:entities/animal/bird/duck-baby",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "fowlmod:entities/animal/bird/duck-baby",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

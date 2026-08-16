@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredients/1/code",
+    "value": "game:powder-cinnabar",
+    "file": "game:recipes/barrel/dye/red.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/sealHours",
+    "value": 12,
+    "file": "game:recipes/barrel/dye/red.json",
+    "side": "Server"
+  }
+]

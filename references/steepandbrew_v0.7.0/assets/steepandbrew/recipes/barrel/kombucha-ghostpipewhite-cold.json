@@ -1,0 +1,9 @@
+{
+	code: "kombucha-ghostpipewhite-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-ghostpipewhite", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-ghostpipewhite-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-ghostpipewhite", litres: 10 }
+}

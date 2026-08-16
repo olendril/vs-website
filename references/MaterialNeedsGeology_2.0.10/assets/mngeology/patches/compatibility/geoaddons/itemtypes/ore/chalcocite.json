@@ -1,0 +1,102 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-chalcocite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-chalcocite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-rich-chalcocite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-chalcocite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-chalcocite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-chalcocite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-chalcocite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-chalcocite-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-chalcocite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-chalcocite-monzonite"
+	},
+]

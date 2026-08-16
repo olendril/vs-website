@@ -1,0 +1,25 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-*",
+    "name": "metal",
+    "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel" ]
+  },
+  "pattern": [
+    [
+      "######",
+      "__####",
+      "__####",
+      "######"
+    ],
+    [
+      "######",
+      "__####",
+      "__####",
+      "######"
+    ]
+  ],
+  "name": "Rubble Hammer",
+  "code": "rubblehammerhead-{metal}",
+  "output": { "type": "item", "code": "rubblehammerhead-{metal}" }
+}

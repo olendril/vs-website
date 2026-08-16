@@ -1,0 +1,45 @@
+[
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "advancedgeology" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "chalcopyrite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "advancedgeology" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "tetrahedrite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "advancedgeology" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "nickeline"
+  },  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "advancedgeology" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "garnierite"
+  },  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "advancedgeology" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "siderite"
+  }
+]

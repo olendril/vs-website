@@ -1,0 +1,80 @@
+[
+	{
+	"ingredientPattern": "PTN",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"P": { "type": "item", "code": "wool:cloth-wool-plain" },
+		"T": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-nadiya-face-hunter" }
+	},
+
+	{
+	"ingredientPattern": "PTN",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"P": { "type": "item", "code": "wool:cloth-wool-plain" },
+		"T": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 3 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 7,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-nadiya-face-hunter" }
+	},
+
+	{
+	"name": "nadiyan-barber-hood",
+	"enabled": true,
+	"ingredientPattern": "WNW,BWB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"N": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-darkblue" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-face-barber" }
+	},
+
+	{
+	"name": "nadiyan-alchemist-hood",
+	"enabled": true,
+	"ingredientPattern": "WNW,BWT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"N": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-darkblue" },
+		"T": { "type": "item", "code": "wool:twine-wool-darkbrown" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-face-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-alchemist-hood",
+	"enabled": true,
+	"ingredientPattern": "WNW,BWT",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"N": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-darkblue", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-darkbrown", "quantity": 2 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-face-alchemist" }
+	}
+]

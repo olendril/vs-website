@@ -1,0 +1,76 @@
+[
+  {
+    "code": "framesled",
+    "ingredientPattern": "O_O,RSR,WWW",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress"  ],
+        "quantity": 4
+      },
+      "S": {
+        "type": "item",
+        "code": "cartschematics-carts",
+        "returnedStack": {
+          "type": "item",
+          "code": "cartschematics-carts"
+        }
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin",
+        "quantity": 2
+      },
+      "O": {
+        "type": "item",
+        "code": "game:rope",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartconstruction-frame-basicsled-{wood}"
+    }
+  },
+  {
+    "code": "finishedsled",
+    "ingredientPattern": "WRW,RFR,WRW",
+    "ingredients": {
+      "W": {
+        "type": "block",
+        "code": "game:debarkedlog-*-ud",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress"  ],
+        "quantity": 3
+      },
+      "F": {
+        "type": "item",
+        "code": "cartconstruction-frame-basicsled-*",
+        "name": "wood",
+        "allowedVariants": [ "acacia", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "baldcypress"  ],
+        "quantity": 1
+      },
+      "R": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "name": "metal",
+        "allowedVariants": ["copper","tinbronze","blackbronze","bismuthbronze", "iron", "steel", "meteoriciron" ],
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "sled-sled-basicsled-{wood}"
+    }
+  }
+]

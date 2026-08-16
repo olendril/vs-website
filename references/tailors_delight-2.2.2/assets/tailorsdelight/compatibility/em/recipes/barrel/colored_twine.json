@@ -1,0 +1,31 @@
+[
+	{
+	"code": "mordant-twine-sulfate-copper",
+	"sealHours": 6,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-copper", "litres": 0.25, "consumeLitres": 0.25 },
+		{ "type": "item", "code": "game:flaxtwine" }
+	],
+	"output": { "type": "item", "code": "tailorsdelight:twine-mordant" }
+	},
+
+	{
+	"code": "mordant-twine-sulfate-iron",
+	"sealHours": 6,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-iron", "litres": 0.25, "consumeLitres": 0.25 },
+		{ "type": "item", "code": "game:flaxtwine" }
+	],
+	"output": { "type": "item", "code": "tailorsdelight:twine-mordant" }
+	},
+
+	{
+		"code": "mordant-twine-sulfate-zinc",
+		"sealHours": 6,
+		"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-zinc", "litres": 0.25, "consumeLitres": 0.25 },
+		{ "type": "item", "code": "game:flaxtwine" }
+	],
+	"output": { "type": "item", "code": "tailorsdelight:twine-mordant" }
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "MLC",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:lime", "quantity": 1 },
+		"M": { "type": "item", "code": "game:mortar", "quantity": 3 },
+		"C": { "type": "item", "code": "game:clay-*", "quantity": 3 }
+	},
+	"shapeless": true,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "bricklayers:cement-tile", "quantity": 8 }
+	}
+]

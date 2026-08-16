@@ -1,0 +1,37 @@
+{
+	code: "scoby-chickenofthewoods",
+	// CookingRecipe.ToBytes dereferences PerishableProps unconditionally — it must be
+	// present or the server crashes building the assets packet. SCOBY itself has no
+	// Perish transition (scoby.json), so this is inert; the long freshHours is a no-op.
+	perishableProps: {
+		freshHours: { avg: 8760 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 0.005,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "game:block/food/meal/soup" },
+	cooksInto: { type: "item", code: "steepandbrew:scoby-chickenofthewoods", quantity: 1 },
+	ingredients: [
+		{
+			code: "tea",
+			validStacks: [
+				{ type: "item", code: "steepandbrew:tea-chickenofthewoods-hot", shapeElement: "bowl/water" },
+				{ type: "item", code: "steepandbrew:tea-chickenofthewoods-cold", shapeElement: "bowl/water" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+			typeName: "tea"
+		},
+		{
+			code: "honey",
+			validStacks: [
+				{ type: "item", code: "game:honeyportion", shapeElement: "bowl/water" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.5,
+			typeName: "honey"
+		}
+	]
+}

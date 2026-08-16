@@ -1,0 +1,11 @@
+[
+  {
+    "op": "replace",
+    "comment": "gem encrusted hat",
+    "path": "/0/ingredients/P/code",
+    "value": "game:gem-corundumruby-rough",
+    "file": "dressmakers:recipes/grid/clothing/all/head.json",
+    "dependsOn": [ { "modid": "geoaddons" } ],
+    "side": "Server"
+  }
+]

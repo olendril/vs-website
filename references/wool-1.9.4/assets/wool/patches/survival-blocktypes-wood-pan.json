@@ -1,0 +1,31 @@
+[
+  {
+    "op": "addeach",
+    "enabled": true,
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/-",
+    "comment": "Only one item can drop, so items earlier in the list drop more often...",
+    "value": [
+	{ "type": "item", "code": "wool:fibers-generic-brown",		"chance": { "avg": 0.035, "var": 0 } },
+	{ "type": "item", "code": "wool:fibers-generic-gray",		"chance": { "avg": 0.015, "var": 0 } },
+	{ "type": "item", "code": "wool:fibers-generic-black",		"chance": { "avg": 0.008, "var": 0 } },
+	{ "type": "item", "code": "wool:fibers-generic-redbrown",	"chance": { "avg": 0.006, "var": 0 } },
+	{ "type": "item", "code": "wool:fibers-generic-lightbrown",	"chance": { "avg": 0.006, "var": 0 } },
+	{ "type": "item", "code": "wool:fibers-generic-yellow",		"chance": { "avg": 0.005, "var": 0 } }
+    ],
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "enabled": true,
+    "path": "/attributes/panningDrops/@(sand|gravel|sandwavy)-.*/-",
+    "comment": "Only one item can drop, so items earlier in the list drop more often...",
+    "value": [
+	{ "type": "item", "code": "wool:fibers-generic-plain",	"chance": { "avg": 0.020, "var": 0 } },
+	{ "type": "item", "code": "wool:fibers-generic-gray",	"chance": { "avg": 0.010, "var": 0 } }
+    ],
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "chiseltools",
+  "name": "chiseltools",
+  "description": "Quentin's Chiseling Tools'",
+  "authors": [
+        "QPTech"
+    ],
+  "version": "1.17.4"
+  
+}

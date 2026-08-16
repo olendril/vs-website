@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addeach",
+    "path": "/selling/list/-",
+    "value": [
+	{ "code": "tailorsdelight:panel-hide-pelt", "type": "block", "stacksize": 4, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 4, "var": 0.5 } },
+	{ "code": "tailorsdelight:panel-leather-plain", "type": "block", "stacksize": 4, "stock": { "avg": 3, "var": 1 }, "price": { "avg": 6, "var": 0.5 } },
+	{ "code": "tailorsdelight:panel-leather-red", "type": "block", "stacksize": 3, "stock": { "avg": 4, "var": 1 }, "price": { "avg": 7, "var": 0.5 } },
+	{ "code": "tailorsdelight:panel-leather-purple", "type": "block", "stacksize": 3, "stock": { "avg": 4, "var": 1 }, "price": { "avg": 7, "var": 0.5 } },
+	{ "code": "tailorsdelight:panel-leather-orange", "type": "block", "stacksize": 3, "stock": { "avg": 4, "var": 1 }, "price": { "avg": 7, "var": 0.5 } },
+	{ "code": "tailorsdelight:panel-leather-white", "type": "block", "stacksize": 3, "stock": { "avg": 2, "var": 1 }, "price": { "avg": 8, "var": 0.5 } }
+    ],
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  }
+]

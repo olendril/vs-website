@@ -1,0 +1,9 @@
+{
+  "type": "Content",
+  "modid": "efchefstricks",
+  "name": "Expanded Foods: Chef's Tricks",
+  "authors": ["l33tmaan"],
+  "description": "Non-cooking things you can do with chef's tools that you may not expect.",
+  "version": "1.0.0-dev.3",
+  "dependencies": {"expandedfoods": "2.0.0-dev.12"}
+}

@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"backDropShape": "entity/land/slimcart",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"blanket": [16,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "ORIGIN",
+			"stepParentName": "Blanket",
+			"from": [ -10.5, 0.0, 0.0 ],
+			"to": [ -10.5, 1.0, 0.0 ],
+			"rotationOrigin": [ -10.5, 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"east": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"south": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"west": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+				"up": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#blanket", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "CartBlanket",
+					"from": [ 16.0, 0.0, 19.0 ],
+					"to": [ 38.0, 0.6, 67.0 ],
+					"rotationOrigin": [ 16.0, 0.0, 19.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#blanket", "uv": [ 2.5, 0.0, 12.5, 1.0 ], "autoUv": false },
+						"east": { "texture": "#blanket", "uv": [ 2.0, 0.0, 3.0, 23.5 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#blanket", "uv": [ 3.0, 22.5, 13.0, 23.5 ], "autoUv": false },
+						"west": { "texture": "#blanket", "uv": [ 13.0, 0.0, 14.0, 23.5 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#blanket", "uv": [ 3.0, 0.0, 13.0, 23.5 ], "autoUv": false },
+						"down": { "texture": "#blanket", "uv": [ 3.0, 0.0, 13.0, 23.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

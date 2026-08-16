@@ -1,0 +1,15 @@
+{
+    "type": "code",
+    "modid": "interestingme",
+    "name": "Interesting Mining & Extraction",
+    "authors": [
+      "Ross the Great",
+      "Lorecraft"
+    ],
+    "description": "Adds a mining minigame and encourages development and improvement of mining infrastructure!",
+    "version": "1.0.16",
+    "dependencies": {
+        "game": "",
+        "interestingoregen": ""
+    }
+}

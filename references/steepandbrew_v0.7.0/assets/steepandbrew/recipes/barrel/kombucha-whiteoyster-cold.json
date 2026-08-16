@@ -1,0 +1,9 @@
+{
+	code: "kombucha-whiteoyster-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-whiteoyster", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-whiteoyster-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-whiteoyster", litres: 10 }
+}

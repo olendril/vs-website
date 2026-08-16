@@ -1,0 +1,136 @@
+[
+	{
+		"code": "dye-white-borax",
+		"comment": "original white dye was 2:1 water:borax, dilutedborax is 5:2 (or 10:4) water:borax, so add 1 for 10L, making it 10:5 water:borax for the dye again",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 10 },
+			{ "type": "item", "code": "game:powder-borax", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 10 }
+	},
+
+	{
+		"code": "dye-white-tin",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-tin",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-tin",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cassiterite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+
+	{
+		"code": "dye-white-lead",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-whitelead", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-lead",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-whitelead", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-lead",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-whitelead", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+
+	{
+		"code": "dye-white-zinc",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-zincoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-zinc",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-zincoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-zinc",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-zincoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+
+	{
+		"code": "dye-white-magnesium",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-magnesiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-magnesium",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-magnesiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-magnesium",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-magnesiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+
+	{
+		"code": "dye-white-titaniumdioxide",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-titaniumdioxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-titaniumdioxide",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-titaniumdioxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	},
+	{
+		"code": "dye-white-titaniumdioxide",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-titaniumdioxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-white", "litres": 2 }
+	}
+]

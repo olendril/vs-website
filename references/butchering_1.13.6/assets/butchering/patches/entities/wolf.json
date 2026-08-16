@@ -1,0 +1,48 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-male": "butchering:deadwolf-male-{type}-1-dead",
+        "*-adult-female": "butchering:deadwolf-female-{type}-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/wolf-adult.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-male": "butchering:deadwolf-male-{type}-1-dead",
+        "*-adult-female": "butchering:deadwolf-female-{type}-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/wolf-adult.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butchering:deadwolf-baby-{type}-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/wolf-baby.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butchering:deadwolf-baby-{type}-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/wolf-baby.json"
+  }
+]

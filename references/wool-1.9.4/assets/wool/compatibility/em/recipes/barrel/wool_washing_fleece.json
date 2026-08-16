@@ -1,0 +1,81 @@
+[
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-plain", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-plain" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-brown", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-brown" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-redbrown", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-redbrown" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-lightbrown", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-lightbrown" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-black", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-black" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-gray", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-gray" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-white", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-white" }
+	},
+
+	{
+	"code": "washingfleece",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "em:dilutedkerniteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:fleece-*-yellow", "name": "type" }
+	],
+	"output": { "type": "item", "code": "wool:fibers-{type}-yellow" }
+	}
+]

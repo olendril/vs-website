@@ -1,0 +1,7 @@
+{
+"block-firepit-construct1": "Tinder/Firepit (In construction)",
+"item-firestarter": "Firestarter",
+"item-handbooktitle-firestarter": "Uses:",
+"item-handbooktext-firestarter": "Can be used to ignite a <a href=\"handbook://block-firepit-lit\">firepit</a>, among other things. A <a href=\"handbook://block-torch-basic-lit-up\">torch</a> works better though. To use it place <a href=\"handbook://item-drygrass\">dry grass</a> on the ground, ignite it and carry the hot tinder to the block you need to ignite.",
+"item-handbooktext-drygrass": "Construction of a <a href=\"handbook://block-firepit-cold\">firepit</a>. It's also used as tinder for the <a href=\"handbook://item-firestarter\">Firestarter</a>",
+}

@@ -1,0 +1,26 @@
+{
+	"shearlib:comment_ja_description":		"Japanese localization file for 'shearlib'.",
+	"shearlib:comment_ja_version":			"Mod Version: v1.1.1",
+	"shearlib:comment_ja_author":			"Translated By Macoto Hino",
+	"shearlib:comment_ja_details":			"Machine translation using PCOT and DeepL.",
+
+	"shearlib:shearable":				"<font color=\"tan\">刈り取りが可能で、{0}個の毛被(ひもう)の刈り取りが出来ます。</font>",
+	"shearlib:shearablefull":			"<font color=\"lightgreen\">刈り取りが可能で、{0}個の毛被(ひもう)の刈り取りが出来ます。</font>",
+	"shearlib:insufficientgen":			"<font color=\"tomato\">野生的過ぎて刈り取ることは難しく、{0}世代でなければなりません。</font>",
+
+	"shearlib:hoursuntilshearable":			"<font color=\"orange\">毛被(ひもう)が短すぎる為、刈り取り可能まで{0}時間。</font>",
+	"shearlib:daysuntilshearable":			"<font color=\"orange\">毛被(ひもう)が短すぎる為、刈り取り可能まで{0}日。</font>",
+
+	"shearlib:daysmaxwool":				"毛被(ひもう)が{1}個に完全に生え揃うまで{0}日掛かります。",
+	"shearlib:hoursmaxwool":			"毛被(ひもう)が{1}個に完全に生え揃うまで{0}時間掛かります。",
+
+	"shearlib:dayswaitmaxwool":			"更に{0}日待つと{1}個の毛被(ひもう)が収穫出来ます。",
+	"shearlib:hourswaitmaxwool":			"更に{0}時間待つと{1}個の毛被(ひもう)が収穫出来ます。",
+
+	"shearlib:shearsbonus":				"ナイフの代わりに鋏で刈り取ると、<font color=\"yellow\">刈り取りに＋{0}のボーナス</font>が付きます。",
+
+	"shearlib:animaltoowildclient":			"動物が野生的過ぎて、毛被(ひもう)を刈り取らせてくれません。毛被(ひもう)を刈り取りには、{0}世代である必要があります。",
+	"shearlib:animalinsufficientwoolclient":	"まだ刈り取りが可能なほど毛被(ひもう)が成長しておらず、刈り取りが可能になるには最低{0}個が必要です。",
+	"shearlib:dropnotfound":			"ShearLib： 剪断して得られる'{0}'が見付かりません。",
+	"shearlib:dropsecondnotfound":			"ShearLib: 剪断して得られる副産物'{0}'が見付かりません。"
+}

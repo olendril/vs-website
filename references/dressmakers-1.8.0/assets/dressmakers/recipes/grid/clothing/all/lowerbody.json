@@ -1,0 +1,265 @@
+[
+	{
+	"ingredientPattern": "GTG,GNG,B_B",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:cloth-gray" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-shepherd-pants" }
+	},
+
+	{
+	"ingredientPattern": "BGB,LNL",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"L": { "type": "item", "code": "game:cloth-blue" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"G": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-survivor" }
+	},
+
+	{
+	"ingredientPattern": "BTB,WSW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-gray" },
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-scribe" }
+	},
+
+	{
+	"name": "miner-pants",
+	"ingredientPattern": "BTB,GSG",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkbrown" },
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-miner" }
+	},
+
+	{
+	"name": "miner-pants",
+	"ingredientPattern": "BTB,GSG",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkbrown" },
+		"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 3 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-miner" }
+	},
+
+	{
+	"ingredientPattern": "YTY,WBW,_A_",
+	"comment": "barber surgeon pants",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 3 },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "brass", "copper" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-surgeon" }
+	},
+
+	{
+	"ingredientPattern": "WBW,RTR,LSL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-white", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:leatherbundle-darkred" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gold", "quantity": 5 },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-gold" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-king" }
+	},
+
+	{
+	"ingredientPattern": "RBR,WTW,WSW",
+	"comment": "deep noble leggings",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"R": { "type": "item", "code": "tailorsdelight:leatherbundle-red" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gold", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-gold" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-deep" }
+	},
+
+	{
+	"ingredientPattern": "BTB,BSB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-marketeer" }
+	},
+
+	{
+	"ingredientPattern": "RCR,RSR",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "tailorsdelight:leatherbundle-red" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-silver" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-squire-pants" }
+	},
+
+	{
+	"ingredientPattern": "PCP,RSR",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:cloth-purple", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-silver" },
+		"R": { "type": "item", "code": "tailorsdelight:twine-pink", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-noble-pants" }
+	},
+
+	{
+	"ingredientPattern": "PGP,WTW,WSW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-white" },
+		"P": { "type": "item", "code": "game:cloth-pink" },
+		"G": { "type": "item", "code": "tailorsdelight:cloth-darkgreen" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-lackey-breeches" }
+	},
+
+	{
+	"ingredientPattern": "BYB,GTG,GSG",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"B": { "type": "item", "code": "game:cloth-blue" },
+		"G": { "type": "item", "code": "game:cloth-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-prince-breeches" }
+	},
+
+	{
+	"ingredientPattern": "BGB,DND,_S_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-black" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"N": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "brass", "zinc", "copper" ] },
+		"G": { "type": "item", "code": "tailorsdelight:twine-green", "quantity": 3 },
+		"D": { "type": "item", "code": "tailorsdelight:cloth-darkgreen" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-merchant-pants" }
+	},
+
+	{
+	"ingredientPattern": "RCB,BSR,R_B",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "tailorsdelight:twine-red", "quantity": 3 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-blue", "quantity": 3 },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-brass" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-jailor-pants" }
+	},
+
+	{
+	"ingredientPattern": "_C_,BTB,RSR",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "game:cloth-red" },
+		"B": { "type": "item", "code": "tailorsdelight:checkeredcloth-blue" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black" },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-silver" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-messenger-trousers" }
+	},
+
+	{
+	"ingredientPattern": "LBO,WTW,WSW",
+	"comment": "deep noble leggings",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"O": { "type": "item", "code": "tailorsdelight:leatherbundle-orange" },
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gold", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-gold" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-aristocrat-leggings" }
+	},
+
+	{
+	"ingredientPattern": "GDG,BGB,_S_",
+	"comment": "brown-peasant-skirt",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:cloth-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-blue", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-lowerbody-skirt" }
+	}
+]

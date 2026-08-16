@@ -1,0 +1,9 @@
+{
+	code: "kombucha-libertycap-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-libertycap", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-libertycap-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-libertycap", litres: 10 }
+}

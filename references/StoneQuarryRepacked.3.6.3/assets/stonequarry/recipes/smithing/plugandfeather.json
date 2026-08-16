@@ -1,0 +1,21 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-*",
+    "name": "metal",
+    "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+  },
+  "pattern": [
+    [
+      "_#####",
+      "######"
+    ],
+    [
+      "_#####",
+      "######"
+    ]
+  ],
+  "name": "Splitter plug",
+  "code": "plugandfeather-{metal}",
+  "output": { "type": "block", "code": "plugandfeather-{metal}-0-down-north" }
+}

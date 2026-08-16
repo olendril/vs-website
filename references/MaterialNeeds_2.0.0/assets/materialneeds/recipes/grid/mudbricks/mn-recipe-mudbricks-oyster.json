@@ -1,0 +1,73 @@
+[
+	{
+		ingredientPattern: "G_G	FSB	GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2  },
+			"S": { type: "block", code: "game:gravel-*" },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2  },
+			"B": { type: "item", code: "game:clay-blue", quantity: 2  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "materialneeds:oystermudbrick-light", quantity: 4  }
+	},
+	{
+	ingredientPattern: "G_G	FLB	GSG",
+	enabled: true,
+	ingredients: {
+		"G": { type: "item", code: "game:drygrass", quantity: 2 },
+		"S": { type: "block", code: "game:gravel-*" },
+		"F": { type: "item", code: "game:clay-fire", quantity: 2  },
+		"B": { type: "item", code: "game:clay-blue", quantity: 2  },
+		"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+	},
+	name: "mudbrick",
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "materialneeds:oystermudbrick-dark", quantity: 4  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "G_G	BSF	GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2  },
+			"S": { type: "block", code: "game:gravel-*" },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2  },
+			"B": { type: "item", code: "game:clay-blue", quantity: 2  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "materialneeds:oystermudbrick-light", quantity: 4  }
+	},
+	{
+	ingredientPattern: "G_G	BLF	GSG",
+	enabled: true,
+	ingredients: {
+		"G": { type: "item", code: "game:drygrass", quantity: 2 },
+		"S": { type: "block", code: "game:gravel-*" },
+		"F": { type: "item", code: "game:clay-fire", quantity: 2  },
+		"B": { type: "item", code: "game:clay-blue", quantity: 2  },
+		"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+	},
+	name: "mudbrick",
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "materialneeds:oystermudbrick-dark", quantity: 4  }
+	},
+]

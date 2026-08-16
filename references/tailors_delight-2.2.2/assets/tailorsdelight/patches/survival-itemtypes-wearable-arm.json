@@ -1,0 +1,108 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviorsByType",
+    "value": {
+	"@.*-(copper|silver|bronze)-bracelet":
+		[
+		{ "name": "Wearable" },
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.12, "z2": 1 } } } ],
+	"*-bronze-armlet":
+		[ { "name": "Wearable" },
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.12, "z2": 1 } } } ],
+	"*-needlepuff":
+		[ { "name": "Wearable" },
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.12, "z2": 1 } } } ]
+    },
+    "file": "game:itemtypes/wearable/seraph/arm.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/shelvable",
+    "value": true,
+    "file": "game:itemtypes/wearable/seraph/arm.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/displaycaseable",
+    "value": true,
+    "file": "game:itemtypes/wearable/seraph/arm.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+	"*-merchant-bracelet": {
+		"translation": { "x": -0.1, "y": -0.77, "z": -0.32 }
+	},
+	"*-bronze-armlet": {
+		"translation": { "x": 0.77, "y": -0.47, "z": -0.2 },
+		"rotation": { "x": 0, "y": 0, "z": 88 },
+		"scale": 0.9
+	},
+	"*-silver-bracelet": {
+		"translation": { "x": 0.15, "y": -0.71, "z": -0.1 },
+		"rotation": { "x": 0, "y": 142, "z": 0 },
+		"scale": 0.9
+	},
+	"@.*-(copper|bronze)-bracelet": {
+		"translation": { "x": 0.15, "y": -0.688, "z": -0.15 },
+		"rotation": { "x": 0, "y": -43, "z": 0 },
+		"scale": 0.9
+	},
+	"*-needlepuff": {
+		"translation": { "x": 0, "y": -0.79, "z": -0.3 },
+		"rotation": { "x": 90, "y": 0, "z": 0 },
+		"scale": 0.92
+	}
+    },
+    "file": "game:itemtypes/wearable/seraph/arm.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransformByType",
+    "value": {
+	"*-bronze-armlet": {
+		"translation": { "x": 0.7, "y": -0.47, "z": -0.2 },
+		"rotation": { "x": 0, "y": 0, "z": 88 },
+		"scale": 0.84
+	},
+	"*-silver-bracelet": {
+		"translation": { "x": 0.15, "y": -0.71, "z": -0.1 },
+		"rotation": { "x": 0, "y": 142, "z": 0 },
+		"scale": 0.9
+	},
+	"@.*-(copper|bronze)-bracelet": {
+		"translation": { "x": 0.15, "y": -0.688, "z": -0.15 },
+		"rotation": { "x": 0, "y": -43, "z": 0 },
+		"scale": 0.9
+	},
+	"*-needlepuff": {
+		"translation": { "x": 0, "y": -0.79, "z": -0.3 },
+		"rotation": { "x": 90, "y": 0, "z": 0 },
+		"scale": 0.92
+	}
+    },
+    "file": "game:itemtypes/wearable/seraph/arm.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "add",
+    "path": "/attributes/onShelfTransformByType",
+    "value": {
+	"*-merchant-bracelet": {
+		"translation": { "x": -0.25, "y": -0.77, "z": -0.15 },
+		"rotation": { "x": 0, "y": 45, "z": 0 }
+	}
+    },
+    "file": "game:itemtypes/wearable/seraph/arm.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/bear-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/bear-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable/drops",
+    "enabled": true,
+    "value": [],
+    "file": "game:entities/animal/mammal/bear-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/behaviorConfigs/harvestable/drops/-",
+    "enabled": true,
+    "value": [
+	    { "type": "item", "code": "wool:fleece-generic-white",
+		"quantityByType": {
+			"bear-polar-adult-*": { "avg": 12, "var": 2 },
+			"bear-panda-adult-*": { "avg": 5, "var": 2 },
+			"*": { "avg": 0, "var": 0 } } },
+	    { "type": "item", "code": "wool:fleece-generic-redbrown",
+		"quantityByType": {
+			"bear-brown-adult-*": { "avg": 11, "var": 2.5 },
+			"*": { "avg": 0, "var": 0 } } },
+	    { "type": "item", "code": "wool:fleece-generic-black",
+		"quantityByType": {
+			"bear-black-adult-*": { "avg": 9, "var": 2 },
+			"bear-sun-adult-*": { "avg": 4, "var": 1 },
+			"bear-panda-adult-*": { "avg": 2, "var": 1 },
+			"*": { "avg": 0, "var": 0 } } }
+    ],
+    "file": "game:entities/animal/mammal/bear-adult.json",
+    "side": "Server"
+  }
+]

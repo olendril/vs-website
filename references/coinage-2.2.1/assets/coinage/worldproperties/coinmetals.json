@@ -1,0 +1,28 @@
+﻿{
+	"code": "metal",
+	"variants": [		
+		{ "code": "copper" },
+		{ "code": "brass" },
+		{ "code": "tinbronze" },
+		{ "code": "bismuthbronze" },
+		{ "code": "blackbronze" },
+		{ "code": "iron" },
+		{ "code": "meteoriciron" },
+		{ "code": "gold" },
+		{ "code": "lead" },
+		{ "code": "electrum" },
+		{ "code": "tin" },
+		{ "code": "chromium" },
+		{ "code": "platinum" },
+		{ "code": "zinc" },
+		{ "code": "silver" },
+		{ "code": "bismuth" },
+		{ "code": "molybdochalkos" },
+		{ "code": "nickel" },
+		{ "code": "cupronickel" },
+		{ "code": "uranium" },
+		{ "code": "titanium" },
+		{ "code": "steel" },
+		{ "code": "stainlesssteel" }
+	]
+}

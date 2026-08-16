@@ -1,0 +1,77 @@
+﻿[
+    {
+        "ingredientPattern": "H,F,I",
+        "name": "trussell",
+        "recipeGroup": 1,
+        "height": 3,
+        "width": 1,
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            },
+            "F": {
+                "type": "item",
+                "code": "game:firewood",
+                "quantity": 1
+            },
+            "I": {
+                "type": "item",
+                "code": "game:ingot-*",
+                "quantity": 1,
+                "name": "metal",
+                "allowedVariants": [
+                    "steel",
+                    "iron",
+                    "meteoriciron",
+                    "nickel",
+                    "cupronickel"
+                ]
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "coinage:trussell-{metal}"
+        }
+    },
+    {
+        "averageDurability": false,
+        "ingredientPattern": "H,C,T",
+        "name": "trussell-blank",
+        "recipeGroup": 2,
+        "height": 3,
+        "width": 1,
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 5,
+                "allowedVariants": [
+                    "blackbronze",
+                    "iron",
+                    "nickel",
+                    "meteoriciron",
+                    "steel"
+                ]
+            },
+            "T": {
+                "type": "item",
+                "code": "coinage:trussell-*",
+                "name": "metal"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "coinage:trussell-{metal}"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"_______######_",
+		"_############_",
+		"_______######_"
+	]],
+	name: "barkspudhead",
+	code: "barkspudhead-{metal}",
+	output: { type: "item", code: "barkspudhead-{metal}" }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "side": "Server",
+    "op": "remove",
+    "path": "/attributes/damageByType",
+    "file": "butchering:itemtypes/tool/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "remove",
+    "path": "/attributes/breakChanceOnImpactByType",
+    "file": "butchering:itemtypes/tool/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "remove",
+    "path": "/attributes/arrowEntityCodeByType",
+    "file": "butchering:itemtypes/tool/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/class",
+    "value": "Item",
+    "file": "butchering:itemtypes/tool/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "addmerge",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "CombatOverhaul:Projectile",
+      "properties": {
+        "stats": {
+          "AdditionalDurabilityCostByType": {
+            "*": 0
+          },
+          "CollisionRadius": 0.02,
+          "PenetrationDistance": 0.1,
+          "DamageStatsByType": {
+            "*": {
+              "DamageType": "PiercingAttack",
+              "Damage": 2
+            }
+          },
+          "DamageTierBonusByType": {
+            "*": 0
+          },
+          "SpeedThreshold": 0.3,
+          "Knockback": 0.5,
+          "EntityCode": "combatoverhaul:arrow-bone",
+          "HitSound": "game:sounds/player/projectilehit",
+          "DurabilityDamage": 0,
+          "DropChanceByType": {
+            "*": 0.80
+          }
+        }
+      }
+    },
+    "file": "butchering:itemtypes/tool/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:Projectile",
+    "file": "butchering:entities/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/client/behaviors/0",
+    "value": {
+      "code": "CombatOverhaul:ProjectilePhysics",
+      "groundDragFactor": 1,
+      "airDragFactor": 1,
+      "gravityFactor": 1
+    },
+    "file": "butchering:entities/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  },
+  {
+    "side": "Server",
+    "op": "replace",
+    "path": "/server/behaviors/0",
+    "value": {
+      "code": "CombatOverhaul:ProjectilePhysics",
+      "groundDragFactor": 1,
+      "airDragFactor": 1,
+      "gravityFactor": 1
+    },
+    "file": "butchering:entities/arrow.json",
+    "dependsOn": [ { "modid": "combatoverhaul" } ]
+  }
+]

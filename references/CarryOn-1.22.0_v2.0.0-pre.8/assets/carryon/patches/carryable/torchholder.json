@@ -1,0 +1,25 @@
+[
+	{
+		"file": "game:blocktypes/metal/torchholder",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.TorchHolder",
+				"transformGroups": {
+					"hands": [
+						{
+							"id": "root",
+							"glowIntensity": 0.86
+						}
+					]
+				},
+				"slots": {
+					"Hands": {}
+				}
+			}
+		}
+	}
+]

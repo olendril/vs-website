@@ -1,0 +1,37 @@
+[{
+	ingredientPattern: "P	H	W",
+	ingredients: {
+		"P": { type: "item", code: "chiseltools:pantograph-steel", quantity: 1 },
+		"H": { type: "item", code: "chiseltools:handplaner-steel", quantity: 1 },
+		"W": { type: "item", code: "chiseltools:handwedge-steel", quantity: 1 }
+	},
+	width: 3,
+	height: 1,
+	name: "Multigraph-Steel",
+	output: { type: "item", code: "chiseltools:megapantograph-steel"  }
+},
+{
+	ingredientPattern: "P	H	W",
+	ingredients: {
+		"P": { type: "item", code: "chiseltools:pantograph-iron", quantity: 1 },
+		"H": { type: "item", code: "chiseltools:handplaner-iron", quantity: 1 },
+		"W": { type: "item", code: "chiseltools:handwedge-iron", quantity: 1 }
+	},
+	width: 3,
+	height: 1,
+	name: "Multigraph-Iron",
+	output: { type: "item", code: "chiseltools:megapantograph-iron"  }
+},
+{
+	ingredientPattern: "P	H	W",
+	ingredients: {
+		"P": { type: "item", code: "chiseltools:pantograph-meteoriciron", quantity: 1 },
+		"H": { type: "item", code: "chiseltools:handplaner-meteoriciron", quantity: 1 },
+		"W": { type: "item", code: "chiseltools:handwedge-meteoriciron", quantity: 1 }
+	},
+	width: 3,
+	height: 1,
+	name: "Multigraph-meteoric",
+	output: { type: "item", code: "chiseltools:megapantograph-meteoriciron"  }
+}
+]

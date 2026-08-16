@@ -1,0 +1,40 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType",
+    "value": {
+      "*-9": [
+        {
+          "type": "item",
+          "code": "artofgrowing:grainbundle-rye-wet",
+          "quantity": {
+            "avg": 12,
+            "var": 1
+          }
+        }
+      ],
+      "*": [
+        {
+          "type": "item",
+          "code": "thatch",
+          "quantity": { "avg": 0.7 }
+        }
+      ]
+    },
+    "file": "game:blocktypes/plant/crop/rye.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aogbreedingaddon",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/class",
+    "value": "AOGBlockCrop",
+    "file": "game:blocktypes/plant/crop/rye.json",
+    "side": "Server"
+  }
+]

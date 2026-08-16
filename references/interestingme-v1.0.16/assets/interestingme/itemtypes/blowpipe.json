@@ -1,0 +1,26 @@
+{
+  code: "blowpipe",
+  class: "ItemHandDrill",
+  maxstacksize: 1,
+  shape: { base: "interestingme:item/tool/blowpipe" },
+  tool: "hammer",
+  textures: {
+    material: { base: "game:block/metal/sheet/copper1" }
+  },
+  creativeinventory: { "general": ["*"], "items": ["*"] },
+  attributes: {
+    toolrackTransform: {
+      translation: { x: -0.4, y: 0.5, z: 0 },
+      rotation: { x: 0, y: 90, z: 0 }
+    }
+  },
+  guiTransform: {
+    rotation: { x: -80, y: 22, z: -20 },
+    scale: 1.4
+  },
+  tpHandTransform: {
+    translation: { x: 0, y: 0, z: -0.5 },
+    rotation: { x: 0, y: -90, z: 0 },
+    scale: 1
+  }
+}

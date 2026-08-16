@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/D/allowedVariants",
+    "comment": "disallow malachite clay and porcelain, as they have no raw clay bricks",
+    "value": [ "fire", "blue", "red" ],
+    "file": "game:recipes/grid/rawbrick.json",
+    "side": "Server"
+  }
+]

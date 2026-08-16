@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "K,A,B",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"B": { "type": "item", "code": "butchering:strongbone" }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:needle-bone", "quantity": 3 }
+	}
+]

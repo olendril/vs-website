@@ -1,0 +1,22 @@
+{
+  "code": "pipesection-{metal}",
+  "ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "lead"] },
+  "pattern": [[
+    "#######",
+    "#######",
+    "#######",
+    "#######"
+    ], [
+    "#######",
+    "_______",
+    "_______",
+    "_______"
+  ], [
+    "#######",
+    "_______",
+    "_______",
+    "_______"
+  ]],
+  "name": "pipe",
+  "output": { "type": "item", "code": "hydrateordiedrate:pipesection-{metal}"  }
+}

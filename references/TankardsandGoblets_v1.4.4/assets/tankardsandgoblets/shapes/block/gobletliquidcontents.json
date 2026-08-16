@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bottom": [16,16],
+		"sides": [16,16],
+		"inner side": [16,16],
+		"iron1": [16,16],
+		"gold": [16,16],
+		"meteoriciron": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "GobletLiquidContents",
+			"from": [ 7.2, 2.8, 7.2 ],
+			"to": [ 8.8, 2.8, 8.8 ],
+			"rotationOrigin": [ 7.2, 2.8, 7.2 ],
+			"faces": {
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+			}
+		}
+	]}

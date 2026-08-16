@@ -1,0 +1,33 @@
+[
+	{
+	"name": "nadiyan-alchemist-capelet",
+	"ingredientPattern": "GNG,BCB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkbrown", "quantity": 2 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-shoulder-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-alchemist-capelet",
+	"ingredientPattern": "GNG,BCB",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkbrown", "quantity": 3 }
+	},
+	"recipeGroup": 7,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-shoulder-alchemist" }
+	}
+]

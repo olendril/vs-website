@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingProps",
+    "value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-coal", "stacksize": 1 }, "hardnessTier": 1 },
+    "file": "game:itemtypes/resource/charcoal.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/warmthByType/*-wool-lined-knee-high-boots",
+    "value": 2,
+    "file": "game:itemtypes/wearable/seraph/foot.json",
+    "side": "Server"
+  }
+]

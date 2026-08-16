@@ -1,0 +1,18 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "lead", "platinum"] },
+	pattern: [[
+		"###_",
+		"####",
+		"###_",
+	],[
+		"###_",
+		"#_##",
+		"###_",
+	],[
+		"###_",
+		"#_##",
+		"###_",
+	]],
+	code: "tankard-metal-{metal}",
+	output: { type: "block", code: "tankard-metal-{metal}", quantity: 1}
+}

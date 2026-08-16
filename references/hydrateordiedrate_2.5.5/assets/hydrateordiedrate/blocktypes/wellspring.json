@@ -1,0 +1,57 @@
+﻿{
+  "code": "wellspring",
+  "class": "HoD:BlockWellSpring",
+  "entityclass": "HoD:BlockEntityWellSpring",
+  "storageFlags": 5,
+  "attributes": {
+    "WellWaterBlock": "wellwater-fresh-clean-natural-still-7",
+    "handbook": {
+      "extraSections": [
+        {
+          "title": "handbook-item-sources",
+          "text": "Can be created with the aquifer mode of the shovel or pickaxe."
+        }
+      ]
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "terrain": [
+      "*"
+    ],
+    "construction": [
+      "*"
+    ]
+  },
+  "shape": {
+    "base": "hydrateordiedrate:block/wellspring"
+  },
+  "textures": {
+    "all": { "base": "game:block/soil/fertmedium" },
+    "stoney1": { "base": "game:block/stone/dirtygravel/wet/stoney1" },
+    "waterportiontransparent": { "base": "hydrateordiedrate:waterportiontransparent" }
+  },
+  "drops": [],
+  "replaceable": 90,
+  "FaceCullMode": "NeverCull",
+  "sideAo": { "all": false },
+  "resistance": 8,
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldRightReadyAnimation": "heldblockready",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.23,
+      "y": -0.91,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": -2,
+      "y": 25,
+      "z": -78
+    },
+    "scale": 0.4
+  }
+}

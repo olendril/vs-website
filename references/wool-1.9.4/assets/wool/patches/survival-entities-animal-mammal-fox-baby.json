@@ -1,0 +1,40 @@
+[
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/fox-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/fox-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable/drops",
+    "enabled": true,
+    "value": [],
+    "file": "game:entities/animal/mammal/fox-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/behaviorConfigs/harvestable/drops/-",
+    "enabled": true,
+    "value": [ { "type": "item", "code": "wool:fleece-generic-white", "quantityByType": { "fox-arctic-baby-*": { "avg": 1, "var": 1 }, "*": { "avg": 0 } } } ],
+    "file": "game:entities/animal/mammal/fox-baby.json",
+    "side": "Server"
+  }
+]

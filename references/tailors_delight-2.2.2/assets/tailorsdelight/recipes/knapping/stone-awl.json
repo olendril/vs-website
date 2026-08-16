@@ -1,0 +1,17 @@
+{
+	"ingredient": { "type": "item", "code": "game:stone-obsidian" },
+	"pattern": [[
+		"__________",
+		"_____#____",
+		"_____#____",
+		"_____#____",
+		"____##____",
+		"____##____",
+		"____##____",
+		"____##____",
+		"____##____",
+		"__________"
+	]],
+	"name": "Obsidian awl",
+	"output": { "type": "item", "code": "tailorsdelight:awl-obsidian", "stacksize": 1  }
+}

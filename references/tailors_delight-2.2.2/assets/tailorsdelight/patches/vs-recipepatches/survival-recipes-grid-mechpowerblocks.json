@@ -1,0 +1,9 @@
+[
+  { "op": "replace", "enabled": true, "comment": "sails", "path": "/8/ingredientPattern", "value": "TBS,BSL,SLN", "file": "game:recipes/grid/mechpowerblocks.json", "side": "Server" },
+  { "op": "add", "enabled": true, "path": "/8/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "game:recipes/grid/mechpowerblocks.json", "side": "Server" },
+  { "op": "add", "enabled": true, "path": "/8/ingredients/T", "value": { "type": "item", "code": "game:flaxtwine" }, "file": "game:recipes/grid/mechpowerblocks.json", "side": "Server" },
+
+  { "op": "replace", "enabled": true, "comment": "sails", "path": "/9/ingredientPattern", "value": "TBS,BSL,SLN", "file": "game:recipes/grid/mechpowerblocks.json", "side": "Server" },
+  { "op": "add", "enabled": true, "path": "/9/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "game:recipes/grid/mechpowerblocks.json", "side": "Server" },
+  { "op": "add", "enabled": true, "path": "/9/ingredients/T", "value": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }, "file": "game:recipes/grid/mechpowerblocks.json", "side": "Server" }
+]

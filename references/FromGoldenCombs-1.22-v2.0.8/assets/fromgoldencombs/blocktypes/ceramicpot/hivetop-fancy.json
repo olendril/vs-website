@@ -1,0 +1,78 @@
+{
+  "code": "hivetop",
+  "class": "hivetop",
+  "heldTpIdleAnimation": "holdbothhands",
+  maxstacksize: 1,
+  "behaviorsByType": {
+    "*-raw": [
+      { name: "GroundStorable", properties: { layout: 'SingleCenter', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } },
+      {
+        "name": "Unplaceable",
+        "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility, must be used to permit pitkilning"
+      }
+    ],
+    "*": [ 
+      { "name": "Unstable" },
+      { "name": "RightClickPickup" } 
+    ]
+  },
+  "attributes": {
+    "handbook": {
+      "extraSections": [
+        {
+          "title": "fromgoldencombs:block-handbooktitle-hivetop",
+          "text": "fromgoldencombs:block-handbooktext-hivetop"
+        }
+      ]
+    }
+  },
+  "textures": {
+    "pattern1": { "base": "game:block/clay/vessel/sides/{color}" },
+    "pattern2": { "base": "game:block/clay/vessel/top/{color}" },
+    "pattern3": { "base": "game:block/clay/vessel/inside/{color}" }
+  },
+  "variantgroups": [
+		{ "code": "color", "states": [ "ashforest", "chthonic", "copper", 
+																	 "earthen", "rain", "cowrie", "rime", "oxblood", "loam", "undergrowth", "beehive", 
+																	  "harvest", "honeydew", "rutile", "seasalt", "springflowers", "volcanic", "cloisonne", 
+																	 "cornflower", "talik", "caveaurora", "collonade", "rattlesnake", "waves", "wintersea" ]},
+		{ "code": "type", "states": [ "fired", "harvestable"] }
+	],
+  "shapebytype": {
+    "*-fired": { "base": "block/hive/ceramic/hivetop-special-empty"},
+    "*-harvestable": { "base": "block/hive/ceramic/hivetop-special-harvestable" }
+  },
+  lightAbsorption: 0,
+  "blockmaterial": "Ceramic",
+  "sounds": {
+    "place": "game:block/planks"
+  },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  tpHandTransform: {
+		translation: { x: -1.15, y: -0.5, z: -0.7 },
+		rotation: { x: 34, y: 13, z: -84 },
+		origin: { x: 0.5, y: 0.2, z: 0.5 },
+		scale: 0.5899
+	},
+  guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.86
+	},
+  groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	},
+  "collisionboxes": [
+    { "x1": 0.3125,  "y1": 0, "z1": 0.3125,  "x2": 0.6875,  "y2": 0.0625, "z2": 0.6875 },
+    { "x1": 0.25,  "y1": 0.0625, "z1": 0.25,  "x2": 0.75,  "y2": 0.3125, "z2": 0.75 },
+    { "x1": 0.3125,  "y1": 0.3125, "z1": 0.3125,  "x2": 0.6875,  "y2": 0.375, "z2": 0.6875 }
+    ],
+    "selectionboxes": [
+    { "x1": 0.3125,  "y1": 0, "z1": 0.3125,  "x2": 0.6875,  "y2": 0.0625, "z2": 0.6875 },
+    { "x1": 0.25,  "y1": 0.0625, "z1": 0.25,  "x2": 0.75,  "y2": 0.3125, "z2": 0.75 },
+    { "x1": 0.3125,  "y1": 0.3125, "z1": 0.3125,  "x2": 0.6875,  "y2": 0.375, "z2": 0.6875 }
+  ]
+}

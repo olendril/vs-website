@@ -1,0 +1,270 @@
+{
+	code: "coffeebush",
+	class: "BlockRequireFertileGround",
+	behaviors: [
+		{ name: "FruitingBush" },
+		{ name: "BlockEntityInteract" },
+		{ name: "Unstable" }
+	],
+	entityClassByType: {
+		"coffeebush-wild-*": "WildFruitingBush",
+		"*": "Generic"
+	},
+	entityBehaviors: [
+		{ name: "FruitingBush" },
+		{ name: "FruitingBushMesh" }
+	],
+	variantgroups: [
+		{ code: "state", states: ["wild", "grown"] },
+		{ code: "type", states: ["coffee"] },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		foodTags: ["coffeeBush"],
+		forageStatAffectedByType: {
+			"*-wild-*": true,
+			"*": false
+		},
+		textureVariantsByType: {
+			"*": 3
+		},
+		cuttingBlockCode: "coffeecutting-{type}-free",
+		growthProperties: {
+			pauseGrowthBelowTemperature: 4,
+			pauseGrowthAboveTemperature: 30,
+			resetGrowthBelowTemperature: -3,
+			resetGrowthAboveTemperature: 38,
+			goDormantBelowTemperatureByType: {
+				"*": -5
+			},
+			leaveDormantAboveTemperatureByType: {
+				"*": 15
+			},
+			nutrientUseByHealthStateByType: {
+				"*": {
+					"bountiful": { n: 10, p: 10, k: 10 },
+					"healthy": { n: 7, p: 7, k: 7 },
+					"struggling": { n: 4, p: 4, k: 4 },
+					"barren": { n: 1, p: 1, k: 1 }
+				}
+			},
+			youngStageMonths: { avg: 3, var: 1 },
+			emptyStageMonths: { avg: 1, var: 0.1 },
+			floweringStageMonths: { avg: 0.5, var: 0.1 },
+			ripeningStageMonths: { avg: 1, var: 0.1 },
+			ripeStageMonths: { avg: 1, var: 0.1 }
+		},
+		harvestedStacksByType: {
+			"*": [{ type: "item", code: "steepandbrew:coffee-green", quantity: { avg: 5.5 } }]
+		},
+		textureMappingByType: {
+			"*": {
+				"leavescenter1": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter1",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter2" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter3" }
+					]
+				},
+				"leavescenter2": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter2",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter3" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter1" }
+					]
+				},
+				"leavescenter3": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter3",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter1" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter2" }
+					]
+				},
+				"leavesinside1": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside1",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside2" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside3" }
+					]
+				},
+				"leavesinside2": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside2",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside3" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside1" }
+					]
+				},
+				"leavesinside3": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside3",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside1" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavesinside2" }
+					]
+				},
+				"steminside1": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside1",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside2" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside3" }
+					]
+				},
+				"steminside2": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside2",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside3" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside1" }
+					]
+				},
+				"steminside3": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside3",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside1" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/steminside2" }
+					]
+				},
+				"stemcenter1": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter1",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter2" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter3" }
+					]
+				},
+				"stemcenter2": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter2",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter3" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter1" }
+					]
+				},
+				"stemcenter3": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter3",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter1" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/stem/stemcenter2" }
+					]
+				},
+				"flowerberryinside1": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside1",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside2" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside3" }
+					]
+				},
+				"flowerberryinside2": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside2",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside3" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside1" }
+					]
+				},
+				"flowerberryinside3": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside3",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside1" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}inside2" }
+					]
+				},
+				"flowerberrycenter1": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center1",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center2" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center3" }
+					]
+				},
+				"flowerberrycenter2": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center2",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center3" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center1" }
+					]
+				},
+				"flowerberrycenter3": {
+					base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center3",
+					alternates: [
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center1" },
+						{ base: "steepandbrew:block/plant/coffeebush/{type}/berries/{healthstate}/{berrystage}center2" }
+					]
+				}
+			}
+		},
+		youngTextureMappingByType: {
+			"*": {
+				north1: { base: "steepandbrew:block/plant/coffeebush/young/{type}-stem1" },
+				south1: { base: "steepandbrew:block/plant/coffeebush/young/{type}-stem2" },
+				northTinted1: { base: "steepandbrew:block/plant/coffeebush/young/{type}-leaves1" },
+				southTinted1: { base: "steepandbrew:block/plant/coffeebush/young/{type}-leaves2" }
+			}
+		},
+		youngShape: { base: "game:block/plant/flower/1patch-cross-16x16" },
+		reinforcable: true,
+		overrideRandomDrawOffset: 14,
+		allowOverlays: false
+	},
+	shapeByType: {
+		"*": {
+			base: "game:block/plant/berrybush/berrybush-medium*",
+			selectiveElements: [ "Stem/*", "Leaves/*" ],
+			alternates: [
+				{ rotateY: 10 },
+				{ rotateY: 70 },
+				{ rotateY: 130 },
+				{ rotateY: 190 },
+				{ rotateY: 250 },
+				{ rotateY: 310 }
+			]
+		}
+	},
+	texturesByType: {
+		"*": {
+			"particle": { base: "steepandbrew:block/plant/coffeebush/{type}/leaves/leavescenter1" }
+		}
+	},
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	blockmaterialByType: {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	faceCullModeByType: {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	climateColorMap: "climatePlantTint",
+	seasonColorMapByType: {
+		"*": "seasonalOak"
+	},
+	particlesTextureCode: "particle",
+	creativeinventory: { "general": [ "*-free" ], "flora": [ "*-free" ] },
+	randomizeRotations: true,
+	renderpass: "OpaqueNoCull",
+	renderAlphaTest: 0.4,
+	blockmaterial: "Plant",
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: { all: false },
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 },
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+		inside: "game:walk/inside/leafy/bushrustle*"
+	},
+	rainPermeable: false,
+	drops: [
+		{ type: "item", code: "game:plantdebris-leafy", quantity: { avg: 3 } }
+	],
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	}
+}

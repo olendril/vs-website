@@ -1,0 +1,32 @@
+[
+  {
+    "ingredientPattern": "P_P,_S_,P_P",
+    "ingredients": {
+      "P": { "type": "item", "code": "*:plank-*" },
+      "S": { "type": "block", "code": "foodshelves:pieshelf-normal-east" }
+    },
+    "width": 3, "height": 3, "recipeGroup": 1,
+    "copyAttributesFrom": "S",
+    "output": { "type": "block", "code": "seedshelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "ST",
+    "ingredients": {
+      "S": { "type": "block", "code": "foodshelves:seedshelf-normal-east" },
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "width": 2, "height": 1, "recipeGroup": 1, "shapeless": true,
+    "copyAttributesFrom": "S",
+    "output": { "type": "block", "code": "seedshelf-short-east", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "ST",
+    "ingredients": {
+      "S": { "type": "block", "code": "foodshelves:seedshelf-short-east" },
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "width": 2, "height": 1, "recipeGroup": 2, "shapeless": true,
+    "copyAttributesFrom": "S",
+    "output": { "type": "block", "code": "seedshelf-veryshort-east", "quantity": 2 }
+  }
+]

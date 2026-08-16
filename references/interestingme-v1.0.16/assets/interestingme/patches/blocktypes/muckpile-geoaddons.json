@@ -1,0 +1,137 @@
+[
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "azurite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "cerussite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "chalcocite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "chalcopyrite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "franckeite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "freibergite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "hemimorphite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "nativeplatinum"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "pyrite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "smithsonite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "sperrylite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "teallite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "tetrahedrite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "vanadinite"
+  },
+  {
+    "file": "interestingme:blocktypes/muckpile.json",
+    "op": "add",
+    "dependsOn": [
+      { "modid": "geoaddons" }
+    ],
+    "path": "/variantgroups/2/states/-",
+    "value": "wulfenite"
+  }
+]

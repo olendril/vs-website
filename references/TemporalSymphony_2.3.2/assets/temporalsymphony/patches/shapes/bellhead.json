@@ -1,0 +1,1217 @@
+[
+  {
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+      "name": "Headbangbell",
+      "code": "headbangbell",
+      "quantityframes": 31,
+      "onActivityStopped": "Rewind",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "TorsoUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Neck": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Shoulder": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L LegUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R LegUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Shoulder": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wrap7": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            }
+          }
+        },
+        {
+          "frame": 2,
+          "elements": {
+            "L Shoulder": {
+              "rotationX": -8.0,
+              "rotationY": -1.0,
+              "rotationZ": 6.0
+            },
+            "R Shoulder": {
+              "rotationX": 8.0,
+              "rotationY": 1.0,
+              "rotationZ": 6.0
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "elements": {
+            "L Thigh": {
+              "rotationX": -4.0,
+              "rotationY": -8.0,
+              "rotationZ": 17.0
+            },
+            "L LegLow": {
+              "rotationX": 12.0,
+              "rotationY": 9.0,
+              "rotationZ": -24.0
+            },
+            "L LegUp": {
+              "rotationX": -1.0,
+              "rotationY": 0.0,
+              "rotationZ": 24.0
+            },
+            "L Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -4.0
+            },
+            "L Shoulder": {
+              "rotationX": -16.0,
+              "rotationY": -5.0,
+              "rotationZ": 12.0
+            },
+            "R Thigh": {
+              "rotationX": 4.0,
+              "rotationY": 8.0,
+              "rotationZ": 17.0
+            },
+            "R LegLow": {
+              "rotationX": -12.0,
+              "rotationY": -9.0,
+              "rotationZ": -24.0
+            },
+            "R LegUp": {
+              "rotationX": 1.0,
+              "rotationY": 0.0,
+              "rotationZ": 24.0
+            },
+            "R Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -4.0
+            },
+            "R Shoulder": {
+              "rotationX": 16.0,
+              "rotationY": 5.0,
+              "rotationZ": 12.0
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "elements": {
+            "L Thigh": {
+              "rotationX": -5.0,
+              "rotationY": -9.0,
+              "rotationZ": 29.0
+            },
+            "L LegUp": {
+              "rotationX": -3.0,
+              "rotationY": 0.0,
+              "rotationZ": 31.0
+            },
+            "L Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -8.0
+            },
+            "L ArmLow": {
+              "rotationX": -27.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Shoulder": {
+              "offsetX": 0.9,
+              "offsetY": -0.5,
+              "offsetZ": 1.0,
+              "rotationX": -20.0,
+              "rotationY": -7.0,
+              "rotationZ": 16.0
+            },
+            "L LegLow": {
+              "rotationX": 15.0,
+              "rotationY": 12.0,
+              "rotationZ": -36.0
+            },
+            "L Hand": {
+              "rotationX": 1.0,
+              "rotationY": 16.0,
+              "rotationZ": -18.0
+            },
+            "R Thigh": {
+              "rotationX": 5.0,
+              "rotationY": 9.0,
+              "rotationZ": 29.0
+            },
+            "R LegUp": {
+              "rotationX": 3.0,
+              "rotationY": 0.0,
+              "rotationZ": 31.0
+            },
+            "R Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -8.0
+            },
+            "R ArmLow": {
+              "rotationX": 27.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Shoulder": {
+              "offsetX": 0.9,
+              "offsetY": -0.5,
+              "offsetZ": -1.0,
+              "rotationX": 20.0,
+              "rotationY": 7.0,
+              "rotationZ": 16.0
+            },
+            "R LegLow": {
+              "rotationX": -15.0,
+              "rotationY": -12.0,
+              "rotationZ": -36.0
+            },
+            "R Hand": {
+              "rotationX": -1.0,
+              "rotationY": -16.0,
+              "rotationZ": -18.0
+            }
+          }
+        },
+        {
+          "frame": 8,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": -0.4,
+              "offsetY": -6.5,
+              "offsetZ": 0.0
+            },
+            "L Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 3.0,
+              "rotationZ": 40.0
+            },
+            "L LegUp": {
+              "rotationX": 10.0,
+              "rotationY": -7.0,
+              "rotationZ": 57.0
+            },
+            "L Toes": {
+              "rotationX": -13.0,
+              "rotationY": 0.0,
+              "rotationZ": -28.0
+            },
+            "L LegLow": {
+              "rotationX": 24.0,
+              "rotationY": 13.0,
+              "rotationZ": -41.0
+            },
+            "L Shoulder": {
+              "rotationX": -32.0,
+              "rotationY": -8.0,
+              "rotationZ": 28.0
+            },
+            "L Hand": {
+              "rotationX": -5.0,
+              "rotationY": 18.0,
+              "rotationZ": -19.0
+            },
+            "R Thigh": {
+              "rotationX": 0.0,
+              "rotationY": -3.0,
+              "rotationZ": 40.0
+            },
+            "R LegUp": {
+              "rotationX": -10.0,
+              "rotationY": 7.0,
+              "rotationZ": 57.0
+            },
+            "R Toes": {
+              "rotationX": 13.0,
+              "rotationY": 0.0,
+              "rotationZ": -28.0
+            },
+            "R LegLow": {
+              "rotationX": -24.0,
+              "rotationY": -13.0,
+              "rotationZ": -41.0
+            },
+            "R Shoulder": {
+              "rotationX": 32.0,
+              "rotationY": 8.0,
+              "rotationZ": 28.0
+            },
+            "R Hand": {
+              "rotationX": 5.0,
+              "rotationY": -18.0,
+              "rotationZ": -19.0
+            }
+          }
+        },
+        {
+          "frame": 10,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": 0.0,
+              "offsetY": -8.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -23.0
+            },
+            "TorsoUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -22.0
+            },
+            "Neck": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -19.0
+            },
+            "L Shoulder": {
+              "offsetX": 0.5,
+              "offsetY": 0.0,
+              "offsetZ": 0.5,
+              "rotationX": -40.0,
+              "rotationY": -12.0,
+              "rotationZ": 35.0
+            },
+            "L ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmLow": {
+              "rotationX": -28.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -7.0,
+              "rotationY": 23.0,
+              "rotationZ": -19.0
+            },
+            "L Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 41.0
+            },
+            "L LegUp": {
+              "rotationX": -6.0,
+              "rotationY": 11.0,
+              "rotationZ": 62.0
+            },
+            "L LegLow": {
+              "rotationX": 22.0,
+              "rotationY": 3.0,
+              "rotationZ": -13.0
+            },
+            "L Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -49.0
+            },
+            "R Shoulder": {
+              "offsetX": 0.5,
+              "offsetY": 0.0,
+              "offsetZ": -0.5,
+              "rotationX": 40.0,
+              "rotationY": 12.0,
+              "rotationZ": 35.0
+            },
+            "R ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmLow": {
+              "rotationX": 28.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 7.0,
+              "rotationY": -23.0,
+              "rotationZ": -19.0
+            },
+            "R Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 41.0
+            },
+            "R LegUp": {
+              "rotationX": 6.0,
+              "rotationY": -11.0,
+              "rotationZ": 62.0
+            },
+            "R LegLow": {
+              "rotationX": -22.0,
+              "rotationY": -3.0,
+              "rotationZ": -13.0
+            },
+            "R Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -49.0
+            },
+            "Wrap7": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 18.0
+            }
+          }
+        },
+        {
+          "frame": 13,
+          "elements": {
+            "L LegUp": {
+              "rotationX": -18.0,
+              "rotationY": 14.0,
+              "rotationZ": 54.0
+            },
+            "L LegLow": {
+              "rotationX": 14.0,
+              "rotationY": 0.0,
+              "rotationZ": -20.0
+            },
+            "L Toes": {
+              "rotationX": 14.0,
+              "rotationY": -1.0,
+              "rotationZ": -43.0
+            },
+            "L ArmLow": {
+              "rotationX": 25.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -36.0,
+              "rotationY": 9.0,
+              "rotationZ": -12.0
+            },
+            "R LegUp": {
+              "rotationX": 18.0,
+              "rotationY": -14.0,
+              "rotationZ": 54.0
+            },
+            "R LegLow": {
+              "rotationX": -14.0,
+              "rotationY": 0.0,
+              "rotationZ": -20.0
+            },
+            "R Toes": {
+              "rotationX": -14.0,
+              "rotationY": 1.0,
+              "rotationZ": -43.0
+            },
+            "R ArmLow": {
+              "rotationX": -25.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 36.0,
+              "rotationY": -9.0,
+              "rotationZ": -12.0
+            },
+            "Neck": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -38.0
+            }
+          }
+        },
+        {
+          "frame": 15,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": -7.5,
+              "offsetY": -4.6,
+              "offsetZ": 0.0
+            },
+            "L Thigh": {
+              "rotationX": 8.0,
+              "rotationY": 8.0,
+              "rotationZ": 34.0
+            },
+            "L LegUp": {
+              "rotationX": -26.0,
+              "rotationY": 16.0,
+              "rotationZ": 53.0
+            },
+            "L Toes": {
+              "rotationX": 12.0,
+              "rotationY": -2.0,
+              "rotationZ": -44.0
+            },
+            "L Shoulder": {
+              "offsetX": 1.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.8,
+              "rotationX": -58.0,
+              "rotationY": 18.0,
+              "rotationZ": 8.0
+            },
+            "L ArmLow": {
+              "rotationX": 54.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -51.0,
+              "rotationY": 0.0,
+              "rotationZ": -15.0
+            },
+            "L LegLow": {
+              "rotationX": 10.0,
+              "rotationY": -3.0,
+              "rotationZ": -20.0
+            },
+            "R Thigh": {
+              "rotationX": -8.0,
+              "rotationY": -8.0,
+              "rotationZ": 34.0
+            },
+            "R LegUp": {
+              "rotationX": 26.0,
+              "rotationY": -16.0,
+              "rotationZ": 53.0
+            },
+            "R Toes": {
+              "rotationX": -12.0,
+              "rotationY": 2.0,
+              "rotationZ": -44.0
+            },
+            "R Shoulder": {
+              "offsetX": 1.0,
+              "offsetY": 0.0,
+              "offsetZ": -0.8,
+              "rotationX": 58.0,
+              "rotationY": -18.0,
+              "rotationZ": 8.0
+            },
+            "R ArmLow": {
+              "rotationX": -54.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 51.0,
+              "rotationY": 0.0,
+              "rotationZ": -15.0
+            },
+            "R LegLow": {
+              "rotationX": -10.0,
+              "rotationY": 3.0,
+              "rotationZ": -20.0
+            },
+            "Neck": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -7.0
+            }
+          }
+        },
+        {
+          "frame": 18,
+          "elements": {
+            "L Shoulder": {
+              "rotationX": -47.0,
+              "rotationY": 26.0,
+              "rotationZ": 12.0
+            },
+            "L ArmLow": {
+              "rotationX": 66.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -52.0,
+              "rotationY": -18.0,
+              "rotationZ": -27.0
+            },
+            "L LegUp": {
+              "rotationX": -41.0,
+              "rotationY": 10.0,
+              "rotationZ": 18.0
+            },
+            "L LegLow": {
+              "rotationX": 4.0,
+              "rotationY": -1.0,
+              "rotationZ": -15.0
+            },
+            "L Toes": {
+              "rotationX": 19.0,
+              "rotationY": -3.0,
+              "rotationZ": -36.0
+            },
+            "R Shoulder": {
+              "rotationX": 47.0,
+              "rotationY": -26.0,
+              "rotationZ": 12.0
+            },
+            "R ArmLow": {
+              "rotationX": -66.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 52.0,
+              "rotationY": 18.0,
+              "rotationZ": -27.0
+            },
+            "R LegUp": {
+              "rotationX": 41.0,
+              "rotationY": -10.0,
+              "rotationZ": 18.0
+            },
+            "R LegLow": {
+              "rotationX": -4.0,
+              "rotationY": 1.0,
+              "rotationZ": -15.0
+            },
+            "R Toes": {
+              "rotationX": -19.0,
+              "rotationY": 3.0,
+              "rotationZ": -36.0
+            },
+            "Neck": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 14.0
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": -15.0,
+              "offsetY": 8.8,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 33.0
+            },
+            "TorsoUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -4.0
+            },
+            "Neck": {
+              "offsetX": 0.0,
+              "offsetY": -1.5,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 53.0
+            },
+            "L Shoulder": {
+              "offsetX": 0.5,
+              "offsetY": 0.0,
+              "offsetZ": 0.3,
+              "rotationX": -40.0,
+              "rotationY": 36.0,
+              "rotationZ": 21.0
+            },
+            "L ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmLow": {
+              "rotationX": 77.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -39.0,
+              "rotationY": -31.0,
+              "rotationZ": -32.0
+            },
+            "L Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 15.0,
+              "rotationZ": 44.0
+            },
+            "L LegUp": {
+              "rotationX": -51.0,
+              "rotationY": 7.0,
+              "rotationZ": 0.0
+            },
+            "L LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 4.0
+            },
+            "L Toes": {
+              "rotationX": 24.0,
+              "rotationY": -5.0,
+              "rotationZ": -48.0
+            },
+            "R Shoulder": {
+              "offsetX": 0.5,
+              "offsetY": 0.0,
+              "offsetZ": -0.3,
+              "rotationX": 40.0,
+              "rotationY": -36.0,
+              "rotationZ": 21.0
+            },
+            "R ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmLow": {
+              "rotationX": -77.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 39.0,
+              "rotationY": 31.0,
+              "rotationZ": -32.0
+            },
+            "R Thigh": {
+              "rotationX": 0.0,
+              "rotationY": -15.0,
+              "rotationZ": 44.0
+            },
+            "R LegUp": {
+              "rotationX": 51.0,
+              "rotationY": -7.0,
+              "rotationZ": 0.0
+            },
+            "R LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 4.0
+            },
+            "R Toes": {
+              "rotationX": -24.0,
+              "rotationY": 5.0,
+              "rotationZ": -48.0
+            },
+            "Wrap7": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -2.0
+            }
+          }
+        },
+        {
+          "frame": 21,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": -13.0,
+              "offsetY": 13.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 50.0
+            },
+            "TorsoUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -36.0
+            },
+            "Neck": {
+              "offsetX": 0.7,
+              "offsetY": -1.5,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 75.0
+            },
+            "L Shoulder": {
+              "offsetX": 1.2,
+              "offsetY": 0.2,
+              "offsetZ": 1.7,
+              "rotationX": -59.0,
+              "rotationY": 28.0,
+              "rotationZ": 41.0
+            },
+            "L ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmLow": {
+              "rotationX": 66.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -39.0,
+              "rotationY": -31.0,
+              "rotationZ": -45.0
+            },
+            "R Shoulder": {
+              "offsetX": 1.2,
+              "offsetY": 0.2,
+              "offsetZ": -1.7,
+              "rotationX": 59.0,
+              "rotationY": -28.0,
+              "rotationZ": 41.0
+            },
+            "R ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmLow": {
+              "rotationX": -66.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 39.0,
+              "rotationY": 31.0,
+              "rotationZ": -45.0
+            },
+            "L Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 15.0,
+              "rotationZ": 44.0
+            },
+            "L LegUp": {
+              "rotationX": -51.0,
+              "rotationY": 7.0,
+              "rotationZ": 0.0
+            },
+            "L LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 4.0
+            },
+            "L Toes": {
+              "rotationX": 24.0,
+              "rotationY": -5.0,
+              "rotationZ": -48.0
+            },
+            "R Thigh": {
+              "rotationX": 0.0,
+              "rotationY": -15.0,
+              "rotationZ": 44.0
+            },
+            "R LegUp": {
+              "rotationX": 51.0,
+              "rotationY": -7.0,
+              "rotationZ": 0.0
+            },
+            "R LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 4.0
+            },
+            "R Toes": {
+              "rotationX": -24.0,
+              "rotationY": 5.0,
+              "rotationZ": -48.0
+            }
+          }
+        },
+        {
+          "frame": 22,
+          "elements": {
+            "Neck": {
+              "rotationX": 8.0,
+              "rotationY": 4.0,
+              "rotationZ": 67.0
+            }
+          }
+        },
+        {
+          "frame": 23,
+          "elements": {
+            "L ArmLow": {
+              "rotationX": 51.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -46.0,
+              "rotationY": -17.0,
+              "rotationZ": -31.0
+            },
+            "L LegUp": {
+              "rotationX": -36.0,
+              "rotationY": 4.0,
+              "rotationZ": 0.0
+            },
+            "R Shoulder": {
+              "rotationX": 48.0,
+              "rotationY": -19.0,
+              "rotationZ": 18.0
+            },
+            "R ArmLow": {
+              "rotationX": -51.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 46.0,
+              "rotationY": 17.0,
+              "rotationZ": -31.0
+            },
+            "R LegUp": {
+              "rotationX": 36.0,
+              "rotationY": -4.0,
+              "rotationZ": 0.0
+            },
+            "L Shoulder": {
+              "rotationX": -48.0,
+              "rotationY": 19.0,
+              "rotationZ": 18.0
+            },
+            "Neck": {
+              "rotationX": -10.0,
+              "rotationY": -4.0,
+              "rotationZ": 70.0
+            }
+          }
+        },
+        {
+          "frame": 24,
+          "elements": {
+            "Neck": {
+              "rotationX": 6.0,
+              "rotationY": 4.0,
+              "rotationZ": 72.5
+            }
+          }
+        },
+        {
+          "frame": 25,
+          "elements": {
+            "L Shoulder": {
+              "rotationX": -22.0,
+              "rotationY": 17.0,
+              "rotationZ": 12.0
+            },
+            "L ArmLow": {
+              "rotationX": 34.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": -23.0,
+              "rotationY": -8.0,
+              "rotationZ": -15.0
+            },
+            "L Thigh": {
+              "rotationX": 8.0,
+              "rotationY": 9.0,
+              "rotationZ": 21.0
+            },
+            "L LegUp": {
+              "rotationX": -25.0,
+              "rotationY": 3.0,
+              "rotationZ": 2.0
+            },
+            "R Shoulder": {
+              "rotationX": 22.0,
+              "rotationY": -17.0,
+              "rotationZ": 12.0
+            },
+            "R ArmLow": {
+              "rotationX": -34.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 23.0,
+              "rotationY": 8.0,
+              "rotationZ": -15.0
+            },
+            "R Thigh": {
+              "rotationX": -8.0,
+              "rotationY": -9.0,
+              "rotationZ": 21.0
+            },
+            "R LegUp": {
+              "rotationX": 25.0,
+              "rotationY": -3.0,
+              "rotationZ": 2.0
+            },
+            "Neck": {
+              "offsetX": -0.5,
+              "offsetY": -0.8,
+              "offsetZ": 0.0,
+              "rotationX": -6.0,
+              "rotationY": -4.0,
+              "rotationZ": 55.0
+            },
+            "Wrap7": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -40.0
+            }
+          }
+        },
+        {
+          "frame": 27,
+          "elements": {
+            "L Hand": {
+              "rotationX": -17.0,
+              "rotationY": 0.0,
+              "rotationZ": -9.0
+            },
+            "L LegUp": {
+              "rotationX": -15.0,
+              "rotationY": 1.0,
+              "rotationZ": 0.0
+            },
+            "R Shoulder": {
+              "offsetX": 0.1,
+              "offsetY": 0.4,
+              "offsetZ": -0.1
+            },
+            "R Hand": {
+              "rotationX": 17.0,
+              "rotationY": 0.0,
+              "rotationZ": -9.0
+            },
+            "R LegUp": {
+              "rotationX": 15.0,
+              "rotationY": -1.0,
+              "rotationZ": 0.0
+            },
+            "L Shoulder": {
+              "offsetX": 0.1,
+              "offsetY": 0.4,
+              "offsetZ": 0.1
+            },
+            "Neck": {
+              "rotationX": 4.0,
+              "rotationY": 2.0,
+              "rotationZ": 42.0
+            },
+            "Wrap7": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -35.0
+            }
+          }
+        },
+        {
+          "frame": 30,
+          "elements": {
+            "TorsoLow": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "TorsoUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Neck": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": -2.0,
+              "rotationY": -2.0,
+              "rotationZ": 0.0
+            },
+            "L Shoulder": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L ArmLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Hand": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L LegUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "L Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Shoulder": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R ArmLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Hand": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Thigh": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R LegUp": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R LegLow": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "R Toes": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/entity/lore/shiver/bellhead.json"
+  }
+]

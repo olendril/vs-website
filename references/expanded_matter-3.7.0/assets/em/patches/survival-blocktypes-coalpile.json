@@ -1,0 +1,3 @@
+[
+	{ "op": "add", "path": "/textures/crushed-ore-coal", "value": { "base": "em:item/resource/crushed/ore/incontainer/coal" }, "file": "game:blocktypes/coalpile.json", "side": "Server" }
+]

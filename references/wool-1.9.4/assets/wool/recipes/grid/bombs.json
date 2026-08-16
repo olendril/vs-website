@@ -1,0 +1,169 @@
+[
+	{
+	"ingredientPattern": "CBW",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "oreblastingbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "block", "code": "game:bomb-ore", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "CBW",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "game:flaxtwine" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "oreblastingbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "block", "code": "game:bomb-ore", "quantity": 8 }
+	},
+
+
+	{
+	"ingredientPattern": "_P_,CBW",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "stoneblastingbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-stone", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "_P_,CBW",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "game:flaxtwine" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-stone", "quantity": 8 }
+	},
+
+
+	{
+	"ingredientPattern": "SPS,CBW",
+	"ingredients": {
+		"S": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "SPS,CBW",
+	"ingredients": {
+		"S": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "game:flaxtwine" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "SPS,CBW",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 4 },
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "SPS,CBW",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 4 },
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "game:flaxtwine" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "SPT,CBW",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 4 },
+		"T": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "SPT,CBW",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 4 },
+		"T": { "type": "block", "code": "game:metal-scraps", "quantity": 2 },
+		"P": { "type": "item", "code": "game:powder-iron-oxide", "quantity": 8 },
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"C": { "type": "item", "code": "game:flaxtwine" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+        "name": "scrapbomb",
+	"recipeGroup": 2,
+	"shapeless": true,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "block", "code": "game:bomb-scrap", "quantity": 8 }
+	}
+]

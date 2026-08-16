@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "KA ,SPS,SDS",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:stick" },
+		"S": { "type": "block", "code": "tailorsdelight:panel-hide-*", "name": "type", "allowedVariants": [ "pelt" ] },
+		"D": { "type": "block", "code": "tailorsdelight:panel-hide-*", "quantity": 2, "name": "type", "allowedVariants": [ "pelt" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 6 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true, "toolDurabilityCost": 6 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "tailorsdelight:hideblock-{type}-ns", "quantity": 1 }
+	}
+]

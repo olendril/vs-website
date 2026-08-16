@@ -1,0 +1,12 @@
+[
+	{
+	"ingredientPattern": "C,P",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:chisel-*", "name": "metal", "isTool": true, "skipVariants": [ "copper" ], "toolDurabilityCost": 20 },
+		"P": { "type": "block", "code": "game:metal-parts" }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:metalbit-cupronickel", "quantity": 4 }
+	}
+]

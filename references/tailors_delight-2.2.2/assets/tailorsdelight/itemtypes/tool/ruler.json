@@ -1,0 +1,144 @@
+{
+	"code": "ruler",
+	"damagedBy": [ "blockbreaking", "attacking" ],
+	"tool": "sword",
+	"behaviors": [ {
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "WallHalves",
+			"wallOffY": 1,
+			"sprintKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+			}
+		},
+		{ "name": "AnimationAuthoritative" }
+	],
+	"variantgroups": [
+		{ "code": "type", "states": [ "aged", "veryaged", "brass", "copper", "cupronickel", "electrum", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ], "loadFromProperties": "block/wood" }
+	],
+	"shape": { "base": "tailorsdelight:item/ruler" },
+	"texturesByType": {
+		"*-aged": { "wood": { "base": "game:block/wood/planks/aged/aged1", "blendedOverlays": [ { "base": "tailorsdelight:overlays/ruler", "blendMode": "Darken" } ] } },
+		"*-veryaged": { "wood": { "base": "game:block/wood/planks/aged/veryaged1", "blendedOverlays": [ { "base": "tailorsdelight:overlays/ruler", "blendMode": "Darken" } ] } },
+		"@^ruler-(copper|brass|bismuthbronze|tinbronze|blackbronze|cupronickel|iron|meteoriciron|gold|silver|electrum|steel)":
+			{ "wood": { "base": "game:block/metal/ingot/{type}", "blendedOverlays": [ { "base": "tailorsdelight:overlays/ruler_metal", "blendMode": "Darken" } ] } },
+		"*": { "wood": { "base": "game:block/wood/planks/{type}1", "blendedOverlays": [ { "base": "tailorsdelight:overlays/ruler", "blendMode": "Darken" } ] } }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": [ "*" ] },
+	"tags": [ "weapon", "weapon-melee", "tool", "tool-ruler"],
+	"attributes": {
+		"handbook": {
+			"groupBy": ["ruler-*"],
+			"extraSections": [ { "title": "game:handbook-item-usage", "text": "tailorsdelight:handbook-item-ruler" } ]
+		},
+		"scrollrackable": true,
+                "onscrollrackTransform": {
+			"translation": { "x": -0.55, "y": -0.2, "z": 0.45 },
+                        "rotation": { "x": -46, "y": 0, "z": 0 },
+                        "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 0.91
+                },
+		"groundStorageTransform": {
+			"1translation": { "x": -0.12, "y": 0.195, "z": 0.195 },
+			"1rotation": { "x": -15, "y": -86, "z": 50 },
+			"1origin": { "x": 0, "y": 0, "z": 0 },
+			"translation": { "x": -0.12, "y": 0.45, "z": 0.295 },
+			"rotation": { "x": -15, "y": -86, "z": 50 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 }
+		},
+		"toolrackTransform": {
+			"translation": { "x": 0, "y": 0.66, "z": -0 },
+			"rotation": { "x": 0, "y": 18, "z": 0 },
+			"scale": 1.25
+		}
+	},
+	"heldTpHitAnimation": "falx",
+	"maxstacksize": 1,
+	"materialDensity": 700,
+	"attackRange": 2.2,
+	"tooltierByType": {
+		"@^ruler-(copper|cupronickel|brass|ebony|aged)": 2,
+		"@^ruler-(bismuthbronze|tinbronze|blackbronze)": 3,
+		"@^ruler-(iron|meteoriciron)": 4,
+		"ruler-steel": 5,
+		"*": 1
+	},
+	"attackpowerByType": {
+		"ruler-copper": 3.25,
+		"ruler-brass": 3,
+		"ruler-cupronickel": 4.2,
+		"ruler-bismuthbronze": 4,
+		"ruler-gold": 2.5,
+		"ruler-silver": 2.5,
+		"ruler-tinbronze": 4,
+		"ruler-blackbronze": 4.25,
+		"ruler-iron": 4.8,
+		"ruler-meteoriciron": 4.9,
+		"ruler-steel": 5,
+		"ruler-aged": 2.5,
+		"ruler-ebony": 2,
+		"*": 1.8
+	},
+	"attackRangebytype": {
+		"@^ruler-(copper|cupronickel|brass|bismuthbronze|blackbronze|iron|meteoriciron|steel|tinbronze)": 3,
+		"ruler-gold": 2.5,
+		"ruler-silver": 2.8,
+		"*": 2.5
+	},
+	"durabilityByType": {
+		"ruler-mahogany": 280,
+		"ruler-sal": 260,
+		"ruler-saxaul": 220,
+		"ruler-beech": 220,
+		"ruler-bearnut": 160,
+		"ruler-sycamore": 160,
+		"ruler-spruce": 140,
+		"ruler-*poplar": 140,
+		"ruler-cedar": 100,
+
+		"ruler-oak": 250,
+		"ruler-birch": 200,
+		"ruler-purpleheart": 180,
+		"ruler-ebony": 160,
+		"ruler-walnut": 150,
+		"ruler-maple": 120,
+		"ruler-redwood": 100,
+		"ruler-baldcypress": 80,
+
+		"ruler-copper": 300,
+		"ruler-brass": 350,
+		"ruler-gold": 125,
+		"ruler-silver": 200,
+		"ruler-electrum": 250,
+		"ruler-cupronickel": 1200,
+		"ruler-blackbronze": 600,
+		"ruler-bismuthbronze": 500,
+		"ruler-tinbronze": 400,
+		"ruler-iron": 900,
+		"ruler-meteoriciron": 1200,
+		"ruler-steel": 1800,
+
+		"ruler-veryaged": 15,
+
+		"ruler-*": 120
+        },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -55, "y": 113, "z": 14 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.45 },
+		"scale": 1.9
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.25
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.9, "y": -0.35, "z": -0.55 },
+		"rotation": { "x": 109, "y": 51, "z": 1 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.86
+	}
+}

@@ -1,0 +1,117 @@
+[
+	{
+	"ingredientPattern": "RYR,BSB,RWR",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkblue" },
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:twine-red", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-cerise-embroidered-reindeer-herder-coat" }
+	},
+
+	{
+	"ingredientPattern": "CAC,FLF,WLW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-plain" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"F": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"W": { "type": "item", "code": "game:fat" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-surgeon" }
+	},
+
+	{
+	"ingredientPattern": "CCC,CBC,_S_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-miner" }
+	},
+
+	{
+	"ingredientPattern": "CDC,CBC,_S_",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-gray" },
+		"D": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 3 }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-miner" }
+	},
+
+	{
+	"ingredientPattern": "CCC,CNC,GSB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"N": { "type": "item", "code": "tailorsdelight:buttons-zinc" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-marketeer" }
+	},
+
+	{
+	"ingredientPattern": "CHC,CSC,BGB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"H": { "type": "item", "code": "tailorsdelight:buttons-horn" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 3 },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-great-steppe-mantle" }
+	},
+
+	{
+	"ingredientPattern": "BWB,PYP,TNT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-purple" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-purple", "quantity": 3 },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 6 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-gold" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-king" }
+	},
+
+	{
+	"ingredientPattern": "CSC,CTC",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-yellow" },
+		"S": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkbrown", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" }
+	}
+]

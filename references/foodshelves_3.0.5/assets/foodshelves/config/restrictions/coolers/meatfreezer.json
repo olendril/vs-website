@@ -1,0 +1,11 @@
+{
+  "CollectibleTypes": [],
+  "CollectibleCodes": [
+    "game:redmeat-raw",
+    "game:bushmeat-raw",
+    "game:poultry-raw",
+    "game:fish-raw",
+
+    "expandedfoods:agedmeat-*-normal"
+  ]
+}

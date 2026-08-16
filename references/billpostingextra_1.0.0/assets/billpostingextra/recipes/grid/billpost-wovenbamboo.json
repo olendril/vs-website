@@ -1,0 +1,24 @@
+[
+	{
+		"ingredientPattern": "K,B,B",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "istool": true },
+			"B": { "type": "item", "code": "game:bamboostakes", "quantity": 1 }
+		},
+		"name": "billpost-wovenbamboo",
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "paper-wovenbamboo", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "K,B,B",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:axe-*", "istool": true },
+			"B": { "type": "item", "code": "game:bamboostakes", "quantity": 1 }
+		},
+		"name": "billpost-wovenbamboo",
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "paper-wovenbamboo", "quantity": 1  }
+	}
+]

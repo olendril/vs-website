@@ -1,0 +1,21 @@
+{
+  "code": "deathcorpses",
+  "class": "EntityPlayerCorpse",
+  "habitat": "land",
+  "hitboxSize": { "x": 0.9, "y": 0.3 },
+  "client": {
+    "renderer": "Shape",
+    "shape": { "base": "game:block/bone/carcass/humanoid2" },
+    "behaviors": [
+      { "code": "passivephysics" },
+      { "code": "interpolateposition" },
+    ]
+  },
+  "server": {
+    "behaviors": [
+      { "code": "passivephysics" },
+      { "code": "health", "currenthealth": 100, "maxhealth": 100 }
+    ]
+  },
+  "falldamage": false
+}

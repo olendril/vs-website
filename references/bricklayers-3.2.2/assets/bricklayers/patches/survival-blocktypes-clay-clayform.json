@@ -1,0 +1,18 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/textures",
+    "value": {
+      "clayworkitem-malachite": { "base": "bricklayers:block/clay/raw/malachite" },
+      "clayworkitem-lavender": { "base": "bricklayers:block/clay/raw/lavender" },
+      "clayworkitem-paleblue": { "base": "bricklayers:block/clay/raw/paleblue" },
+      "clayworkitem-palegreen": { "base": "bricklayers:block/clay/raw/palegreen" },
+      "clayworkitem-palered": { "base": "bricklayers:block/clay/raw/palered" },
+      "clayworkitem-peach": { "base": "bricklayers:block/clay/raw/peach" },
+      "clayworkitem-sunflower": { "base": "bricklayers:block/clay/raw/sunflower" },
+      "clayworkitem-white": { "base": "bricklayers:block/clay/raw/white" }
+    },
+    "file": "game:blocktypes/clay/clayform.json",
+    "side": "Server"
+  }
+]

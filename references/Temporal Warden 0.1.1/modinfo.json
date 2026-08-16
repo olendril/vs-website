@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "temporalwarden",
+  "name": "Temporal Warden",
+  "side" : "universal",
+  "description": "This is a mod template",
+  "version": "0.1.1",
+  "authors": [ "SaltyWater" ],
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

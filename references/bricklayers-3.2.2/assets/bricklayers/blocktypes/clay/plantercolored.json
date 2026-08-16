@@ -1,0 +1,158 @@
+{
+	"code": "plantercolored",
+	"classByType": {
+		"*-raw-*": "Block",
+		"*-empty": "Block",
+		"*": "BlockPlantContainer"
+	},
+	"entityClass": "PlantContainer",
+	"behaviorsByType": {
+		"*-raw-*": [
+			{ "name": "GroundStorable" },
+			{ "name": "Unplaceable" },
+			{ "name": "RightClickPickup"}
+		],
+		"*": [
+			{ "name": "UnstableFalling", "properties": { "attachmentArea": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 } }}
+		]
+        },
+	"attributes": {
+		"sitHeight": 0.75,
+		"beeFeedByType": {
+			"*-raw-*": false,
+			"*-empty": false,
+			"*": true
+		},
+		"butterflyFeedByType": {
+			"*-raw-*": false,
+			"*-empty": false,
+			"*": true
+		},
+		"plantContainerSize": "large",
+		"filledShape": { "base": "bricklayers:block/clay/planter/planter_glazed_filled" },
+		"fillHeight": 0.5
+	},
+	"attributesByType": {
+                "plantercolored-raw-malachite": {
+			"beehivekiln": {
+				"0": { "type": "block", "code": "bricklayers:plantercolored-burnt-malachite" },
+				"1": { "type": "block", "code": "bricklayers:plantercolored-burnt-green" },
+				"2": { "type": "block", "code": "bricklayers:plantercolored-burnt-blurple" },
+				"3": { "type": "block", "code": "bricklayers:plantercolored-burnt-purple" }
+			}
+		},
+		"@^plantercolored-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"beehivekiln": {
+				"0": { "type": "block", "code": "bricklayers:plantercolored-burnt-{color}" },
+				"1": { "type": "block", "code": "bricklayers:plantercolored-burnt-{color}" },
+				"2": { "type": "block", "code": "bricklayers:plantercolored-burnt-{color}" },
+				"3": { "type": "block", "code": "bricklayers:plantercolored-burnt-{color}" }
+			}
+		}
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"variantgroups": [
+		{ "code": "state", "states": [ "raw", "burnt" ] },
+		{ "code": "color", "states": [
+			"blurple", "green", "malachite", "purple",
+			"lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"skipVariants": [ "plantercolored-raw-blurple", "plantercolored-raw-green", "plantercolored-raw-purple" ],
+	"maxStackSize": 8,
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"shapeByType": {
+		"*-raw-*": { "base": "bricklayers:block/clay/planter/planter_glazed" },
+		"*": { "base": "bricklayers:block/clay/planter/planter_glazed" }
+	},
+	"blockmaterial": "Ceramic",
+	"replaceable": 900,
+	"resistance": 1.5,
+	"lightAbsorption": 1,
+	"texturesByType": {
+		"@.*-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_planter" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay_planter" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"*-raw-*": {
+			"ceramic": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/raw/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/raw/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay" ] },
+			"soil": { "base": "game:block/transparent" }
+		},
+		"@.*-burnt-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		},
+		"*": {
+			"ceramic": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay" ] },
+			"ceramicdark": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": ["bricklayers:block/ceramic/overlay_inside_bottom" ] },
+			"top": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay" ] },
+			"bottom": { "base": "bricklayers:block/clay/burnt/{color}",
+				"overlays": [ "bricklayers:block/clay/burnt/overlay_planter_clay" ] },
+			"soil": { "base": "game:block/clay/planter/soil" }
+		}
+	},
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"emitsideao": { "all": false },
+	"combustiblePropsByType": {
+		"@^plantercolored-raw-(lavender|paleblue|palegreen|palered|peach|sunflower|white)": {
+			"meltingPoint": 1350,
+			"meltingDuration": 45,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "bricklayers:plantercolored-burnt-{color}" },
+			"requiresContainer": false
+		},
+		"plantercolored-raw-*": {
+			"meltingPoint": 950,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStackByType": {
+				"*-malachite": { "type": "block", "code": "bricklayers:plantercolored-burnt-green" }
+			},
+			"requiresContainer": false
+		}
+	},
+	"collisionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5625, "z2": 0.875
+	},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5625, "z2": 0.875
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.75, "y": -0.20, "z": -0.50 },
+		"rotation": { "x": -172, "y": -12, "z": -105 },
+		"origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
+		"scale": 0.57
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+		"scale": 1.42
+        }
+}

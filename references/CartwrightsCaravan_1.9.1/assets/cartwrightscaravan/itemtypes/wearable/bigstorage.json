@@ -1,0 +1,76 @@
+{
+	"enabled": false,
+	"code": "cartsstorage",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"farming"
+			]
+		}
+	],
+	"allowVariants": [
+		"*"
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCodeByType": {
+				"*": "triplestorage"
+			},
+			"requiresBehindSlots": 2,
+			"attachedShapeByType": {
+				"*": { "base": "item/storage/3longhay" }
+
+			}
+		},
+		"backpackByType": {
+				"*": { "quantitySlots": 36, "storageFlags": 189 },
+		},
+		"interactPassthroughByType": {
+			"*": true
+		}
+
+	},
+	"behaviorsByType": {
+		"*": [
+			{ "name": "HeldBag" },
+			{ "name": "GroundStorable" }
+		]
+	},
+
+	"shapeByType": {
+		"*": { "base": "item/storage/3longhay" }
+	},
+	"texturesByType": {
+		"*": {
+		"normal-side": { "base": "game:block/hay/normal-side"},
+		"normal-top": { "base": "game:block/hay/normal-top"}
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 16,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"cartwrightscaravan": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*": {
+			"rotation": {
+				"x": -30,
+				"y": -44,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.05,
+				"y": 0.9,
+				"z": 0
+			},
+			"scale": 0.97
+
+		}
+	}
+
+}	

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "patches": {
+    "boolean": {
+      "@dressmakers:recipes/grid/clothing/all/*": {
+        "-/enabled": "COMMON_CLOTHING"
+      },
+      "@dressmakers:recipes/grid/clothing/class/*": {
+        "-/enabled": "CLASS_CLOTHING"
+      },
+      "@dressmakers:recipes/grid/clothing/class/nadiyan/*": {
+        "-/enabled": "NADIYAN_CLOTHING"
+      },
+      "@dressmakers:compatibility/wool/recipes/grid/clothing/dm_wool/class/nadiyan/*": {
+        "-/enabled": "NADIYAN_WOOL_CLOTHING"
+      },
+      "@dressmakers:compatibility/wool/recipes/grid/clothing/dm_wool/all/*": {
+        "-/enabled": "WOOL_CLOTHING"
+      }
+    }
+  },
+  "settings": {
+    "boolean": {
+      "CLASS_CLOTHING": {
+        "name": "enable_class_clothing_recipes",
+        "ingui": "dressmakers:setting_enable_class_clothing",
+        "comment": "dressmakers:setting_enable_class_clothing_comment",
+        "weight": 1,
+        "default": true
+      },
+      "COMMON_CLOTHING": {
+        "name": "enable_common_clothing_recipes",
+        "ingui": "dressmakers:setting_enable_common_clothing",
+        "comment": "dressmakers:setting_enable_common_clothing_comment",
+        "weight": 2,
+        "default": true
+      },
+      "NADIYAN_CLOTHING": {
+        "name": "enable_nadiyan_clothing_recipes",
+        "ingui": "dressmakers:setting_enable_nadiyan_clothing",
+        "comment": "dressmakers:setting_enable_nadiyan_clothing_comment",
+        "weight": 3,
+        "default": true
+      },
+      "WOOL_CLOTHING": {
+        "name": "enable_wool_recipes",
+        "ingui": "dressmakers:setting_enable_wool",
+        "comment": "dressmakers:setting_enable_wool_comment",
+        "weight": 4,
+        "default": true
+      },
+      "NADIYAN_WOOL_CLOTHING": {
+        "name": "enable_nadiyan_wool_recipes",
+        "ingui": "dressmakers:setting_enable_nadiyan_wool",
+        "comment": "dressmakers:setting_enable_nadiyan_wool_comment",
+        "weight": 5,
+        "default": true
+      }
+    }
+  },
+  "formatting": [
+    {
+      "type": "separator",
+      "weight": 0.1,
+      "title": "dressmakers:settings_title_clothing_recipes"
+    },
+    {
+      "type": "separator",
+      "weight": 3.1,
+      "title": "dressmakers:settings_title_mod_recipes"
+    }
+  ]
+}

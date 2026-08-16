@@ -1,0 +1,177 @@
+{
+	"code": "cartcanopy",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"basic",
+				"closed",
+				"leather",
+				"ornate"
+			]
+		},
+		{
+			"code": "material",
+			"states": [
+				"white",
+				"black",
+				"brown",
+				"green",
+				"blue",
+				"orange",
+				"red",
+				"yellow",
+				"purple",
+				"pink",
+				"gray",
+				"normal"
+			]
+		}
+	],
+	"attributesByType": {
+		"*": {
+			"attachableToEntity": {
+				"texturePrefixCode": "",
+				"categoryCodeByType": {
+					"*": "cartcanopy"
+				},
+				"attachedShapeBySlotCodeByType": {
+					"*": {
+						"*-smallstall*": { "base": "item/canopy/{type}canopy-stall" },
+						"*-slimcart*": { "base": "item/canopy/{type}canopy-slim" },
+						"*torage*": { "base": "item/canopy/{type}canopy-inventory" },
+						"*": { "base": "item/canopy/{type}canopy" }
+					}
+				}
+			}
+		}
+	},
+	"behaviorsByType": {
+		"*leather*": [
+			{
+				"name": "GroundStorable",
+				"properties": {
+		"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.45, "z2": 1},
+		"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.45, "z2": 1}
+				}
+			}
+		],
+		"*": [
+			{
+				"name": "GroundStorable",
+				"properties": {
+		"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.63, "z2": 1},
+		"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.63, "z2": 1}
+				}
+			}
+		]
+	},
+	"shapeByType": {
+		"*": { "base": "item/canopy/{type}canopy-inventory" }
+	},
+	"texturesByType": {
+		"*leather*": {
+			"oak-h": { "base": "game:block/wood/bark/oak-h" },
+			"canopycolor2": { "base": "game:block/cloth/basic/{material}*" },
+			"canopycolor": { "base": "game:block/leather/{material}*" },
+			"canopyitemcolor": { "base": "game:block/cloth/basic/{material}*" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*ornate*": {
+			"oak-h": { "base": "game:block/wood/bark/oak-h" },
+			"canopycolor2": { "base": "game:block/cloth/basic/{material}*" },
+			"canopycolor": { "base": "game:block/cloth/linen/{material}*" },
+			"canopyitemcolor": { "base": "game:block/cloth/basic/{material}*" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" },
+			"gold1": { "base": "game:block/metal/sheet-plain/gold1" },
+			"canopyplain": { "base": "game:block/cloth/linen/plain" }
+		},
+		"*": {
+			"oak-h": { "base": "game:block/wood/bark/oak-h" },
+			"canopycolor2": { "base": "game:block/cloth/basic/{material}*" },
+			"canopycolor": { "base": "game:block/cloth/linen/{material}*" },
+			"canopyitemcolor": { "base": "game:block/cloth/basic/{material}*" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 8,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"cartwrightscaravan": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*closed*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -180,
+				"y": -55,
+				"z": 30
+			},
+			"origin": {
+				"x": 0.4,
+				"y": 0.5,
+				"z": 0.29
+			},
+			"scaleXyz": {
+				"x": -1.17,
+				"y": 1.17,
+				"z": 1.17
+			}
+		},
+		"*ornate*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -180,
+				"y": -55,
+				"z": 30
+			},
+			"origin": {
+				"x": 0.4,
+				"y": 0.5,
+				"z": 0.29
+			},
+			"scaleXyz": {
+				"x": -1.17,
+				"y": 1.17,
+				"z": 1.17
+			}
+		},
+		"*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": -180,
+				"y": -55,
+				"z": 30
+			},
+			"origin": {
+				"x": 0.4,
+				"y": 0.5,
+				"z": 0.39
+			},
+			"scale": 1.17
+		}
+
+	}
+
+}	
+
+

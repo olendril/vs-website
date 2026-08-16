@@ -1,0 +1,9 @@
+{
+	code: "kombucha-pinkbonnet-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-pinkbonnet", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-pinkbonnet-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-pinkbonnet", litres: 10 }
+}

@@ -1,0 +1,13 @@
+[
+	{
+		"ingredientPattern": "TBT,BTB,TBT",
+		"ingredients": {
+			"B": { "type": "item", "code": "wildcrafttree:plank-*", "name": "wood" },
+			"T": { "type": "item", "code": "wool:twine-wool-plain" }
+		},
+		"recipeGroup": 8,
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:sieve-linen" }
+	}
+]

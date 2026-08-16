@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "P_P,P_P,P_P",
+	ingredients: {
+		"P": { type: "item", code: "game:metalnailsandstrips-tinbronze" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "interestingme:bucketlift-body", quantity: 1 }
+}

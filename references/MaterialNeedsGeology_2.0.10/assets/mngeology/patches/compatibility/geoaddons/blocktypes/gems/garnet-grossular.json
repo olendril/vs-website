@@ -1,0 +1,82 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-garnetgrossular-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-garnetgrossular-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-garnetgrossular-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-garnetgrossular-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-garnetgrossular-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-garnetgrossular-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-garnetgrossular-marl-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-garnetgrossular-tufa-free"
+	},
+]

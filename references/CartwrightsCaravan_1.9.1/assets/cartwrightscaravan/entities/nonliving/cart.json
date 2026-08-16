@@ -1,0 +1,914 @@
+{
+	"code": "cart",
+	"class": "EntityAgent",
+	"tags": ["inanimate", "vehicle", "habitat-land"],
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "basiccart", "slimcart", "sturdycart" ]
+		},
+		{
+			"code": "version",
+			"states": [ "classic" ]
+		},
+		{
+			"code": "wood",
+			"states": [ "aged" ],
+			"loadFromProperties": "game:block/wood"
+		}
+	],
+	"skipVariants": [
+		"*-sturdycart-*"
+	],
+	"hitBoxSizeByType": {
+		"*-slimcart-*": {
+			"x": 1.4,
+			"y": 1.2
+		},
+		"*": {
+			"x": 1.9,
+			"y": 1.8
+		}
+	},
+	"canClimb": false,
+	"fallDamageMultiplier": 0,
+	"weightByType": {
+		"*": 90
+	},
+	"knockbackResistanceByType": {
+		"*": 1
+	},
+	"eyeHeightByType": {
+		"*": 1.7
+	},
+	"attributes": {
+		"minGenerationToAllowHealing": 0,
+		"tamedByType": { "*": true },
+		"handbook": {
+			"groupcode": "creaturegroup-caravancart"
+		},
+		"deconstructible": true,
+		"deconstructDropsByType":  {
+			"*slim*": [
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "block", code: "game:supportbeam-{wood}", quantity: 24 },
+			{ type: "block", code: "game:supportbeam-{wood}", quantity: 24 },
+			{ type: "item", code: "game:plank-{wood}", quantity: 24 },
+			{ type: "item", code: "game:plank-{wood}", quantity: 24 },
+			{ type: "item", code: "game:rope", quantity: 4 },
+			{ type: "item", code: "game:resin", quantity: 6 }
+		],
+		"*": [
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "item", code: "cartwrightscaravan:cartsmisc-wheelspoked", quantity: 1 },
+			{ type: "block", code: "game:supportbeam-{wood}", quantity: 32 },
+			{ type: "block", code: "game:supportbeam-{wood}", quantity: 32 },
+			{ type: "item", code: "game:plank-{wood}", quantity: 32 },
+			{ type: "item", code: "game:plank-{wood}", quantity: 32 },
+			{ type: "item", code: "game:rope", quantity: 4 },
+			{ type: "item", code: "game:resin", quantity: 8 }
+		]},
+		"mountAnimations": { "idle": "sitboatidle", "ready": "", "forwards": "", "backwards": "" },
+	},
+	"behaviorConfigs": {
+		"controlledphysics": {
+			"stepHeight": 1.2,
+			"stepUpSpeed": 0.2
+		},
+		"ellipsoidalrepulseagentsByType": {
+			"*slimcart*": {
+				"offset": {
+					"x": 0.1,
+					"z": -1.3
+				},
+				"radius": {
+					"x": 1.2,
+					"y": 1.2,
+					"z": 2.8
+				}
+			},
+			"*": {
+				"offset": {
+					"x": 0.1,
+					"z": -1.3
+				},
+				"radius": {
+					"x": 1.7,
+					"y": 1.2,
+					"z": 3
+				}
+			}
+		},
+
+
+		"floatupwhenstuck": { "onlyWhenDead": true },
+		"rideableaccessories": {
+			"dropContentsOnDeath": true,
+			"wearableSlotsByType": {
+				"*sturdy*": [
+					{
+						"code": "Saddle-{type}",
+						"forCategoryCodes": [ "cartgrip" ],
+						"attachmentPointcode": "MainGripAP",
+						"stepParentTo": { "": { "elementName": "MainGrip" } }
+					},
+					{
+						"code": "RightStorage1",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "RightStorage1AP",
+						"stepParentTo": { "": { "elementName": "RightStorage1" } },
+						"behindSlots": ["RightStorage2"]
+					},
+					{
+						"code": "RightStorage2",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "RightStorage2AP",
+						"stepParentTo": { "": { "elementName": "RightStorage2" } },
+						"behindSlots": ["RightStorage3"]
+					},
+					{
+						"code": "RightStorage3",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "RightStorage3AP",
+						"stepParentTo": { "": { "elementName": "RightStorage3" } }
+					},
+					{
+						"code": "LeftStorage1",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "LeftStorage1AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage1" } },
+						"behindSlots": ["LeftStorage2"]
+					},
+					{
+						"code": "LeftStorage2",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "LeftStorage2AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage2" } },
+						"behindSlots": ["LeftStorage3"]
+					},
+					{
+						"code": "LeftStorage3",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "LeftStorage3AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage3" } }
+					},
+					{
+						"code": "Light1-{type}",
+						"forCategoryCodes": [ "cartpostextra", "torch", "cartside" ],
+						"attachmentPointcode": "Light1AP",
+						"stepParentTo": { "": { "elementName": "Light1" } }
+					},
+					{
+						"code": "Light2-{type}",
+						"forCategoryCodes": [ "cartpostextra", "torch", "cartside" ],
+						"attachmentPointcode": "Light2AP",
+						"stepParentTo": { "": { "elementName": "Light2" } }
+					},
+					{
+						"code": "Light3-{type}",
+						"forCategoryCodes": [ "cartpostextra", "torch", "cartside" ],
+						"attachmentPointcode": "Light3AP",
+						"stepParentTo": { "": { "elementName": "Light3" } }
+					},
+					{
+						"code": "Light4-{type}",
+						"forCategoryCodes": [ "cartpostextra", "torch", "cartside" ],
+						"attachmentPointcode": "Light4AP",
+						"stepParentTo": { "": { "elementName": "Light4" } }
+					},
+					{
+						"code": "Canopy-{type}",
+						"forCategoryCodes": [ "cartcanopy" ],
+						"attachmentPointcode": "CanopyAP",
+						"stepParentTo": { "": { "elementName": "Canopy" } }
+					},
+					{
+						"code": "RightStorage4",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "RightStorage4AP",
+						"stepParentTo": { "": { "elementName": "RightStorage4" } }
+					},
+					{
+						"code": "RightStorage5",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "RightStorage5AP",
+						"stepParentTo": { "": { "elementName": "RightStorage5" } }
+					},
+					{
+						"code": "RightStorage6",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "RightStorage6AP",
+						"stepParentTo": { "": { "elementName": "RightStorage6" } }
+					},
+					{
+						"code": "LeftStorage4",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "LeftStorage4AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage4" } }
+					},
+					{
+						"code": "LeftStorage5",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "LeftStorage5AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage5" } }
+					},
+					{
+						"code": "LeftStorage6",
+						"forCategoryCodes": [ "cartcanopy", "cartside", "chest", "basket" ],
+						"attachmentPointcode": "LeftStorage6AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage6" } }
+					}
+				],
+				"*slim*": [
+					{
+						"code": "Saddle-{type}",
+						"forCategoryCodes": [ "cartgrip" ],
+						"attachmentPointcode": "MainGripAP",
+						"stepParentTo": { "": { "elementName": "MainGrip" } }
+					},
+					{
+						"code": "RightStorage1",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket","triplestorage", "metalpot" ],
+						"canMergeWith": [ "RightStorage2", "LeftStorage1" ],
+						"attachmentPointcode": "RightStorage1AP",
+						"stepParentTo": { "": { "elementName": "RightStorage1" } },
+						"behindSlots": ["RightStorage2","RightStorage3"]
+					},
+					{
+						"code": "RightStorage2",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket", "metalpot" ],
+						"canMergeWith": [ "RightStorage3" ],
+						"attachmentPointcode": "RightStorage2AP",
+						"stepParentTo": { "": { "elementName": "RightStorage2" } },
+						"behindSlots": ["RightStorage3"]
+					},
+					{
+						"code": "RightStorage3",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket", "metalpot" ],
+						"canMergeWith": [ "LeftStorage3" ],
+						"attachmentPointcode": "RightStorage3AP",
+						"stepParentTo": { "": { "elementName": "RightStorage3" } }
+					},
+					{
+						"code": "Light1-{type}",
+						"forCategoryCodes": [ "cartside", "cartsideboards", "torch"  ],
+						"attachmentPointcode": "Light1AP",
+						"stepParentTo": { "": { "elementName": "Light1" } }
+					},
+					{
+						"code": "Light2-{type}",
+						"forCategoryCodes": [ "torch", "cartpostextra" ],
+						"attachmentPointcode": "Light2AP",
+						"stepParentTo": { "": { "elementName": "Light2" } }
+					},
+					{
+						"code": "Light3-{type}",
+						"forCategoryCodes": [ "cartside", "cartsideboards", "torch" ],
+						"attachmentPointcode": "Light3AP",
+						"stepParentTo": { "": { "elementName": "Light3" } }
+					},
+					{
+						"code": "Light4-{type}",
+						"forCategoryCodes": [ "torch", "cartpostextra" ],
+						"attachmentPointcode": "Light4AP",
+						"stepParentTo": { "": { "elementName": "Light4" } }
+					},
+					{
+						"code": "Canopy-{type}",
+						"forCategoryCodes": [ "cartcanopy" ],
+						"attachmentPointcode": "CanopyAP",
+						"stepParentTo": { "": { "elementName": "Canopy" } }
+					},
+					{
+						"code": "Nose-face",
+						"forCategoryCodes": [ "face" ],
+						"attachmentPointcode": "NoseAP",
+						"stepParentTo": { "": { "elementName": "Nose" } }
+					},
+					{
+						"code": "Blanket-{type}-{version}",
+						"forCategoryCodes": [ "blanket" ],
+						"attachmentPointcode": "BlanketAP",
+						"stepParentTo": { "": { "elementName": "Blanket" } }
+					}
+				],
+				"*basic*": [
+					{
+						"code": "Saddle-{type}",
+						"forCategoryCodes": [ "cartgrip", "ropetiepost" ],
+						"attachmentPointcode": "MainGripAP",
+						"stepParentTo": { "": { "elementName": "MainGrip" } },
+						"behindSlots": ["RiderGrip"],
+						"emptyInteractPassThrough": true
+					},
+					{
+						"code": "RightStorage1",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket","triplestorage", "metalpot" ],
+						"canMergeWith": [ "RightStorage2", "LeftStorage1" ],
+						"attachmentPointcode": "RightStorage1AP",
+						"stepParentTo": { "": { "elementName": "RightStorage1" } },
+						"behindSlots": ["RightStorage2", "RightStorage3"]
+					},
+					{
+						"code": "RightStorage2",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket", "metalpot" ],
+						"canMergeWith": [ "RightStorage3" ],
+						"attachmentPointcode": "RightStorage2AP",
+						"stepParentTo": { "": { "elementName": "RightStorage2" } },
+						"behindSlots": ["RightStorage3"]
+					},
+					{
+						"code": "RightStorage3",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket", "metalpot" ],
+						"canMergeWith": [ "LeftStorage3" ],
+						"attachmentPointcode": "RightStorage3AP",
+						"stepParentTo": { "": { "elementName": "RightStorage3" } }
+					},
+					{
+						"code": "LeftStorage1",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket","triplestorage", "metalpot"],
+						"canMergeWith": [ "LeftStorage2" ],
+						"attachmentPointcode": "LeftStorage1AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage1" } },
+						"behindSlots": ["LeftStorage2","LeftStorage3"]
+					},
+					{
+						"code": "LeftStorage2",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket", "metalpot" ],
+						"canMergeWith": [ "LeftStorage3" ],
+						"attachmentPointcode": "LeftStorage2AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage2" } },
+						"behindSlots": ["LeftStorage3"]
+					},
+					{
+						"code": "LeftStorage3",
+						"forCategoryCodes": [ "storage", "cartcanopy", "cartside", "chest", "basket", "metalpot" ],
+						"attachmentPointcode": "LeftStorage3AP",
+						"stepParentTo": { "": { "elementName": "LeftStorage3" } }
+					},
+					{
+						"code": "Light1-{type}",
+						"forCategoryCodes": [ "cartside", "cartsideboards", "torch" ],
+						"attachmentPointcode": "Light1AP",
+						"stepParentTo": { "": { "elementName": "Light1" } }
+					},
+					{
+						"code": "Light2-{type}",
+						"forCategoryCodes": [ "torch", "cartpostextra" ],
+						"attachmentPointcode": "Light2AP",
+						"stepParentTo": { "": { "elementName": "Light2" } }
+					},
+					{
+						"code": "Light3-{type}",
+						"forCategoryCodes": [ "cartside", "cartsideboards", "torch" ],
+						"attachmentPointcode": "Light3AP",
+						"stepParentTo": { "": { "elementName": "Light3" } }
+					},
+					{
+						"code": "Light4-{type}",
+						"forCategoryCodes": [ "torch", "cartpostextra" ],
+						"attachmentPointcode": "Light4AP",
+						"stepParentTo": { "": { "elementName": "Light4" } }
+					},
+					{
+						"code": "Canopy-{type}",
+						"forCategoryCodes": [ "cartcanopy" ],
+						"attachmentPointcode": "CanopyAP",
+						"stepParentTo": { "": { "elementName": "Canopy" } }
+					},
+					{
+						"code": "Nose-face",
+						"forCategoryCodes": [ "face" ],
+						"attachmentPointcode": "NoseAP",
+						"stepParentTo": { "": { "elementName": "Nose" } }
+					},
+					{
+						"code": "Blanket-{type}-{version}",
+						"forCategoryCodes": [ "blanket" ],
+						"attachmentPointcode": "BlanketAP",
+						"stepParentTo": { "": { "elementName": "Blanket" } }
+					}
+
+				]
+			}
+		},
+		"selectionboxes": {
+			"selectionBoxesByType": {
+				"*sturdy*": [ "MainGripAP", "RightStorage1AP", "RightStorage2AP", "RightStorage3AP", "LeftStorage1AP", "LeftStorage2AP", "LeftStorage3AP", "Light1AP", "Light2AP", "Light3AP", "Light4AP", "CanopyAP", "RightStorage4AP", "RightStorage5AP", "RightStorage6AP", "LeftStorage4AP", "LeftStorage5AP", "LeftStorage6AP" ],
+				"*slim*": [ "MainGripAP", "RightStorage1AP", "RightStorage2AP", "RightStorage3AP", "Light1AP", "Light2AP", "Light3AP", "Light4AP", "CanopyAP", "NoseAP", "BlanketAP" ],
+				"*basic*": [ "MainGripAP", "RightStorage1AP", "RightStorage2AP", "RightStorage3AP", "LeftStorage1AP", "LeftStorage2AP", "LeftStorage3AP", "Light1AP", "Light2AP", "Light3AP", "Light4AP", "CanopyAP", "NoseAP", "BlanketAP" ]
+			}
+		},
+		"gait":{
+			"idleGaits": { "Land": "idle", "Sea": "swimidle" },
+			"gaits":[
+				{
+					"code": "walkback",
+					"moveSpeedMultiplier": 1,
+					"animation": "walkback",
+					"weight": 20,
+					"blendMode": "Average",
+					"yawMultiplier": 1,					
+					"movespeedByType": {
+						"*-basiccart-*": 0.007,
+						"*-slimcart-*": 0.008,
+						"*-sturdycart-*": 0.005
+					},
+					"backwards": true,
+					"sound": "game:effect/gliding"
+				},				
+				{
+					"code": "idle",
+					"weight": 10,
+					"yawMultiplier": 1
+				},				
+				{
+					"code": "walk",
+					"moveSpeedMultiplier": 1,
+					"animation": "walk",
+					"weight": 20,
+					"blendMode": "Average",
+					"yawMultiplier": 1,					
+					"movespeedByType": {
+						"*-basiccart-*": 0.015,
+						"*-slimcart-*": 0.016,
+						"*-sturdycart-*": 0.014
+					},
+					"sound": "game:effect/gliding"
+				},	
+				{
+					"code": "jog",
+					"moveSpeedMultiplier": 1,
+					"animation": "jog",
+					"weight": 20,
+					"blendMode": "Average",
+					"yawMultiplier": 1,					
+					"movespeedByType": {
+						"*-basiccart-*": 0.03,
+						"*-slimcart-*": 0.033,
+						"*-sturdycart-*": 0.025
+					},
+					"sound": "game:effect/gliding"
+				},				
+				{
+					"code": "sprint",
+					"moveSpeedMultiplier": 1,
+					"animation": "sprint",
+					"weight": 10,
+					"blendMode": "Average",
+					"yawMultiplier": 1,					
+					"movespeedByType": {
+						"*-basiccart-*": 0.04,
+						"*-slimcart-*": 0.045,
+						"*-sturdycart-*": 0.03
+					},
+					"fallbackGaitCode": "idle",
+					"sound": "game:effect/gliding"
+				},				
+				{
+					"code": "jump",
+					"moveSpeedMultiplier": 1,
+					"animation": "walk",
+					"weight": 50,
+					"blendMode": "Average",
+					"yawMultiplier": 1,					
+					"movespeed": 0.001,
+					"sound": "game:effect/gliding"
+				},				
+				{
+					"code": "swim",
+					"animation": "walk",
+					"environment": "Sea",
+					"animationSpeed": 0.5,
+					"moveSpeedMultiplier": 1,
+					"weight": 10,
+					"blendMode": "Average",			
+					"movespeed": 0.02,
+					"yawMultiplier": 1,
+					"sound": "wheeled/raft-moving"
+				},				
+				{
+					"code": "swimback",
+					"moveSpeedMultiplier": 1,
+					"animation": "walk",
+					"animationSpeed": 0.5,
+					"weight": 10,
+					"blendMode": "Average",
+					"environment": "Sea",
+					"backwards": true,
+					"yawMultiplier": 1,					
+					"movespeed": 0.02,
+					"fallbackGaitCode": "idle",
+					"sound": "wheeled/raft-moving"
+				},
+				{
+					"code": "swimidle",
+					"moveSpeedMultiplier": 1,
+					"animation": "walk",
+					"animationSpeed": 0,
+					"movespeed": 0.0,
+					"environment": "Sea",
+					"weight": 10,
+					"blendMode": "Average"
+				}
+			]},
+		"rideable": {
+			"interactMountAnySeat": false,
+			"seatsByType": {
+				"*slim*":[
+				{
+					"apName": "Rider",
+					"selectionBox": "MainGripAP",
+					"bodyYawLimit": 0.02,
+					"controllable": true,
+					"mountOffset": {"x": 0.2,"y": -0.7,"z": 0 }
+				},
+				{ "apName": "Rider2", "selectionBox": "RightStorage1AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,			
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider3", "selectionBox": "RightStorage2AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider4", "selectionBox": "RightStorage3AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } }
+			],
+			"*":[
+				{
+					"apName": "Rider",
+					"selectionBox": "MainGripAP",
+					"bodyYawLimit": 0.02,
+					"controllable": true,
+					"mountOffset": {"x": 0.2,"y": -0.7,"z": 0 }
+				},
+				{ "apName": "Rider2", "selectionBox": "RightStorage1AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,			
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider3", "selectionBox": "RightStorage2AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider4", "selectionBox": "RightStorage3AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider5", "selectionBox": "LeftStorage1AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,			
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider6", "selectionBox": "LeftStorage2AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } },
+				{ "apName": "Rider7", "selectionBox": "LeftStorage3AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} } }
+			]
+		},
+			"rideableGaitOrder": {
+				"Land": ["walkback", "idle", "walk", "jog", "sprint"],
+				"Sea": ["swimback", "swimidle", "swim"],
+			},
+			"controls": {
+				"idle": {
+					"riderAnim": {
+						"animation": "pullcart-idle",
+						"animationSpeed": 0.00000001,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"walk": {
+					"riderAnim": {
+						"animation": "pullcart-walk",
+						"animationSpeed": 0.95,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"jog": {
+					"riderAnim": {
+						"animation": "pullcart-jog",
+						"animationSpeed": 1.5,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"sprint": {
+					"riderAnim": {
+						"animation": "pullcart-sprint",
+						"animationSpeed": 1.7,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"walkback": {
+					"riderAnim": {
+						"animation": "pullcart-walkback",
+						"animationSpeed": 1,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"jump": {
+					"riderAnim": {
+						"animation": "jump",
+						"animationSpeed": 1,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"swim": {
+					"moveSpeedMultiplier": 1,
+					"animation": "walk",
+					"animationSpeed": 0.5,
+					"weight": 10,
+					"blendMode": "Average",
+					"riderAnim": {
+						"animation": "pullcart-walk",
+						"animationSpeed": 0.5,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"swimback": {
+					"riderAnim": {
+						"animation": "pullcart-walk",
+						"animationSpeed": 0.5,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				},
+				"swimidle": {
+					"riderAnim": {
+						"animation": "pullcart-walk",
+						"animationSpeed": 0.5,
+						"weight": 1,
+						"withFpVariant": true,
+						"blendMode": "Average"
+					},
+					"passengerAnim": {
+            			"animation": "sitflooridle",
+            			"animationSpeed": 1,
+            			"weight": 2,
+            			"withFpVariant": false,
+            			"blendMode": "Average"
+          			}
+				}
+			}
+		},
+		"ownable": {
+			"groupCode": "caravancart"
+		}
+	},
+			"drops": [],
+			"client": {
+				"PitchStep": false,
+				"renderer": "Shape",
+				"shapeByType": {
+					"*basiccart*": { "base": "entity/nonliving/basiccart" },
+					"*slimcart*": { "base": "entity/nonliving/slimcart" },
+					"*sturdycart*": { "base": "entity/nonliving/sturdycart" }
+				},
+				"texturesByType": {
+					"*": {
+						"blackbronze": { "base": "game:block/metal/plate/blackbronze" },
+						"iron": { "base": "game:block/metal/plate/iron" },
+						"oak-h": { "base": "game:block/wood/bark/{wood}-h" },
+						"oak": { "base": "game:block/wood/debarked/{wood}" },
+						"oak1": { "base": "game:block/wood/planks/{wood}1" },
+						"top": { "base": "game:block/wood/echochamber/top" },
+						"generic": { "base": "game:block/wood/planks/generic" },
+						"mordant": { "base": "game:block/cloth/linen/mordant" },
+						"mordant2": { "base": "game:block/cloth/pelt" }
+					}
+				},
+				"sizeByType": {
+					"*": 1
+				},
+				"behaviors": [
+					{
+						"code": "ellipsoidalrepulseagents",
+						"movable": false
+					},
+					{
+						"code": "controlledphysics"
+					},
+					{ "code": "interpolateposition" },
+					{ "code": "selectionboxes" },
+					{ "code": "ownable" },
+					{ "code": "rideableaccessories" },
+					{ "code": "gait" },
+					{ "code": "rideable" },
+					{
+						"code": "ropetieable",
+						"enabledByType": {"*slimcart*": false,  "*basiccart*": false}
+					}
+				],
+				"animations": [
+					{
+						"code": "idle",
+						"animation": "idle",
+						"animationSpeed": 0.5,
+						"blendMode": "AddAverage",
+						"easeOutSpeed": 4,
+						"triggeredBy": { "defaultAnim": true }
+					},
+					{
+						"code": "walk",
+						"animation": "walk",
+						"easeInSpeed": 10,
+						"easeOutSpeed": 10,
+						"supressDefaultAnimation": true,
+						"blendMode": "Average"
+					},					
+					{
+						"code": "jog",
+						"animation": "jog",
+						"easeInSpeed": 10,
+						"easeOutSpeed": 10,
+						"supressDefaultAnimation": true,
+						"blendMode": "Average"
+					},
+					{
+						"code": "sprint",
+						"animation": "sprint",
+						"easeInSpeed": 2,
+						"easeOutSpeed": 2,
+						"blendMode": "Average"
+					},
+					{
+						"code": "walkback",
+						"animation": "walkback",
+						"easeInSpeed": 20,
+						"easeOutSpeed": 20,
+						"weight": 5,
+						"blendMode": "Average"
+					},
+					{
+						"code": "jump",
+						"animation": "walk",
+						"supressDefaultAnimation": true,
+						"blendMode": "Average"
+					},
+					{
+						"code": "sleep",
+						"animation": "sleep",
+						"easeInSpeed": 2,
+						"easeOutSpeed": 2,
+						"weight": 5,
+						"blendMode": "Average"
+					},
+					{
+						"code": "die",
+						"animation": "die",
+						"easeInSpeed": 2,
+						"easeOutSpeed": 2,
+						"weight": 10,
+						"blendMode": "Average",
+						"triggeredBy": { "onControls": [ "dead" ] }
+					},			
+					{
+						"code": "dead",
+						"animation": "dead",
+						"weight": 10,
+						"easeInSpeed": 3,
+						"blendMode": "Average"
+					},
+
+
+				]
+			},
+			"server": {
+				"attributes": {
+					"pathfinder": {
+						"minTurnAnglePerSec": 0,
+						"maxTurnAnglePerSecByType": {
+							"*slimcart*": 240,
+							"*sturdycart*": 120,
+							"*": 120
+						}
+					}
+				},
+				"behaviors": [
+						{
+							"code": "ellipsoidalrepulseagents",
+							"movable": false
+						},
+						{
+							"code": "controlledphysics"
+						},
+						{ "code": "selectionboxes" },
+						{ "code": "ownable" },
+						{ "code": "rideableaccessories" },
+						{ "code": "gait" },
+						{ "code": "rideable" },
+						{
+							"code": "taskai",
+							"aiCreatureType": "LandCreature",
+							"aitasks": [
+								{
+									"code": "cometoowner",
+									"priority": 0.4,
+									"animation": "walk",
+									"animationSpeed": 1.35,
+									"movespeed": 0.05,
+									"__allowTeleport": true,
+									"teleportMaxRange": 2000,
+									"teleportAfterRange": 200,
+									"teleportToRange": 20
+								},
+								{
+									code: "followleadholder",
+									priority: 1.45,
+									animation: "walk",
+									animationSpeed: 1.35,
+									movespeedByType: {"*": 0.015}
+								},
+								{
+									"code": "idle",
+									"animation": "sleep",
+									"priority": 1.15,
+									"minduration": 20000,
+									"maxduration": 800000,
+									"mincooldown": 200,
+									"maxcooldown": 400000,
+									"animationSpeed": 0.3,
+									"duringDayTimeFramesByType": {
+										"*": [
+											{
+												"fromHour": 0,
+												"toHour": 24
+											}
+										]
+									},
+									"stopOnHurt": true
+								}
+							]
+						},
+						{
+							"code": "ropetieable",
+							"enabledByType": { "*slimcart*": false,  "*basiccart": false }
+						},
+			{ "code": "entitystatetags" }
+
+				]
+			},
+			"sounds": {}
+		}

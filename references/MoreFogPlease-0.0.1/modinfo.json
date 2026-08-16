@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "morefogplease",
+    "name": "More Fog Please",
+    "authors": [
+        "Nephelangelo",
+    ],
+    "description": "Increases ambient fog for extra atmosphere.",
+    "Website": "https://mods.vintagestory.at/morefogplease",
+    "version": "0.0.1",
+    "dependencies": {
+        "game": ""
+    }
+}

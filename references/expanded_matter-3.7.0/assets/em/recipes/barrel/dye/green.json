@@ -1,0 +1,109 @@
+[
+	{
+		"code": "dye-green-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-chromiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-chromiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-limewater",
+		"ingredients": [
+			{ "type": "item", "code": "game:limewaterportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-chromiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-dilutedborax",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedboraxportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-chromiumoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+
+	{
+		"code": "dye-green-manganese-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-manganeseoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-manganese-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-manganeseoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-manganese-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-manganeseoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+
+	{
+		"code": "dye-green-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cadmiumgreen", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cadmiumgreen", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cadmiumgreen", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+
+	{
+		"code": "dye-green-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cobaltgreen", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cobaltgreen", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	},
+	{
+		"code": "dye-green-limewater",
+		"ingredients": [
+			{ "type": "item", "code": "game:limewaterportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-cobaltgreen", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-green", "litres": 2 }
+	}
+]

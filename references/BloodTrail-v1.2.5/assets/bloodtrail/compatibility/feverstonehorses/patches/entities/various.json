@@ -1,0 +1,58 @@
+﻿[
+    // Feverstonehorses
+    {
+        "side": "server",
+        "file": "feverstonehorses:entities/land/foal",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "feverstonehorses:entities/land/foal",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "feverstonehorses:entities/land/horse",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "feverstonehorses:entities/land/horse",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "feverstonehorses:entities/land/taminghorse",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "feverstonehorses:entities/land/taminghorse",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+
+]

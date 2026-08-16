@@ -1,0 +1,8 @@
+[
+	 {
+      "file": "chiseltools:itemtypes/truechisel.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.ChiselRoof" }]
+    }
+]

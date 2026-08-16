@@ -1,0 +1,26 @@
+[
+	{
+		"file": "game:blocktypes/clay/fired/planter",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.Planter",
+				"transformTemplates": [
+					"plants-large",
+					"carry-planter"
+				],
+				"renderRootFirst": true,
+				"transformGroupResolver": "plant-container",
+				"slots": {
+					"Hands": {},
+					"Back": {
+						"enabledCondition": "carryon.CarryablesOnBack.Planter"
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,88 @@
+[
+	{
+	"op": "add",
+	"path": "/crushingPropsByType/ore-anthracite",
+	"value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-coal", "stacksize": 5 }, "hardnessTier": 2 },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/crushingProps",
+	"value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-coal", "stacksize": 4 }, "hardnessTier": 2 },
+	"file": "game:itemtypes/resource/coke.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/crushingPropsByType/ore-bituminouscoal",
+	"value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-coal", "stacksize": 2 }, "hardnessTier": 1 },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+	
+	{
+	"op": "add",
+	"path": "/crushingPropsByType/ore-corundum",
+	"value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-corundum", "stacksize": 1 }, "hardnessTier": 2 },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/grindingPropsByType/ore-fluorite",
+	"value": { "groundStack": { "type": "item", "code": "em:powdered-ore-fluorite", "stacksize": 2 }, "hardnessTier": 1 },
+    	"file": "game:itemtypes/resource/ore-ungraded.json",
+    	"side": "Server"
+  	},
+
+	{
+	"op": "add",
+	"path": "/crushingPropsByType/ore-graphite",
+	"value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-graphite", "stacksize": 2 }, "hardnessTier": 1 },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+	
+	{
+	"op": "add",
+	"path": "/grindingPropsByType/ore-kernite",
+	"value": { "groundStack": { "type": "item", "code": "em:powdered-ore-kernite", "stacksize": 2 }, "hardnessTier": 1 },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/crushingPropsByType/ore-phosphorite",
+	"value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-phosphorite", "stacksize": 1 }, "hardnessTier": 1 },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/attributes/pigmentByType/ore-anthracite",
+	"value": { "name": "Anthracite gray", "color": { "red": 45, "green": 46, "blue": 50 } },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+	{
+	"op": "add",
+	"path": "/attributes/pigmentByType/ore-fluorite",
+	"value": { "name": "Fluorite white", "color": { "red": 250, "green": 250, "blue": 235 } },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/attributes/pigmentByType/ore-sulfur",
+	"value": { "name": "Sulfur yellow", "color": { "red": 230, "green": 214, "blue": 72 } },
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server"
+	}
+]

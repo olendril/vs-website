@@ -1,0 +1,17 @@
+[
+	{
+		blockCodes: ["steepandbrew:coffeebush-wild-coffee-free"],
+		minTemp: 12,
+		maxTemp: 27,
+		minRain: 0.5,
+		maxRain: 1,
+		maxFertility: 1,
+		chance: 0.1,
+		minForest: 0.45,
+		maxY: 0.85,
+		offsetX: { dist: "gaussian", avg: 0, var: 15 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 15 },
+		quantity: { avg: 5, var: 12 },
+		placement: "OnSurfacePlusUnderTrees"
+	}
+]

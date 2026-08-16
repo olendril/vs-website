@@ -1,0 +1,23 @@
+{
+  code: "ironmass",
+  class: "BlockIronMass",
+  entityClass: "IronMass",
+  creativeinventory: { "general": ["*"], "construction": ["*"] },
+  shape: { base: "block/basic/cube" },
+  drawtype: "cube",
+  blockmaterial: "Metal",
+  textures: {
+    all: { base: "game:block/metal/tarnished/blistersteel" }
+  },
+  replaceable: 200,
+  resistance: 6,
+  lightAbsorption: 99,
+  sidesolid: { all: true },
+  sideopaque: { all: true },
+  sounds: {
+    place: "block/metal",
+    break: "block/metal",
+    hit: "block/metal",
+    walk: "walk/stone"
+  }
+}

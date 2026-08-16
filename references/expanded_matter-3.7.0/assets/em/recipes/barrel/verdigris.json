@@ -1,0 +1,57 @@
+[
+	{
+		"code": "verdigris",
+		"enabled": true,
+		"sealHours": 168,
+		"comment": "From: https://en.wikipedia.org/wiki/Verdigris The industry there was long dominated by women, with verdigris manufactured in household cellars using copper plates stacked in clay pots that were filled with distilled wine.[15] The acid in the grapes caused the copper to develop crystals. The crystals ripened into verdigris and were scraped off when matured.",
+		"ingredients": [
+			{ "type": "item", "code": "em:washingsodaportion", "litres": 0.5, "consumeLitres": 0.5 },
+			{ "type": "item", "code": "em:crushed-metal-copper", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "em:powdered-ore-malachite", "quantity": 2 }
+	},
+
+	{
+		"code": "verdigris-arrow",
+		"enabled": true,
+		"sealHours": 336,
+		"comment": "game:ciderportion-* does not work, wildcards in barrel recipes are broken. vinegar does work but cannot be crafted in survival",
+		"ingredients": [
+			{ "type": "item", "code": "em:washingsodaportion", "litres": 0.5, "consumeLitres": 0.5 },
+			{ "type": "item", "code": "game:arrowhead-copper", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "em:powdered-ore-malachite", "quantity": 2 }
+	},
+
+	{
+		"code": "verdigris-spear",
+		"enabled": true,
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "em:washingsodaportion", "litres": 2, "consumeLitres": 1 },
+			{ "type": "item", "code": "game:spearhead-copper", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "em:powdered-ore-malachite", "quantity": 4 }
+	},
+
+	{
+		"code": "verdigris-scale",
+		"enabled": true,
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "em:washingsodaportion", "litres": 4, "consumeLitres": 2 },
+			{ "type": "item", "code": "game:metalscale-copper", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "em:powdered-ore-malachite", "quantity": 6 }
+	},
+
+	{
+		"code": "malachite-powder",
+		"sealHours": 24,
+		"ingredients": [
+			{ "type": "item", "code": "game:sulfate-full-copper", "litres": 2 },
+			{ "type": "item", "code": "game:lime", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "em:powdered-ore-malachite", "quantity": 2 }
+	}
+]

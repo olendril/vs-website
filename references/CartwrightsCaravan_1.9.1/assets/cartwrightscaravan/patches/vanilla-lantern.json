@@ -1,0 +1,66 @@
+[
+  {
+    "enabled":  true,
+    "op": "add",
+    "path": "/attributes/attachableToEntity",
+    "value": {
+
+
+      "categoryCode": "torch",
+      "attachedShape": { "base": "cartwrightscaravan:item/light/torch/{type}-{state}-ground" }
+
+    },
+    "file": "game:blocktypes/wood/torch.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode/light*-basiccar*",
+    "value": {
+      "base": "cartwrightscaravan:item/light/cartlantern-wide"
+    },
+    "file": "game:blocktypes/metal/lantern.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode/light*-sturdycar*",
+    "value": {
+      "base": "cartwrightscaravan:item/light/cartlantern-wide"
+    },
+    "file": "game:blocktypes/metal/lantern.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode/light*-slimcar*",
+    "value": {
+      "base": "cartwrightscaravan:item/light/cartlantern-slim"
+    },
+    "file": "game:blocktypes/metal/lantern.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode/light*-basicsle*",
+    "value": {
+      "base": "cartwrightscaravan:item/light/cartlantern-sled"
+    },
+    "file": "game:blocktypes/metal/lantern.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode/light*-smallstal*",
+    "value": {
+      "base": "cartwrightscaravan:item/light/cartlantern-single"
+    },
+    "file": "game:blocktypes/metal/lantern.json",
+    "side": "Server"
+  }
+]

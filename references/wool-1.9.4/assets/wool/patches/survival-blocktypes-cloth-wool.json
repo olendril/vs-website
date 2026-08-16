@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/enabled",
+    "value": "false",
+    "file": "game:blocktypes/cloth/wool.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,11 @@
+[
+	{
+	"op": "replace",
+	"compatibility": [ "em" ],
+	"comment": "we bring our own darkening crafting chain",
+	"path": "/0/enabled",
+	"value": false,
+	"file": "em:recipes/barrel/colored_leather.json",
+	"side": "Server"
+	}
+]

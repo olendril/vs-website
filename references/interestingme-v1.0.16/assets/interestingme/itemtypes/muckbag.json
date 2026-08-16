@@ -1,0 +1,91 @@
+{
+	code: "muckbag",
+	class: "ItemMuckBag",
+	maxstacksize: 1,
+
+	variantgroups: [
+		{ code: "tier", states: ["rawhide", "linen", "leather", "hardened"] }
+	],
+
+	behaviors: [
+		{ name: "HeldBag" }
+	],
+
+	attributes: {
+		// wearableAttachment: true makes VS treat this as equippable in a backpack slot.
+		wearableAttachment: true,
+
+		attachableToEntity: {
+			categoryCode: "backpack",
+			attachedShape: { base: "interestingme:item/muckbag/muckbag-{tier}-attached" }
+		},
+
+		// quantitySlots: 0 — we don't use VS item slots at all.
+		// Muck capacity is tracked as layer data in the ItemStack's attributes.
+		// slotCount drives ItemMuckBag.LayerCapacity in code.
+		backpackByType: {
+			"*-rawhide":  { quantitySlots: 0 },
+			"*-linen":   { quantitySlots: 0 },
+			"*-leather":  { quantitySlots: 0 },
+			"*-hardened": { quantitySlots: 0 }
+		},
+		// Muckbag layer storage capacity = slotCountByType * 8
+		slotCountByType: {
+			"*-rawhide":  3,
+			"*-linen":   4,
+			"*-leather":  5,
+			"*-hardened": 6
+		},
+
+		isMuckBag: true
+	},
+
+	shape: { base: "item/bag/backpack-normal" },
+	shapeByType: {
+		"*-rawhide": { base: "interestingme:item/muckbag/muckbag-rawhide" },
+		"*-linen": { base: "interestingme:item/bag/linensack" },
+		"*-leather": { base: "interestingme:item/muckbag/muckbag-leather" },
+		"*-hardened": { base: "interestingme:item/muckbag/muckbag-hardened" },
+		"*": { base: "item/bag/backpack-normal" }
+	},
+	texturesByType: {
+		"*-linen": {
+			linen: { base: "interestingme:item/bag/miningbag/linen" },
+			top: { base: "interestingme:item/bag/miningbag/top" }
+		},
+		"*": {}
+	},
+
+	storageFlags: 2,
+
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+
+	guiTransformByType: {
+		"*-linen": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -25, y: 23, z: 180 },
+			origin: { x: 0.5299, y: 0.23, z: 0.5 },
+			scale: 2.7,
+			rotate: true
+		},
+		"*": {
+			rotation: { x: -20, y: 21, z: 180 },
+			scale: 2.0
+		}
+	},
+	tpHandTransformByType: {
+		"*-linen": {
+			translation: { x: -0.7, y: -0.5, z: -0.6 },
+			rotation: { x: -4, y: 47, z: -17 },
+			scale: 0.81
+		}
+	},
+	groundTransformByType: {
+		"*-linen": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: 33, z: -180 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4
+		}
+	}
+}

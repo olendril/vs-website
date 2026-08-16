@@ -1,0 +1,31 @@
+{
+	"em:item-powdered-metal-temporal":				"Polvere temporale",
+
+	"em:item-crushed-metal-temporal":				"Pezzi temporanei",
+
+	"em:itemdesc-crushed-metal-temporal":				"Vibra debolmente.",
+
+	"em:itemdesc-powdered-metal-temporal":				"Vibra debolmente.<br><br>Meglio tenere il fiato mentre lo maneggi.",
+
+	"game:handbook-item-usage-powdered-metal-temporal":		"Potrebbe essere utile per creare oggetti che brillano di blu o viola.",
+
+	"game:handbook-item-usage-crushed-metal-temporal":		"Macinare in una polvere fine per essere usato.",
+
+	"game:tabname-ceramics":					"Ceramiche",
+	"game:tabname-glass":						"Vetro",
+	"game:tabname-luminous":					"Luminoso",
+
+	"em:item-ash-organic-plant-dry":				"Cenere vegetale",
+	"em:itemdesc-ash-organic-plant-dry":				"Una miscela di varie piante bruciate fino a ridursi in ceneri.",
+	"game:handbook-item-usage-ash-organic-plant-dry":		"Può essere trasformato in fertilizzante.",
+
+	"em:item-ash-organic-wood-dry":					"Cenere di legno",
+	"em:itemdesc-ash-organic-wood-dry":				"Una miscela di vari tipi di legno bruciato fino a ridursi in cenere.",
+	"game:handbook-item-usage-ash-organic-wood-dry":		"Può essere trasformato in fertilizzante.",
+
+	"em:item-powdered-ore-zincoxide":				"Bianco di zinco",
+
+	"em:item-powdered-ore-magnesiumhydroxide":			"Idrossido di magnesio",
+	"em:item-powdered-ore-magnesiumoxide":				"Ossido di magnesio",
+	"em:item-powdered-ore-manganesedioxide":			"Diossido di manganese"
+}

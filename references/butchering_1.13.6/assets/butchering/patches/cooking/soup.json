@@ -1,0 +1,61 @@
+[
+  // Prime Meat
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:primemeat-raw",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  // Smoked Prime Meat
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-primemeat",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  // Smoked Redmeat
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-*-redmeat",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  // Smoked Fish
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-*-fish",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  // Blood
+  {
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:bloodportion",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "blood"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  }
+]

@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "waterfall",
+    "name": "Waterfall",
+    "authors": [
+        "Wyrmin"
+    ],
+    "description": "Water must be manually spread from naturally generated liquid bodies.",
+    "version": "1.2.4",
+    "dependencies": {
+        "game": ""
+    }
+}

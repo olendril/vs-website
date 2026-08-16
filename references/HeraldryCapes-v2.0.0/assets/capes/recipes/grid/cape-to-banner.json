@@ -1,0 +1,26 @@
+[
+    {
+        "ingredientPattern": "A",
+        "ingredients": {
+            "A": { "type": "item", "code": "capes:cape" }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 1,
+        "copyAttributesFrom": "A",
+        "recipeGroup": 1,
+        "output": { "type": "item", "code": "heraldrybanners:banner" }
+    },
+    {
+        "ingredientPattern": "A",
+        "ingredients": {
+            "A": { "type": "item", "code": "heraldrybanners:banner" }
+        },
+        "shapeless": true,
+        "width": 1,
+        "height": 1,
+        "copyAttributesFrom": "A",
+        "recipeGroup": 1,
+        "output": { "type": "item", "code": "capes:cape" }
+    }
+]

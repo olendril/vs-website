@@ -1,0 +1,54 @@
+[
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "Add",
+    "path": "/client/animations/-",
+    "value": {
+      "code": "hold-sextant",
+      "animation": "hold-sextant",
+      "weight": 0.0,
+      "easeInSpeed": 4.0,
+      "easeOutSpeed": 5.0,
+      "elementWeight": {
+        "UpperArmR": 20,
+        "LowerArmR": 20
+      },
+      "elementBlendMode": {
+        "UpperArmR": "AddAverage",
+        "LowerArmR": "AddAverage"
+      },
+      "attributes": {  
+      "authorative": true
+    }
+    }
+  },
+  {
+    "file": "game:shapes/entity/humanoid/seraph-faceless",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "hold-sextant",
+      "code": "hold-sextant",
+      "quantityframes": 70,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "hold",
+      "keyframes": [
+    {
+					"frame": 0,
+					"elements": {
+						"UpperTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperArmR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 8.0, "rotationY": -2.0, "rotationZ": -17.0 },
+						"LowerArmR": { "rotationX": -8.0, "rotationY": 0.0, "rotationZ": -28.0 },
+						"UpperArmL": { "offsetX": 1.0, "offsetY": 0.0, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"UpperTorso": { "offsetX": 0.0, "offsetY": -0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 }
+					}
+				}
+      ]
+    }
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*",
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*-smallstall-classic*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/stallblanket-classic-vanilla"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*-smallstall-slanted*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/stallblanket-slanted-vanilla"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*-basiccart-classic*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/cartblanket-wide-vanilla"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*-slimcart-classic*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/cartblanket-slim-vanilla"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "cartwrightscarriages"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*carriage*",
+    "value": {
+      "base": "cartwrightscarriages:item/carriageblanket"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*/*",
+    "value": {
+      "base": "item/wearable/hooved/blanket1-elk"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*",
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*-smallstall-classic*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/stallblanket-classic-vanilla-forlorn"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*-smallstall-slanted*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/stallblanket-slanted-vanilla-forlorn"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*-basiccart-classic*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/cartblanket-wide-vanilla-forlorn"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*-slimcart-classic*",
+    "value": {
+      "base": "cartwrightscaravan:item/blankets/cartblanket-slim-vanilla-forlorn"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "cartwrightscarriages"
+      }
+    ],
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*carriage*",
+    "value": {
+      "base": "cartwrightscarriages:item/carriageblanket-forlorn"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCodeByType/*-forlorn/*",
+    "value": {
+      "base": "item/wearable/hooved/blanket2-elk"
+    },
+    "file": "game:itemtypes/wearable/animal/blanket.json",
+    "side": "Server"
+  }
+]

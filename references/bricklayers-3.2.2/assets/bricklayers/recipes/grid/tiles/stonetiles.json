@@ -1,0 +1,25 @@
+[
+	{
+	"ingredientPattern": "_T_,THT,TTT",
+	"ingredients": {
+		"H": { "type": "item", "code": "bricklayers:cement-tile" },
+		"T": { "type": "item", "code": "bricklayers:stonerawtile-*", "name": "rock",
+			"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:stonetiles-dull-{rock}", "quantity": 1 }
+	},
+
+	{
+	"ingredientPattern": "_T_,THT,TTT",
+	"ingredients": {
+		"H": { "type": "item", "code": "bricklayers:cement-tile" },
+		"T": { "type": "item", "code": "bricklayers:stonerawtileshiny-*", "name": "rock",
+			"allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite", "phyllite", "redmarble", "sandstone", "shale", "slate", "suevite", "whitemarble" ] }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "bricklayers:stonetiles-polished-{rock}", "quantity": 1 }
+	}
+]

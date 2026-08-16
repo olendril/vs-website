@@ -1,0 +1,71 @@
+[
+  {
+    "op": "replace",
+    "enabled": true,
+    "comment": "gambeson head",
+    "path": "/0/ingredientPattern",
+    "value": "TLT,LAL",
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/0/ingredients/A",
+    "value": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "enabled": true,
+    "comment": "gambeson body",
+    "path": "/1/ingredientPattern",
+    "value": "AMB,MTM,MLM",
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/1/ingredients/A",
+    "value": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true, "toolDurabilityCost": 6 },
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/1/ingredients/B",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-*", "allowedVariants": [ "mixed", "horn", "zinc" ] },
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/1/ingredients/T",
+    "value": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 3 },
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "enabled": true,
+    "comment": "gambeson legs",
+    "path": "/2/ingredientPattern",
+    "value": "LLL,LAL,T_T",
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/2/ingredients/A",
+    "value": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+    "file": "game:recipes/grid/armor/gambeson.json",
+    "side": "Server"
+  }
+]

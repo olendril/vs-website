@@ -1,0 +1,35 @@
+[
+	{
+	"name": "nadiyan-blacksmith-shirt",
+	"enabled": true,
+	"ingredientPattern": "CTC,BSB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-brown" },
+		"T": { "type": "item", "code": "wool:twine-wool-darkblue", "quantity": 2 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-upperbody-blacksmith" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-shirt",
+	"enabled": true,
+	"ingredientPattern": "CTC,BSB",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-darkblue", "quantity": 3 }
+	},
+	"recipeGroup": 7,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-upperbody-blacksmith" }
+	}
+]

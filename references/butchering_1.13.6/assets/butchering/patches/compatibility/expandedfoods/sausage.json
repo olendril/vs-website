@@ -1,0 +1,48 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:bloodportion",
+    "value": {
+      "saturation": 2.0,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {
+      "butchering:bloodportion": {
+        "saturation": 2.0,
+        "foodcategory": "Protein"
+      }
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/sausagefish.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:offal-clean",
+    "value": {
+      "saturation": 150,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:smoked-cured-*",
+    "value": {
+      "saturation": 130,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }
+]

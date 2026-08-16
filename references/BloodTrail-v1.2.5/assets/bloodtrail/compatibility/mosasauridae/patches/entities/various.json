@@ -1,0 +1,21 @@
+﻿[
+    // Mosasauridae
+    {
+        "side": "server",
+        "file": "mosasauridae:entities/land/mosasauridae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "mosasauridae:entities/land/mosasauridae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

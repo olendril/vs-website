@@ -1,0 +1,22 @@
+[
+	{
+		"code": "aqueous-gypsum",
+		"sealHours": 24,
+		"ingredients": [
+			{ "type": "item", "code": "game:sulfate-full-zinc", "litres": 2 },
+			{ "type": "item", "code": "game:lime", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:sulfate-full-calcium", "litres": 2 }
+	},
+
+	{
+		"code": "plaster",
+		"comment": "Plaster in VS is lime plaster, this should be a different block.",
+		"sealHours": 1,
+		"ingredients": [
+			{ "type": "item", "code": "game:waterportion", "litres": 1 },
+			{ "type": "item", "code": "em:powdered-ore-gypsum", "quantity": 4 }
+		],
+		"output": { "type": "block", "code": "game:plaster-plain", "quantity": 1 }
+	}
+]

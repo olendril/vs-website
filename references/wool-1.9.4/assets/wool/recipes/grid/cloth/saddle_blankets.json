@@ -1,0 +1,106 @@
+[
+	{
+	"ingredientPattern": "BLB,NRO",
+	"comment": "Targeted by a patch, must be at position 0!",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"L": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"N": { "type": "item", "code": "game:flaxtwine" },
+		"R": { "type": "item", "code": "wool:twine-wool-red" },
+		"O": { "type": "item", "code": "wool:twine-wool-orange" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-earthtone" }
+	},
+
+	{
+	"ingredientPattern": "BRB,KT_,BRB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "wool:fibers-generic-redbrown", "quantity": 4 },
+		"B": { "type": "item", "code": "wool:fibers-muskox-brown", "quantity": 8 },
+		"T": { "type": "item", "code": "wool:twine-wool-black", "quantity": 2 },
+		"K": { "type": "item", "code": "wool:kneedle-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-wool" }
+	},
+
+	{
+	"ingredientPattern": "BDB,TSL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"D": { "type": "item", "code": "wool:cloth-wool-darkblue" },
+		"T": { "type": "item", "code": "wool:twine-wool-darkblue", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"L": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-azure-embroidered" }
+	},
+
+	{
+	"ingredientPattern": "PWP,TST",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"P": { "type": "item", "code": "wool:cloth-wool-plain" },
+		"T": { "type": "item", "code": "wool:twine-wool-white" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-chateau" }
+	},
+
+	{
+	"ingredientPattern": "KBK,YSY",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"K": { "type": "item", "code": "wool:cloth-wool-black" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"Y": { "type": "item", "code": "wool:twine-wool-yellow" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-commoner" }
+	},
+
+	{
+	"ingredientPattern": "GYG,TSF",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"Y": { "type": "item", "code": "wool:cloth-wool-yellow" },
+		"G": { "type": "item", "code": "wool:cloth-wool-green" },
+		"T": { "type": "item", "code": "wool:twine-wool-yellow" },
+		"F": { "type": "item", "code": "wool:twine-wool-darkgreen" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-fancygreen" }
+	},
+
+	{
+	"ingredientPattern": "RBR,DND",
+	"ingredients": {
+		"N": { "type": "item", "code": "wool:kneedle-*", "isTool": true, "toolDurabilityCost": 4 },
+		"B": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 4 },
+		"R": { "type": "item", "code": "wool:twine-wool-darkred", "quantity": 4 },
+		"D": { "type": "item", "code": "wool:twine-wool-darkblue" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:hoovedwearables-blanket-herder" }
+	}
+]

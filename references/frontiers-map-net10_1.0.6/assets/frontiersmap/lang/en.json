@@ -1,0 +1,11 @@
+{
+
+  "item-frontiersmap": "Frontier's Map",
+   "itemdesc-frontiersmap": "A durable map kit with ink and stamps.  \n<font color=\"#B3FFFFFF\"><i>Right click to edit your map</i></font>",
+
+   "item-sextant": "Sextant",
+   "itemdesc-sextant": "A navigational instrument that measures the distance and reveals the location of anything you look at  \n<font color=\"#B3FFFFFF\"><i>Hold right click to start measuring</i></font>",
+
+   "game:frontiersmap-guide-text": "<strong>Frontier's Map</strong>\n<font color=\"#B3FFFFFF\"><i>Your journey deserves to be remembered.</i></font>\n\nCreate, ilustrate, and share your hand made physical maps of the world. To begin, craft a <a href=\"handbook://item-frontiersmap:frontiersmap\">Frontier's Map</a> and right-click to open it. Give it a name and start mapping your great kingdom!\n\nTo pinpoint a location with precision, use a <a href=\"handbook://item-frontiersmap:sextant\">Sextant</a> and hold right-click for couple seconds while aimed at a block or a landmark. Saved measurements can be imported into any map via the Sextant button located in the lower right part of the map. \n\nMaps support multiple tools for example a line tool for fine or broad strokes, an eraser, text tool and a stamp collection organised by different categories. Stamps can be scaled and rotated.\n\nMaps themselves can also be exported and imported on the brand new map, or existing one. Allowing you to share your discoveries with other people.\n\n<font color=\"#B3FFFFFF\"><i>Good luck!</i></font>",
+  "game:frontiersmap-guide-title": "Frontier's Map Guide"
+}

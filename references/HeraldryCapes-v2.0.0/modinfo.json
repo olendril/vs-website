@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "capes",
+    "name": "Heraldry : Capes",
+    "authors": ["Craluminum2413 (Dana)", "SaltyWater"],
+    "contributors": ["Moby_", "LastHazzerd"],
+    "description": "Customizable capes with heraldic symbols!",
+    "version": "2.0.0",
+    "dependencies": {
+        "game": "1.22.0",
+        "attributerenderinglibrary": "3.0.0",
+        "heraldry": "2.0.0"
+    }
+}

@@ -1,0 +1,165 @@
+[
+  {
+    "file": "game:blocktypes/clay/refractorybrickgrating.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/metal/ironfence.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/wattlefence.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/fence-free.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/fencegate.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/fence-bamboo.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/fence-bamboogate.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/roughhewnfence-free.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/roughhewnfencegate.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/plant/leaves/branchy.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  },
+  {
+    "file": "game:blocktypes/metal/trapdoor.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-bars-*": ["porous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/trapdoor.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-window-*": [
+        "porous"
+      ]
+    }
+  },
+  {
+    "file": "game:blocktypes/metal/door-metal.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-barred-*": ["porous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/door.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-crude": ["porous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofing.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofingcorner-inner.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofingcorner-outer.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofingbottom.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofingtop.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofinghalfleft.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/roofing/slantedroofinghalfright.json",
+    "op": "addmerge",
+    "path": "/tagsByType",
+    "value": {
+      "*-thatch-*": ["semiporous"],
+      "*-agedthatch-*": ["semiporous"]
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/ladder.json",
+    "op": "addmerge",
+    "path": "/tags",
+    "value": ["porous"]
+  }
+]

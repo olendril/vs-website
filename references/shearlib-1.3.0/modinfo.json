@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "shearlib",
+  "name": "ShearLib",
+  "description" : "Harvest items from living animals",
+  "authors": [ "Catasteroid", "Tels", "Phiwa" ],
+  "contributors": [ "DeanBro", "DejFidOFF", "Macoto Hino", "Morok", "Ruddi", "Wailwolf", "Spoonail" ],
+  "version": "1.3.0",
+  "dependencies": {
+	"game": "1.22.0",
+	"survival": "1.22.0"
+  },
+  "website": "https://gitlab.com/codesmiths/vs_shearlib"
+}

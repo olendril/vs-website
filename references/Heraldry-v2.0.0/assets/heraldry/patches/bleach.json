@@ -1,0 +1,29 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/attributes/HeraldryDyeProperties",
+        "value": {
+            "IsBleach": true
+        },
+        "file": "game:itemtypes/liquid/waterportion.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/HeraldryDyeProperties",
+        "value": {
+            "IsBleach": true
+        },
+        "file": "game:itemtypes/liquid/saltwaterportion.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributes/HeraldryDyeProperties",
+        "value": {
+            "IsBleach": true
+        },
+        "file": "game:itemtypes/liquid/boilingwaterportion.json",
+        "side": "Server"
+    }
+]

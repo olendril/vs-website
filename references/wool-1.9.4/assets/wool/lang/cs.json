@@ -1,0 +1,153 @@
+{
+	"game:handbook-item-usage":					"Použití",
+	"wool:handbook-description":					"Popis",
+
+	"wool:settings_shearable":					"Stříhání",
+
+	"wool:setting_enable_sheep_shearable":				"Možnost stříhat ovce",
+	"wool:setting_enable_sheep_shearable_comment":			"Lze stříhat muflony?",
+	"wool:setting_enable_goat_shearable":				"Možnost stříhat kozy",
+	"wool:setting_enable_goat_shearable_comment":			"Lze stříhat kozy?",
+	"wool:setting_enable_gazelle_shearable":			"Možnost stříhat gazely",
+	"wool:setting_enable_gazelle_shearable_comment":		"Lze stříhat gazely?",
+	"wool:setting_enable_deer_shearable":				"Možnost stříhat jeleny a losy",
+	"wool:setting_enable_deer_shearable_comment":			"Lze stříhat jeleny včetně losů?",
+	"wool:setting_enable_moose_shearable":				"Možnost stříhat losy",
+	"wool:setting_enable_moose_shearable_comment":			"Lze stříhat losy?",
+
+	"wool:gamemechanicinfo-animalshearing-title":			"Herní Mechanika: Stříhání zvířat",
+	"wool:gamemechanicinfo-animalshearing-text": 			"<strong>Chov zvířat - Vlna a stříhání</strong><br><br>Některá domestikovaná zvířata lze stříhat na rouno. <br>Zvíře musí být alespoň třetí generace a naživu, ale rouno lze získat i z mrtvých zvířat. <br>Pro nejlepší výsledky použijte nůžky. Alternativně lze použít nůž, ale existuje vyšší pravděpodobnost, že zvíře při stříhání zraníte. <br>Zvířatům trvá nějakou dobu, než jim rouno doroste. Vyšší generace zvířat mají rychlejší růst rouna a menší pravděpodobnost zranění během stříhání.<br><br>Druh a barva rouna závisí na druhu zvířete. Některá produkují i dvě barvy současně!<br><br><strong>Konfigurace</strong><br><br>Které druhy zvířat lze stříhat, závisí na konfiguraci vašeho modulu. Pro konfiguraci a aktivaci nastavení je potřeba mít nainstalovány <strong><font color='#4080a0'>ConfigLib</font></strong> a <strong><font color='#4080a0'>ImGui</font></strong>. <br>Ve výchozím nastavení lze stříhat muflony, kozy, gazely, losy a jeleny.",
+
+	"wool:gamemechanicinfo-woolknitting-title":			"Herní Mechanika: Barevná vlna a pletení",
+	"wool:gamemechanicinfo-woolknitting-text": 			"<strong>Vlna a pletení</strong><br><br>K výrobě vlny louhujte surové zvířecí rouno ve vápenné vodě. Výsledná vlákna lze poté spojit do vlněného provázku, nebo je přímo použít pro pletení. <br><br><strong>Barevná vlna</strong><br><br>Pro barvení vlny budete potřebovat buď vlněný provázek nebo vlněnou látku. Tu poté namočte buď do boraxu, chromitu nebo cínovce v sudu. Mordované provázky nebo látku poté uzavřete do sudu s barvivem podle vašeho výběru.",
+
+	"wool:item-fleece-angora-white":				"Rouno z mohéru",
+	"wool:item-fleece-muskox-brown":				"Rouno z pižmoně",
+	"wool:item-fleece-generic-black":				"Černé rouno",
+	"wool:item-fleece-generic-brown":				"Hnědé rouno",
+	"wool:item-fleece-generic-gray":				"Šedé rouno",
+	"wool:item-fleece-generic-lightbrown":				"Světle hnědé rouno",
+	"wool:item-fleece-generic-plain":				"Prosté rouno",
+	"wool:item-fleece-generic-redbrown":				"Červenohnědé rouno",
+	"wool:item-fleece-generic-yellow":				"Žluté rouno",
+
+	"wool:itemdesc-fleece-angora-white":				"Surové angorské kozí vlákna.",
+	"wool:itemdesc-fleece-muskox-brown":				"Surové hnědé rouno z pižmoně.",
+	"wool:itemdesc-fleece-generic-*":				"Surové zvířecí chlupy.",
+	"wool:itemdesc-fleece-generic-black":				"Surové černé rouno.",
+	"wool:itemdesc-fleece-generic-brown":				"Surové hnědé rouno.",
+	"wool:itemdesc-fleece-generic-gray":				"Surové šedé rouno.",
+	"wool:itemdesc-fleece-generic-lightbrown":			"Surové světle hnědé rouno.",
+	"wool:itemdesc-fleece-generic-plain":				"Surové prosté rouno.",
+	"wool:itemdesc-fleece-generic-redbrown":			"Surové červenohnědé rouno.",
+	"wool:itemdesc-fleece-generic-yellow":				"Surové žluté rouno, třpytící se zlatem.",
+
+	"wool:handbook-item-fleece":					"Dosti špinavé a zapáchající, před použitím je nutné ho vyprat.",
+
+	"wool:item-fibers-angora-white":				"Vlákna z mohéru",
+	"wool:item-fibers-muskox-brown":				"Vlákna z pižmoně",
+	"wool:item-fibers-generic-black":				"Černá vlněná vlákna",
+	"wool:item-fibers-generic-brown":				"Hnědá vlněná vlákna",
+	"wool:item-fibers-generic-gray":				"Šedá vlněná vlákna",
+	"wool:item-fibers-generic-lightbrown":				"Světle hnědá vlněná vlákna",
+	"wool:item-fibers-generic-plain":				"Světlá vlněná vlákna",
+	"wool:item-fibers-generic-redbrown":				"Červenohnědá vlněná vlákna",
+	"wool:item-fibers-generic-yellow":				"Žlutá vlněná vlákna",
+
+	"wool:itemdesc-fibers-angora-white":				"Lehká a načechraná přírodní vlákna z angorských koz.",
+	"wool:itemdesc-fibers-muskox-brown":				"Lehká a načechraná přírodní vlákna z pižmoňů.",
+	"wool:itemdesc-fibers-generic-black":				"Přírodní černá zvířecí vlákna.",
+	"wool:itemdesc-fibers-generic-brown":				"Přírodní hnědá zvířecí vlákna.",
+	"wool:itemdesc-fibers-generic-gray":				"Šedá přírodní zvířecí vlákna.",
+	"wool:itemdesc-fibers-generic-lightbrown":			"Přírodní světle hnědá zvířecí vlákna.",
+	"wool:itemdesc-fibers-generic-plain":				"Přírodní prosté zvířecí vlákna.",
+	"wool:itemdesc-fibers-generic-redbrown":			"Přírodní červenohnědá zvířecí vlákna.",
+	"wool:itemdesc-fibers-generic-yellow":				"Přírodní žlutá zvířecí vlákna.",
+
+	"wool:handbook-item-fibers":					"Lze spřádat do provázků a vlněných látek.",
+
+	"wool:item-twine-wool-mordant":					"Mordovaný vlněný provázek",
+
+	"wool:item-twine-wool-plain":					"Vlněný provázek",
+	"wool:item-twine-wool-black":					"Černý vlněný provázek",
+	"wool:item-twine-wool-blue":					"Modrý vlněný provázek",
+	"wool:item-twine-wool-brown":					"Hnědý vlněný provázek",
+	"wool:item-twine-wool-gray":					"Šedý vlněný provázek",
+	"wool:item-twine-wool-green":					"Zelený vlněný provázek",
+	"wool:item-twine-wool-orange":					"Oranžový vlněný provázek",
+	"wool:item-twine-wool-pink":					"Růžový vlněný provázek",
+	"wool:item-twine-wool-purple":					"Fialový vlněný provázek",
+	"wool:item-twine-wool-red":					"Červený vlněný provázek",
+	"wool:item-twine-wool-white":					"Bílý vlněný provázek",
+	"wool:item-twine-wool-yellow":					"Žlutý vlněný provázek",
+
+	"wool:itemdesc-twine-wool-*":					"Jemně spředený vlněný provázek",
+
+	"wool:handbook-item-twine":					"Není moc pevný, ale vytváří nádhernou nadýchanou a jemnou vlnu.",
+	"wool:handbook-item-twine-mordant":				"Lze obarvit na různé barvy.",
+	"wool:handbook-item-twine-plain":				"Není příliš pevný, ale vytváří nádhernou nadýchanou a útulnou vlnu.<br><br> Lze použít k opravě poškozeného oblečení o 8 %. Držte provázek kurzorem myši a klikněte <hk>leftmouse</hk> na kus oblečení nebo brnění, které chcete opravit, v inventáři postavy.",
+
+	"wool:item-clothes-upperbodyover-sweater-mohair-plain-white":		"Bílý mohérový svetr",
+	"wool:itemdesc-clothes-upperbodyover-sweater-mohair-*":			"<font color='#99c9f9'><i>Velmi načechraný!</i></font><br>",
+	"game:handbook-sweater-mohair-plain-white":				"Upleteno z nejjemnější vlny angorských koz.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-pinkgray":		"Růžovo-šedý svetr",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-brown":		"Hnědý svetr",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluebrown":		"Modro-hnědý svetr",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-gray":		"Šedý svetr",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-white":		"Světle šedý svetr",
+
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-gray":		"<font color='#99c9f9'><i>Trvanlivý pracovní oděv pro chladné dny.</i></font><br>",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-white":		"<font color='#99c9f9'><i>Nosí se jen v neděli.</i></font><br>",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluered":		"Nordický svetr",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-bluered":	"<font color='#99c9f9'><i>Tmavě modrý jako chladné severní noci, jasný jako sníh v lesích, tmavě červený jako krev zvířat rozlitá na zemi.</i></font><br>",
+	"game:handbook-sweater-wool-plain-bluered":				"Chrání před mrazivou nocí v polárních oblastech a jinde.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-fishbone-brown":		"Velmi jemný hnědý svetr",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-fishbone-*":		"<font color='#99c9f9'><i>Velmi stylový.</i></font><br>",
+	"game:handbook-sweater-wool-fishbone-brown":				"Tři různé drahé druhy vlny kombinované do jednoho jemného kousku pleteného oblečení.",
+
+	"wool:item-clothes-upperbodyover-sweater-qivuit-plain-brown":		"Světle hnědý svetr",
+	"wool:itemdesc-clothes-upperbodyover-sweater-qivuit-plain-brown":	"<font color='#c99979'><i>Voní mužností.</i></font><br>",
+	"game:handbook-sweater-qivuit-plain-brown":				"Vzácná a drahá vlna z pižmoňů pletená do dokonalosti.",
+
+	"game:handbook-sweater":						"Upleteno z teplé a jemné vlny.",
+	"game:handbook-leggings":						"Upleteno z teplé a jemné vlny.",
+
+	"wool:blockdesc-wool-*":						"Může být použita jako dekorace nebo k opravě oblečení o 40%.",
+
+	"wool:block-wool-plain":						"Jednoduchá vlna",
+	"wool:block-wool-black":						"Černá vlna",
+	"wool:block-wool-blue":							"Modrá vlna",
+	"wool:block-wool-brown":						"Hnědá vlna",
+	"wool:block-wool-gray":							"Šedá vlna",
+	"wool:block-wool-green":						"Zelená vlna",
+	"wool:block-wool-orange":						"Oranžová vlna",
+	"wool:block-wool-pink":							"Růžová vlna",
+	"wool:block-wool-purple":						"Fialová vlna",
+	"wool:block-wool-red":							"Červená vlna",
+	"wool:block-wool-white":						"Bílá vlna",
+	"wool:block-wool-yellow":						"Žlutá vlna",
+
+	"wool:handbook-block-wool":						"Lze použít k opravě poškozeného oblečení o 40 %. Držte ho v ruce a klikněte <hk>leftmouse</hk> na kus oblečení nebo brnění, které chcete opravit, v inventáři postavy.",
+
+	"wool:item-cloth-wool-mordant":						"Mordovaná vlněná látka",
+
+	"wool:item-cloth-wool-plain":						"Jednoduchá vlněná látka",
+	"wool:item-cloth-wool-black":						"Černá vlněná látka",
+	"wool:item-cloth-wool-blue":						"Modrá vlněná látka",
+	"wool:item-cloth-wool-brown":						"Hnědá vlněná látka",
+	"wool:item-cloth-wool-gray":						"Šedá vlněná látka",
+	"wool:item-cloth-wool-green":						"Zelená vlněná látka",
+	"wool:item-cloth-wool-orange":						"Oranžová vlněná látka",
+	"wool:item-cloth-wool-pink":						"Růžová vlněná látka",
+	"wool:item-cloth-wool-purple":						"Fialová vlněná látka",
+	"wool:item-cloth-wool-red":						"Červená vlněná látka",
+	"wool:item-cloth-wool-white":						"Bílá vlněná látka",
+	"wool:item-cloth-wool-yellow":						"Žlutá vlněná látka",
+
+	"wool:item-kneedle-wood":						"Pletací jehlice (Dřevo)",
+	"wool:item-kneedle-horn":						"Pletací jehlice (Roh)",
+	"wool:item-kneedle-bone":						"Pletací jehlice (Kost)"
+}

@@ -1,0 +1,21 @@
+﻿[
+    // Dromaeosauridae
+    {
+        "side": "server",
+        "file": "dromaeosauridae:entities/land/dromaeosauridae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "dromaeosauridae:entities/land/dromaeosauridae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

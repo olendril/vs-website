@@ -1,0 +1,32 @@
+{
+	code: "decoct-coffee",
+	perishableProps: {
+		freshHours: { avg: 24 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 0.005,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "game:block/food/meal/soup" },
+	cooksInto: { type: "item", code: "steepandbrew:decoct-coffee-hot", quantity: 100 },
+	ingredients: [
+		{
+			code: "water",
+			validStacks: [
+				{ type: "item", code: "game:waterportion", shapeElement: "bowl/water" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+			typeName: "water"
+		},
+		{
+			code: "ingredient",
+			validStacks: [
+				{ type: "item", code: "steepandbrew:coffee-ground", shapeElement: "bowl/vegetable base 1/*" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			typeName: "vegetable"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "AK_,FLF",
+	ingredients: {
+		"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1 },
+		"K": { type: "item", code: "game:knife-*", isTool: true, toolDurabilityCost: 1 },
+		"L": { type: "block", code: "game:log-placed-*-ud", name: "wood" },
+		"F": { type: "item", code: "game:firewood" }
+	},
+	width: 3,
+	height: 2,
+	shapeless: false,
+	output: { type: "block", code: "wellpulley-{wood}-down", quantity: 1 }
+}

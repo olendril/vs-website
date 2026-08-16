@@ -1,0 +1,44 @@
+[
+  {
+    "ingredientPattern": "BH",
+    "ingredients": {
+      "B": { "type": "item", "code": "game:hoovedwearables-head-*", "name": "type" },
+      "H": { "type": "item", "code": "aculinaryartillery:clothes-head-c-*", "name": "hat"  }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "aculinaryartillery:hoovedwearables-head-white-{type}" }
+  },
+  {
+    "ingredientPattern": "BH",
+    "ingredients": {
+      "B": { "type": "item", "code": "game:hoovedwearables-head-*", "name": "type" },
+      "H": { "type": "item", "code": "aculinaryartillery:clothes-head-l33that", "name": "hat"  }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "aculinaryartillery:hoovedwearables-head-l33t-{type}" }
+  },
+  {
+    "ingredientPattern": "B",
+    "ingredients": {
+      "B": { "type": "item", "code": "aculinaryartillery:hoovedwearables-head-white-*", "name": "type", "returnedStack": { "type": "item", "code":  "aculinaryartillery:clothes-head-c-hat"} }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:hoovedwearables-head-{type}" }
+  },
+  {
+    "ingredientPattern": "B",
+    "ingredients": {
+      "B": { "type": "item", "code": "aculinaryartillery:hoovedwearables-head-l33t-*", "name": "type", "returnedStack": { "type": "item", "code":  "aculinaryartillery:clothes-head-l33that"} }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:hoovedwearables-head-{type}" }
+  }
+]

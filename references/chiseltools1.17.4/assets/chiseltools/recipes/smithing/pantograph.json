@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["bismuthbronze","tinbronze","blackbronze","steel","meteoriciron","iron"] },
+	pattern: [[
+		
+		"#####_#####",
+		"_#_#___#_#_",
+		"#####_#####"
+		
+	]],
+	name: "Pantograph-{metal}",
+	code: "Pantograph-{metal}",
+	output: { type: "item", code: "pantograph-{metal}"   }
+}

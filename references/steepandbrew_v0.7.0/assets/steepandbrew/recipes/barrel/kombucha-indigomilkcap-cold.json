@@ -1,0 +1,9 @@
+{
+	code: "kombucha-indigomilkcap-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-indigomilkcap", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-indigomilkcap-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-indigomilkcap", litres: 10 }
+}

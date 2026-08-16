@@ -1,0 +1,44 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"steel": "game:block/metal/ingot/steel",
+		"metal": "game:block/metal/ingot/iron"
+	},
+	"elements": [
+		{
+			"name": "anvil",
+			"from": [ 5.0, 6.0, 6.5 ], 
+			"to": [ 11.0, 8.0, 9.5 ], 
+			"rotationOrigin": [ 8.0, 6.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#metal", "uv": [ 0.0, 0.0, 6.0, 2.0 ] },
+				"east": { "texture": "#metal", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+				"south": { "texture": "#metal", "uv": [ 0.0, 0.0, 6.0, 2.0 ] },
+				"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+				"up": { "texture": "#metal", "uv": [ 0.0, 0.0, 6.0, 3.0 ] },
+				"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 6.0, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "plate",
+					"from": [ 2.0, 2.0, 0.5 ], 
+					"to": [ 4.0, 2.2, 2.5 ], 
+					"rotationOrigin": [ 3.0, 2.0, 1.5 ],
+					"faces": {
+						"north": { "texture": "#steel", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"east": { "texture": "#steel", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"south": { "texture": "#steel", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"west": { "texture": "#steel", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+						"up": { "texture": "#steel", "uv": [ 13.0, 5.0, 15.0, 7.0 ] }
+					}
+				}
+			]
+		}
+	]}

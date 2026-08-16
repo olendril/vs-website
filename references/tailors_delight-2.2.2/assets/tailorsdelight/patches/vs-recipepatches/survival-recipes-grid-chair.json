@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "enabled": true,
+    "comment": "chair",
+    "path": "/0/ingredientPattern",
+    "value": "WLW,WNW",
+    "file": "game:recipes/grid/chair.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "game:recipes/grid/chair.json",
+    "side": "Server"
+  }
+]

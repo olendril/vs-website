@@ -1,0 +1,39 @@
+[
+	{
+	"ingredientPattern": "BT,BW",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:rockblastingbomb", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "BT,BW",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder", "quantity": 4 },
+		"T": { "type": "item", "code": "game:flaxtwine" },
+		"W": { "type": "block", "code": "wool:wool-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "primitivesurvival:rockblastingbomb", "quantity": 8 }
+	},
+
+	{
+	"ingredientPattern": "BT",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:blastingpowder" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "primitivesurvival:fuse-blackmatch", "quantity": 8 }
+	}
+]

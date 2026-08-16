@@ -1,0 +1,85 @@
+{
+	"code": "leatherblock",
+	"class": "Block",
+	"shape": { "base": "game:block/basic/cube" },
+	"drawtype": "Cube",
+	"attributes": {
+		"canChisel": true,
+		"handbook": { "groupBy": [ "leatherblock-*" ] },
+		"mapColorCode": "settlement"
+	},
+	"variantgroups": [
+		{ "code": "color", "states": [ "black", "blue", "darkblue", "darkbrown", "darkgreen", "darkred", "gray", "green", "orange", "pink", "purple", "red", "yellow", "white" ] }
+	],
+	"blockmaterial": "Cloth",
+	"creativeinventory": { "general": ["*"],  "decorative": ["*"] },
+	"replaceable": 700,
+	"resistance": 1.5,
+	"lightAbsorption": 99,
+	"texturesByType": {
+		"leatherblock-darkblue": {
+			"all": { "base": "game:block/leather/blue",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" },
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light2", "blendMode": "Lighten" }
+			] }
+		},
+		"leatherblock-darkbrown": {
+			"all": { "base": "game:block/leather/plain",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" },
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light2", "blendMode": "Lighten" }
+			] }
+		},
+		"leatherblock-darkgreen": {
+			"all": { "base": "game:block/leather/green",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" },
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light2", "blendMode": "Lighten" }
+			] }
+		},
+		"leatherblock-darkred": {
+			"all": { "base": "game:block/leather/red",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" },
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light2", "blendMode": "Lighten" }
+			] }
+		},
+		"leatherblock-black": {
+			"all": { "base": "game:block/leather/{color}",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/darken", "blendMode": "Multiply" },
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light2", "blendMode": "Lighten" }
+			] }
+		},
+		"*": {
+			"all": { "base": "game:block/leather/{color}",
+				"blendedOverlays": [
+				       { "base": "tailorsdelight:overlays/stitches_dark", "blendMode": "Darken" },
+				       { "base": "tailorsdelight:overlays/stitches_light", "blendMode": "Lighten" }
+			] }
+		}
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+        },
+	"combustibleProps": {
+		"burnTemperature": 400,
+		"burnDuration": 15
+	},
+	"sounds": {
+		"place": "game:block/leather",
+		"break": "game:block/leather",
+		"hit": "game:block/leather",
+		"walk": "game:block/leather"
+	},
+	"materialDensity": 400
+}

@@ -1,0 +1,9 @@
+{
+	code: "kombucha-cowparsley-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-cowparsley", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-cowparsley-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-cowparsley", litres: 10 }
+}

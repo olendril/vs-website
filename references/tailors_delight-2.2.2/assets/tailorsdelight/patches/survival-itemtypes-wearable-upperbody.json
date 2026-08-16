@@ -1,0 +1,45 @@
+[
+  {
+    "op": "move",
+    "frompath": "/attributesByType/*",
+    "path": "/attributesByType/tdtemp",
+    "file": "game:itemtypes/wearable/seraph/upperbody.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-woolen-shirt",
+    "value": { "warmth": 2.5 },
+    "file": "game:itemtypes/wearable/seraph/upperbody.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-hunter-shirt",
+    "value": { "warmth": 2.3 },
+    "file": "game:itemtypes/wearable/seraph/upperbody.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-pastoral-shirt",
+    "value": { "warmth": 2.2 },
+    "value": 2.2,
+    "file": "game:itemtypes/wearable/seraph/upperbody.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-chateau-blouse",
+    "value": { "warmth": 2.2 },
+    "file": "game:itemtypes/wearable/seraph/upperbody.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/attributesByType/tdtemp",
+    "path": "/attributesByType/*",
+    "file": "game:itemtypes/wearable/seraph/upperbody.json",
+    "side": "Server"
+  }
+]

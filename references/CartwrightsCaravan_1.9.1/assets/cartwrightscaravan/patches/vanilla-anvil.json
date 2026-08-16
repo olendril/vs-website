@@ -1,0 +1,21 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity",
+    "value": {
+      "categoryCode": "anvil"
+    },
+    "file": "game:blocktypes/metal/anvil.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity",
+    "value": {
+      "categoryCode": "storage"
+    },
+    "file": "game:blocktypes/stone/generic/forge.json",
+    "side": "Server"
+  }
+]

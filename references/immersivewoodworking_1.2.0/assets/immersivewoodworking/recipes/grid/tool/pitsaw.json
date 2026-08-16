@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "B,S",
+		ingredients: {
+			"B": { type: "item", code: "pitsawblade-*", name: "metal" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "pitsaw-{metal}", quantity: 1, recipeAttributes: { "applyquenchablebuffs": true } }
+	}
+]

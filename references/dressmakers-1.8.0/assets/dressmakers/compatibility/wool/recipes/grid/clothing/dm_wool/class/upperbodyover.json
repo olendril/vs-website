@@ -1,0 +1,81 @@
+[
+	{
+	"ingredientPattern": "LBL,FTF,ATN",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"T": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "mixed", "horn", "zinc" ] },
+		"F": { "type": "item", "code": "wool:twine-wool-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" }
+	},
+	{
+	"ingredientPattern": "LBL,FTF,ATN",
+	"enabled": true,
+	"requiresTrait": "improviser",
+	"ingredients": {
+		"T": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 3 },
+		"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 3 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "mixed", "horn", "zinc" ] },
+		"F": { "type": "item", "code": "wool:twine-wool-black", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" }
+	},
+
+	{
+	"ingredientPattern": "GBG,TGT,_N_",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" }
+	},
+	{
+	"ingredientPattern": "GBG,TGT,_N_",
+	"enabled": true,
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 6 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" }
+	},
+
+	{
+	"ingredientPattern": "GTG,GSG,YBY",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-green" },
+		"B": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "buttons", "allowedVariants": [ "bone", "horn" ] },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 3 },
+		"Y": { "type": "item", "code": "wool:twine-wool-yellow", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" }
+	}
+]

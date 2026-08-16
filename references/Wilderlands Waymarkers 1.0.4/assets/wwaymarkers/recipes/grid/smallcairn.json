@@ -1,0 +1,64 @@
+{
+	"ingredientPattern": "L,L",
+	"width": 1,
+	"height": 2,
+	"ingredients": {
+		"L": {
+			"type": "item",
+			"code": "game:stone-*",
+			"name": "rock",
+			"quantity": 2,
+			"allowedVariants": [
+				"andesite",
+				"chalk",
+				"chert",
+				"conglomerate",
+				"limestone",
+				"claystone",
+				"granite",
+				"sandstone",
+				"shale",
+				"basalt",
+				"peridotite",
+				"phyllite",
+				"slate",
+				"bauxite",
+				"kimberlite",
+				"suevite",
+				"whitemarble",
+				"redmarble",
+				"greenmarble",
+				"rhyolite",
+				"dolostone",
+				"siltstone",
+				"quartzite",
+				"gneiss",
+				"schist",
+				"migmatite",
+				"amphibolite",
+				"pumice",
+				"diorite",
+				"gabbro",
+				"mudstone",
+				"jade",
+				"jasper",
+				"komatiite",
+				"arenite",
+				"arkose",
+				"marl",
+				"travertine",
+				"wacke",
+				"serpentinite",
+				"monzonite",
+				"syenite",
+				"pyroxenite"
+			]
+		}
+	},
+	"output": {
+		"type": "block",
+		"code": "wwaymarkers:smallcairn-{rock}",
+		"quantity": 1
+	}
+}
+

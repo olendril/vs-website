@@ -1,0 +1,12 @@
+[
+	{
+	"sealHours": 8,
+	"code": "magnesiumhydroxide",
+	"comment": "Should be slaked lime + salt water, but mixing two liquids in a barrel is not possible.",
+	"ingredients": [
+		{ "type": "item", "code": "game:saltwaterportion", "litres": 1 },
+		{ "type": "item", "code": "game:quicklime", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "em:powdered-ore-magnesiumhydroxide", "quantity": 1 }
+	}
+]

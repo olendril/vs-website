@@ -1,0 +1,180 @@
+[
+  {
+    "code": "primitiveropegrip",
+    "ingredientPattern": " L ,RRR, L ",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:rope"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-primitive-normal"
+    }
+  },
+  {
+    "code": "primitiveropegrip2",
+    "ingredientPattern": "R R, L ,R R",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:rope"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-primitive-normal"
+    }
+  },
+  {
+    "code": "primitivereedgrip",
+    "ingredientPattern": " R ,RLR, R ",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:*basket*"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-primitive-brown"
+    }
+  },
+  {
+    "code": "primitivereedgrip2",
+    "ingredientPattern": "R R, L ,R R",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:*basket*"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-primitive-brown"
+    }
+  },
+  {
+    "code": "primitivehidegrip",
+    "ingredientPattern": " R ,RLR, R ",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:hide-raw-medium"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-primitive-white"
+    }
+  },
+  {
+    "code": "primitivehidegrip2",
+    "ingredientPattern": "R R, L ,R R",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:hide-raw-medium"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-primitive-white"
+    }
+  },
+  {
+    "code": "primitivehidegrip3",
+    "ingredientPattern": " R ,RLR, R ",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:hide-raw-small",
+        "Quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-primitive-white"
+    }
+  },
+  {
+    "code": "primitivehidegrip4",
+    "ingredientPattern": "R R, L ,R R",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "game:hide-raw-small",
+        "Quantity": 2
+      },
+      "R": {
+        "type": "item",
+        "code": "game:rope"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-primitive-white"
+    }
+  }
+]

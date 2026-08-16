@@ -1,0 +1,50 @@
+[
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "Add",
+    "path": "/client/animations/-",
+    "value": {
+      "code": "holding-book-idle",
+      "animation": "holding-book-idle",
+      "animationSpeed": 0.9,
+      "weight": 0.0,
+      "easeInSpeed": 4,
+      "easeOutSpeed": 5,
+      "elementWeight": {
+        "UpperArmR": 20,
+        "LowerArmR": 20
+        
+      },
+      "elementBlendMode": {
+        "UpperArmR": "AddAverage",
+        "LowerArmR": "AddAverage"
+        
+      }
+	  
+    }
+  },
+  {
+    "file": "game:shapes/entity/humanoid/seraph-faceless",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "holding-book-idle",
+      "code": "holding-book-idle",
+      "quantityframes": 30,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+		{
+					"frame": 0,
+					"elements": {
+						"UpperArmR": { "rotationX": 14.0, "rotationY": 6.0, "rotationZ": -11.0 },
+						"LowerArmR": { "rotationX": -11.0, "rotationY": 22.0, "rotationZ": -55.0 },
+					
+						
+						"ItemAnchor": { "offsetX": 0.0, "offsetY": 2.5, "offsetZ": 3.0, "rotationX": 14.0, "rotationY": -39.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+    }
+  }
+]

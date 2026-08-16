@@ -1,0 +1,321 @@
+[
+	{
+	"name": "nadiyan-alchemist-pants",
+	"enabled": true,
+	"ingredientPattern": "LDL,LSL,DGD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:cloth-darkblue" },
+		"G": { "type": "item", "code": "wool:cloth-wool-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-barber-pants",
+	"enabled": true,
+	"ingredientPattern": "LDL,LSL,DGD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"G": { "type": "item", "code": "wool:twine-wool-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkred" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-barber" }
+	},
+
+	{
+	"name": "nadiyan-beekeper-pants",
+	"enabled": true,
+	"ingredientPattern": "WDW,GSG,DWD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"W": { "type": "item", "code": "wool:cloth-wool-white" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-beekeeper" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-pants",
+	"enabled": true,
+	"ingredientPattern": "WDW,WSW,DGD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"W": { "type": "item", "code": "wool:cloth-wool-white" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-blacksmith" }
+	},
+
+	{
+	"name": "nadiyan-fisher-pants",
+	"enabled": true,
+	"ingredientPattern": "NLA,BSB,BTB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-brown" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-fisher" }
+	},
+
+	{
+	"name": "nadiyan-guard-pants",
+	"enabled": true,
+	"ingredientPattern": "RGR,YSY,RGR",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"R": { "type": "item", "code": "tailorsdelight:twine-darkred" },
+		"G": { "type": "item", "code": "wool:twine-wool-gray" },
+		"Y": { "type": "item", "code": "wool:twine-wool-yellow" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-guard" }
+	},
+
+	{
+	"name": "nadiyan-innkeeper-pants",
+	"enabled": true,
+	"ingredientPattern": "BGB,DSD,BGB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-blue", "quantity": 2 },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-innkeeper" }
+	},
+
+	{
+	"name": "nadiyan-hunter-pants",
+	"enabled": true,
+	"ingredientPattern": "NDN,GAG,DLD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-hunter" }
+	},
+
+	{
+	"name": "nadiyan-hunter-pants",
+	"enabled": true,
+	"ingredientPattern": "NDN,GAG,DLD",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 3 },
+		"N": { "type": "item", "code": "tailorsdelight:leather-nadiyan", "quantity": 3 },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-hunter" }
+	},
+
+	{
+	"name": "nadiyan-miner-pants-clean-pristine",
+	"enabled": true,
+	"ingredientPattern": "LWL,LSL,DGD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:cloth-darkred" },
+		"G": { "type": "item", "code": "wool:cloth-wool-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"W": { "type": "item", "code": "wool:twine-wool-white" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-miner-clean" }
+	},
+
+	{
+	"name": "nadiyan-miner-pants-dirty",
+	"enabled": true,
+	"ingredientPattern": "LWL,BSB,DGD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:cloth-darkred" },
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkbrown" },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"W": { "type": "item", "code": "wool:twine-wool-gray" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkblue" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-miner" }
+	},
+
+	{
+	"name": "nadiyan-tan-peasant-pants",
+	"enabled": true,
+	"ingredientPattern": "GDG,GTG,BSB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-orange" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkbrown" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-peasant1" }
+	},
+
+	{
+	"name": "nadiyan-white-peasant-pants",
+	"enabled": true,
+	"ingredientPattern": "GDG,GTG,BSB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkbrown" },
+		"T": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 3 },
+		"B": { "type": "item", "code": "wool:twine-wool-black" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-peasant2" }
+	},
+
+	{
+	"name": "nadiyan-brown-peasant-pants",
+	"enabled": true,
+	"ingredientPattern": "GTG,KGS",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:sewingkit" },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true },
+		"G": { "type": "item", "code": "tailorsdelight:checkeredcloth-brown" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-peasant3" }
+	},
+
+	{
+	"name": "nadiyan-shepherd-pants",
+	"enabled": true,
+	"ingredientPattern": "GTG,YSY,_F_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"Y": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-shepherd" }
+	},
+
+	{
+	"name": "nadiyan-tailor-pants",
+	"enabled": true,
+	"ingredientPattern": "DTD,GSG,T_T",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:checkeredcloth-darkblue" },
+		"G": { "type": "item", "code": "tailorsdelight:checkeredcloth-gray" },
+		"T": { "type": "item", "code": "wool:twine-wool-yellow" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-tailor" }
+	},
+
+	{
+	"name": "nadiyan-beige-fur-lined-pants",
+	"enabled": true,
+	"ingredientPattern": "CTC,PBP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"B": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-winter1" }
+	},
+
+	{
+	"name": "nadiyan-brown-fur-lined-pants",
+	"enabled": true,
+	"ingredientPattern": "CTC,PBP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-white" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"B": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-lowerbody-winter2" }
+	}
+]

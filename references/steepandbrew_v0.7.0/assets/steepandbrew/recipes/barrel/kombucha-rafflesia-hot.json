@@ -1,0 +1,9 @@
+{
+	code: "kombucha-rafflesia-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-rafflesia", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-rafflesia-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-rafflesia", litres: 10 }
+}

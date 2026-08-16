@@ -1,0 +1,56 @@
+[
+  {
+    "code": "bismuthinite",
+    "triesPerChunk": 1.00,//0.01
+    "withOreMap": false,
+    "handbookPageCode": "item-nugget-bismuthinite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "chimney",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "peridotite", "phyllite", "slate" ]
+      },
+
+      "placeblock": {
+        "code": "ore-*-bismuthinite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium", "rich" ],
+          "rock-granite": [ "poor", "medium", "rich" ],
+          "rock-basalt": [ "poor", "medium", "rich", "bountiful" ],
+          "rock-peridotite": [ "poor", "medium", "rich" ],
+          "rock-phyllite": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 7,
+        "var": 3
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.2,
+        "var": 0.2
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 0,
+        "var": 0
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 6,
+        "var": 3
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 96,
+        "var": 32
+      },
+      "OreSpongePercent": 0.4
+    }
+  }
+]

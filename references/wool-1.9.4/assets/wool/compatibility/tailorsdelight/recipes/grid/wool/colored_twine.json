@@ -1,0 +1,72 @@
+[
+	{
+	"enabled": false,
+	"ingredientPattern": "S,G,F",
+	"compatibility": [ "em" ],
+	"ingredients": {
+		"G": { "type": "item", "code": "game:beeswax" },
+		"S": { "type": "item", "code": "em:powdered-metal-gold", "quantity": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "yellow", "white" ] }
+	},
+	"recipeGroup": 2,
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:twine-gold" }
+	},
+
+	{
+	"enabled": false,
+	"ingredientPattern": "S,G,F",
+	"compatibility": [ "em" ],
+	"ingredients": {
+		"G": { "type": "item", "code": "game:beeswax" },
+		"S": { "type": "item", "code": "em:powdered-metal-silver", "quantity": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "yellow", "white" ] }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:twine-silver" }
+	},
+
+	{
+	"enabled": false,
+	"ingredientPattern": "S,G,F",
+	"compatibility": [ "em" ],
+	"ingredients": {
+		"G": { "type": "item", "code": "game:resin" },
+		"S": { "type": "item", "code": "em:powdered-metal-gold", "quantity": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "yellow", "white" ] }
+	},
+	"recipeGroup": 2,
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:twine-gold" }
+	},
+
+	{
+	"enabled": false,
+	"ingredientPattern": "S,G,F",
+	"compatibility": [ "em" ],
+	"ingredients": {
+		"G": { "type": "item", "code": "game:resin" },
+		"S": { "type": "item", "code": "em:powdered-metal-silver", "quantity": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "yellow", "white" ] }
+	},
+	"width": 1,
+	"height": 3,
+	"output": { "type": "item", "code": "tailorsdelight:twine-silver" }
+	},
+
+	{
+	"enabled": false,
+	"ingredientPattern": "FN",
+	"ingredients": {
+		"F": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "skipVariants": [ "plain" ], "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "tailorsdelight:twine-{color}", "quantity": 2 }
+	}
+]

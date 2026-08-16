@@ -1,0 +1,623 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-uranium-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-uranium",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-uranium-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-uranium",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-uranium-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-uranium",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-uranium-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-uranium",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "add",
+    "path": "/attributes/pigmentByType",
+    "value": {
+	"*-chromite-*": {
+	  "name": "Chromite brown",
+	  "color": { "red": 45, "green": 23, "blue": 18 }
+	},
+	"*-hematite-*": {
+	  "name": "Red ocre",
+	  "color": { "red": 142, "green": 47, "blue": 35 }
+	},
+	"*-limonite-*": {
+	  "name": "Yellow ocre",
+	  "color": { "red": 160, "green": 108, "blue": 39 }
+	}
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-hematite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-hematite",
+	"comment": "40 units => 8 nuggets",
+	"stacksize": 8
+      },
+      "hardnessTier": 3
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-hematite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-hematite",
+	"comment": "30 units => 6 nuggets",
+	"stacksize": 6
+      },
+      "hardnessTier": 3
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-hematite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-hematite",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 3
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-hematite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-hematite",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 3
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-limonite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-limonite",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-limonite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-limonite",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-limonite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-limonite",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-limonite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-limonite",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-quartz_nativegold-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-gold",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 1
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-quartz_nativegold-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-gold",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 1
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-quartz_nativegold-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-gold",
+	"comment": "10 units => 2 nuggets",
+	"stacksize": 2
+      },
+      "hardnessTier": 1
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-quartz_nativegold-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-gold",
+	"comment": "5 units => 1 nugget",
+	"stacksize": 1
+      },
+      "hardnessTier": 1
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-magnetite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-magnetite",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 4
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-magnetite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-magnetite",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 4
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-magnetite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-magnetite",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 4
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-magnetite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-magnetite",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 4
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-malachite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-malachite",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-malachite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-malachite",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-malachite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-malachite",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-malachite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-malachite",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-nativecopper-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-copper",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-nativecopper-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-copper",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-nativecopper-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-copper",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-nativecopper-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-metal-copper",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-pentlandite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-pentlandite",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-pentlandite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-pentlandite",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-pentlandite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-pentlandite",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-pentlandite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-pentlandite",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/crushingPropsByType/ore-bountiful-galena-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "game:crushed-galena",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/crushingPropsByType/ore-rich-galena-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "game:crushed-galena",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/crushingPropsByType/ore-medium-galena-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "game:crushed-galena",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/crushingPropsByType/ore-poor-galena-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "game:crushed-galena",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-bountiful-rhodochrosite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-rhodochrosite",
+	"comment": "35 units => 7 nuggets",
+	"stacksize": 7
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-rich-rhodochrosite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-rhodochrosite",
+	"comment": "25 units => 5 nuggets",
+	"stacksize": 5
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-medium-rhodochrosite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-rhodochrosite",
+	"comment": "20 units => 4 nuggets",
+	"stacksize": 4
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/ore-poor-rhodochrosite-*",
+    "value": {
+      "crushedStack": {
+	"type": "item",
+	"code": "em:crushed-ore-rhodochrosite",
+	"comment": "15 units => 3 nuggets",
+	"stacksize": 3
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  }
+]

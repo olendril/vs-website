@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "MT",
+	"ingredients": {
+		"M": { "type": "item", "code": "game:*-raw", "allowedVariants": [ "redmeat", "poultry", "fish", "bushmeat" ], "name": "meat", "quantity": 4 },
+		"T": { "type": "item", "code": "wool:twine-wool-*", "name": "wool", "skipVariants": [ "mordant" ] }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "item", "code": "primitivesurvival:trussedmeat-{meat}-raw" }
+	}
+]

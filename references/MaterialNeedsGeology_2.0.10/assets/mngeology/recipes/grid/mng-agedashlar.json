@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "CLC	LML	CLC",
+	ingredients: {
+		"M": { type: "item", code: "game:mortar" },
+		"C": { type: "block", code: "game:polishedrockslab-*-down-free", name: "rock" },
+		"L": { type: "item", code: "game:stonebrick-*", name: "rock", allowedVariants: [ "arenite", "arkose", "komatiite", "marl", "monzonite", "pyroxenite", "serpentinite", "syenite", "tufa", "wacke" ] }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:agedstonebricks-{rock}", quantity: 3 }
+}

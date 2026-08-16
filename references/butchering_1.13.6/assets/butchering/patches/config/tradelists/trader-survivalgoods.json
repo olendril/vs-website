@@ -1,0 +1,21 @@
+[
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "butchering:fur-bolt",
+      "type": "item",
+      "stacksize": 2,
+      "stock": {
+        "avg": 8,
+        "var": 2
+      },
+      "price": {
+        "avg": 5,
+        "var": 1
+      }
+    },
+    "file": "game:config/tradelists/trader-survivalgoods.json"
+  }
+]

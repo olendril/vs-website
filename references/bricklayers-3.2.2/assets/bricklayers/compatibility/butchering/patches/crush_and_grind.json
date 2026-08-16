@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingProps",
+    "value": { "crushedStack": { "type": "item", "code": "bricklayers:crushed-bones", "stacksize": 1 }, "hardnessTier": 1 },
+    "file": "butchering:itemtypes/resource/strongbone.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/grindingProps",
+	"value": { "groundStack": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 4 } },
+    "file": "butchering:itemtypes/resource/ivory.json",
+    "side": "Server"
+  }
+]

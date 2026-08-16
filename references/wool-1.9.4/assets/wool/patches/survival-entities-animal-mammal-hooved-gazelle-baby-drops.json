@@ -1,0 +1,47 @@
+[
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hooved/gazelle-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hooved/gazelle-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable/drops",
+    "enabled": true,
+    "value": [],
+    "file": "game:entities/animal/mammal/hooved/gazelle-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/behaviorConfigs/harvestable/drops/-",
+    "enabled": true,
+    "value": [
+	{ "type": "item", "code": "wool:fleece-generic-plain",
+		"quantityByType": { "gazelle-*-baby-*": { "avg": 1, "var": 0.75 } }
+	},
+	{ "type": "item", "code": "wool:fleece-generic-yellow",
+		"quantityByType": { "gazelle-*-baby-*": { "avg": 1, "var": 0.75 } }
+	}
+    ],
+    "file": "game:entities/animal/mammal/hooved/gazelle-baby.json",
+    "side": "Server"
+  }
+]

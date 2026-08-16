@@ -1,0 +1,32 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "em" }
+		],
+		"side": "Server",
+		"file": "mngeology:recipes/grid/mn-rawrefractorybrick.json",
+		"op": "replace",
+		"path": "/0/ingredients/B/code",
+		"value": "em:crushed-ore-corundum"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "em" }
+		],
+		"side": "Server",
+		"file": "mngeology:recipes/grid/mn-rawrefractorybrick.json",
+		"op": "add",
+		"path": "/1/ingredients/B/code",
+		"value": "em:crushed-ore-corundum"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "em" }
+		],
+		"side": "Server",
+		"file": "mngeology:recipes/grid/mn-rawrefractorybrick.json",
+		"op": "add",
+		"path": "/2/ingredients/B/code",
+		"value": "em:crushed-ore-corundum"
+	},
+]

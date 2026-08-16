@@ -1,0 +1,61 @@
+{
+	"code": "glazingbase",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{ "code": "type", "states": [ "clay", "clear", "milky" ] }
+	],
+	"attributesByType": {
+		"*-clay": {
+			"handbook": { "ignoreCreativeInvStacks": true },
+			"waterTightContainerProps": {
+				"containable": true,
+				"itemsPerLitre": 1,
+				"texture": { "base": "bricklayers:block/liquid/glazing/base" }
+			},
+			"allowSpill": true,
+			"whenSpilled": { "action": "DropContents", "stack": { "type": "item", "code": "bricklayers:glazingbase-clay" } }
+		},
+		"*-clear": {
+			"handbook": { "ignoreCreativeInvStacks": true },
+			"waterTightContainerProps": {
+				"containable": true,
+				"itemsPerLitre": 1,
+				"texture": { "base": "bricklayers:block/liquid/glazing/clear/base" }
+			},
+			"allowSpill": true,
+			"whenSpilled": { "action": "DropContents", "stack": { "type": "item", "code": "bricklayers:glazingbase-clear" } }
+		},
+		"*-milky": {
+			"handbook": { "ignoreCreativeInvStacks": true },
+			"waterTightContainerProps": {
+				"containable": true,
+				"itemsPerLitre": 1,
+				"texture": { "base": "bricklayers:block/liquid/glazing/milky/base" },
+				"isopaque": true
+			},
+			"allowSpill": true,
+			"whenSpilled": { "action": "DropContents", "stack": { "type": "item", "code": "bricklayers:glazingbase-milky" } }
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturesByType": {
+		"*-clay": { "all": { "base": "bricklayers:block/liquid/glazing/base" } },
+		"*-clear": { "all": { "base": "bricklayers:block/liquid/glazing/clear/base" } },
+		"*-milky": { "all": { "base": "bricklayers:block/liquid/glazing/milky/base" } }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "ceramics" ],
+		"stacks": [
+			{ "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type": "item", "code": "bricklayers:glazingbase-{type}", "makefull": true } ] } }
+		] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 250,
+	"guiTransform": {
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

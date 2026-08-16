@@ -1,0 +1,17 @@
+[
+	{
+	"dependsOn": [ { "modid": "em", "invert": true } ],
+	"op": "addmerge",
+	"file": "game:itemtypes/resource/ore-ungraded.json",
+	"side": "Server",
+	"path": "/crushingPropsByType/ore-corundum",
+	"value": {
+		"crushedStack": {
+		"type": "item",
+		"code": "mngeology:crushed-corundum",
+		"stacksize": 1
+		},
+	"hardnessTier": 2
+	},
+	},
+]

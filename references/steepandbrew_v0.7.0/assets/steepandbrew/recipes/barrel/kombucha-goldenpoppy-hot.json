@@ -1,0 +1,9 @@
+{
+	code: "kombucha-goldenpoppy-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-goldenpoppy", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-goldenpoppy-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-goldenpoppy", litres: 10 }
+}

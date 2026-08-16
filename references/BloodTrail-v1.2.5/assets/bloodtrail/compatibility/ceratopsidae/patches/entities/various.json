@@ -1,0 +1,21 @@
+﻿[
+    // Ceratopsidae
+    {
+        "side": "server",
+        "file": "ceratopsidae:entities/land/ceratopsidae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "ceratopsidae:entities/land/ceratopsidae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-tourmalineverdelite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-tourmalineverdelite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-tourmalineverdelite-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-tourmalineverdelite-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-tourmalineverdelite-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-tourmalineverdelite-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-tourmalineverdelite-monzonite-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-tourmalineverdelite-syenite-free"
+	},
+]

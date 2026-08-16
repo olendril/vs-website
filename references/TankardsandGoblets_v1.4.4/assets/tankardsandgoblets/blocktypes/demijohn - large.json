@@ -1,0 +1,121 @@
+{
+  code: "t&g-largedemijohn", 
+  class: "BlockLiquidContainerTopOpened",
+  variantgroups: [
+  		{ code: "wrapped", states: ["wicker", "null"] },
+		{ code: "glass", states: ["red", "blue", "green", "plain", "brown", "smoky"] },
+	],
+  creativeinventory: 
+  {
+    general: ["*"], "decorative": ["*"]
+	},
+
+  shapebyType: {   
+   "t&g-largedemijohn-wicker-*": {
+	base: "shapes/block/largedemijohnbottleuncorkedwrapped"  },
+	"t&g-largedemijohn-null-*": {
+	base: "shapes/block/largedemijohnbottleuncorked"  },
+  },
+
+  blockmaterial: "Glass",
+  maxStackSize: 1,
+  liquidSelectable: 1,
+  lightabsorption: 1,
+  "storageFlags": 2,
+  
+  
+  behaviors: [
+	{ name: "GroundStorable", properties: { collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.8, z2: 1 
+	} } },
+	{ name: "Unplaceable", "__comment": "Cannot place." 
+	},
+	{ name: "RightClickPickup"
+	},
+	],
+  
+  texturesbyType: {
+	  "t&g-largedemijohn-wicker-*": {
+		"cork":  { base: "game:block/wood/omoktabletop/bottom"},
+		"glass":  { base: "block/glass/{glass}*"},
+		"wrapping": {base: "game:block/cloth/reedrope"},
+	  },
+	  "t&g-largedemijohn-null-*":{
+		"cork":  { base: "game:block/wood/omoktabletop/bottom"},
+		"glass":  { base: "block/glass/{glass}*"},
+	  }
+	},
+
+  
+	guiTransform: {
+		translation: { x: 0, y: -6, z: 0 },
+		rotation: { x: -12, y: -100, z: 12 },
+		origin: { x: 0.5, y: 0.25, z: 0.5 },
+		scale: 3.96
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -0.71, y: -0.23, z: 0.01 },
+		rotation: { x: 107, y: -9, z: -75 },
+		scale: 2.3
+	},
+	fpHandTransform: 
+	{
+		scale: 1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.075, z: 0 },
+		rotation: { x: 4, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 13
+	},
+
+
+	
+attributes: 
+	{
+		groundStorageTransform: 
+		{
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.3
+		},
+		
+		"handbook": {
+		"groupBy": [ "t&g-largedemijohn-*"]
+		},
+		
+		"isClear": true,
+		
+		onDisplayTransform: 
+		{
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			rotation: { x: 0, y: 90, z: 0 },
+			scale: 1.7
+		},		
+		liquidContainerPropsByType: {
+			"t&g-largedemijohn-null-*": {
+				capacityLitres: 25,
+				transferSizeLitres: 5,
+				emptyShapeLoc: "shapes/block/largedemijohnbottlecorked",
+				opaqueContentShapeLoc: "shapes/block/smalldemijohncontents",
+				liquidContentShapeLoc: "shapes/block/smalldemijohncontents",
+			},
+			"t&g-largedemijohn-wicker-*": {
+				capacityLitres: 25,
+				transferSizeLitres: 5,
+				emptyShapeLoc: "shapes/block/largedemijohnbottlecorkedwrapped",
+				opaqueContentShapeLoc: "shapes/block/smalldemijohncontents",
+				liquidContentShapeLoc: "shapes/block/smalldemijohncontents",
+			},
+		},	
+		
+
+	},
+	
+	sounds: {
+		"place": "game:block/loosestone1",
+		"hit": "game:tool/breakreinforced",
+		"break": "game:block/glass",
+		"walk": "game:walk/stone2"
+		}	
+	
+}

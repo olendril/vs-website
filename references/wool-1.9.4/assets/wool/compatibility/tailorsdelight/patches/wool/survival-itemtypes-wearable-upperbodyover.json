@@ -1,0 +1,97 @@
+[
+  {
+    "op": "replace",
+    "comment": "reindeer herder fur coat",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/0/ingredients/P/code",
+    "value": "tailorsdelight:leatherbundle-pelt",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "miner tunic",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/5/ingredients/N/code",
+    "value": "tailorsdelight:needle-*",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "spice merchant coat",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/9/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-gold" },
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "huntsman tunic",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/10/ingredients/A/code",
+    "value": "tailorsdelight:awl-*",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/10/ingredients/P/code",
+    "value": "tailorsdelight:leatherbundle-pelt",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "huntsman tunic",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/11/ingredients/A/code",
+    "value": "tailorsdelight:awl-*",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/11/ingredients/P/code",
+    "value": "tailorsdelight:leatherbundle-pelt",
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "hunter coat",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/12/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "hunter coat",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/13/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "hunter coat",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/14/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "emerald" ] },
+    "file": "wool:recipes/grid/clothing/wool/upperbodyover.json",
+    "side": "Server"
+  }
+]

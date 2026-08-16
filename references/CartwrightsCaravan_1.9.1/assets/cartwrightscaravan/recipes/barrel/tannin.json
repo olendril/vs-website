@@ -1,0 +1,202 @@
+[
+  {
+    "code": "canopycoloringTn",
+    "sealHours": 10,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 10,
+        "consumeLitres": 10
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-basic-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-basic-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "closedcanopycoloringTn",
+    "sealHours": 12,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 12,
+        "consumeLitres": 12
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-closed-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-closed-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "tentcoloringATn",
+    "sealHours": 5,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 5,
+        "consumeLitres": 5
+      },
+      {
+        "type": "item",
+        "code": "cartsidetent-cloth-high-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartsidetent-cloth-high-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "tentcoloringBTn",
+    "sealHours": 5,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 5,
+        "consumeLitres": 5
+      },
+      {
+        "type": "item",
+        "code": "cartsidetent-cloth-low-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartsidetent-cloth-low-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "gripcoloringATn",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 2,
+        "consumeLitres": 2
+      },
+      {
+        "type": "item",
+        "code": "cartswearable-saddlelong-basic-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-basic-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "gripcoloringBTn",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 2,
+        "consumeLitres": 2
+      },
+      {
+        "type": "item",
+        "code": "cartswearable-saddleshort-basic-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-basic-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "sidecolor2",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 3,
+        "consumeLitres": 3
+      },
+      {
+        "type": "item",
+        "code": "cartsideboard-cloth-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-cloth-brown",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "ornatecanopytannin",
+    "sealHours": 10,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:strongtanninportion",
+        "litres": 10,
+        "consumeLitres": 10
+      },
+      {
+        "type": "item",
+        "code": "cartcanopy-ornate-*",
+        "name": "material",
+        "allowedVariants": [ "normal" ],
+        "quantity": 1
+      }
+    ],
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-ornate-brown",
+      "stackSize": 1
+    }
+  },
+]

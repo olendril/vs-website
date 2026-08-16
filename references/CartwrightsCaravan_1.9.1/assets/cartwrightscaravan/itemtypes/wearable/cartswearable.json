@@ -1,0 +1,197 @@
+{
+	"code": "cartswearable",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"saddleshort",
+				"saddlelong"
+
+			]
+		},
+		{
+			"code": "form",
+			"states": [
+				"basic",
+				"leather",
+				"primitive"
+			]
+		},
+		{
+			"code": "material",
+			"states": [
+				"white",
+				"black",
+				"brown",
+				"green",
+				"blue",
+				"orange",
+				"red",
+				"yellow",
+				"purple",
+				"pink",
+				"gray",
+				"normal"
+			]
+		}
+	],
+	"allowedVariants": [
+		"*-basic-*",
+		"*-leather-*",
+		"*-primitive-white",
+		"*-primitive-brown",
+		"*-primitive-normal"
+	],
+	"attributesByType": {
+		"*saddle*": {
+			"attachableToEntity": {
+				"categoryCodeByType": {
+					"cartswearable-*": "cartgrip"
+				},
+				"attachedShapeBySlotCodeByType": {
+					"*short*": {
+						"*-basicsled*": { "base": "item/wearable/cartsaddle-basic-sledalt" },
+						"*stall*": { "base": "item/wearable/cartsaddle-basic-stallalt" },
+						"*-slimcart*": { "base": "item/wearable/cartsaddle-basic-slimalt" },
+						"*basiccart*": { "base": "item/wearable/cartsaddle-basic-widealt" }
+					},
+					"*": {
+						"*-basicsled*": { "base": "item/wearable/cartsaddle-basic-sled" },
+						"*stall*": { "base": "item/wearable/cartsaddle-basic-stall" },
+						"*-slimcart*": { "base": "item/wearable/cartsaddle-basic-slim" },
+						"*basiccart*": { "base": "item/wearable/cartsaddle-basic-wide" }
+					}
+				}
+			},
+			"controlSchemeByType": {
+				"*saddles*": "Hold",
+				"*saddlel*": "Press"
+			},
+			"isSaddleByType": {
+				"cartswearable-*saddle*": true
+			},
+			"isBridleByType": {
+				"cartswearable-*saddle*": true
+			},
+			"interactPassthroughByType": {
+				"cartswearable-*saddle*": true
+			},
+			"groundStorageTransform": {
+				"translation": {
+					"x": -0.3,
+					"y": 0,
+					"z": -0.04
+				},
+				"rotation": {
+					"x": -1,
+					"y": -91,
+					"z": 0
+				},
+				"origin": {
+					"x": 0.61,
+					"y": 0.5,
+					"z": 0.7
+				},
+				"scale": 0.95
+
+
+			}
+		}
+	},
+	"behaviorsByType": {
+		"*saddle*": [
+			{
+				"name": "GroundStorable",
+				"properties": {
+					"layout": "Quadrants"
+				}
+			}
+		]
+	},
+	"shapeByType": {
+		"*saddleshort-*": { "base": "item/wearable/cartsaddle-basic-inventory" },
+		"*saddlelong-*": { "base": "item/wearable/cartsaddle-basic-inventoryalt" },
+		"*seat*": { "base": "item/wearable/cartseat" }
+	},
+	"texturesByType": {
+		"*basic*": {
+			"saddlecolor": { "base": "game:block/cloth/basic/{material}*" },
+			"saddlecolor2": { "base": "game:block/cloth/linen/{material}*" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*leather*": {
+			"saddlecolor": { "base": "game:block/leather/{material}*" },
+			"saddlecolor2": { "base": "game:block/cloth/linen/{material}*" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*primitive-white*": {
+			"saddlecolor": { "base": "game:block/cloth/pelt" },
+			"saddlecolor2": { "base": "game:block/cloth/linen/mordant" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*primitive-brown*": {
+			"saddlecolor": { "base": "game:block/cloth/reedrope" },
+			"saddlecolor2": { "base": "game:block/cloth/linen/mordant" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		},
+		"*primitive-normal*": {
+			"saddlecolor": { "base": "game:block/cloth/ropedcloth" },
+			"saddlecolor2": { "base": "game:block/cloth/linen/mordant" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		}
+	},
+
+
+
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 32,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"cartwrightscaravan": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+
+	"guiTransformByType": {
+
+		"*saddles*": {
+			"rotation": {
+				"x": -43,
+				"y": -39,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.19,
+				"y": 0.57,
+				"z": 0.12
+			},
+			"scale": 2.53
+		},
+
+		"*saddlel*": {
+			"rotation": {
+				"x": -43,
+				"y": -39,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.19,
+				"y": 0.57,
+				"z": 0.12
+			},
+			"scaleXyz": {
+				"x": -2.53,
+				"y": 2.53,
+				"z": 2.53
+			}
+		}
+	}
+}	
+
+

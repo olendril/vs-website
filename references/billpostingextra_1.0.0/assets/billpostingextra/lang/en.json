@@ -1,0 +1,15 @@
+{
+    "billpostingextra:item-creature-billpost-pelt": "Pelt Billpost",
+    "billpostingextra:item-creature-billpost-pressedreed": "Pressed Reed Billpost",
+    "billpostingextra:item-creature-billpost-rawreed": "Raw Reed Billpost",
+    "billpostingextra:item-creature-billpost-wovenbamboo": "Woven Bamboo Billpost",
+
+    "billpostingextra:item-paper-pelt": "Pelt Billpost",
+    "billpostingextra:itemdesc-paper-pelt": "A pelt for writing on",
+    "billpostingextra:item-paper-pressedreed": "Pressed Reed Billpost",
+    "billpostingextra:itemdesc-paper-pressedreed": "A set of pressed reeds for writing on",
+    "billpostingextra:item-paper-rawreed": "Raw Reed Billpost",
+    "billpostingextra:itemdesc-paper-rawreed": "A set of raw reeds for writing on",
+    "billpostingextra:item-paper-wovenbamboo": "Woven Bamboo Billpost",
+    "billpostingextra:itemdesc-paper-wovenbamboo": "A set of woven bamboos for writing on"
+}

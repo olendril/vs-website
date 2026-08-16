@@ -1,0 +1,51 @@
+[
+	{
+	"ingredientPattern": "TBS,BSL,SL_",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+		"B": { "type": "block", "code": "game:supportbeam-*", "name": "wood", "allowedVariants": [ "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart" ], "quantity": 2 },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 3 },
+		"L": { "type": "block", "code": "wool:wool-*", "quantity": 2, "name": "wool", "allowedVariants": [ "plain", "white" ] }
+	},
+	"recipeGroup": 2, "width": 3, "height": 3,
+	"output": { "type": "item", "code": "game:sail", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TBS,BSL,SL_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"B": { "type": "block", "code": "game:supportbeam-*", "name": "wood", "allowedVariants": [ "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart" ], "quantity": 2 },
+		"L": { "type": "block", "code": "wool:wool-*", "quantity": 2, "name": "wool", "allowedVariants": [ "plain", "white" ] }
+	},
+	"recipeGroup": 6, "width": 3, "height": 3,
+	"output": { "type": "item", "code": "game:sail", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TBS,BSL,SL_",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:plank-*", "quantity": 4, "name": "plank", "skipVariants": [ "rotten", "aged", "veryaged", "veryrotten" ] },
+		"B": { "type": "block", "code": "game:supportbeam-*", "name": "wood", "allowedVariants": [ "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart" ], "quantity": 2 },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 },
+		"L": { "type": "block", "code": "wool:wool-*", "quantity": 2, "name": "wool", "allowedVariants": [ "plain", "white" ] }
+	},
+	"recipeGroup": 2, "width": 3, "height": 3,
+	"output": { "type": "item", "code": "game:sail-large-oak", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TBS,BSL,SL_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:plank-*", "quantity": 4, "name": "plank", "skipVariants": [ "rotten", "aged", "veryaged", "veryrotten" ] },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"B": { "type": "block", "code": "game:supportbeam-*", "name": "wood", "allowedVariants": [ "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart" ], "quantity": 2 },
+		"L": { "type": "block", "code": "wool:wool-*", "quantity": 2, "name": "wool", "allowedVariants": [ "plain", "white" ] }
+	},
+	"recipeGroup": 6, "width": 3, "height": 3,
+	"output": { "type": "item", "code": "game:sail-large-oak", "quantity": 4 }
+	}
+]

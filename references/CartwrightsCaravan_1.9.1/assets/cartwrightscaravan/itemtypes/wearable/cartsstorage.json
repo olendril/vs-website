@@ -1,0 +1,147 @@
+{
+	"code": "cartsstorage",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"barrel",
+				"crate",
+				"trunk",
+				"smallbasket",
+				"smallsack",
+				"smallchest",
+				"smallpouch"
+			]
+		},
+		{
+			"code": "wood",
+			"states": [ "oak" ]
+		}
+	],
+	"skipVariants": [
+		"*trunk-*"
+	],
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCodeByType": {
+				"cartsstorage-small*": "smallchest",
+				"cartsstorage-*": "storage"
+			},
+			"attachedShapeByType": {
+				"*barrel*": { "base": "game:block/wood/barrel/closed" },
+				"*crate*": { "base": "game:block/wood/crate/normal-closed" },
+				"*trunk*": { "base": "game:block/wood/trunk/normal" },
+				"*small*": { "base": "item/small/{type}" }
+
+			}
+		},
+		"backpackByType": {
+			"cartsstorage-trunk-*": { "quantitySlots": 32 },
+			"cartsstorage-barrel-*": { "quantitySlots": 16 },
+			"cartsstorage-crate-*": { "quantitySlots": 16 },
+			"cartsstorage-small*": { "quantitySlots": 1 }
+		},
+		"interactPassthroughByType": {
+			"cartsstorage-*": false
+		}
+
+	},
+	"behaviorsByType": {
+		"*small*": [
+			{ "name": "HeldBag" },
+			{ "name": "GroundStorable", "properties": { "layout": "Quadrants" }}
+		],
+		"*": [
+			{ "name": "HeldBag" },
+			{ "name": "GroundStorable",
+				"properties": {
+		"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.95, "z2": 1},
+		"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.95, "z2": 1}
+				} }
+		]
+	},
+
+	"shapeByType": {
+		"*barrel*": { "base": "game:block/wood/barrel/closed" },
+		"*crate*": { "base": "game:block/wood/crate/normal-closed" },
+		"*trunk*": { "base": "game:block/wood/trunk/normal" },
+		"*small*": { "base": "item/small/{type}-inventory" }
+	},
+	"texturesByType": {
+		"*barrel*": {
+			"blackbronze4": { "base": "game:block/metal/sheet/blackbronze4" },
+			"bottom": { "base": "game:block/wood/barrel/bottom" },
+			"aged": { "base": "game:block/wood/debarked/aged" }
+		},
+		"*crate*": {
+			"sides": { "base": "game:block/wood/crate/baldcypress-sides" },
+			"frame-generic": { "base": "game:block/wood/crate/frame-generic" }
+		},
+		"*trunk*": {
+			"accessories": { "base": "game:block/wood/trunk/accessories" },
+			"left-side": { "base": "game:block/wood/trunk/left-side" },
+			"lid": { "base": "game:block/wood/trunk/lid" },
+			"right-side": { "base": "game:block/wood/trunk/right-side" },
+			"sides2": { "base": "game:block/wood/trunk/sides" }
+		},
+		"*smallbasket*": {
+			"boxlid": { "base": "game:block/reed/basket/normal-lid" },
+			"boxsidesSN": { "base": "game:block/reed/basket/normal-northsouth" },
+			"boxsidesWE": { "base": "game:block/reed/basket/normal-westeast" }
+		},
+		"*smallsack*": {
+			"sacklinen": { "base": "game:item/bag/linensack/linen" },
+			"sacktop": { "base": "game:item/bag/linensack/top" }
+		},
+		"*smallchest*": {
+			"chestaccessories": { "base": "game:block/wood/trunk/accessories" },
+			"chestlid": { "base": "game:block/wood/trunk/lid" },
+			"chestsides2": { "base": "game:block/wood/trunk/sides" }
+		},
+		"*smallpouch*": {
+			"pouchlinen": { "base": "game:item/bag/backpack/leather" },
+			"pouchtop": { "base": "game:item/bag/backpack/straps" }
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 16,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"cartwrightscaravan": [ "*" ]
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*small*": {
+			"rotation": {
+				"x": -40,
+				"y": -36,
+				"z": 178
+			},
+			"origin": {
+				"x": 0.45,
+				"y": 0.25,
+				"z": 0.5
+			},
+			"scale": 1.91
+		},
+		"*": {
+			"rotation": {
+				"x": -30,
+				"y": -44,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.05,
+				"y": 0.9,
+				"z": 0
+			},
+			"scale": 0.97
+
+		}
+	}
+
+}	
+
+

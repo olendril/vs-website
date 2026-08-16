@@ -1,0 +1,442 @@
+{
+	"code": "deadpig",
+	"class": "butcherable",
+	"variantgroups": [
+		{ "code": "type", "states": [ "male", "female", "baby"] },
+		{ "code": "skin", "states": [ "eurasian", "redriver", "warthog" ] },
+		{ "code": "size", "states": [ "normal", "elder" ] },
+		{ "code": "texture", "states": [ "1" ] },
+		{ "code": "state", "states": [ "dead", "skinned", "bledout", "rotten" ] }
+	],
+	"allowedVariants": [
+		"deadpig-male-*",
+		"deadpig-female-*",
+		"deadpig-baby-*"
+	],
+	"skipVariants": [
+		"@deadpig-(male|female)-(redriver|warthog)-elder-.*",
+		"@deadpig-baby-.*-elder-.*"
+	],
+	"maxstacksize": 1,
+	"behaviors": [ { "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.2, "y1": 0, "z1": 0.2, "x2": 0.8, "y2": 0.5, "z2": 0.8 }}}],
+	"texturesByType": {
+		"@deadpig-(male|female)-(eurasian|redriver|warthog)-normal-.*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/pig/{skin}-adult" } },
+		"@deadpig-(male|female)-eurasian-elder-.*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/pig/{skin}-elder" } },
+		"@deadpig-baby-(eurasian|warthog)-.*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/pig/{skin}-baby" } },
+		"deadpig-baby-redriver-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/pig/eurasian-baby" } },
+		"deadpig-*-skinned": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadpig-*-bledout": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadpig-*-rotten": { "hide": { "base": "game:block/creature/rot/rot" } }
+	},
+	"attributesByType": {
+		"deadpig-male-eurasian-normal-*": {
+			"size": 0.5,
+			"mass": 0.03,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 100,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/pig/pig-male-eurasian-normal-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					}
+				}
+			],
+			"skinningRewards": [
+				{
+					"type": "item",
+					"code": "butchering:ivory-raw",
+					"quantity": {
+						"avg": 1.2,
+						"var": 0.2
+					}
+				}
+			]
+		},
+    "deadpig-male-eurasian-elder-*": {
+      "size": 0.5,
+      "mass": 0.03,
+      "bloodType": "butchering:bloodportion",
+      "bloodAmount": 100,
+      "butcheringWorkLoad": "medium",
+      "handbookByType": {
+        "*-rotten": {
+          "exclude": false
+        },
+        "*": {
+          "exclude": true
+        }
+      },
+      "hangingShape": { "base": "butchering:creatures/game/pig/pig-male-eurasian-elder-hanging" },
+      "excludeRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:primemeat-raw",
+          "quantity": {
+            "avg": 3,
+            "var": 1
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 4,
+            "var": 1
+          }
+        }
+      ],
+      "skinningRewards": [
+        {
+          "type": "item",
+          "code": "butchering:ivory-raw",
+          "quantity": {
+            "avg": 1.2,
+            "var": 0.2
+          }
+        }
+      ]
+    },
+    "deadpig-male-redriver-normal-*": {
+      "size": 0.5,
+      "mass": 0.03,
+      "bloodType": "butchering:bloodportion",
+      "bloodAmount": 100,
+      "butcheringWorkLoad": "medium",
+      "handbookByType": {
+        "*-rotten": {
+          "exclude": false
+        },
+        "*": {
+          "exclude": true
+        }
+      },
+      "hangingShape": { "base": "butchering:creatures/game/pig/pig-male-redriver-normal-hanging" },
+      "excludeRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:primemeat-raw",
+          "quantity": {
+            "avg": 3,
+            "var": 1
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 4,
+            "var": 1
+          }
+        }
+      ],
+      "skinningRewards": [
+        {
+          "type": "item",
+          "code": "butchering:ivory-raw",
+          "quantity": {
+            "avg": 1.2,
+            "var": 0.2
+          }
+        }
+      ]
+    },
+    "deadpig-male-warthog-normal-*": {
+      "size": 0.5,
+      "mass": 0.03,
+      "bloodType": "butchering:bloodportion",
+      "bloodAmount": 100,
+      "butcheringWorkLoad": "medium",
+      "handbookByType": {
+        "*-rotten": {
+          "exclude": false
+        },
+        "*": {
+          "exclude": true
+        }
+      },
+      "hangingShape": { "base": "butchering:creatures/game/pig/pig-male-warthog-normal-hanging" },
+      "excludeRewards": [],
+      "butcheringRewards": [
+        {
+          "type": "item",
+          "code": "butchering:primemeat-raw",
+          "quantity": {
+            "avg": 3,
+            "var": 1
+          }
+        },
+        {
+          "type": "item",
+          "code": "butchering:offal-bloody",
+          "quantity": {
+            "avg": 4,
+            "var": 1
+          }
+        }
+      ],
+      "skinningRewards": [
+        {
+          "type": "item",
+          "code": "butchering:ivory-raw",
+          "quantity": {
+            "avg": 1.2,
+            "var": 0.2
+          }
+        }
+      ]
+    },
+		"deadpig-female-eurasian-normal-*": {
+			"size": 0.5,
+			"mass": 0.03,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 100,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/pig/pig-male-eurasian-normal-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadpig-female-eurasian-elder-*": {
+			"size": 0.5,
+			"mass": 0.06,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 100,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/pig/pig-male-eurasian-elder-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadpig-female-redriver-normal-*": {
+			"size": 0.5,
+			"mass": 0.03,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 100,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/pig/pig-male-redriver-normal-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadpig-female-warthog-normal-*": {
+			"size": 0.5,
+			"mass": 0.03,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 100,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/pig/pig-male-warthog-normal-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadpig-baby-*": {
+			"size": 0.5,
+			"mass": 0,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 20,
+			"butcheringWorkLoad": "small",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/pig/pig-baby-eurasian-normal-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+	
+	"shapeByType": {
+		"deadpig-male-eurasian-normal-*": { "base": "creatures/game/pig/pig-male-eurasian-normal-dead" },
+		"deadpig-male-eurasian-elder-*": { "base": "creatures/game/pig/pig-male-eurasian-elder-dead" },
+		"deadpig-male-redriver-normal-*": { "base": "creatures/game/pig/pig-male-redriver-normal-dead" },
+		"deadpig-male-warthog-normal-*": { "base": "creatures/game/pig/pig-male-warthog-normal-dead" },
+		"deadpig-female-eurasian-normal-*": { "base": "creatures/game/pig/pig-male-eurasian-normal-dead" },
+		"deadpig-female-eurasian-elder-*": { "base": "creatures/game/pig/pig-male-eurasian-elder-dead" },
+		"deadpig-female-redriver-normal-*": { "base": "creatures/game/pig/pig-male-redriver-normal-dead" },
+		"deadpig-female-warthog-normal-*": { "base": "creatures/game/pig/pig-male-warthog-normal-dead" },
+		"deadpig-baby-*": { "base": "creatures/game/pig/pig-baby-eurasian-normal-dead" }
+	},
+	"storageFlagsbytype": {
+		"deadpig-baby-*": 32769,
+		"*-rotten": 1,
+		"*": 32770
+	},
+    "transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "Perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadpig-{type}-{skin}-{size}-1-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": { "general": ["*-1-*"], "items": ["*-1-*"] },
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -20, "y": 21, "z": 180 },
+		"origin": { "x": 0.53, "y": 0.35, "z": 0.5 },
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -132, "y": -180, "z": -18 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.5, "y": -0.3, "z": -0.7 },
+		"rotation": { "x": -89, "y": -12, "z": 3 },
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.5
+	}
+}

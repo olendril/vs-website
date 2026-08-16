@@ -1,0 +1,113 @@
+[
+	{
+		"enabled": false,
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:offal-clean",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:bloodportion",
+						"quantity": 20
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:meatnugget-bushmeat-raw",
+						"quantity": 4
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "butchering:sausage-bloodsausage-raw",
+			"stackSize": 1
+		}
+	},
+	{
+		"enabled": false,
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:offal-clean",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:bloodportion",
+						"quantity": 20
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "expandedfoods:meatnugget-redmeat-raw",
+						"quantity": 2
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "butchering:sausage-bloodsausage-raw",
+			"stackSize": 1
+		}
+	},
+	{
+		"enabled": false,
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:offal-clean",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:bloodportion",
+						"quantity": 80
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:fat-rendered",
+						"quantity": 1
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "butchering:sausage-blackpudding-raw",
+			"stackSize": 1
+		}
+	}
+]

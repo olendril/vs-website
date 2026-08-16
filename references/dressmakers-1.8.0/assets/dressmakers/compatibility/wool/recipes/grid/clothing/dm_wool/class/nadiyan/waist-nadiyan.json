@@ -1,0 +1,176 @@
+[
+	{
+	"name": "nadiyan-alchemist-belt",
+	"enabled": true,
+	"ingredientPattern": "RKT,_B_,GLO",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "tailorsdelight:buttons-brass" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"T": { "type": "item", "code": "wool:twine-wool-white", "quantity": 2 },
+		"G": { "type": "item", "code": "wool:twine-wool-green" },
+		"L": { "type": "item", "code": "wool:twine-wool-blue" },
+		"O": { "type": "item", "code": "wool:twine-wool-orange" },
+		"K": { "type": "item", "code": "game:sewingkit" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-alchemist-belt",
+	"enabled": true,
+	"ingredientPattern": "RKT,_B_,GLO",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"R": { "type": "item", "code": "tailorsdelight:buttons-brass" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"T": { "type": "item", "code": "wool:twine-wool-white", "quantity": 3 },
+		"G": { "type": "item", "code": "wool:twine-wool-green", "quantity": 2 },
+		"L": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 },
+		"O": { "type": "item", "code": "wool:twine-wool-orange", "quantity": 2 },
+		"K": { "type": "item", "code": "game:sewingkit" }
+	},
+	"recipeGroup": 7,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-barber-belt",
+	"enabled": true,
+	"ingredientPattern": "RDT,BK_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "tailorsdelight:buttons-brass" },
+		"D": { "type": "item", "code": "wool:cloth-wool-darkbrown" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown" },
+		"K": { "type": "item", "code": "game:sewingkit" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-barber" }
+	},
+
+	{
+	"name": "nadiyan-beekeeper-belt",
+	"enabled": true,
+	"ingredientPattern": "TBT,_K_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-darkbrown" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"K": { "type": "item", "code": "game:sewingkit" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-beekeeper" }
+	},
+
+	{
+	"name": "nadiyan-fisher-belt",
+	"enabled": true,
+	"ingredientPattern": "WST,ABK",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:buttons-copper" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-white" },
+		"T": { "type": "item", "code": "wool:twine-wool-brown" },
+		"K": { "type": "item", "code": "tailorsdelight:leatherstrips-plain" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-fisher" }
+	},
+
+	{
+	"name": "nadiyan-guard-belt",
+	"enabled": true,
+	"ingredientPattern": "BSA,LKD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:buttons-brass" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"D": { "type": "item", "code": "wool:twine-wool-darkblue" },
+		"L": { "type": "item", "code": "wool:twine-wool-blue" },
+		"K": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-guard" }
+	},
+
+	{
+	"name": "nadiyan-guard-belt",
+	"enabled": true,
+	"ingredientPattern": "BSA,LKD",
+	"requiresTrait": "soldier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:buttons-brass" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"D": { "type": "item", "code": "wool:twine-wool-darkblue", "quantity": 2 },
+		"L": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 },
+		"K": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 3 }
+	},
+	"recipeGroup": 7,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-guard" }
+	},
+
+	{
+	"name": "nadiyan-hunter-belt",
+	"enabled": true,
+	"ingredientPattern": "HPB,TAK,DCL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:antler-*" },
+		"B": { "type": "item", "code": "game:bone" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-raw" },
+		"T": { "type": "item", "code": "wool:twine-wool-blue" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"D": { "type": "item", "code": "wool:twine-wool-darkbrown" },
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"L": { "type": "item", "code": "wool:twine-wool-blue" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-hunter" }
+	},
+
+	{
+	"name": "nadiyan-hunter-belt",
+	"enabled": true,
+	"ingredientPattern": "HPB,TAK,DCL",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:antler-*" },
+		"B": { "type": "item", "code": "game:bone" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-raw" },
+		"T": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"D": { "type": "item", "code": "wool:twine-wool-darkbrown", "quantity": 2 },
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"L": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 }
+	},
+	"recipeGroup": 7,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-waist-hunter" }
+	}
+]

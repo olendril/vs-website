@@ -1,0 +1,44 @@
+[
+  {
+    "op": "addeach",
+    "path": "/attributes/lootListByType/*-farming/-",
+    "value": [
+	{ "type": "item", "chance": 0.08,  "minQuantity": 1, "maxQuantity": 1, "codes": [ "wool:sack-wool-gray", "wool:sack-wool-brown" ] },
+	{ "type": "item", "chance": 0.20,  "minQuantity": 2, "maxQuantity": 10, "codes": [ "wool:fibers-generic-plain", "wool:fibers-generic-brown", "wool:fibers-generic-gray" ] },
+	{ "type": "item", "chance": 0.10,  "minQuantity": 2, "maxQuantity": 10, "codes": [ "wool:twine-wool-plain", "wool:twine-wool-brown", "wool:twine-wool-gray" ] },
+	{ "type": "item", "chance": 0.30,  "minQuantity": 4, "maxQuantity": 12, "codes": [ "wool:fleece-generic-brown", "wool:fleece-generic-plain", "wool:twine-wool-gray" ] },
+	{ "type": "item", "chance": 0.08,  "minQuantity": 4, "maxQuantity": 8, "codes": [ "wool:twine-wool-black" ] }
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/attributes/lootListByType/*-forage/-",
+    "value": [
+	{ "type": "item", "chance": 0.4,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "wool:fibers-generic-plain", "wool:fibers-generic-gray" ] },
+	{ "type": "item", "chance": 0.3,  "minQuantity": 6, "maxQuantity": 14, "codes": [ "wool:fleece-generic-brown", "wool:twine-wool-gray" ] }
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/attributes/lootListByType/*-arcticsupplies/-",
+    "value": [
+	{ "type": "item", "chance": 0.07,  "minQuantity": 1, "maxQuantity": 1, "codes": [ "wool:sack-wool-white" ] },
+	{ "type": "item", "chance": 0.20,  "minQuantity": 6, "maxQuantity": 22, "codes": [ "wool:fibers-angora-white", "wool:fibers-muskox-brown" ] },
+	{ "type": "item", "chance": 0.20,  "minQuantity": 2, "maxQuantity": 10, "codes": [ "wool:fibers-generic-plain", "wool:fibers-generic-brown", "wool:fibers-generic-gray", "wool:fibers-generic-white" ] },
+	{ "type": "item", "chance": 0.12,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "wool:twine-wool-plain", "wool:twine-wool-gray" ] },
+	{ "type": "item", "chance": 0.10,  "minQuantity": 2, "maxQuantity": 4, "codes": [ "wool:twine-wool-black", "wool:twine-wool-brown" ] },
+	{ "type": "item", "chance": 0.15,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "wool:twine-wool-blue", "wool:twine-wool-red", "wool:twine-wool-green" ] },
+	{ "type": "item", "chance": 0.06,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "wool:twine-wool-yellow", "wool:twine-wool-orange" ] },
+	{ "type": "item", "chance": 0.05,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "wool:twine-wool-darkblue", "wool:twine-wool-darkred", "wool:twine-wool-darkgreen", "wool:twine-wool-darkbrown" ] },
+	{ "type": "item", "chance": 0.25,  "minQuantity": 8, "maxQuantity": 24, "codes": [ "wool:fleece-angora-white", "wool:fleece-muskox-brown" ] }
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/exclude",
+    "file": "game:blocktypes/cloth/leather.json",
+    "side": "Server"
+  }
+]

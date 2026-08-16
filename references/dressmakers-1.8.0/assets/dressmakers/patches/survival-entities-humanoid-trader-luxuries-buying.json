@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "comment": "clothes-head-gem-encrusted-fur-hat, 10 => 14",
+    "path": "/buying/list/16/price/avg",
+    "value": 14,
+    "file": "game:config/tradelists/trader-luxuries.json",
+    "side": "Server"
+  }
+]

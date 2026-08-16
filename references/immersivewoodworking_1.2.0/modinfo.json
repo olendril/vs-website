@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "immersivewoodworking",
+    "name": "ImmersiveWoodworking",
+    "authors": [
+        "Bobrik00"
+    ],
+    "description": "Chop that woods",
+    "version": "1.2.0",
+    "dependencies": {
+        "game": "1.22.2"
+    }
+}

@@ -1,0 +1,94 @@
+{
+	code: "barkspud",
+	attributes: {
+		rackable: true,
+		attachableToEntity: { categoryCode: "toolholding" },
+		handbook: {
+			groupBy: ["barkspud-*"],
+			extraSections: [
+				{ title: "immersivewoodworking:barkspud-handbook-title", text: "immersivewoodworking:barkspud-handbook-text" }
+			]
+		},
+		toolrackTransform: {
+			translation: { x: -0.7, y: 0.05, z: 0 },
+			rotation: { x: 0, y: 1, z: -1 },
+			scale: 1.35
+		},
+		groundStorageTransform: {
+			translation: { x: 0.03, y: 0.4, z: 0.29 },
+			rotation: { x: 26, y: 90, z: -90 },
+			scale: 0.88
+		}
+	},
+	behaviors: [
+		{
+			name: "GroundStorable",
+			properties: {
+				layout: 'WallHalves',
+				wallOffY: 2,
+				ctrlKey: true,
+				selectionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 },
+				collisionBox: { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 },
+			}
+		},
+		{ name: "Buffable" }
+	],
+	variantgroups: [
+		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver",
+															"iron", "meteoriciron", "steel"
+		  ] },
+	],
+	damagedby: ["blockbreaking", "attacking"],
+	shape: { base: "immersivewoodworking:item/barkspud" },
+	texturesByType: {
+		"*": {
+			"metal": { base: "game:block/metal/ingot/{metal}" },
+			"wood": { base: "game:block/wood/debarked/oak" },
+			"string": { base: "game:block/linen" }
+		}
+	},
+	miningspeedbytype: {
+		"barkspud-copper": { "wood": 4 },
+		"barkspud-bismuthbronze": { "wood": 4.4 },
+		"barkspud-tinbronze": { "wood": 4.6 },
+		"barkspud-silver": { "wood": 4.6 },
+		"barkspud-gold": { "wood": 4.6 },
+		"barkspud-blackbronze": { "wood": 4.7 },
+		"barkspud-iron": { "wood": 5 },
+		"barkspud-meteoriciron": { "wood": 5.5 },
+		"barkspud-steel": { "wood": 6 }
+	},
+	durabilitybytype: {
+		"barkspud-gold": 70,
+		"barkspud-silver": 90,
+		"barkspud-copper": 250,
+		"barkspud-tinbronze": 400,
+		"barkspud-bismuthbronze": 450,
+		"barkspud-blackbronze": 500,
+		"barkspud-iron": 900,
+		"barkspud-meteoriciron": 1200,
+		"barkspud-steel": 2250
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	heldTpIdleAnimation: "shovelidle",
+	heldRightReadyAnimation: "shovelready",
+	heldTpUseAnimation: "interactStaticLong",
+	guiTransform: {
+		rotate: false,
+		translation: { x: 17, y: 11, z: 0 },
+		rotation: { x: -75, y: -47, z: -168 },
+		origin: { x: 0.5, y: 0.5, z: 0.38 },
+		scale: 1.37
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.45, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -1.69, y: -0.74, z: -0.6 },
+		rotation: { x: 0, y: 0, z: -10 },
+		scale: 0.8
+	}
+}

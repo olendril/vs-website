@@ -1,0 +1,38 @@
+[
+	{
+	"ingredientPattern": "L",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:cloth-plain", "returnedStack": { "type": "item", "code": "game:stick" } }
+	},
+	"recipeGroup": 4,
+	"width": 1,
+	"height": 1,
+	"output": { "type": "block", "code": "game:linen-normal-down" }
+	},
+
+	{
+	"comment": "Intentionally giving only 3 to match colored twine recipe and to simulate loss on cutting.",
+	"ingredientPattern": "K,C",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-plain" },
+		"K": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"recipeGroup": 4,
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }
+	},
+
+	{
+	"comment": "Intentionally giving only 3 to match colored twine recipe and to simulate loss on cutting.",
+	"ingredientPattern": "K,C",
+	"ingredients": {
+		"C": { "type": "block", "code": "game:linen-normal-down" },
+		"K": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"recipeGroup": 4,
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }
+	}
+]

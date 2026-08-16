@@ -1,0 +1,202 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-hemimorphite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-hemimorphite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-hemimorphite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-hemimorphite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-hemimorphite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-hemimorphite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-rich-hemimorphite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-poor-hemimorphite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-medium-hemimorphite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/crystalizedore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "crystalizedore-rich-hemimorphite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-hemimorphite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-hemimorphite-arenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-hemimorphite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-hemimorphite-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-hemimorphite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-hemimorphite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-hemimorphite-marl"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-hemimorphite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-hemimorphite-tufa"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-hemimorphite-tufa"
+	},
+]

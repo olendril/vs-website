@@ -1,0 +1,24 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "vegetable-*",
+      "shapeElement": "bowl/vegetable2/*"
+    },
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "vegetable-*",
+      "shapeElement": "bowl/vegetable3/*"
+    },
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server"
+  }
+]

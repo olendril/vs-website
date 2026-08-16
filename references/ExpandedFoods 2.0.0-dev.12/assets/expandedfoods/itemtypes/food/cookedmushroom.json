@@ -1,0 +1,227 @@
+﻿{
+	"code": "cookedmushroom",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "mushroom", "loadFromProperties": "block/mushroom" },
+		{ "code": "state", "states": ["partbaked", "perfect", "charred" ] }
+	],
+	"shape": { "base": "game:item/food/mushroom/{mushroom}" },
+	"texturesByType": {
+		"*-fieldmushroom-*": {
+			"cap": {"base": "item/food/mushroom/{state}/fieldmushroom/cap"},
+			"stipe": {"base": "item/food/mushroom/{state}/fieldmushroom/stipe"},
+			"pores": {"base": "item/food/mushroom/{state}/fieldmushroom/pores"}
+		},
+		"*-flyagaric-*": {
+    		"cap": {"base": "item/food/mushroom/{state}/flyagaric/cap"},
+    		"stipe": {"base": "item/food/mushroom/{state}/flyagaric/stipe"},
+    		"pores": {"base": "item/food/mushroom/{state}/flyagaric/pores"}
+		},
+		"cookedmushroom-*": {
+    		"almondmushroom": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"beardedtooth": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"bitterbolete": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"blacktrumpet": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"bolete": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"chanterelle": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"chickenofthewoods": {"base": "item/food/mushroom/{state}/{mushroom}"},
+			"commonmorel": { "base": "item/food/mushroom/{state}/{mushroom}" },
+    		"deathcap": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"deerear": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"devilbolete": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"devilstooth": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"dryadsaddle": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"earthball": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"elfinsaddle": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"funeralbell": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"golddropmilkcap": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"greencrackedrussula": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"indigomilkcap": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"jackolantern": {"base": "item/food/mushroom/{state}/{mushroom}"},
+			"kingbolete": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"livermushroom": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"lobster": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"orangeoakbolete": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"paddystraw": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"pinkbonnet": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"pinkoyster": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"puffball": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"redwinecap": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"saffronmilkcap": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"shiitake": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"reishi": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"tinderhoof": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"violetwebcap": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"whiteoyster": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"witchhat": {"base": "item/food/mushroom/{state}/{mushroom}"},
+    		"capfly": {"base": "item/food/mushroom/{state}/flyagaric/cap"},
+    		"stipefly": {"base": "item/food/mushroom/{state}/flyagaric/stipe"},
+    		"poresfly": {"base": "item/food/mushroom/{state}/flyagaric/pores"}
+		}
+	},
+    "attributes": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "onDisplayTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "scale": 1
+      },
+      "handbook": {
+        "groupBy": [ "cookedmushroom-*" ],
+        "extraSections": [{ "title": "expandedfoods:item-handbooktitle-cookedmushroom", "text": "expandedfoods:item-handbooktext-cookedmushroom" }]
+      }
+    },
+	"attributesByType": {
+		"@*-(beardedtooth|whiteoyster|pinkoyster|dryadsaddle|tinderhoof|chickenofthewoods|reishi|funeralbell|deerear|livermushroom|pinkbonnet|shiitake)-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedmushroom-{mushroom}-perfect",
+				"initialCode": "game:mushroom-{mushroom}-normal-north"
+			}
+		},		
+		"*-partbaked": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.9,
+				"resultCode": "expandedfoods:cookedmushroom-{mushroom}-perfect",
+				"initialCode": "game:mushroom-{mushroom}-normal"
+			}
+		},
+		"*-perfect": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.5,
+				"levelTo": 0.75,
+				"startScaleY": 0.9,
+				"endScaleY": 0.8,
+				"resultCode": "expandedfoods:cookedmushroom-{mushroom}-charred",
+				"initialCode": "expandedfoods:cookedmushroom-{mushroom}-partbaked"
+			}
+		},
+		"*-charred": {
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.75,
+				"levelTo": 1,
+				"startScaleY": 0.8,
+				"endScaleY": 0.7,
+				"initialCode": "expandedfoods:cookedmushroom-{mushroom}-perfect"
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"@*-(partbaked|perfect)": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "cookedmushroom-{mushroom}-charred" },
+			"requiresContainer": false
+		}
+	},
+	"materialDensity": 600,
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"nutritionPropsByType": {
+        "*-flyagaric-partbaked": { "satiety": 90, "health": -4.875, "foodcategory": "Vegetable" },
+        "*-earthball-partbaked": { "satiety": 90, "health": -6, "foodcategory": "Vegetable" },
+        "*-deathcap-partbaked": { "satiety": 90, "health": -37.5, "foodcategory": "Vegetable" },
+        "*-elfinsaddle-partbaked": { "satiety": 90, "health": -5.25, "foodcategory": "Vegetable" },
+        "*-jackolantern-partbaked": { "satiety": 90, "health": -4.5, "foodcategory": "Vegetable" },
+        "*-devilbolete-partbaked": { "satiety": 90, "health": -7.5, "foodcategory": "Vegetable" },
+        "*-bitterbolete-partbaked": { "satiety": 90, "health": -0.75, "foodcategory": "Vegetable" },
+        "*-devilstooth-partbaked": { "satiety": 90, "health": -1.5, "foodcategory": "Vegetable" },
+        "*-golddropmilkcap-partbaked": { "satiety": 90, "health": -1.875, "foodcategory": "Vegetable" },
+        "*-goldcap-partbaked": { "satiety": 90, "foodcategory": "Vegetable", "psychedelic": 0.75 },
+        "*-libertycap-partbaked": { "satiety": 90, "foodcategory": "Vegetable", "psychedelic": 1.05 },
+        "*-wavycap-partbaked": { "satiety": 90, "foodcategory": "Vegetable", "psychedelic": 0.6 },
+        "*-bluemeanie-partbaked": { "satiety": 90, "foodcategory": "Vegetable", "psychedelic": 1.5 },
+        "*-laughingjim-partbaked": { "satiety": 90, "health": -7.5, "foodcategory": "Vegetable", "psychedelic": 0.45 },
+        "*-foolsconecap-partbaked": { "satiety": 90, "health": -15, "foodcategory": "Vegetable" },
+        "*-sickener-partbaked": { "satiety": 90, "health": -5.25, "foodcategory": "Vegetable" },
+        "*-funeralbell-partbaked": { "satiety": 90, "health": -30, "foodcategory": "Vegetable" },
+        "*-pinkbonnet-partbaked": { "satiety": 90, "health": -7.5, "foodcategory": "Vegetable" },
+        "cookedchoppedmushroom-*-partbaked": { "satiety": 90, "foodcategory": "Vegetable" },
+  
+        "*-flyagaric-perfect": { "satiety": 110, "health": -3.25, "foodcategory": "Vegetable" },
+        "*-earthball-perfect": { "satiety": 110, "health": -4, "foodcategory": "Vegetable" },
+        "*-deathcap-perfect": { "satiety": 110, "health": -25, "foodcategory": "Vegetable" },
+        "*-elfinsaddle-perfect": { "satiety": 110, "health": -3.5, "foodcategory": "Vegetable" },
+        "*-jackolantern-perfect": { "satiety": 110, "health": -3, "foodcategory": "Vegetable" },
+        "*-devilbolete-perfect": { "satiety": 110, "health": -5, "foodcategory": "Vegetable" },
+        "*-bitterbolete-perfect": { "satiety": 110, "health": -1.5, "foodcategory": "Vegetable" },
+        "*-devilstooth-perfect": { "satiety": 110, "health": -1, "foodcategory": "Vegetable" },
+        "*-golddropmilkcap-perfect": { "satiety": 110, "health": -1.25, "foodcategory": "Vegetable" },
+        "*-goldcap-perfect": { "satiety": 110, "foodcategory": "Vegetable", "psychedelic": 0.5 },
+        "*-libertycap-perfect": { "satiety": 110, "foodcategory": "Vegetable", "psychedelic": 0.7 },
+        "*-wavycap-perfect": { "satiety": 110, "foodcategory": "Vegetable", "psychedelic": 0.4 },
+        "*-bluemeanie-perfect": { "satiety": 110, "foodcategory": "Vegetable", "psychedelic": 1 },
+        "*-laughingjim-perfect": { "satiety": 110, "health": -5, "foodcategory": "Vegetable", "psychedelic": 0.3 },
+        "*-foolsconecap-perfect": { "satiety": 110, "health": -10, "foodcategory": "Vegetable" },
+        "*-sickener-perfect": { "satiety": 110, "health": -3.5, "foodcategory": "Vegetable" },
+        "*-funeralbell-perfect": { "satiety": 110, "health": -20, "foodcategory": "Vegetable" },
+        "*-pinkbonnet-perfect": { "satiety": 110, "health": -5, "foodcategory": "Vegetable" },
+        "cookedchoppedmushroom-*-perfect": { "satiety": 110, "foodcategory": "Vegetable" },
+  
+        "*-earthball-charred": { "satiety": 100, "health": -2, "foodcategory": "Vegetable" },
+        "*-deathcap-charred": { "satiety": 100, "health": -12.25, "foodcategory": "Vegetable" },
+        "*-elfinsaddle-charred": { "satiety": 100, "health": -1.75, "foodcategory": "Vegetable" },
+        "*-jackolantern-charred": { "satiety": 100, "health": -1.5, "foodcategory": "Vegetable" },
+        "*-devilbolete-charred": { "satiety": 100, "health": -2.5, "foodcategory": "Vegetable" },
+        "*-flyagaric-charred": { "satiety": 100, "health": -1.625, "foodcategory": "Vegetable" },
+        "*-bitterbolete-charred": { "satiety": 100, "health": -0.75, "foodcategory": "Vegetable" },
+        "*-devilstooth-charred": { "satiety": 100, "health": -0.5, "foodcategory": "Vegetable" },
+        "*-golddropmilkcap-charred": { "satiety": 100, "health": -0.625, "foodcategory": "Vegetable" },
+        "*-goldcap-charred": { "satiety": 100, "foodcategory": "Vegetable", "psychedelic": 0.25 },
+        "*-libertycap-charred": { "satiety": 100, "foodcategory": "Vegetable", "psychedelic": 0.35 },
+        "*-wavycap-charred": { "satiety": 100, "foodcategory": "Vegetable", "psychedelic": 0.2 },
+        "*-bluemeanie-charred": { "satiety": 100, "foodcategory": "Vegetable", "psychedelic": 0.5 },
+        "*-laughingjim-charred": { "satiety": 100, "health": -2.5, "foodcategory": "Vegetable", "psychedelic": 0.15 },
+        "*-foolsconecap-charred": { "satiety": 100, "health": -5, "foodcategory": "Vegetable" },
+        "*-sickener-charred": { "satiety": 100, "health": -1.75, "foodcategory": "Vegetable" },
+        "*-funeralbell-charred": { "satiety": 100, "health": -10, "foodcategory": "Vegetable" },
+        "*-pinkbonnet-charred": { "satiety": 100, "health": -2.5, "foodcategory": "Vegetable" },
+        "cookedchoppedmushroom-*-charred": { "satiety": 100, "foodcategory": "Vegetable" }
+	},
+	"guiTransformByType": {
+		"*": {
+			"rotation": { "x": 158, "y": 107, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 3,
+			"rotate":  true
+		}
+	},
+	"groundTransform": {
+		"rotation": { "x": 0, "y": -45, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"transitionablePropsByType": {
+		"@*-(partbaked|perfect)": [{
+			"type": "Perish",
+			"freshHours": { "avg": 432 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}],
+		"*-charred": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1512 },
+			"transitionHours": { "avg": 144 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	}
+}

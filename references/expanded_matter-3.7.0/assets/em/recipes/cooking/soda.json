@@ -1,0 +1,88 @@
+[
+	{
+	"code": "soda",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "em:powdered-ore-soda" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "saltbrine", "minQuantity": 2, "maxQuantity": 2,
+		"validStacks": [ { "type": "item", "code": "game:brineportion", "shapeElement": "game:bowl/water" } ],
+		"portionSizeLitres": 1
+		},
+		{
+		"code": "lime", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:limewaterportion", "shapeElement": "game:bowl/water" } ],
+		"portionSizeLitres": 1
+		},
+		{
+		"code": "saltpeter", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:saltpeter" } ]
+		}
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-soda", "quantity": 1 }
+	},
+
+	{
+	"code": "soda_sea",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "em:powdered-ore-soda" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "seawater", "minQuantity": 2, "maxQuantity": 2,
+		"validStacks": [ { "type": "item", "code": "game:saltwaterportion", "shapeElement": "game:bowl/water" } ],
+		"portionSizeLitres": 1
+		},
+		{
+		"code": "lime", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:limewaterportion", "shapeElement": "game:bowl/water" } ],
+		"portionSizeLitres": 1
+		},
+		{
+		"code": "saltpeter", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:saltpeter" } ]
+		}
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-soda", "quantity": 1 }
+	},
+
+	{
+	"code": "soda_saltpeterbrine",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "em:powdered-ore-soda" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "saltpeter", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "em:dilutedsaltpeterportion", "shapeElement": "bowl/water" } ],
+		"portionSizeLitres": 1
+		},
+		{
+		"code": "salt", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:salt" } ]
+		},
+		{
+		"code": "lime", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:limewaterportion", "shapeElement": "game:bowl/water" } ],
+		"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-soda", "quantity": 1 }
+	}
+]

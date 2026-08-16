@@ -1,0 +1,339 @@
+﻿[
+    // Africanmonitorlizards
+    {
+        "side": "server",
+        "file": "africanmonitorlizards:entities/land/varanus-adult",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "africanmonitorlizards:entities/land/varanus-adult",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "africanmonitorlizards:entities/land/varanus-juvenile",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "africanmonitorlizards:entities/land/varanus-juvenile",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Asianmonitorlizards
+    {
+        "side": "server",
+        "file": "asianmonitorlizards:entities/land/varanus-adult",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "asianmonitorlizards:entities/land/varanus-adult",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "asianmonitorlizards:entities/land/varanus-juvenille",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "asianmonitorlizards:entities/land/varanus-juvenille",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Bandedgeckos
+    {
+        "side": "server",
+        "file": "bandedgeckos:entities/land/bandedgecko",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "bandedgeckos:entities/land/bandedgecko",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Beardeddragons
+    {
+        "side": "server",
+        "file": "beardeddragons:entities/land/beardeddragons",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "beardeddragons:entities/land/beardeddragons",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Ensatinas
+    {
+        "side": "server",
+        "file": "ensatinas:entities/land/ensatina",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "ensatinas:entities/land/ensatina",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Knobtailedgeckos
+    {
+        "side": "server",
+        "file": "knobtailedgeckos:entities/land/knobtailedgecko",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "knobtailedgeckos:entities/land/knobtailedgecko",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Leopardgeckos
+    {
+        "side": "server",
+        "file": "leopardgeckos:entities/land/leopardgecko",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "leopardgeckos:entities/land/leopardgecko",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Newworldgianttortoises
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-baby",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-baby",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-male",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-male",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-female",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-female",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-juvenile",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newworldgianttortoises:entities/land/chelonoidis-juvenile",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Newzealandfrogs
+    {
+        "side": "server",
+        "file": "newzealandfrogs:entities/land/newzealandfrogs",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "newzealandfrogs:entities/land/newzealandfrogs",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Pacificnewts
+    {
+        "side": "server",
+        "file": "pacificnewts:entities/land/pacificnewt",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "pacificnewts:entities/land/pacificnewt",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Pondfrogsi
+    {
+        "side": "server",
+        "file": "pondfrogsi:entities/land/pondfrog",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "pondfrogsi:entities/land/pondfrog",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Pondfrogsiii
+    {
+        "side": "server",
+        "file": "pondfrogsiii:entities/land/pondfrog",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "pondfrogsiii:entities/land/pondfrog",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    // Rainfrogs
+    {
+        "side": "server",
+        "file": "rainfrogs:entities/land/rainfrog",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "rainfrogs:entities/land/rainfrog",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

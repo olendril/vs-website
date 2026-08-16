@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "fallingtree",
+  "name": "Falling Tree",
+  "side" : "universal",
+  "description": "Trees now doesn't simply disappear.",
+  "version": "0.5.2",
+  "authors": [ "SaltyWater" ],
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

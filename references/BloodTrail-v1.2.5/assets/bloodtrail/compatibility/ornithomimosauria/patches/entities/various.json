@@ -1,0 +1,21 @@
+﻿[
+    // Ornithomimosauria
+    {
+        "side": "server",
+        "file": "ornithomimosauria:entities/land/ornithomimosauria",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "ornithomimosauria:entities/land/ornithomimosauria",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

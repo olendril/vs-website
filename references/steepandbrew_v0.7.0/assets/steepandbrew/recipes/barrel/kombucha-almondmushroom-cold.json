@@ -1,0 +1,9 @@
+{
+	code: "kombucha-almondmushroom-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-almondmushroom", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-almondmushroom-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-almondmushroom", litres: 10 }
+}

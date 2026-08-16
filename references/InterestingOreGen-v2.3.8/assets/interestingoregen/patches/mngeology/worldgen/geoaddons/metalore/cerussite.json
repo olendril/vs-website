@@ -1,0 +1,76 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/cerussite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/-",
+		"value": [
+			"arenite",
+			"arkose",
+			"marl",
+			"travertine"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/cerussite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-arenite",
+		"value": [
+			"poor",
+			"medium"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/cerussite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-arkose",
+		"value": [
+			"poor",
+			"medium"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/cerussite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marl",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/cerussite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-travertine",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	}
+]

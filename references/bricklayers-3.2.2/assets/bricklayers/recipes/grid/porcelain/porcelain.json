@@ -1,0 +1,104 @@
+[
+	{
+	"ingredientPattern": "AG,CB",
+	"comment": "Spode's formulation: 6 parts bone ash, 4 parts china stone (white granite) and 3.5 parts china clay (Kaolin)",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 12 },
+		"G": { "type": "item", "code": "em:powdered-stone-granite", "quantity": 8 },
+		"C": { "type": "item", "code": "bricklayers:powdered-ceramic-light", "quantity": 4 },
+		"B": { "type": "item", "code": "game:clay-blue", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-paleblue", "quantity": 27 }
+	},
+	{
+	"ingredientPattern": "AG,CR",
+	"comment": "Spode's formulation: 6 parts bone ash, 4 parts china stone (white granite) and 3.5 parts china clay (Kaolin)",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 12 },
+		"G": { "type": "item", "code": "em:powdered-stone-granite", "quantity": 8 },
+		"C": { "type": "item", "code": "bricklayers:powdered-ceramic-light", "quantity": 4 },
+		"R": { "type": "item", "code": "game:clay-malachite", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-palegreen", "quantity": 27 }
+	},
+	{
+	"ingredientPattern": "AG,CR",
+	"comment": "Spode's formulation: 6 parts bone ash, 4 parts china stone (white granite) and 3.5 parts china clay (Kaolin)",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 12 },
+		"G": { "type": "item", "code": "em:powdered-stone-granite", "quantity": 8 },
+		"C": { "type": "item", "code": "bricklayers:powdered-ceramic-light", "quantity": 4 },
+		"R": { "type": "item", "code": "game:clay-red", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-palered", "quantity": 27 }
+	},
+
+	{
+	"ingredientPattern": "AG,CP",
+	"comment": "Spode's formulation: 6 parts bone ash, 4 parts china stone (white granite) and 3.5 parts china clay (Kaolin)",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 12 },
+		"G": { "type": "item", "code": "em:powdered-stone-granite", "quantity": 8 },
+		"C": { "type": "item", "code": "bricklayers:powdered-ceramic-light", "quantity": 4 },
+		"P": { "type": "item", "code": "game:clay-fire", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-sunflower", "quantity": 27 }
+	},
+	{
+	"ingredientPattern": "AG,CL",
+	"comment": "Spode's formulation: 6 parts bone ash, 4 parts china stone (white granite) and 3.5 parts china clay (Kaolin)",
+	"ingredients": {
+		"A": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 12 },
+		"G": { "type": "item", "code": "em:powdered-stone-granite", "quantity": 8 },
+		"C": { "type": "item", "code": "bricklayers:powdered-ceramic-light", "quantity": 4 },
+		"L": { "type": "item", "code": "bricklayers:powdered-ceramic-light", "quantity": 3 }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-white", "quantity": 27 }
+	},
+
+	{
+	"ingredientPattern": "BR,RR",
+	"comment": "Composite of blue + red",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:clay-blue" },
+		"R": { "type": "item", "code": "game:clay-palered" }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-lavender", "quantity": 4 }
+	},
+	{
+	"ingredientPattern": "RB,BB",
+	"comment": "Composite of blue + red",
+	"ingredients": {
+		"R": { "type": "item", "code": "game:clay-red" },
+		"B": { "type": "item", "code": "game:clay-paleblue" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-lavender", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "RY,YY",
+	"comment": "Composite of sunflower + red",
+	"ingredients": {
+		"R": { "type": "item", "code": "game:clay-red" },
+		"Y": { "type": "item", "code": "game:clay-sunflower" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clay-peach", "quantity": 4 }
+	}
+]

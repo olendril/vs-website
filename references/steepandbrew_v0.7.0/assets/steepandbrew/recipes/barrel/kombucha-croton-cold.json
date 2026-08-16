@@ -1,0 +1,9 @@
+{
+	code: "kombucha-croton-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-croton", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-croton-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-croton", litres: 10 }
+}

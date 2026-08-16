@@ -1,0 +1,32 @@
+[
+	{
+		code: "lightfog",
+		name: "Light fog",
+		weight: 0.25,
+		durationHours: { avg: 6, var: 72, dist: "invexp" },
+		clouds: {
+			baseThickness: { avg: 0 },
+			locationalThickness: null,
+			brightness: { avg: 1 }
+		},
+		fog: {
+			density: { avg: 3.5, var: 0.5 },
+		}
+	},
+	{
+		code: "lightfogdry",
+		name: "Light fog with extra chance in dry areas",
+		weight: 1.0,
+		maxRain: 0.4,
+		rainRange: 0.4,
+		durationHours: { avg: 6, var: 72, dist: "invexp" },
+		clouds: {
+			baseThickness: { avg: 0 },
+			locationalThickness: null,
+			brightness: { avg: 1 }
+		},
+		fog: {
+			density: { avg: 3.5, var: 0.5 },
+		}
+	},
+]

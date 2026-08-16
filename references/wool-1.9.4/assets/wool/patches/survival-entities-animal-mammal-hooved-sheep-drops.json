@@ -1,0 +1,87 @@
+[
+	{
+	"op": "addmerge",
+	"comment": "in case it is not there yet",
+	"path": "/behaviorConfigs",
+	"enabled": true,
+	"value": {},
+	"file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"comment": "in case it is not there yet",
+	"path": "/behaviorConfigs/harvestable",
+	"enabled": true,
+	"value": {},
+	"file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"comment": "in case it is not there yet",
+	"path": "/behaviorConfigs/harvestable/drops",
+	"enabled": true,
+	"value": [],
+	"file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addeach",
+	"path": "/behaviorConfigs/harvestable/drops/-",
+	"enabled": true,
+	"value": [
+		{ "type": "item", "code": "wool:fleece-generic-plain", "quantityByType": { "sheep-bighorn-adult-*": { "avg": 5, "var": 2 }, "*": { "avg": 0 } } },
+		{ "type": "item", "code": "wool:fleece-generic-gray", "quantityByType": { "sheep-bighorn-adult-*": { "avg": 7, "var": 2.5 }, "*": { "avg": 0 } } },
+		{ "type": "item", "code": "wool:fleece-generic-lightbrown", "quantityByType": { "sheep-mouflon-adult-*": { "avg": 5, "var": 1 }, "*": { "avg": 0 } } },
+		{ "type": "item", "code": "wool:fleece-generic-redbrown", "quantityByType": { "sheep-mouflon-adult-*": { "avg": 2, "var": 1 }, "*": { "avg": 0 } } }
+	],
+	"file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"comment": "in case it is not there yet",
+	"path": "/behaviorConfigs",
+	"enabled": true,
+	"value": {},
+	"file": "game:entities/animal/mammal/hooved/sheep-baby.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"comment": "in case it is not there yet",
+	"path": "/behaviorConfigs/harvestable",
+	"enabled": true,
+	"value": {},
+	"file": "game:entities/animal/mammal/hooved/sheep-baby.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"comment": "in case it is not there yet",
+	"path": "/behaviorConfigs/harvestable/drops",
+	"enabled": true,
+	"value": [],
+	"file": "game:entities/animal/mammal/hooved/sheep-baby.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addeach",
+	"path": "/behaviorConfigs/harvestable/drops/-",
+	"enabled": true,
+	"value": [
+		{ "type": "item", "code": "wool:fleece-generic-white", "quantityByType": { "sheep-bighorn-baby-*": { "avg": 2, "var": 1 }, "*": { "avg": 0 } } },
+		{ "type": "item", "code": "wool:fleece-generic-lightbrown", "quantityByType": { "sheep-mouflon-baby-*": { "avg": 1, "var": 0 }, "*": { "avg": 0 } } }
+	],
+	"file": "game:entities/animal/mammal/hooved/sheep-baby.json",
+	"side": "Server"
+	}
+]

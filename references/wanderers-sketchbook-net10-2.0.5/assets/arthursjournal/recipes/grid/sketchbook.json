@@ -1,0 +1,175 @@
+[
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-red", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-red", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-blue", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-blue", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-gray", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-pink", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-pink", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-black", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-black", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-white", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-white", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-green", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-green", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-purple", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-purple", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-yellow", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-yellow", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-normal-orange", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-orange", 
+    "quantity": 1 
+  }
+},
+{
+  "ingredientPattern": "LSL",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment", "quantity": 16 },
+    "L": { "type": "item", "code": "game:leather-sturdy-plain", "quantity": 1 }
+  },
+  "width": 3,
+  "height": 1,
+  "output": { 
+    "type": "item", 
+    "code": "arthursjournal-sturdy", 
+    "quantity": 1 
+  }
+}
+
+
+
+
+
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"file": "game:blocktypes/clay/oven",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.Oven",
+				"transformGroups": {
+					"hands": [
+						{
+							"rotationY": -90.0
+						}
+					]
+				},
+				"slots": {
+					"Hands": {
+						"hungerModifier": 0.3
+					}
+				}
+			}
+		}
+	}
+]

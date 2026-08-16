@@ -1,0 +1,8 @@
+[
+    {
+        "op": "replace",
+        "path": "/class",
+        "value": "vsroofing.PatchedItemFirewood",
+        "file": "game:itemtypes/resource/bamboostakes.json"
+    }
+]

@@ -1,0 +1,214 @@
+{
+	"game:handbook-item-usage":					"Utilisation",
+
+	"wool:settings_shearable":					"Tondre",
+	"wool:settings_drops":						"Butin additionnel à la mort",
+	"wool:settings_recipes":					"Recettes additionnelles",
+
+        "wool:setting_enable_sheep_shearable":				"Moutons tondables",
+        "wool:setting_enable_sheep_shearable_comment":			"Les mouflons peuvent-ils être tondus ?",
+        "wool:setting_enable_goat_shearable":				"Chèvres tondables",
+        "wool:setting_enable_goat_shearable_comment":			"Les chèvres peuvent-elles être tondues ?",
+        "wool:setting_enable_gazelle_shearable":			"Gazelles tondables",
+        "wool:setting_enable_gazelle_shearable_comment":		"Les gazelles peuvent-elles être tondues ?",
+        "wool:setting_enable_deer_shearable":				"Cerfs & élans tondables",
+        "wool:setting_enable_deer_shearable_comment":			"Les cerfs, y compris les élans, peuvent-ils être tondus ?",
+        "wool:setting_enable_moose_shearable":				"Orignaux tondables",
+        "wool:setting_enable_moose_shearable_comment":			"Les orignaux peuvent-ils être tondus ?",
+
+        "wool:setting_enable_drifter_drops":				"Butins additionnels des rôdeurs",
+        "wool:setting_enable_drifter_drops_comment":			"Les rôdeurs morts devraient-ils laisser tomber des objets supplémentaires comme de la toison et des bâtons ? Ce paramètre ne modifie PAS la quantité de fibres de lin laissées par les rôdeurs.",
+
+	"wool:setting_enable_animal_drops":				"Butins additionnels d'animaux sauvages",
+        "wool:setting_enable_animal_drops_comment":			"Les animaux sauvages morts comme les ours, les renards, les lièvres et les loups doivent-ils laisser tomber de la toison ?",
+
+	"wool:setting_enable_deer_drops":				"Butins additionnels des cerfs, wapitis et élans sauvages",
+        "wool:setting_enable_deer_drops_comment":			"Les cerfs, élans et orignaux sauvages devraient-ils laisser tomber de la toison ?",
+
+        "wool:setting_enable_bleach":					"Eau de Javel",
+        "wool:setting_enable_bleach_comment":				"Les fibres colorées peuvent-elles être blanchies par la Javel?",
+
+	"wool:settings_panning":					"Extraction",
+	"wool:setting_enable_panning":					"Butin additionnel de l'extraction",
+	"wool:setting_enable_panning_comment":				"L'extraction par batée doit-elle produire de la toison ou des fibres ?",
+
+	"wool:gamemechanicinfo-animalshearing-title":			"Mécanique de jeu : Tonte d'animal",
+	"wool:gamemechanicinfo-animalshearing-text": 			"<strong>Élevage - Laine et tonte</strong><br><br>Certains animaux domestiques peuvent être tondus pour leur toison.<br>L'animal doit être au moins de la génération 3 et être vivant, mais la toison peut être récoltée sur des animaux morts.<br>Utilisez des cisailles pour obtenir les meilleurs résultats. Il est également possible d'utiliser un couteau, mais le risque de blesser l'animal pendant la tonte est plus élevé. <br>Les animaux mettent un certain temps à repousser leur toison. Les animaux de générations supérieures font repousser leur toison plus rapidement et risquent moins de se blesser lors de la tonte.<br><br>Le type et la couleur de la toison dépendent de l'espèce animale. Certains produisent même deux couleurs à la fois !<br><br><strong>Configuration</strong><br><br>Les espèces animales qui peuvent être tondues dépendent de la configuration de votre mod. Pour configurer cela, et pour activer la config, <strong><font color='#4080a0'>ConfigLib</font></strong> et <strong><font color='#4080a0'>ImGui</font></strong> doivent être installés. <br>Par défaut, les mouflons, les chèvres, les gazelles, les élans, les orignaux et les cerfs peuvent être tondus.",
+
+	"wool:gamemechanicinfo-woolknitting-title":			"Mécanisme de jeu : Laine colorée et tricot",
+	"wool:gamemechanicinfo-woolknitting-text": 			"<strong>Laine et tricot</strong><br><br>Pour fabriquer de la laine, il faut laver la toison animale brute avec de l'eau de chaux. Les fibres de laine ainsi obtenues peuvent ensuite être combinées pour former de la ficelle de laine ou, parfois, être utilisées directement pour le tricot. <br><br><strong>Laine colorée</strong><br><br>Pour teindre la laine, il faut de la ficelle ou du tissu de laine. Il faut ensuite les mordre avec du borax dilué, de la chromite ou de la cassitérite dans un tonneau. La ficelle ou le tissu mordancé peut ensuite être scellé dans un tonneau avec la teinture de votre choix.",
+
+	"wool:item-fleece-angora-white":				"Toison de mohair",
+	"wool:item-fleece-muskox-brown":				"Toison de qiviut",
+
+	"wool:item-fleece-generic-plain":				"Toison claire",
+	"wool:item-fleece-generic-black":				"Toison noire",
+	"wool:item-fleece-generic-brown":				"Toison brune",
+	"wool:item-fleece-generic-redbrown":				"Toison brun rougeâtre",
+	"wool:item-fleece-generic-lightbrown":				"Toison brun clair",
+	"wool:item-fleece-generic-gray":				"Toison grise",
+	"wool:item-fleece-generic-yellow":				"Toison jaune",
+	"wool:item-fleece-generic-white":				"Toison blanche",
+
+	"wool:itemdesc-fleece-generic-*":				"Poils d'animal bruts.",
+
+	"wool:itemdesc-fleece-angora-white":				"Poils de chèvre angora bruts.",
+	"wool:itemdesc-fleece-muskox-brown":				"Toison de bœuf musqué brun brut.",
+
+	"wool:itemdesc-fleece-generic-plain":				"Toison brute de couleur claire.",
+	"wool:itemdesc-fleece-generic-black":				"Toison brute noire.",
+	"wool:itemdesc-fleece-generic-brown":				"Toison brute brune.",
+	"wool:itemdesc-fleece-generic-gray":				"Toison brute grise.",
+	"wool:itemdesc-fleece-generic-yellow":				"Toison brute jaune, doré chatoyant.",
+	"wool:itemdesc-fleece-generic-lightbrown":			"Toison brute brun clair.",
+	"wool:itemdesc-fleece-generic-redbrown":			"Toison brute brun rougeâtre.",
+	"wool:itemdesc-fleece-generic-white":				"Toison brute blanche.",
+
+	"wool:handbook-item-fleece":					"Assez sale et malodorante, doit être lavée avant de pouvoir être utilisée.",
+
+	"wool:item-fibers-angora-white":				"Fibres de mohair",
+	"wool:item-fibers-muskox-brown":				"Fibres de qiviut",
+
+	"wool:item-fibers-generic-plain":				"Fibres de laine claire",
+	"wool:item-fibers-generic-brown":				"Fibres de laine brune",
+	"wool:item-fibers-generic-black":				"Fibres de laine noire",
+	"wool:item-fibers-generic-gray":				"Fibres de laine grise",
+	"wool:item-fibers-generic-lightbrown":				"Fibres de laine brun clair",
+	"wool:item-fibers-generic-redbrown":				"Fibres de laine brun rougeâtre",
+	"wool:item-fibers-generic-white":				"Fibres de laine blanche",
+	"wool:item-fibers-generic-yellow":				"Fibres de laine jaune",
+
+	"wool:itemdesc-fibers-angora-white":				"Fibres naturelles légères et duveteuses provenant de chèvres angora.",
+	"wool:itemdesc-fibers-muskox-brown":				"Fibres naturelles légères et duveteuses provenant d'ox musqués.",
+
+	"wool:itemdesc-fibers-generic-plain":				"Fibres animales naturelles claires.",
+	"wool:itemdesc-fibers-generic-brown":				"Fibres animales naturelles brunes.",
+	"wool:itemdesc-fibers-generic-black":				"Fibres animales naturelles noires.",
+	"wool:itemdesc-fibers-generic-gray":				"Fibres animales naturelles grisâtres.",
+	"wool:itemdesc-fibers-generic-lightbrown":			"Fibres animales naturelles brun clair.",
+	"wool:itemdesc-fibers-generic-redbrown":			"Fibres animales naturelles brun rougeâtre.",
+	"wool:itemdesc-fibers-generic-white":				"Fibres animales naturelles blanches.",
+	"wool:itemdesc-fibers-generic-yellow":				"Fibres animales naturelles jaunes, doré châtoyant.",
+
+	"wool:handbook-item-fibers":					"Peut être filée en ficelle et en tissu laineux.",
+
+	"wool:item-twine-wool-mordant":					"Ficelle de laine mordancée",
+
+	"wool:item-twine-wool-plain":					"Ficelle de laine",
+	"wool:item-twine-wool-black":					"Ficelle de laine noire",
+	"wool:item-twine-wool-blue":					"Ficelle de laine bleue",
+	"wool:item-twine-wool-brown":					"Ficelle de laine brune",
+	"wool:item-twine-wool-gray":					"Ficelle de laine grise",
+	"wool:item-twine-wool-green":					"Ficelle de laine verte",
+	"wool:item-twine-wool-orange":					"Ficelle de laine orange",
+	"wool:item-twine-wool-pink":					"Ficelle de laine rose",
+	"wool:item-twine-wool-purple":					"Ficelle de laine violette",
+	"wool:item-twine-wool-red":					"Ficelle de laine rouge",
+	"wool:item-twine-wool-white":					"Ficelle de laine blanche",
+	"wool:item-twine-wool-yellow":					"Ficelle de laine jaune",
+	"wool:item-twine-wool-darkblue":				"Ficelle de laine bleu foncé",
+	"wool:item-twine-wool-darkbrown":				"Ficelle de laine brun foncé",
+	"wool:item-twine-wool-darkgreen":				"Ficelle de laine vert foncé",
+	"wool:item-twine-wool-darkred":					"Ficelle de laine rouge foncé",
+
+	"wool:itemdesc-twine-wool-*":					"Fil de laine finement filé.",
+
+	"wool:handbook-item-twine-plain":				"Pas très résistant, mais crée une laine merveilleusement douce et confortable.<br><br> Peut être utilisé pour réparer des vêtements endommagés de 8%. En tenant le fil avec votre pointeur de souris, <hk>clic gauche</hk> sur le vêtement ou l'armure à réparer dans votre Inventaire de personnage.",
+	"wool:handbook-item-twine-mordant":				"Peut être teint en différentes couleurs.",
+	"wool:handbook-item-twine":					"Pas très résistant, mais crée une laine merveilleusement douce et confortable.",
+
+	"wool:item-clothes-upperbodyover-sweater-mohair-plain-white":		"Pull en mohair blanc",
+	"wool:itemdesc-clothes-upperbodyover-sweater-mohair-*":			"<font color='#99c9f9'><i>Très doux !</i></font><br>",
+	"game:handbook-sweater-mohair-plain-white":				"Tricoté à partir de la meilleure laine d'angora blanche.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-pinkgray":		"Pull rose-gris",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-brown":		"Pull brun uni",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluebrown":		"Pull bleu et brun",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-gray":		"Pull gris",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-white":		"Pull gris clair",
+
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-gray":		"<font color='#99c9f9'><i>Vêtements de travail de gardien de troupeaux durables pour les jours froids.</i></font><br>",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-white":		"<font color='#99c9f9'><i>Porté uniquement les dimanches.</i></font><br>",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluered":		"Pull nordique",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-bluered":	"<font color='#99c9f9'><i>Bleu foncé comme les froides nuits nordiques, lumineux comme la neige dans les forêts, rouge foncé comme le sang des animaux versé sur le sol.</i></font><br>",
+	"game:handbook-sweater-wool-plain-bluered":				"Protège des nuits glaciales dans les régions polaires et ailleurs.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-fishbone-brown":		"Pull brun raffiné",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-fishbone-*":		"<font color='#99c9f9'><i>Très élégant.</i></font><br>",
+	"game:handbook-sweater-wool-fishbone-brown":				"Trois types de laine coûteux différents combinés en un seul bel article de tricot.",
+
+	"wool:item-clothes-upperbodyover-sweater-qivuit-plain-brown":		"Pull brun clair",
+	"wool:itemdesc-clothes-upperbodyover-sweater-qivuit-plain-brown":	"<font color='#c99979'><i>Sent virilement bon.</i></font><br>",
+	"game:handbook-sweater-qivuit-plain-brown":				"Laine de bœuf musqué rare et coûteuse tricotée à la perfection.",
+
+	"game:handbook-sweater":						"Tricoté à partir de laine chaude et confortable.",
+	"game:handbook-leggings":						"Tricoté à partir de laine chaude et confortable.",
+
+	"wool:blockdesc-wool-*":						"Peut être utilisé comme décor ou pour réparer des vêtements de 40%.",
+	"wool:handbook-block-wool":						"Peut être utilisé pour réparer des vêtements endommagés de 40%. En le tenant dans votre main, <hk>clic gauche</hk> sur le vêtement ou l'armure à réparer dans l'Inventaire de votre personnage..",
+
+	"wool:block-wool-plain":						"Laine ordinaire",
+	"wool:block-wool-black":						"Laine noire",
+	"wool:block-wool-blue":							"Laine bleue",
+	"wool:block-wool-brown":						"Laine brune",
+	"wool:block-wool-gray":							"Laine grise",
+	"wool:block-wool-green":						"Laine verte",
+	"wool:block-wool-orange":						"Laine orange",
+	"wool:block-wool-pink":							"Laine rose",
+	"wool:block-wool-purple":						"Laine violet",
+	"wool:block-wool-red":							"Laine rouge",
+	"wool:block-wool-white":						"Laine blanche",
+	"wool:block-wool-yellow":						"Laine jaune",
+	"wool:block-wool-darkblue":						"Laine bleu foncé",
+	"wool:block-wool-darkbrown":						"Laine brun foncé",
+	"wool:block-wool-darkgreen":						"Laine vert foncé",
+	"wool:block-wool-darkred":						"Laine rouge foncé",
+
+	"wool:item-cloth-wool-mordant":						"Tissu de laine mordancée",
+
+	"wool:item-cloth-wool-plain":						"Tissu de laine ordinaire",
+	"wool:item-cloth-wool-black":						"Tissu de laine noire",
+	"wool:item-cloth-wool-blue":						"Tissu de laine bleue",
+	"wool:item-cloth-wool-brown":						"Tissu de laine brune",
+	"wool:item-cloth-wool-gray":						"Tissu de laine grise",
+	"wool:item-cloth-wool-green":						"Tissu de laine verte",
+	"wool:item-cloth-wool-orange":						"Tissu de laine orange",
+	"wool:item-cloth-wool-pink":						"Tissu de laine rose",
+	"wool:item-cloth-wool-purple":						"Tissu de laine violette",
+	"wool:item-cloth-wool-red":						"Tissu de laine rouge",
+	"wool:item-cloth-wool-white":						"Tissu de laine blanche",
+	"wool:item-cloth-wool-yellow":						"Tissu de laine jaune",
+	"wool:item-cloth-wool-darkblue":					"Tissu de laine bleu foncé",
+	"wool:item-cloth-wool-darkbrown":					"Tissu de laine brun foncé",
+	"wool:item-cloth-wool-darkgreen":					"Tissu de laine vert foncé",
+	"wool:item-cloth-wool-darkred":						"Tissu de laine rouge foncé",
+
+	"wool:item-kneedle-wood":						"Aiguilles à tricoter (bois)",
+	"wool:item-kneedle-horn":						"Aiguilles à tricoter (corne)",
+	"wool:item-kneedle-bone":						"Aiguilles à tricoter (os)",
+
+	"wool:block-clothblock-wool-plain":					"Laine ordinaire",
+	"wool:block-clothblock-wool-black":					"Laine noire",
+	"wool:block-clothblock-wool-blue":					"Laine bleue",
+	"wool:block-clothblock-wool-brown":					"Laine brune",
+	"wool:block-clothblock-wool-gray":					"Laine grise",
+	"wool:block-clothblock-wool-green":					"Laine verte",
+	"wool:block-clothblock-wool-orange":					"Laine orange",
+	"wool:block-clothblock-wool-pink":					"Laine rose",
+	"wool:block-clothblock-wool-purple":					"Laine violette",
+	"wool:block-clothblock-wool-red":					"Laine rouge",
+	"wool:block-clothblock-wool-white":					"Laine blanche",
+	"wool:block-clothblock-wool-yellow":					"Laine jaune",
+	"wool:block-clothblock-wool-darkblue":					"Laine bleu foncé",
+	"wool:block-clothblock-wool-darkbrown":					"Laine brun foncé",
+	"wool:block-clothblock-wool-darkgreen":					"Laine vert foncé",
+	"wool:block-clothblock-wool-darkred":					"Laine rouge foncé",
+
+	"wool:item-sack-wool-plain":						"Sac en laine",
+	"wool:item-sack-wool-gray":						"Sac en laine grise",
+	"wool:item-sack-wool-brown":						"Sac en laine brune",
+	"wool:item-sack-wool-white":						"Sac en laine blanche",
+
+	"wool:itemdesc-sack-*":							"Augmente le nombre d'objets que vous pouvez transporter"
+}

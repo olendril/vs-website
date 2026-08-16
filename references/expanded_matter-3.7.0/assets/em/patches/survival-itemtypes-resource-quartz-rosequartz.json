@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/grindingProps",
+    "value": { "groundStack": { "type": "item", "code": "em:crushed-ore-rhodochrosite", "stacksize": 1 } },
+    "file": "game:itemtypes/resource/quartz/rosequartz.json",
+    "side": "Server"
+  }
+]

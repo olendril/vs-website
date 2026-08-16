@@ -1,0 +1,34 @@
+[
+	{
+		"ingredientPattern": "FTF,KTP",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 8
+			},
+			"F": {
+				"type": "item",
+				"code": "game:rod-iron",
+				"quantity": 1
+			},
+			"K": {
+				"type": "item",
+				"code": "game:knife-generic-*",
+				"Istool": true
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "butcherybag-sturdyleather",
+			"quantity": 1
+		}
+	}
+]

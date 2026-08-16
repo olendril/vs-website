@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "FB",
+	ingredients: {
+		"F": { type: "item", code: "game:flaxfibers", quantity: 8 },
+		"B": { type: "item", code: "game:blastingpowder", quantity: 2}
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "interestingme:blastingfuse", quantity: 16 }
+}

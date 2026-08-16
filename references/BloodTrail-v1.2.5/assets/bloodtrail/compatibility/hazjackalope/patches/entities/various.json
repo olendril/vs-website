@@ -1,0 +1,39 @@
+﻿[
+    // Hazjackalope
+    {
+        "side": "server",
+        "file": "hazjackalope:entities/animal/mammal/hare/jackalope-adult",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "hazjackalope:entities/animal/mammal/hare/jackalope-adult",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    },
+    {
+        "side": "server",
+        "file": "hazjackalope:entities/animal/mammal/hare/jackalope-baby",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file": "hazjackalope:entities/animal/mammal/hare/jackalope-baby",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

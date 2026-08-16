@@ -1,0 +1,18 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity",
+    "value": { 
+            "categoryCode": "book",
+            "texturePrefixCode": "book-{color}" },
+    "file": "game:itemtypes/lore/book.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShape",
+    "value": { "base": "cartwrightscaravan:item/vanilla/book" },
+    "file": "game:itemtypes/lore/book.json",
+    "side": "Server"
+  }
+]

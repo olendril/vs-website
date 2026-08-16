@@ -1,0 +1,11 @@
+[
+	{
+	"ingredientPattern": "N",
+	"ingredients": {
+		"N": { "type": "item", "code": "butchering:needle-bone" }
+	},
+	"width": 1,
+	"height": 1,
+	"output": { "type": "item", "code": "tailorsdelight:needle-bone" }
+	}
+]

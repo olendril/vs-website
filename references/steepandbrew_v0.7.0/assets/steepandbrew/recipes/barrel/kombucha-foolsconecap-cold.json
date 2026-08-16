@@ -1,0 +1,9 @@
+{
+	code: "kombucha-foolsconecap-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-foolsconecap", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-foolsconecap-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-foolsconecap", litres: 10 }
+}

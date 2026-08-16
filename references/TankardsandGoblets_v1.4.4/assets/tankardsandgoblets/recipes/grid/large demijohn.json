@@ -1,0 +1,90 @@
+//Large Demijohn Bottles
+[
+{
+	//Default version
+	ingredientPattern: "SP_,G_G,_G_",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 5},
+		"P": { type: "item", code: "game:plank-*" },
+		"G": { type: "block", code: "game:glass-*", name: "glassblock", allowedVariants: ["plain", "green", "red", "brown", "smoky", "blue"]},
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "t&g-largedemijohn-null-{glassblock}", quantity: 1}
+},
+{
+	//Wicker variant - made with cattails
+	ingredientPattern: "SP_,G_G,RGR",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 5},
+		"P": { type: "item", code: "game:plank-*" },
+		"G": { type: "block", code: "game:glass-*", name: "glassblock", allowedVariants: ["plain", "green", "red", "brown", "smoky", "blue"]},
+		"R": { type: "item", code: "game:cattailtops", quantity:2},
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "t&g-largedemijohn-wicker-{glassblock}", quantity: 1}
+},
+{
+	//Wicker variant - made with papyrus
+	ingredientPattern: "SP_,G_G,RGR",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 5},
+		"P": { type: "item", code: "game:plank-*" },
+		"G": { type: "block", code: "game:glass-*", name: "glassblock", allowedVariants: ["plain", "green", "red", "brown", "smoky", "blue"]},
+		"R": { type: "item", code: "game:papyrustops", quantity:2},
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "t&g-largedemijohn-wicker-{glassblock}", quantity: 1}
+},
+{
+	//Wicker variant - made with vines
+	ingredientPattern: "SP_,G_G,RGR",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 5},
+		"P": { type: "item", code: "game:plank-*" },
+		"G": { type: "block", code: "game:glass-*", name: "glassblock", allowedVariants: ["plain", "green", "red", "brown", "smoky", "blue"]},
+		"R": { type: "block", code: "game:wildvine-section-north"},
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "t&g-largedemijohn-wicker-{glassblock}", quantity: 1}
+},
+
+
+
+{
+	//Smash small plain Demijohn - plain/red/brown/blue
+	ingredientPattern: "HB",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"B": { type: "block", code: "t&g-largedemijohn-null-{type}", name: "type", allowedVariants: ["plain", "red", "brown", "blue"]},
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "game:clearquartz", quantity: 6}
+},
+{
+	//Smash small wicker Demijohn - plain/red/brown/blue
+	ingredientPattern: "HB",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"B": { type: "block", code: "t&g-largedemijohn-wicker-{type}", name: "type", allowedVariants: ["plain", "red", "brown", "blue"]},
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "game:clearquartz", quantity: 6}
+},
+{
+	//Smash small plain Demijohn - green
+	ingredientPattern: "HB",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"B": { type: "block", code: "t&g-largedemijohn-{type}-green", name: "type", allowedVariants: ["null", "wicker"]},
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "game:ore-olivine", quantity: 12}
+}
+]

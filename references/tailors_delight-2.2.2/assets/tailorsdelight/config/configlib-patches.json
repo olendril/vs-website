@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "patches": {
+    "boolean": {
+      "@tailorsdelight:patches/vs-recipepatches/*": {
+        "-/enabled": "VS_RECIPES"
+      },
+      "@tailorsdelight:recipes/grid/vs-crafting/*": {
+        "-/enabled": "VS_RECIPES"
+      }
+    }
+  },
+  "settings": {
+    "boolean": {
+      "VS_RECIPES": {
+        "name": "enable_vs_recipe_patches",
+        "ingui": "tailorsdelight:setting_enable_vs_recipe_patches",
+        "comment": "tailorsdelight:setting_enable_vs_recipe_patches_comment",
+        "weight": 1,
+        "default": true
+      }
+    }
+  },
+  "formatting": [
+    {
+      "type": "separator",
+      "weight": 0.1,
+      "title": "tailorsdelight:settings_patches"
+    }
+  ]
+}

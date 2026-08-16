@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingPropsByType",
+    "value": {
+      "largegear-temporal": {
+        "crushedStack": {
+          "type": "item",
+          "code": "em:crushed-metal-temporal",
+          "stacksize": 9
+        },
+        "hardnessTier": 9
+      }
+    },
+    "file": "game:itemtypes/resource/largegear.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/lightHsvByType",
+    "value": {
+      "largegear-temporal": [ 32, 7, 6 ]
+    },
+    "file": "game:itemtypes/resource/largegear.json",
+    "side": "Server"
+  }
+]

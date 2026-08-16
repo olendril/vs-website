@@ -1,0 +1,84 @@
+{
+    "code": "punchpart",
+    "maxstacksize": 4,
+    "creativeinventory": {
+        "general": [ "*" ],
+        "coinage": [ "*" ]
+    },
+    "shape": {
+        "base": "item/punchpart"
+    },
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [ "blackbronze", "iron", "meteoriciron", "steel" ]
+        }
+    ],
+    "textures": {
+        "metal": { "base": "game:block/metal/ingot/{material}" }
+    },
+    "attributes": {
+        "onTongTransform": {
+            "translation": {
+                "x": -1.974,
+                "y": -1.428,
+                "z": -0.48
+            },
+            "rotation": {
+                "x": 103,
+                "y": -16,
+                "z": -4
+            },
+            "scale": 0.57
+        }
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 6.6,
+            "y": -3,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -136
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.3,
+            "z": 0
+        },
+        "scale": 2.34
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.9,
+            "y": -0.9,
+            "z": -0.9
+        },
+        "rotation": {
+            "x": 0,
+            "y": -2,
+            "z": 75
+        },
+        "scale": 0.52
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5299
+        },
+        "scale": 3.61
+    }
+}

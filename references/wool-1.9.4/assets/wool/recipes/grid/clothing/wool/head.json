@@ -1,0 +1,124 @@
+[
+	{
+	"ingredientPattern": "RGT,GRN",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 3 },
+		"R": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 3 },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" },
+		"N": { "type": "item", "code": "wool:kneedle-*", "isTool": true }
+	},
+	"recipeGroup": 5, "width": 3, "height": 2,
+	"output": { "type": "item", "code": "game:clothes-head-shepherds-cowl" }
+	},
+
+	{
+	"ingredientPattern": "CC,NC",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 3 },
+		"N": { "type": "item", "code": "wool:kneedle-*", "isTool": true }
+	},
+	"recipeGroup": 3, "width": 2, "height": 2,
+	"output": { "type": "item", "code": "game:clothes-head-peasent-head-scarf" }
+	},
+
+	{
+	"ingredientPattern": "BGB,TST",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-black", "name": "cloth" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"G": { "type": "item", "code": "wool:twine-wool-green", "quantity": 2 },
+		"T": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 3, "height": 2,
+	"output": { "type": "item", "code": "game:clothes-head-merchant-hat" }
+	},
+
+	{
+	"ingredientPattern": "FHF,_K_",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["fox-red", "fox-arctic", "raccoon-common" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 1 }
+	},
+	"recipeGroup": 3, "width": 3, "height": 2,
+	"output": { "type": "item", "code": "game:clothes-head-furhattail-{species}" }
+	},
+
+	{
+	"ingredientPattern": "FHF,_S_",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["fox-red", "fox-arctic", "raccoon-common" ] },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 1 }
+	},
+	"recipeGroup": 3, "width": 3, "height": 2,
+	"output": { "type": "item", "code": "game:clothes-head-furhattail-{species}" }
+	},
+
+	{
+	"ingredientPattern": "F,H,K",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["fox-red" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 1, "height": 3,
+	"output": { "type": "item", "code": "game:clothes-head-furhatwide-{species}" }
+	},
+
+	{
+	"ingredientPattern": "F,H,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["fox-red" ] },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 1, "height": 3,
+	"output": { "type": "item", "code": "game:clothes-head-furhatwide-{species}" }
+	},
+
+	{
+	"ingredientPattern": "F,H,K",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["fox-arctic" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 1, "height": 3,
+	"output": { "type": "item", "code": "game:clothes-head-furhatwide-generic-white" }
+	},
+
+	{
+	"ingredientPattern": "F,H,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["fox-arctic" ] },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 1, "height": 3,
+	"output": { "type": "item", "code": "game:clothes-head-furhatwide-generic-white" }
+	},
+
+	{
+	"ingredientPattern": "F,H,K",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["raccoon-common" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 1, "height": 3,
+	"output": { "type": "item", "code": "game:clothes-head-furhatwide-generic-gray" }
+	},
+
+	{
+	"ingredientPattern": "F,H,S",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hide-pelt-*", "quantity": 1, "name": "species", "allowedVariants": ["raccoon-common" ] },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 2 },
+		"F": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 }
+	},
+	"recipeGroup": 3, "width": 1, "height": 3,
+	"output": { "type": "item", "code": "game:clothes-head-furhatwide-generic-gray" }
+	}
+]

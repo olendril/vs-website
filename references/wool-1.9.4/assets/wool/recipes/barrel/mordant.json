@@ -1,0 +1,62 @@
+[
+	{
+	"code": "mordantedcloth",
+	"sealHours": 10,
+	"ingredients": [
+		{ "type": "item", "code": "game:dilutedalumportion", "litres": 2, "consumeLitres": 2 },
+		{ "type": "item", "code": "wool:cloth-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-mordant" }
+	},
+
+	{
+	"code": "mordantedcloth",
+	"sealHours": 10,
+	"ingredients": [
+		{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2, "consumeLitres": 2 },
+		{ "type": "item", "code": "wool:cloth-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-mordant" }
+	},
+
+	{
+	"code": "mordantedcloth",
+	"sealHours": 10,
+	"ingredients": [
+		{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2, "consumeLitres": 2 },
+		{ "type": "item", "code": "wool:cloth-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:cloth-wool-mordant" }
+	},
+
+
+	{
+	"code": "mordantedwooltwine",
+	"sealHours": 8,
+	"ingredients": [
+		{ "type": "item", "code": "game:dilutedalumportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-mordant" }
+	},
+
+	{
+	"code": "mordantedwooltwine",
+	"sealHours": 8,
+	"ingredients": [
+		{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-mordant" }
+	},
+
+	{
+	"code": "mordantedwooltwine",
+	"sealHours": 8,
+	"ingredients": [
+		{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-mordant" }
+	}
+]

@@ -1,0 +1,29 @@
+[
+	{
+	"ingredientPattern": "CTN",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-plain" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 },
+		"N": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-face-survivor" }
+	},
+
+	{
+	"name": "miner mask",
+	"ingredientPattern": "BTN",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-darkbrown" },
+		"T": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 3 },
+		"N": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "game:clothes-face-miner" }
+	}
+]

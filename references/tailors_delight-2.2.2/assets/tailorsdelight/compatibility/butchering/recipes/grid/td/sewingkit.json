@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "FFS,FFN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:stick" },
+		"F": { "type": "item", "code": "butchering:sinew-dry", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:sewingkit" }
+	}
+]

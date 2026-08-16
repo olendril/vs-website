@@ -1,0 +1,21 @@
+{
+	"shearlib:shearable":				"<font color=\"tan\">Peut être tondu et produira {0} unité(s) de toison.</font>",
+	"shearlib:shearablefull":			"<font color=\"lightgreen\">Peut être tondu et produira {0} unité(s) de toison.</font>",
+	"shearlib:insufficientgen":			"<font color=\"tomato\">Trop sauvage pour être tondu, l'animal doit être au minimum de génération {0}.</font>",
+
+	"shearlib:hoursuntilshearable":			"<font color=\"orange\">Toison trop courte, {0} heure(s) avant possibilité de tonte.</font>",
+	"shearlib:daysuntilshearable":			"<font color=\"orange\">Toison trop courte, {0} jour(s) avant possibilité de tonte.</font>",
+
+	"shearlib:daysmaxwool":				"Prend {0} jour(s) pour développer entièrement sa toison jusqu'à {1} unité(s).",
+	"shearlib:hoursmaxwool":			"Prend {0} heure(s) pour développer entièrement sa toison jusqu'à {1} unité(s).",
+
+	"shearlib:dayswaitmaxwool":			"Attendre {0} jour(s) de plus pour récolter entièrement {1} unité(s) de toison.",
+	"shearlib:hourswaitmaxwool":			"Attendre {0} heure(s) de plus pour récolter entièrement {1} unité(s) de toison.",
+
+	"shearlib:shearsbonus":				"Utiliser des cisailles plutôt qu'un couteau permet d'obtenir <font color=\"yellow\">+{0} toison(s) bonus</font>.",
+
+	"shearlib:animaltoowildclient":			"L'animal est trop sauvage pour se laisser tondre, il doit être de la génération {0} pour accepter la tonte.",
+	"shearlib:animalinsufficientwoolclient":	"L'animal n'a pas encore développé suffisamment de toison pour être tondu, il lui faut un minimum de {0} unités pour pouvoir le tondre.",
+	"shearlib:dropnotfound":			"ShearLib : Impossible de trouver '{0}' à laisser tomber lors de la tonte.",
+	"shearlib:dropsecondnotfound":			"ShearLib : Impossible de trouver '{0}' à laisser tomber en secondaire lors de la tonte."
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "op": "replace",
+    "comment": "merchant belt",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/0/ingredients/B",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-zinc" },
+    "file": "wool:recipes/grid/clothing/wool/waist.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "woolen reindeer herder waistband",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/3/ingredients/H",
+    "value": { "type": "item", "code": "tailorsdelight:buttons-horn" },
+    "file": "wool:recipes/grid/clothing/wool/waist.json",
+    "side": "Server"
+  }
+]

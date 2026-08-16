@@ -1,0 +1,17 @@
+{
+  "CollectibleTypes": [],
+  "CollectibleCodes": [
+    "*bread-*",
+    "*dough-*",
+
+    "expandedfoods:muffin-*",
+    "expandedfoods:acornmuffin-*",
+    "expandedfoods:breadedball-*",
+    "expandedfoods:dumpling-*",
+    "expandedfoods:plaindoughball-*",
+
+    "wildcraftfruit:nut-halva",
+    "wildcraftfruit:nut-pacoca",
+    "wildcraftfruit:nut-marzipan"
+  ]
+}

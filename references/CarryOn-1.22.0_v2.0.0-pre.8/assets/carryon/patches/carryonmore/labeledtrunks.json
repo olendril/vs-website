@@ -1,0 +1,41 @@
+[
+	{
+		"file": "labeledtrunk:blocktypes/chest-trunk",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.ChestTrunk",
+				"transformTemplates": [
+					"carry-trunk"
+				],
+				"labelRenderSettings": {
+					"transform": {
+						"translation": [ -0.907, 0.627, 1.09 ],
+						"rotation": [ 0.0, -90.0, 0.0 ],
+						"scale": 1.0
+					}
+				},
+				"slots": {
+					"Hands": {
+						"animation": "carryon:holdheavy",
+						"walkSpeedModifier": -0.5,
+						"hungerModifier": 0.3
+					},
+					"Back": {
+						"enabledCondition": "carryon.CarryablesOnBack.ChestTrunk",
+						"walkSpeedModifier": -0.3,
+						"hungerModifier": 0.4
+					}
+				}
+			}
+		},
+		"dependsOn": [
+			{
+				"modid": "labeledtrunk"
+			}
+		]
+	}
+]

@@ -1,0 +1,102 @@
+[
+	{
+	"op": "add",
+	"path": "/client/behaviors/-",
+	"comment": "add the struct, enabled/disable when the config says so",
+	"value": {
+		"code": "shearable",
+		"enabled": true,
+		"hoursPerUnitByType": {
+			"sheep-bighorn-adult-*": 32,
+			"sheep-mouflon-adult-*": 52
+		},
+		"hoursPerUnitGenerationalReduction": 1.2,
+		"hoursPerUnitMaxReduction": 12.0,
+		"generationalMaxGrowthBonus": 2,
+		"maxGenBonusByType": {
+			"sheep-bighorn-adult-*": 14,
+			"sheep-mouflon-adult-*": 8
+		},
+		"generationalScratchChanceReduction": 0.08,
+		"minQuantityByType": {
+			"sheep-bighorn-adult-*": 6,
+			"sheep-mouflon-adult-*": 2
+		},
+		"maxQuantityByType": {
+			"sheep-bighorn-adult-*": 7,
+			"sheep-mouflon-adult-*": 3
+		},
+		"minGen": 1,
+		"shearsBonusByType": {
+			"sheep-bighorn-adult-*": 4,
+			"sheep-mouflon-adult-*": 2
+		},
+		"scratchChance": 0.65,
+		"dropByType": {
+			"sheep-bighorn-adult-*": "wool:fleece-generic-gray",
+			"sheep-mouflon-adult-*": "wool:fleece-generic-lightbrown"
+		},
+		"dropSecondByType": {
+			"sheep-bighorn-adult-*": "wool:fleece-generic-plain",
+			"sheep-mouflon-adult-*": "wool:fleece-generic-redbrown"
+		},
+		"dropSecondPercentageByType": {
+			"sheep-bighorn-adult-*": 0.15,
+			"sheep-mouflon-adult-*": 0.30
+		},
+		"shearSound": "game:sounds/player/scrape.ogg"
+	},
+	"file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/server/behaviors/-",
+	"value": {
+		"code": "shearable",
+		"enabled": true,
+		"hoursPerUnitByType": {
+			"sheep-bighorn-adult-*": 32,
+			"sheep-mouflon-adult-*": 52
+		},
+		"hoursPerUnitGenerationalReduction": 1.2,
+		"hoursPerUnitMaxReduction": 12.0,
+		"maxGenBonusByType": {
+			"sheep-bighorn-adult-*": 14,
+			"sheep-mouflon-adult-*": 8
+		},
+		"generationalMaxGrowthBonus": 2,
+		"generationalScratchChanceReduction": 0.08,
+		"minQuantityByType": {
+			"sheep-bighorn-adult-*": 6,
+			"sheep-mouflon-adult-*": 2
+		},
+		"maxQuantityByType": {
+			"sheep-bighorn-adult-*": 7,
+			"sheep-mouflon-adult-*": 3
+		},
+		"minGen": 1,
+		"shearsBonusByType": {
+			"sheep-bighorn-adult-*": 4,
+			"sheep-mouflon-adult-*": 2
+		},
+		"scratchChance": 0.65,
+		"dropByType": {
+			"sheep-bighorn-adult-*": "wool:fleece-generic-gray",
+			"sheep-mouflon-adult-*": "wool:fleece-generic-lightbrown"
+		},
+		"dropSecondByType": {
+			"sheep-bighorn-adult-*": "wool:fleece-generic-plain",
+			"sheep-mouflon-adult-*": "wool:fleece-generic-redbrown"
+		},
+		"dropSecondPercentageByType": {
+			"sheep-bighorn-adult-*": 0.15,
+			"sheep-mouflon-adult-*": 0.30
+		},
+		"shearSound": "game:sounds/player/scrape.ogg"
+	},
+	"file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+	"side": "Server"
+	}
+]

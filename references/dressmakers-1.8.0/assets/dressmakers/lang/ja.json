@@ -1,0 +1,7 @@
+{
+	"dressmakers:setting_enable_common_clothing":		"通常の服を有効化",
+	"dressmakers:setting_enable_class_clothing":		"クラス別の服を有効化",
+	"dressmakers:setting_enable_common_clothing_comment":	"通常のVSバニラ服のレシピを有効化",
+	"dressmakers:setting_enable_class_clothing_comment":	"クラス固有のVSバニラ服アイテムのレシピを有効化",
+	"dressmakers:settings_title_clothing_recipes":		"VSバニラ服のドレスメーカー用レシピ"
+}

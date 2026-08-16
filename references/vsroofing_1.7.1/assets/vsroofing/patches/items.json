@@ -1,0 +1,74 @@
+[
+    {
+      "file": "game:itemtypes/resource/plank.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.PlaceFrame", "properties": { "primary": "rafterbeam" } }]
+    },
+    {
+      "file": "game:itemtypes/resource/stick.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.PlaceFrame", "properties": { "primary": "stick" } }]
+    },
+    {
+      "file": "game:itemtypes/resource/bamboostakes.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.PlaceFrame", "properties": { "primary": "bamboo" } }]
+    },
+    {
+      "file": "game:itemtypes/part/rod.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.PlaceFrame", "properties": { "primary": "metalbeam" } }]
+    },
+    {
+      "file": "game:itemtypes/resource/firewood.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.PlaceFrame", "properties": { "primary": "firewood" } }]
+    },
+    {
+        "op": "replace",
+        "path": "/class",
+        "value": "vsroofing.PatchedItemFirewood",
+        "file": "game:itemtypes/resource/firewood.json"
+    },
+    {
+      "file": "game:itemtypes/tool/chisel.json",
+      "op": "addmerge",
+      "path": "/behaviorsByType/@(.*-steel|.*-meteoriciron|.*-iron)",
+      "value": [{ "name": "vsroofing.ChiselRoof" }]
+    },
+    {
+      "file": "game:itemtypes/tool/chisel.json",
+      "op": "addmerge",
+      "path": "/behaviorsByType/*",
+      "value": [{ "name": "vsroofing.ChiselRoof" }]
+    },
+    {
+      "file": "game:itemtypes/resource/flaxfibers.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.Offhand" }]
+    },
+    {
+      "file": "game:itemtypes/resource/catttailtops.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.Offhand" }]
+    },
+    {
+      "file": "game:itemtypes/resource/papyrustops.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.Offhand" }]
+    },
+    {
+      "file": "game:blocktypes/plant/wildvine.json",
+      "op": "addmerge",
+      "path": "/behaviors",
+      "value": [{ "name": "vsroofing.Offhand" }]
+    },
+]

@@ -1,0 +1,327 @@
+[
+	{
+	"ingredientPattern": "TAT,LSL",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"S": { "type": "item", "code": "game:stick" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-shepherd-sandals" }
+	},
+
+	{
+	"name": "survivor-boots",
+	"ingredientPattern": "BTB,DND",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-black", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkbrown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-survivor" }
+	},
+
+	{
+	"ingredientPattern": "TNT,CBC,G_G",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"N": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-jailor-boots" }
+	},
+
+	{
+	"ingredientPattern": "YKY,GTG,BLB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+		"K": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "game:cloth-black", "quantity": 2 },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-gray" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-black" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-great-steppe-boots" }
+	},
+
+	{
+	"ingredientPattern": "BTB,DKD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkbrown", "quantity": 2 },
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"K": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-rotwalker" }
+	},
+
+	{
+	"ingredientPattern": "THT,BAB,DKD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"H": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"T": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 },
+		"B": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"K": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-squire-boots" }
+	},
+
+	{
+	"ingredientPattern": "GTG,BAB,DKD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"K": { "type": "item", "code": "game:sewingkit" },
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-prince-boots" }
+	},
+
+	{
+	"name": "miner-boots",
+	"ingredientPattern": "RTR,AMH",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"M": { "type": "item", "code": "game:metalplate-iron" },
+		"R": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"T": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-miner" }
+	},
+
+	{
+	"name": "miner-boots",
+	"ingredientPattern": "RTR,AMH",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"M": { "type": "item", "code": "game:metalplate-iron" },
+		"R": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 2 },
+		"T": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-miner" }
+	},
+
+	{
+	"name": "scribe-shoes",
+	"ingredientPattern": "BAB,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-scribe" }
+	},
+
+	{
+	"name": "noble-shoes",
+	"ingredientPattern": "BTB,LAL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"T": { "type": "item", "code": "tailorsdelight:twine-gold", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkred" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-noble-shoes" }
+	},
+
+	{
+	"name": "king-shoes",
+	"ingredientPattern": "CTC,GKG,LNL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-red" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-white" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:twine-gold", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-king" }
+	},
+
+	{
+	"name": "forlorn-hope-shoes",
+	"ingredientPattern": "BAB,LGL,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 4 },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-forlorn-shoes" }
+	},
+
+	{
+	"name": "merchant-shoes",
+	"ingredientPattern": "BAB,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-green" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-black" },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-merchant-shoes" }
+	},
+
+	{
+	"name": "aristocrat-shoes",
+	"ingredientPattern": "BAB,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-orange" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-orange", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-aristocrat-shoes" }
+	},
+
+	{
+	"name": "forgotten-noble-shoes",
+	"ingredientPattern": "BAB,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-darkred" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-darkblue" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-orange", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-forgotten" }
+	},
+
+	{
+	"name": "lackey-shoes",
+	"ingredientPattern": "BAB,GWG,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:leatherbundle-green" },
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-darkgreen" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-black" },
+		"W": { "type": "item", "code": "game:beeswax", "quantity": 2 },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-lackey-shoes" }
+	},
+
+	{
+	"name": "messenger-shoes",
+	"ingredientPattern": "BAB,RFR,DTD",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-gray", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:leatherbundle-red" },
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-black" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"F": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-messenger-shoes" }
+	},
+
+	{
+	"name": "temptress-velvet-shoes",
+	"ingredientPattern": "BAB,DRD,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkred" },
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-darkred" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"R": { "type": "item", "code": "tailorsdelight:twine-darkred", "quantity": 2 },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 3 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-foot-temptress-velvet-shoes" }
+	},
+
+	{
+	"name": "marketeer-shoes",
+	"ingredientPattern": "RAR,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "tailorsdelight:cloth-darkgreen" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-black" },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-marketeer" }
+	},
+
+	{
+	"name": "barber-surgeon",
+	"ingredientPattern": "RAR,LTL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "game:cloth-gray" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"T": { "type": "item", "code": "game:flaxtwine" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-foot-surgeon" }
+	}
+]

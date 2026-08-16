@@ -1,0 +1,613 @@
+[
+  {
+    "code": "tentconversionA",
+    "ingredientPattern": "T",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "cartsidetent-cloth-high-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsidetent-cloth-low-{material}"
+    }
+  },
+  {
+    "code": "tentconversionB",
+    "ingredientPattern": "T",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "cartsidetent-cloth-low-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsidetent-cloth-high-{material}"
+    }
+  },
+  {
+    "code": "canopyenhance",
+    "ingredientPattern": "TL",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "cartcanopy-basic-*",
+        "name": "material"
+      },
+      "L": {
+        "type": "block",
+        "code": "game:linen-normal-down",
+        "quantity": 3
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartcanopy-closed-{material}"
+    }
+  },
+  {
+    "code": "gripconversionA",
+    "ingredientPattern": "G",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "cartswearable-saddlelong-basic-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-basic-{material}"
+    }
+  },
+  {
+    "code": "gripconversionB",
+    "ingredientPattern": "G",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "cartswearable-saddleshort-basic-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-basic-{material}"
+    }
+  },
+  {
+    "code": "gripconversionC",
+    "ingredientPattern": "G",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "cartswearable-saddlelong-leather-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-leather-{material}"
+    }
+  },
+  {
+    "code": "gripconversionD",
+    "ingredientPattern": "G",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "cartswearable-saddleshort-leather-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-leather-{material}"
+    }
+  },
+  {
+    "code": "gripconversionE",
+    "ingredientPattern": "G",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "cartswearable-saddlelong-primitive-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddleshort-primitive-{material}"
+    }
+  },
+  {
+    "code": "gripconversionF",
+    "ingredientPattern": "G",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "cartswearable-saddleshort-primitive-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartswearable-saddlelong-primitive-{material}"
+    }
+  },
+  {
+    "code": "lanternconversionA",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "cartsmetalextra-cartlantern-base-lit-oak-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 4,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-old-oak-{material}"
+    }
+  },
+  {
+    "code": "lanternconversionB",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "cartsmetalextra-cartlantern-base-old-oak-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 5,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-off-oak-{material}"
+    }
+  },
+  {
+    "code": "lanternconversionC",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "cartsmetalextra-cartlantern-base-off-oak-*",
+        "name": "material"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 6,
+    "shapeless": true,
+    "output": {
+      "type": "block",
+      "code": "game:lantern-small-up",
+      "attributes": {
+        "material": "{material}",
+        "lining": "plain",
+        "glass": "quartz"
+      }
+    }
+  },
+  {
+    "code": "lanternconversionCopper",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "copper",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-copper"
+    }
+  },
+  {
+    "code": "lanternconversionTinbronze",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "tinbronze",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-tinbronze"
+    }
+  },
+  {
+    "code": "lanternconversionBismuthbronze",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "bismuthbronze",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-bismuthbronze"
+    }
+  },
+  {
+    "code": "lanternconversionBlackbronze",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "blackbronze",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-blackbronze"
+    }
+  },
+  {
+    "code": "lanternconversionGold",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "gold",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-gold"
+    }
+  },
+  {
+    "code": "lanternconversionSilver",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "silver",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-silver"
+    }
+  },
+  {
+    "code": "lanternconversionIron",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "iron",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-iron"
+    }
+  },
+  {
+    "code": "lanternconversionMeteoriciron",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "meteoriciron",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-meteoriciron"
+    }
+  },
+  {
+    "code": "lanternconversionSteel",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "steel",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-steel"
+    }
+  },
+  {
+    "code": "lanternconversionBrass",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "brass",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-brass"
+    }
+  },
+  {
+    "code": "lanternconversionElectrum",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "electrum",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-electrum"
+    }
+  },
+  {
+    "code": "lanternconversionMolybdochalkos",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "molybdochalkos",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-molybdochalkos"
+    }
+  },
+  {
+    "code": "lanternconversionBismuth",
+    "ingredientPattern": "L",
+    "ingredients": {
+      "L": {
+        "type": "block",
+        "code": "game:lantern-small-up",
+        "attributes": {
+          "material": "bismuth",
+          "lining": "plain",
+          "glass": "quartz"
+        }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 3,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsmetalextra-cartlantern-base-lit-oak-bismuth"
+    }
+  },
+  {
+    "code": "cartsideboardcon1",
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "cartsideboard-wood-crossedinside"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-wood-crossedoutside"
+    }
+  },
+  {
+    "code": "cartsideboardcon2",
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "cartsideboard-wood-crossedoutside"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-wood-crossedinside"
+    }
+  },
+  {
+    "code": "cartsideboardcon3",
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "cartsideboard-wood-short",
+        "quantity": 2
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-wood-tall"
+    }
+  },
+  {
+    "code": "cartsideboardcon4",
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "cartsideboard-wood-tall"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "cartsideboard-wood-short",
+      "quantity": 2
+    }
+  }
+]

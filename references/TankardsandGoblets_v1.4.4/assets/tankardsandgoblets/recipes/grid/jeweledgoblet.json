@@ -1,0 +1,68 @@
+[
+{
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:ore-*", name: "gem", allowedVariants: ["cinnabar", "lapislazuli", "olivine", "quartz"]},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-{gem}", quantity: 1},	
+},
+{
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:gem-*-rough", name: "gem", allowedVariants: ["diamond", "emerald"]},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-{gem}", quantity: 1},
+		
+},
+{
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:nugget-*", name: "gem", allowedVariants: ["malachite"], quantity: 4},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-{gem}", quantity: 1},	
+},
+{
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:rosequartz"},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-rosequartz", quantity: 1},
+},
+{
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:amethyst"},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-amethyst", quantity: 1},
+}
+]

@@ -1,0 +1,98 @@
+[
+	{
+		"code": "dye-black-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-magnetite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-metal-rusty", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-metal-rusty", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-metal-rusty", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-manganesedioxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-manganesedioxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-manganesedioxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-copperoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-copperoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	},
+	{
+		"code": "dye-black-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-copperoxide", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-black", "litres": 2 }
+	}
+]

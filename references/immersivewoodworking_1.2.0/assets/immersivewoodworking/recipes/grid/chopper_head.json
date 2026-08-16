@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "_H_,_D_,_D_",
+	ingredients: {
+		"H": { type: "item", tags: ["tool-hammer"], isTool: true, toolDurabilityCost: 0 },
+		"D": { type: "item", code: "chopperheadhalf-*", name: "metal" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "chopperhead-{metal}", quantity: 1 }
+}

@@ -1,0 +1,101 @@
+[
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/north/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/north/windData", "value": [0,0,0,0] },
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/east/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/east/windData", "value": [0,0,0,0] },
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/south/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/south/windData", "value": [0,0,0,0] },
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/west/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/west/windData", "value": [0,0,0,0] },
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/up/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/up/windData", "value": [0,0,0,0] },
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/faces/down/windMode", "value": [0,0,0,0] },
+
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/children/0/faces/north/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/children/0/faces/east/windMode",  "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/children/0/faces/south/windMode", "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/children/0/faces/west/windMode",  "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/children/0/faces/up/windMode",    "value": [0,0,0,0] },
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json", "path": "/elements/0/children/0/children/0/children/0/faces/down/windMode",  "value": [0,0,0,0] },
+
+  
+  
+  
+
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children/0/faces/up/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/0/children/0/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/children/0/faces/up/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/1/children/0/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/children/0/faces/up/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/2/children/0/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/children/0/faces/up/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/3/children/0/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/faces/down/windMode","value":[0,0,0,0]},
+
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/children/0/faces/north/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/children/0/faces/east/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/children/0/faces/south/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/children/0/faces/west/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/children/0/faces/up/windMode","value":[0,0,0,0]},
+  { "op": "replace", "file": "windchimes:shapes/block/bamboo.json","path": "/elements/0/children/0/children/0/children/0/children/4/children/0/children/0/faces/down/windMode","value":[0,0,0,0]}
+]

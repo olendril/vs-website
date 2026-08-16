@@ -1,0 +1,226 @@
+{
+  "_comment_file": "Magmatic District - hosted fault system. Copy this file and change 'code', 'variant', and 'hostMaterialCode' to create a new district type. Place all district JSON files in assets/interestingoregen/config/hydrothermal/",
+
+  "code": "magmatic-mafic-shallow",
+
+  "spawnWeight": 1.0,
+  "variant": "mafic-shallow",
+  "hostMaterialCode": "rock-basalt",
+
+  "_comment_placement": "minDistanceBetweenDistricts controls how far apart districts are worldwide. Should be >= maxDistrictRadius * 2 to prevent overlap.",
+  "minDistanceBetweenDistricts": 6000,
+
+  "_comment_size": "District radius determines where fault origins can spawn. Faults themselves extend well beyond this radius.",
+  "minDistrictRadius": 1000,
+  "maxDistrictRadius": 3000,
+
+  "_comment_faults": "Major faults are the primary structural features. Width is half-width in blocks (full width = value * 2). Dip is degrees from horizontal (60-85 = nearly vertical).",
+  "minMajorFaults": 5,
+  "maxMajorFaults": 10,
+  "minMajorFaultLength": 2000,
+  "maxMajorFaultLength": 4000,
+  "minMajorFaultWidth": 2,
+  "maxMajorFaultWidth": 4,
+  "minFaultDipDegrees": 60.0,
+  "maxFaultDipDegrees": 85.0,
+  "faultDipDirectionDegrees": -1.0,
+
+  "_comment_wiggle": "Controls how much faults curve. IMPORTANT: wiggleBaseAmplitude must be less than (1/wiggleBaseFrequency)/4 or faults will coil back on themselves. At freq=0.0008, max safe amplitude is ~312.",
+  "wiggleOctaves": 3,
+  "wiggleBaseAmplitude": 80.0,
+  "wigglePersistence": 0.5,
+  "wiggleBaseFrequency": 0.0008,
+  "wiggleLacunarity": 2.0,
+  "faultWidthVariance": 0.8,
+
+  "_comment_minor": "Minor faults branch off major faults. minorFaultBranchPositions candidate spots are sampled, each with minorFaultBranchChance probability of spawning. minFaultLengthForBranching prevents very short faults from trying to branch.",
+  "minorFaultBranchPositions": 8,
+  "minFaultLengthForBranching": 400,
+  "minorFaultBranchChance": 0.3,
+  "minMinorFaultWidth": 1,
+  "maxMinorFaultWidth": 3,
+  "minMinorFaultLengthFraction": 0.2,
+  "maxMinorFaultLengthFraction": 0.4,
+  "minBranchAngleDegrees": 20.0,
+  "maxBranchAngleDegrees": 60.0,
+
+  "_comment_horsetail": "Horsetail zones are fans of short thin fractures at each major fault tip. childHorsetailChance = probability each primary spawns a shorter secondary. horsetailWiggleFrequency 0.02 = one arc per ~50 blocks.",
+  "minHorsetailCount": 13,
+  "maxHorsetailCount": 22,
+  "minHorsetailLength": 70,
+  "maxHorsetailLength": 150,
+  "minChildHorsetailLength": 25,
+  "maxChildHorsetailLength": 60,
+  "childHorsetailChance": 0.25,
+  "horsetailFanHalfAngleDegrees": 60.0,
+  "minHorsetailForwardOffset": 5.0,
+  "maxHorsetailForwardOffset": 15.0,
+  "horsetailWiggleAmplitude": 5.0,
+  "horsetailWiggleFrequency": 0.02,
+
+  "_comment_ladder": "Ladder vein regions are stretches where the fault widens and horizontal ore slabs appear at irregular vertical intervals. Each region rolls its own tilt angle (0 to ladderMaxSlabTiltDegrees).",
+  "ladderVeinChance": 0.4,
+  "minLadderLength": 200,
+  "maxLadderLength": 500,
+  "ladderWideningFactor": 1.5,
+  "ladderMaxSlabTiltDegrees": 30.0,
+  "ladderMinSlabSpacing": 2,
+  "ladderMaxSlabSpacing": 6,
+
+  "_comment_ore_zones": "Geometry of ore deposit zones. OreShoot zones form at fault bends/widenings. HorsetailLens zones are ellipsoids scattered along horsetail fractures.",
+  "oreShootMinBendDegrees": 20.0,
+  "oreShootMinWideningFactor": 1.4,
+  "oreShootRadius": 35.0,
+  "oreShootRadiusVariance": 10.0,
+  "minHorsetailLensRadius": 12.0,
+  "maxHorsetailLensRadius": 24.0,
+  "minHorsetailLensVerticalRadius": 10.0,
+  "maxHorsetailLensVerticalRadius": 15.0,
+  "maxLensesPerHorsetail": 4,
+
+  "_comment_rich_bands": "Each fault rolls 1-2 random Y bands where ore quality biases toward richer grades. Bands at absolute world Y — if a band is above terrain that fault only yields poor ore. minRichBandIntensity/maxRichBandIntensity controls how strongly the band biases toward the best available grade (0=no effect, 1=almost always richest).",
+  "minRichBandHalfWidth": 15,
+  "maxRichBandHalfWidth": 30,
+  "minRichBandIntensity": 0.6,
+  "maxRichBandIntensity": 1.0,
+
+  "_comment_ores": "Each ore entry defines one ore type. allowedZoneTypes controls where it spawns: OreShoot (fault bends), LadderVein (horizontal slab zones), HorsetailLens (tip fracture lenses). allowedVariantsByInBlock maps host rock to grade variants.",
+  "ores": [
+    {
+      "oreCode": "ore-*-nativecopper-basalt",
+      "weight": 1.0,
+      "density": 0.85,
+      "allowedZoneTypes": [ "OreShoot", "LadderVein" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium", "rich", "bountiful" ]
+      }
+    },
+    {
+      "oreCode": "ore-*-magnetite-basalt",
+      "weight": 1.0,
+      "density": 0.9,
+      "allowedZoneTypes": [ "OreShoot", "LadderVein" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium", "rich" ]
+      }
+    },
+    {
+      "oreCode": "ore-*-ilmenite-basalt",
+      "weight": 1.0,
+      "density": 0.95,
+      "allowedZoneTypes": [ "HorsetailLens" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium", "rich" ]
+      }
+    },
+    {
+      "oreCode": "ore-*-pentlandite-basalt",
+      "weight": 0.5,
+      "density": 0.75,
+      "allowedZoneTypes": [ "OreShoot", "LadderVein", "HorsetailLens" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium" ]
+      }
+    },
+    {
+      "oreCode": "ore-sulfur-basalt",
+      "weight": 0.5,
+      "density": 0.5,
+      "allowedZoneTypes": [ "OreShoot" ],
+      "allowedVariantsByInBlock": {}
+    },
+    {
+      "oreCode": "ore-*-limonite-basalt",
+      "weight": 0.25,
+      "density": 0.85,
+      "allowedZoneTypes": [ "OreShoot", "LadderVein" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium" ]
+      }
+    },
+    {
+      "oreCode": "ore-*-chromite-basalt",
+      "weight": 0.125,
+      "density": 0.75,
+      "allowedZoneTypes": [ "LadderVein", "HorsetailLens" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium", "rich" ]
+      }
+    },
+
+    //GA Compatibility
+    {
+      "oreCode": "ore-*-cerussite-basalt",
+      "weight": 0.25,
+      "density": 0.75,
+      "allowedZoneTypes": [ "LadderVein", "OreShoot" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    },
+    {
+      "oreCode": "ore-*-chalcopyrite-basalt",
+      "weight": 0.5,
+      "density": 0.85,
+      "allowedZoneTypes": [ "LadderVein", "OreShoot", "HorsetailLens" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    },
+    {
+      "oreCode": "ore-*-nativeplatinum-basalt",
+      "weight": 0.0325,
+      "density": 0.5,
+      "allowedZoneTypes": [ "LadderVein", "OreShoot" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium", "rich" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    },
+    {
+      "oreCode": "ore-*-pyrite-basalt",
+      "weight": 0.625,
+      "density": 0.85,
+      "allowedZoneTypes": [ "LadderVein", "OreShoot" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    },
+    {
+      "oreCode": "ore-*-sperrylite-basalt",
+      "weight": 0.0325,
+      "density": 0.5,
+      "allowedZoneTypes": [ "HorsetailLens", "OreShoot" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "poor", "medium", "rich" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    },
+
+    //GA Gems
+    {
+      "oreCode": "ore-*-corundumsapphire-basalt",
+      "weight": 0.125,
+      "density": 0.25,
+      "allowedZoneTypes": [ "LadderVein", "HorsetailLens" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "low", "medium", "high" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    },
+    {
+      "oreCode": "ore-*-gemruby-basalt",
+      "weight": 0.125,
+      "density": 0.25,
+      "allowedZoneTypes": [ "LadderVein", "HorsetailLens" ],
+      "allowedVariantsByInBlock": {
+        "rock-basalt": [ "low", "medium", "high" ]
+      },
+      "REQUIRES": [ "geoaddons" ]
+    }
+
+  ]
+}

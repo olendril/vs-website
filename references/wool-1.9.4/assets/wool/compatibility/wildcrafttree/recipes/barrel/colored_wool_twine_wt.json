@@ -1,0 +1,21 @@
+[
+	{
+	"code": "colored-twine-black",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "wildcrafttree:dye-walnut", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "gray", "brown" ] }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-black" }
+	},
+
+	{
+	"code": "colored-twine-gray",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "wildcrafttree:dye-walnut", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-white" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-gray" }
+	}
+]

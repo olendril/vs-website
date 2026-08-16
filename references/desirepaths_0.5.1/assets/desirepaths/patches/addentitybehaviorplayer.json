@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/client/behaviors/-",
+    "value": { "code": "desirepaths.CreatePaths" },
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/server/behaviors/-",
+    "value": { "code": "desirepaths.CreatePaths" },
+    "file": "game:entities/humanoid/player.json",
+    "side": "Server"
+  }
+]

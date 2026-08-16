@@ -1,0 +1,93 @@
+[
+	{
+		"ingredientPattern": "T__,_H_,_RS",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hide-oiled-medium"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "wwaymarkers:bagbuoy",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "T__,_I_,_RS",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 2
+			},
+			"I": {
+				"type": "item",
+				"code": "game:hide-oiled-large"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "wwaymarkers:bagbuoy",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "T__,_J_,_RS",
+		"ingredients": {
+			"T": {
+				"type": "item",
+				"code": "game:knife-*",
+				"isTool": true
+			},
+			"R": {
+				"type": "item",
+				"code": "game:rope",
+				"quantity": 4
+			},
+			"J": {
+				"type": "item",
+				"code": "game:hide-oiled-huge"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:stone-*",
+				"quantity": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "wwaymarkers:bagbuoy",
+			"quantity": 4
+		}
+	}
+]

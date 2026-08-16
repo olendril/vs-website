@@ -1,0 +1,12 @@
+[
+	{
+	"ingredientPattern": "LK",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:leather-normal-*", "name": "color", "allowedVariants": [ "plain" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	}
+]

@@ -1,0 +1,47 @@
+[
+    // leather
+    {
+		  "op": "addeach",
+    	"path": "/attributes/Roofs/leather/Materials/0/Primary/Code/-",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": [ "tailorsdelight:checkeredcloth-*", "tailorsdelight:leatherbundle-*","tailorsdelight:cloth-*" ]
+    },
+    {
+		"op": "addmerge",
+    	"path": "/attributes/Roofs/leather/TexturesByMaterial/material/Textures",
+    	"file": "vsroofing:blocktypes/roof.json",
+      	"value": {
+			// Checkered
+			"tailorsdelight:@^checkeredcloth-dark.*": { "base": "tailorsdelight:block/cloth/dark/{color}",
+				   "blendedOverlays": [ { "base": "tailorsdelight:overlays/checker_2x2", "blendMode": "Overlay" } ] },
+			"tailorsdelight:checkeredcloth-*": { "base": "game:block/cloth/linen/{color}",
+				   "blendedOverlays": [ { "base": "tailorsdelight:overlays/checker_2x2", "blendMode": "Overlay" } ] },
+			// Leather bundles
+			"tailorsdelight:leatherbundle-raw": { "base": "game:item/resource/hide/raw", "blendedOverlays": [ { "base": "tailorsdelight:overlays/darken", "blendMode": "Overlay" } ] },
+			"tailorsdelight:leatherbundle-pelt":{ "base": "game:item/resource/hide/raw" } ,
+			"tailorsdelight:leatherbundle-oiled": { "base": "game:item/resource/hide/raw", "blendedOverlays": [ { "base": "game:item/resource/hide/oiled", "blendMode": "Overlay" } ] },
+			"tailorsdelight:leatherbundle-plain": { "base": "game:block/cloth/leather/normal" },
+			"tailorsdelight:leatherbundle-sturdy": { "base": "game:block/leather/chromium" },
+			"tailorsdelight:leatherbundle-darkblue": { "base": "game:block/leather/blue", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]
+			},
+			"tailorsdelight:leatherbundle-darkbrown": { "base": "game:block/leather/plain", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]
+			},
+			"tailorsdelight:leatherbundle-darkgreen": { "base": "game:block/leather/green", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]
+			},
+			"tailorsdelight:leatherbundle-darkred": { "base": "game:block/leather/red", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]
+			},
+			"tailorsdelight:leatherbundle-black": { "base": "game:block/leather/{color}", "blendedOverlays": [ { "base": "tailorsdelight:overlays/darken", "blendMode": "Multiply" } ]
+			},
+			"tailorsdelight:leatherbundle-nadiyan": { "base": "game:block/leather/plain", "blendedOverlays": [ { "base": "tailorsdelight:overlays/lighten", "blendMode": "Lighten" } ]
+			},
+			"tailorsdelight:leatherbundle-*": { "base": "game:block/leather/{color}" },
+			"tailorsdelight:cloth-*": { "base": "tailorsdelight:block/cloth/dark/{color}" },
+			"tailorsdelight:leather-darkblue": { "base": "game:block/leather/blue", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Darken" } ]},
+			"tailorsdelight:leather-darkbrown": { "base": "game:block/leather/plain", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]},
+			"tailorsdelight:leather-darkgreen": { "base": "game:block/leather/green", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]},
+			"tailorsdelight:leather-darkred": { "base": "game:block/leather/red", "blendedOverlays": [ { "base": "tailorsdelight:overlays/{color}", "blendMode": "Multiply" } ]},
+			"tailorsdelight:leather-nadiyan": { "base": "game:block/leather/plain", "blendedOverlays": [ { "base": "tailorsdelight:overlays/lighten2", "blendMode": "Lighten" } ]}
+		}
+	}
+	
+]

@@ -1,0 +1,95 @@
+{
+	"enabled": false,
+	"code": "fur",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "raw", "bolt" ]
+		}
+	],
+	"maxstacksize": 64,
+	"materialDensity": 620,
+	"attributes": {
+	},
+	"shapeByType": {
+		"*-raw": { "base": "items/resources/fur" },
+		"*-bolt": { "base": "items/resources/fur" }
+	},
+	"texturesByType": {
+		"*-raw": {
+			"furstrands": {
+				"base": "item/resource/furstrands"
+			},
+			"furbottom": {
+				"base": "item/resource/furbottom"
+			}
+		},
+		"*-bolt": {
+			"furstrands": {
+				"base": "item/resource/furstrands"
+			},
+			"furbottom": {
+				"base": "item/resource/furbottom"
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"butchering": [ "*" ]
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 6,
+			"y": 1.5,
+			"z": -9
+		},
+		"rotation": {
+			"x": 157,
+			"y": 141,
+			"z": -12
+		},
+		"origin": {
+			"x": 0.35,
+			"y": -0.02,
+			"z": 0.4
+		},
+		"scale": 3.42
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.12,
+			"y": -0.1,
+			"z": 0.2
+		},
+		"rotation": {
+			"x": 8,
+			"y": 17,
+			"z": 4
+		},
+		"origin": {
+			"x": 0.23,
+			"y": 0,
+			"z": 0.13
+		},
+		"scale": 1.01
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 180,
+			"y": 33,
+			"z": -180
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 6
+	}
+}

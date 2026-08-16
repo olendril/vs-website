@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "FFS,FFN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"F": { "type": "item", "code": "wool:twine-wool-plain" },
+		"S": { "type": "item", "code": "game:stick" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:sewingkit" }
+	}
+]

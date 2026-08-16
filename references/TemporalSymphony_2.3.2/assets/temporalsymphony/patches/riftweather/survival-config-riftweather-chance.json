@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/patterns/0/chance",
+    "value": 0.5,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/1/chance",
+    "value": 0.4,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/2/chance",
+    "value": 0.3,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/3/chance",
+    "value": 0.1,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/4/chance",
+    "value": 0.05,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/5/chance",
+    "value": 0.01,
+    "file": "game:config/riftweather.json"
+  }
+]

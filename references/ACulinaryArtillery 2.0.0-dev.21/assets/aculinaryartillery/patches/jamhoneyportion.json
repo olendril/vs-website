@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": { "satiety": 80, "foodcategory": "Fruit" },
+    "side": "server",
+    "file": "game:itemtypes/liquid/jamhoneyportion.json"
+  }
+]

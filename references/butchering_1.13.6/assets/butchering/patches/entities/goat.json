@@ -1,0 +1,70 @@
+[
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-angora-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-ibexalp-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-ibexnub-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-markhor-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-mountain-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-muskox-adult-*": "butchering:deadgoat-male-adultlarge-1-dead",
+        "*-nubian-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-sirohi-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-takingold-adult-*": "butchering:deadgoat-male-adultlarge-1-dead",
+        "*-turdag-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-valais-adult-*": "butchering:deadgoat-male-adult-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/goat-adult.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-angora-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-ibexalp-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-ibexnub-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-markhor-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-mountain-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-muskox-adult-*": "butchering:deadgoat-male-adultlarge-1-dead",
+        "*-nubian-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-sirohi-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-takingold-adult-*": "butchering:deadgoat-male-adultlarge-1-dead",
+        "*-turdag-adult-*": "butchering:deadgoat-male-adult-1-dead",
+        "*-valais-adult-*": "butchering:deadgoat-male-adult-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/goat-adult.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butchering:deadgoat-male-baby-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/goat-baby.json"
+  },
+  {
+    "enabled": true,
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-baby-*": "butchering:deadgoat-male-baby-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/goat-baby.json"
+  }
+]

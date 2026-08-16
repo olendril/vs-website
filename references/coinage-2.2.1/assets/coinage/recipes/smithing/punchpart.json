@@ -1,0 +1,26 @@
+{
+    "code": "punchpart-{metal}",
+    "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [ "blackbronze", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+        [
+            "_______#",
+            "########",
+            "_______#"
+        ],
+        [
+            "_______#",
+            "_______#",
+            "_______#"
+        ]
+    ],
+    "name": "Coin Punch",
+    "output": {
+        "type": "item",
+        "code": "coinage:punchpart-{metal}"
+    }
+}

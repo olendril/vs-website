@@ -1,0 +1,50 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureSizes": { },
+	"textures": { },
+	"elements": [
+		{
+			"name": "base",
+			"from": [ 9.0, 0.0, 8.0 ],
+			"to": [ 9.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": { },
+			"children": [
+				{
+					"name": "spindle",
+					"from": [ -8.0, 0.5, 0.0 ],
+					"to": [ 5.0, 1.25, 0.75 ],
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationY": -45.0,
+					"rotationZ": -5.5,
+					"faces": {
+						"north": { "texture": "#handle", "uv": [ 0.0, 3.5, 13.0, 4.0 ] },
+						"east": { "texture": "#handle", "uv": [ 1.5, 3.0, 2.0, 3.5 ] },
+						"south": { "texture": "#handle", "uv": [ 0.0, 13.0, 13.0, 13.5 ] },
+						"west": { "texture": "#handle", "uv": [ 1.0, 3.5, 1.5, 4.0 ] },
+						"up": { "texture": "#handle", "uv": [ 0.0, 12.5, 13.0, 13.0 ] },
+						"down": { "texture": "#handle", "uv": [ 0.0, 2.5, 13.0, 3.0 ] }
+					},
+					"children": [
+						{
+							"name": "weight",
+							"from": [ 2.0, -1.0, -1.0 ],
+							"to": [ 3.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 3.5, 0.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#weight", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"east": { "texture": "#weight", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+								"south": { "texture": "#weight", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"west": { "texture": "#weight", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+								"up": { "texture": "#weight", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"down": { "texture": "#weight", "uv": [ 0.0, 0.0, 1.0, 3.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

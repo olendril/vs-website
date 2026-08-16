@@ -1,0 +1,40 @@
+{
+  code: "smeltpot",
+  class: "BlockSmeltPot",
+  entityClass: "SmeltPot",
+  creativeinventory: { "general": ["*"], "construction": ["*"] },
+  shape: { base: "interestingme:block/smeltpot" },
+  drawtype: "json",
+  attributes: {
+    tempGlowMode: 1
+  },
+  blockmaterial: "Stone",
+  textures: {
+    fire3: { base: "game:block/clay/hardened/fire3" }
+  },
+  replaceable: 200,
+  resistance: 4,
+  lightAbsorption: 0,
+  sidesolid: { all: false },
+  sideopaque: { all: false },
+  collisionboxes: [
+    { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+  ],
+  selectionboxes: [
+    { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+  ],
+  sounds: {
+    place: "block/stone",
+    break: "block/stone",
+    hit: "block/stone",
+    walk: "walk/stone"
+  },
+  heldTpIdleAnimation: "holdbothhandslarge",
+  heldRightReadyAnimation: "heldblockready",
+  heldTpUseAnimation: "twohandplaceblock",
+  tpHandTransform: {
+    translation: { x: -1.23, y: -0.91, z: -0.8 },
+    rotation: { x: -2, y: 25, z: -78 },
+    scale: 0.4
+  }
+}

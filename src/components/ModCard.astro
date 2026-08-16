@@ -1,0 +1,96 @@
+---
+import { mods, type ModSlug } from '../data/mods';
+
+interface Props {
+  mod: ModSlug;
+}
+
+const { mod } = Astro.props;
+const modMetadata = mods[mod];
+---
+
+<article class="mod-card">
+  <a class="mod-card__link" href={modMetadata.externalUrl}>
+    <img class="mod-card__icon" src={modMetadata.icon} alt="" width="64" height="64" />
+    <div class="mod-card__content">
+      <h2>{modMetadata.displayName}</h2>
+      <p>{modMetadata.description}</p>
+      <p class="mod-card__meta">
+        v{modMetadata.version} · {modMetadata.authors.join(', ')}
+      </p>
+      <span class="mod-card__destination"
+        >View on Vintage Story ModDB <span aria-hidden="true">→</span></span
+      >
+    </div>
+  </a>
+</article>
+
+<style>
+  .mod-card {
+    height: 100%;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    background: var(--sl-color-bg, transparent);
+  }
+
+  .mod-card__link {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    height: 100%;
+    padding: 1rem;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .mod-card__link:hover {
+    background: var(--sl-color-gray-6);
+  }
+
+  .mod-card__link:focus-visible {
+    outline: 2px solid var(--sl-color-accent);
+    outline-offset: 2px;
+  }
+
+  .mod-card__icon {
+    width: 4rem;
+    height: 4rem;
+    flex: 0 0 4rem;
+    object-fit: contain;
+  }
+
+  .mod-card__content {
+    min-width: 0;
+  }
+
+  .mod-card h2 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .mod-card p {
+    margin: 0.5rem 0 0;
+    color: var(--sl-color-gray-2);
+  }
+
+  .mod-card__destination {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--sl-color-accent-high);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 30rem) {
+    .mod-card__link {
+      gap: 0.75rem;
+      padding: 0.875rem;
+    }
+
+    .mod-card__icon {
+      width: 3rem;
+      height: 3rem;
+      flex-basis: 3rem;
+    }
+  }
+</style>

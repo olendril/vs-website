@@ -1,0 +1,33 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "UnstableFallingSlab",
+      "properties": {
+        "fallingBlock": "desirepaths:soilpath-{fertility}-{grasscoverage}",
+        "fallSound": "game:effect/rockslide",
+        "fallSideways": true,
+        "dustIntensity": 0.25
+      }
+    },
+    "file": "terrainslabs:blocktypes/soilpathslab.json",
+    "condition": {
+      "when": "blockGravity",
+      "isValue": "sandgravelsoil"
+    },
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "terrainslabs:blocktypes/soilpathslab.json",
+    "condition": {
+      "when": "blockGravity",
+      "isValue": "sandgravelsoil"
+    },
+    "side": "Server"
+  }
+]

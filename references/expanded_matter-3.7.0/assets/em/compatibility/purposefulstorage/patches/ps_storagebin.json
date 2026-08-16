@@ -1,0 +1,12 @@
+[
+	{
+	"op": "addeach",
+	"comment": "Must be on both client and server for the shape to work correctly!",
+	"path": "/GroupingCodes/powder/-",
+	"value": [
+		"em:ash-*",
+		"em:powdered-*"
+	],
+	"file": "purposefulstorage:config/restrictions/resources/resourcebin.json"
+	}
+]

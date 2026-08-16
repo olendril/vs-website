@@ -1,0 +1,74 @@
+[
+  {
+    "ingredientPattern": "S,D",
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "muckshovelhead-iron"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:clay-fire"
+      }
+    },
+    "copyAttributesFrom": "S",
+    "output": {
+      "type": "item",
+      "code": "muckshovelhead-iron",
+      "attributes": {
+        "clayCovered": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "S,D",
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "muckshovelhead-steel"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:clay-fire"
+      }
+    },
+    "copyAttributesFrom": "S",
+    "output": {
+      "type": "item",
+      "code": "muckshovelhead-steel",
+      "attributes": {
+        "clayCovered": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "S,D",
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "muckshovelhead-meteoriciron"
+      },
+      "D": {
+        "type": "item",
+        "code": "game:clay-fire"
+      }
+    },
+    "copyAttributesFrom": "S",
+    "output": {
+      "type": "item",
+      "code": "muckshovelhead-meteoriciron",
+      "attributes": {
+        "clayCovered": true
+      }
+    }
+  }
+]

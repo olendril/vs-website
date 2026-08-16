@@ -1,0 +1,23 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "T&GContents",
+			"from": [ 6.2, 1.5, 6.3 ],
+			"to": [ 9.8, 1.5, 9.7 ],
+			"renderPass": 4,
+			"rotationOrigin": [ 6.2, 1.5, 6.3 ],
+			"faces": {
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.5, 3.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

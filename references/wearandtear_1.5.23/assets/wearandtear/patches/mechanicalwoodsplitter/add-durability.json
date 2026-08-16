@@ -1,0 +1,13 @@
+[
+  {
+    "file": "mechanicalwoodsplitter:itemtypes/helveaxe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": "config://WearAndTear/Server/SpecialPartsConfig/HelveAxeDurability",
+    "condition": {
+      "when": "config://WearAndTear/Server/SpecialPartsConfig/HelveAxe",
+      "isValue": "true"
+    },
+    "dependsOn": [ { "modid": "mechanicalwoodsplitter" } ]
+  }
+]

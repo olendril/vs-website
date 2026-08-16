@@ -1,0 +1,122 @@
+{
+	"code": "porcelainoillamp",
+	"class": "BlockOilLamp",
+	"behaviors": [
+                { "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+                { "name": "GroundUnplaceable" },
+                { "name": "Lockable" },
+                { "name": "RightClickPickup" },
+                { "name": "OmniAttachable",
+			"properties": {
+				"facingCode": "orientation",
+				"attachmentAreas": {
+					"down": { "x1": 7, "y1": 15, "z1": 7, "x2": 8, "y2": 15, "z2": 8 },
+					"north": { "x1": 7, "y1": 11, "z1": 0, "x2": 8, "y2": 13, "z2": 1 },
+					"east": { "x1": 7, "y1": 11, "z1": 0, "x2": 8, "y2": 13, "z2": 1, "rotateY": 90 },
+					"south": { "x1": 7, "y1": 11, "z1": 0, "x2": 8, "y2": 13, "z2": 1, "rotateY": 180 },
+					"west": { "x1": 7, "y1": 11, "z1": 0, "x2": 8, "y2": 13, "z2": 1, "rotateY": 270 }
+				}
+			}
+		}
+        ],
+	"attributes": {
+		"reinforcable": true,
+		"allowUnstablePlacement": true,
+		"attachmentAreas": {
+			"down": { "x1": 5, "y1": 0, "z1": 5, "x2": 10, "y2": 0, "z2": 10 },
+			"north": { "x1": 7, "y1": 6, "z1": 15, "x2": 8, "y2": 7, "z2": 15, "rotateY": 180 },
+			"east": { "x1": 7, "y1": 6, "z1": 15, "x2": 8, "y2": 7, "z2": 15, "rotateY": 270 },
+			"south": { "x1": 7, "y1": 6, "z1": 15, "x2": 8, "y2": 7, "z2": 15, "rotateY": 0 },
+			"west": { "x1": 7, "y1": 6, "z1": 15, "x2": 8, "y2": 7, "z2": 15, "rotateY": 90 }
+		},
+		"handbook": { "groupBy": [ "porcelainoillamp-*" ] },
+		"groundStorageTransform": { "rotation": { "x": 0, "y": 45, "z": 0 } },
+	        "displayable": {
+			"shelf": { "size": { "width": 6, "height": 2, "length": 6 }, "randYRotAngle": 7 }
+        	}
+	},
+	"storageFlags": 257,
+	"variantgroups": [
+		{ "code": "color", "states": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] },
+		{ "code": "inside", "states": [ "white" ] },
+		{ "code": "orientation", "loadFromProperties": "abstract/horizontalorientation", "states": [ "up" ] }
+	],
+        "shapebytype": {
+                "*-up": { "base": "game:block/clay/claylamp-ground" },
+                "*-north": { "base": "game:block/clay/claylamp-wall", "rotateY": 0 },
+                "*-east": { "base": "game:block/clay/claylamp-wall", "rotateY": 270 },
+                "*-south": { "base": "game:block/clay/claylamp-wall", "rotateY": 180 },
+                "*-west": { "base": "game:block/clay/claylamp-wall", "rotateY": 90 }
+        },
+	"doNotRenderAtLod2": true,
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"creativeinventory": { "general": ["*-up"], "decorative": ["*-up"], "ceramics": ["*-up"] },
+	"replaceable": 5001,
+	"resistance": 0.5,
+	"maxStackSize": 8,
+	"lightAbsorption": 0,
+	"lightHsv": [ 5, 3, 14 ],
+	"sounds": { "place": "game:player/build" },
+	"textures": {
+		"ceramic": { "base": "bricklayers:block/clay/raw/{color}" },
+                "fire": { "base": "game:block/fire" },
+                "oil": { "base": "game:block/food/dairy/cottagecheese", "alpha": 200 }
+	},
+	"particleProperties": [
+		{
+			"hsvaColor": [{ "avg": 20, "var": 20 }, { "avg": 255, "var": 50 }, { "avg": 255, "var": 50 },  { "avg": 255, "var": 0 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"velocity": [ { "avg": 0, "var": 0.0125 }, { "avg": 0.03, "var": 0.01 }, { "avg": 0, "var": 0.0125 }],
+			"quantity": { "avg": 0.5 },
+			"size": { "avg": 0.1, "var": 0.05 },
+			"lifeLength": { "avg": 0.25 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.1 },
+			"particleModel": "Quad",
+			"vertexFlags": 255,
+			"windAffectednes": 0.05
+		},
+		{
+			"hsvaColor": [{ "avg": 0, "var": 0 }, { "avg": 0, "var": 0 }, { "avg": 30, "var": 15 },  { "avg": 220, "var": 50 }],
+			"opacityEvolve": { "transform": "quadratic", "factor": -16 },
+			"gravityEffect": { "avg": 0, "var": 0 },
+			"posOffset": [ { "avg": 0, "var": 0.1 }, { "avg": 0, "var": 0 }, { "avg": 0, "var": 0.1 }],
+			"velocity": [ { "avg": 0, "var": 0.025 }, { "avg": 0.1, "var": 0.025 }, { "avg": 0, "var": 0.025 }],
+			"quantity": { "avg": 0.05 },
+			"size": { "avg": 0.1, "var": 0.05 },
+			"sizeEvolve": { "transform": "linear", "factor": 0.5 },
+			"particleModel": "Quad"
+		}
+	],
+	"collisionbox": null,
+	"selectionboxByType": {
+		"*-up": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+		"*-east": { "x1": 0.3125, "y1": 0.3125, "z1": 0.5625, "x2": 0.6875, "y2": 0.47, "z2": 1, "rotateY": 270 },
+		"*-south": { "x1": 0.3125, "y1": 0.3125, "z1": 0.5625, "x2": 0.6875, "y2": 0.47, "z2": 1, "rotateY": 180 },
+		"*-west": { "x1": 0.3125, "y1": 0.3125, "z1": 0.5625, "x2": 0.6875, "y2": 0.47, "z2": 1, "rotateY": 90 },
+		"*-north": { "x1": 0.3125, "y1": 0.3125, "z1": 0.5625, "x2": 0.6875, "y2": 0.47 , "z2": 1, "rotateY": 0 }
+	},
+	"heldRightReadyAnimation": "holdinglanternrighthand",
+	"blockmaterial": "Ceramic",
+	"guiTransform": {
+		"rotation": { "x": -29, "y": -45.3, "z": -2 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3.52
+        },
+	"groundTransform": { "scale": 2.5 },
+	"tpHandTransform": {
+		"translation": { "x": -0.7, "y": -0.4, "z": -0.6 },
+		"rotation": { "x": 90, "y": 2, "z": -82 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.8
+        },
+	"tpOffHandTransform": {
+		"translation": { "x": -0.7, "y": -0.4, "z": -0.65 },
+		"rotation": { "x": 97, "y": 0, "z": -96 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.8
+        },
+	"rainPermeable": true,
+	"materialDensity": 600
+}

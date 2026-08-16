@@ -1,0 +1,32 @@
+[
+  {
+    "ingredientPattern": "H",
+    "ingredients": {
+      "H": { "type": "item", "code": "aculinaryartillery:clothes-head-c-hat" }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "aculinaryartillery:clothes-head-c-hat1" }
+  },
+  {
+    "ingredientPattern": "H",
+    "ingredients": {
+      "H": { "type": "item", "code": "aculinaryartillery:clothes-head-c-hat1" }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "aculinaryartillery:clothes-head-c-hat2" }
+  },
+  {
+    "ingredientPattern": "H",
+    "ingredients": {
+      "H": { "type": "item", "code": "aculinaryartillery:clothes-head-c-hat2" }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "aculinaryartillery:clothes-head-c-hat" }
+  }
+]

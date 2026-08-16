@@ -1,0 +1,62 @@
+[
+  {
+    "file": "foodshelves:config/restrictions/barrels/barrelrack.json",
+    "op": "addmerge", "path": "/CollectibleTypes/-", "side": "server",
+    "value": "vanvar:BlockBarrel",
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:config/restrictions/other/buckethook.json",
+    "op": "addmerge", "path": "/CollectibleCodes/-", "side": "server",
+    "value": "vanvar:woodbucket-*",
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:blocktypes/shelves/shortshelf.json",
+    "op": "addmerge", "path": "/attributes", "side": "server",
+    "value": {
+      "materials": { "loadFromProperties": "block/wood" },
+      "variantTextures": {
+        "surface": [ "game:block/wood/debarked/{wood}", "foodshelves:variants/wood/{wood}" ],
+        "wood": [ "game:block/wood/debarked/{wood}" ]
+      }
+    },
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:blocktypes/other/tablewshelf.json",
+    "op": "addmerge", "path": "/attributes", "side": "server",
+    "value": {
+      "materials": { "loadFromProperties": "block/wood" },
+      "variantTextures": {
+        "wood": [ "game:block/wood/debarked/{wood}" ]
+      }
+    },
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:recipes/grid/shelves/shortshelf.json",
+    "op": "replace", "path": "/1/enabled", "side": "server", "value": true,
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:recipes/grid/other/tablewshelf.json",
+    "op": "replace", "path": "/4/enabled", "side": "server", "value": true,
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:recipes/grid/other/tablewshelf.json",
+    "op": "replace", "path": "/5/enabled", "side": "server", "value": true,
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:recipes/grid/other/tablewshelf.json",
+    "op": "replace", "path": "/6/enabled", "side": "server", "value": true,
+    "dependsOn": [ { "modid": "vanvar" } ]
+  },
+  {
+    "file": "foodshelves:recipes/grid/other/tablewshelf.json",
+    "op": "replace", "path": "/7/enabled", "side": "server", "value": true,
+    "dependsOn": [ { "modid": "vanvar" } ]
+  }
+]

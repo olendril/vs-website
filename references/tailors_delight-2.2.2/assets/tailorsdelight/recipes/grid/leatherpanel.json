@@ -1,0 +1,15 @@
+[
+	{
+	"ingredientPattern": "SAS, L ,SKS",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:stick" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-*", "name": "type", "quantity": 1, "skipVariants": [ "raw", "oiled", "pelt", "nadiyan", "sturdy" ] },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true, "toolDurabilityCost": 4 },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "tailorsdelight:panel-leather-{type}", "quantity": 2 }
+	}
+]

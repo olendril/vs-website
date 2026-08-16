@@ -1,0 +1,49 @@
+[
+  {
+    "op": "move",
+    "frompath": "/texturesByType/*",
+    "path": "/texturesByType/dressmakers-temp",
+    "file": "game:itemtypes/wearable/seraph/waist.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/*-cerise-embroidered-reindeer-herder-waistband",
+    "value": {
+	"cerise-embroidered-reindeer-herder-waistband": { "base": "dressmakers:clothing/waist/cerise-embroidered-reindeer-herder-waistband" },
+	"seraph": { "base": "block/transparent" }
+    },
+    "file": "game:itemtypes/wearable/seraph/waist.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/texturesByType/dressmakers-temp",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/wearable/seraph/waist.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributes/warmthByType/",
+    "value": {
+	"*-heavy-tool-belt": 0.1,
+	"*-fancy-royal-belt": 0.1,
+	"*-prince-waistband": 0.1,
+	"*-jailor-belt": 0.1,
+	"*-peasant-strap": 0.1,
+	"*-merchant-belt": 0.1,
+	"*-messenger-belt": 0.2,
+	"*-clockmaker-belt": 0.1,
+	"*-scribe": 0.2,
+	"*-blackguard-belt": 0.1,
+	"*-squire-belt": 0.1,
+	"*-sturdy-belt": 0.1,
+	"*-sturdy-leather-belt": 0.1,
+	"*-alchemist": 0.1
+    },
+    "file": "game:itemtypes/wearable/seraph/waist.json",
+    "side": "Server"
+  }
+]

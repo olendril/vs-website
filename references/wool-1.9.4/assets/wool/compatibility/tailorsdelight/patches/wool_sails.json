@@ -1,0 +1,20 @@
+[
+  { "op": "replace", "comment": "woolen sail", "compatibility": ["wool","tailorsdelight"], "path": "/0/ingredientPattern", "value": "TBS,BSL,SLN", "file": "wool:recipes/grid/sails.json", "side": "Server" },
+  { "op": "add", "compatibility": ["wool","tailorsdelight"], "path": "/0/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "wool:recipes/grid/sails.json", "side": "Server" },
+
+  { "op": "replace", "comment": "woolen sail tailor", "compatibility": ["wool","tailorsdelight"], "path": "/1/ingredientPattern", "value": "TBS,BSL,SLN", "file": "wool:recipes/grid/sails.json", "side": "Server" },
+  { "op": "add", "compatibility": ["wool","tailorsdelight"], "path": "/1/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "wool:recipes/grid/sails.json", "side": "Server" },
+
+  { "op": "replace", "comment": "large woolen sail", "compatibility": ["wool","tailorsdelight"], "path": "/2/ingredientPattern", "value": "TBS,BSL,SLN", "file": "wool:recipes/grid/sails.json", "side": "Server" },
+  { "op": "add", "compatibility": ["wool","tailorsdelight"], "path": "/2/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "wool:recipes/grid/sails.json", "side": "Server" },
+
+  { "op": "replace", "comment": "large woolen sail tailor", "compatibility": ["wool","tailorsdelight"], "path": "/3/ingredientPattern", "value": "TBS,BSL,SLN", "file": "wool:recipes/grid/sails.json", "side": "Server" },
+  { "op": "add", "compatibility": ["wool","tailorsdelight"], "path": "/3/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "wool:recipes/grid/sails.json", "side": "Server" },
+
+  { "op": "replace", "comment": "wc woolen sail", "compatibility": ["wool","tailorsdelight","wildcrafttree"], "path": "/0/ingredientPattern", "value": "TBS,BSL,SLN", "file": "wildcrafttree:recipes/grid/wool_sails.json", "side": "Server" },
+  { "op": "add", "compatibility": ["wool","tailorsdelight","wildcrafttree"], "path": "/0/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "wildcrafttree:recipes/grid/wool_sails.json", "side": "Server" },
+
+  { "op": "replace", "comment": "wc large woolen sail", "compatibility": ["wool","tailorsdelight","wildcrafttree"], "path": "/1/ingredientPattern", "value": "TBS,BSL,SLN", "file": "wildcrafttree:recipes/grid/wool_sails.json", "side": "Server" },
+  { "op": "add", "compatibility": ["wool","tailorsdelight","wildcrafttree"], "path": "/1/ingredients/N", "value": { "type": "item", "code": "tailorsdelight:needle-*" }, "file": "wildcrafttree:recipes/grid/wool_sails.json", "side": "Server" }
+
+]

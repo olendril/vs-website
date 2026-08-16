@@ -1,0 +1,39 @@
+[
+	{
+		ingredientPattern: "RLR,GSG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"R": { type: "item", code: "game:clay-red", quantity: 4  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "materialneeds:redmudbrickslab-dark-down-free", quantity: 4  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "RSR,GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"R": { type: "item", code: "game:clay-red", quantity: 4 },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "materialneeds:redmudbrickslab-light-down-free", quantity: 4  }
+	},
+]

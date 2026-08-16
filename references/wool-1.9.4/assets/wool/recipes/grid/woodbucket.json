@@ -1,0 +1,13 @@
+[
+	{
+		"ingredientPattern": "_T_,W_W,WWW",
+		"ingredients": {
+			"T": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 },
+			"W": { "type": "item", "code": "game:plank-*" }
+		},
+		"recipeGroup": 2,
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:woodbucket" }
+	}
+]

@@ -1,0 +1,9 @@
+{
+	code: "kombucha-forgetmenot-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-forgetmenot", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-forgetmenot-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-forgetmenot", litres: 10 }
+}

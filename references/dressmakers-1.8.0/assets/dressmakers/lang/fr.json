@@ -1,0 +1,13 @@
+{
+	"dressmakers:setting_enable_common_clothing":		"Vêtements ordinaires",
+	"dressmakers:setting_enable_class_clothing":		"Vêtements spécifiques aux classes",
+	"dressmakers:setting_enable_nadiyan_clothing":		"Vêtements nadiyen",
+
+	"dressmakers:setting_enable_common_clothing_comment":	"Activer les recettes pour les vêtements ordinaires de VS de base",
+	"dressmakers:setting_enable_class_clothing_comment":	"Activer les recettes pour les vêtements spécifiques aux classes de VS de base",
+	"dressmakers:setting_enable_nadiyan_clothing_comment":	"Activer les recettes pour les vêtements nadiyens de VS de base",
+	"dressmakers:setting_enable_wool_comment":		"Ajouter quelques recettes alternatives à la laine",
+
+	"dressmakers:settings_title_clothing_recipes":		"Recettes Dressmakers pour les vêtements de VS de base",
+	"dressmakers:settings_title_mod_recipes":		"Compatibilité avec d'autres mods"
+}

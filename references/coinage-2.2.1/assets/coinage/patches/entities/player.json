@@ -1,0 +1,21 @@
+﻿[
+	{
+		"op": "add",
+		"path": "/client/animations/-",
+		"value": {
+			"code": "admirecoin",
+			"animation": "admirecoin",
+			"blendMode": "Add",
+			"easeInSpeed": 5,
+			"elementWeight": {
+				"UpperArmR": 100,
+				"LowerArmR": 100
+			},
+			"elementBlendMode": {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage"
+			}
+		},
+		"file": "game:entities/humanoid/player.json"
+	}
+]

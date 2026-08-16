@@ -1,0 +1,12 @@
+{
+  "ingredient": {
+    "type": "item",
+    "code": "game:ingot-*",
+    "name": "metal",
+    "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel" ]
+  },
+  "pattern": [["######"]],
+  "name": "Rough Cut Chisel",
+  "code": "chisel-roughcut-{metal}",
+  "output": { "type": "item", "code": "chisel-roughcut-{metal}" }
+}

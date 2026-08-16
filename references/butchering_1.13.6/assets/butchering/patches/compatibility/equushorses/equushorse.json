@@ -1,0 +1,93 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/equushorses/equushorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadequushorse-female-1-dead",
+        "*-adult-male-*": "butchering:deadequushorse-male-1-dead",
+        "*-baby-*": "butchering:deadequushorse-baby-1-dead"
+      }
+    },
+    "file": "equus:entities/wildwildhorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadequushorse-female-1-dead",
+        "*-adult-male-*": "butchering:deadequushorse-male-1-dead",
+        "*-baby-*": "butchering:deadequushorse-baby-1-dead"
+      }
+    },
+    "file": "equus:entities/wildwildhorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadequushorse-female-1-dead",
+        "*-adult-male-*": "butchering:deadequushorse-male-1-dead",
+        "*-baby-*": "butchering:deadequushorse-baby-1-dead"
+      }
+    },
+    "file": "equus:entities/feralwildhorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadequushorse-female-1-dead",
+        "*-adult-male-*": "butchering:deadequushorse-male-1-dead",
+        "*-baby-*": "butchering:deadequushorse-baby-1-dead"
+      }
+    },
+    "file": "equus:entities/feralwildhorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadequushorse-female-1-dead",
+        "*-adult-male-*": "butchering:deadequushorse-male-1-dead",
+        "*-baby-*": "butchering:deadequushorse-baby-1-dead"
+      }
+    },
+    "file": "equus:entities/tamedwildhorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-adult-female-*": "butchering:deadequushorse-female-1-dead",
+        "*-adult-male-*": "butchering:deadequushorse-male-1-dead",
+        "*-baby-*": "butchering:deadequushorse-baby-1-dead"
+      }
+    },
+    "file": "equus:entities/tamedwildhorse.json",
+    "dependsOn": [ { "modid": "equus" } ]
+  }
+]

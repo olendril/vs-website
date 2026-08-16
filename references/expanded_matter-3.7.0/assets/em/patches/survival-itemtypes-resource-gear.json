@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingPropsByType",
+    "value": {
+      "gear-temporal": {
+        "crushedStack": {
+          "type": "item",
+          "code": "em:crushed-metal-temporal",
+          "stacksize": 3
+        },
+        "hardnessTier": 3
+      }
+    },
+    "file": "game:itemtypes/resource/gear.json",
+    "side": "Server"
+  }
+]

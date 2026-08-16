@@ -1,0 +1,67 @@
+{
+  "code": "billpost",
+  "class": "EntityBillpost",
+  "attributes": {
+    "FontSize": 20,
+    "textVoxelHeight": 11,
+    "textVoxelWidth": 6,
+    "MaxWidth": 240,
+    "MaxHeight": 440,
+    "textVoxelOffsetX": 0,
+    "textVoxelOffsetY": -0.5,
+    "textVoxelOffsetZ": 0,
+    "FontName": "Lora",
+    "VerticalAlign": 0,
+    "colorR": 0,
+    "colorG": 0,
+    "colorB": 0
+  },
+  "hitboxSize": {
+    "x": 0.30,
+    "y": 0.30
+  },
+  "variantgroups": [
+		{ "code": "type", "states": ["pelt", "pressedreed", "rawreed", "wovenbamboo"] }
+	],
+  "client": {
+    "size": 0.75,
+    "renderer": "Shape",
+    "shapeByType": {
+      "*-pelt": {
+        "base": "billpostingextra:billpost-pelt"
+      },
+      "*-pressedreed": {
+        "base": "billpostingextra:billpost-pressedreed"
+      },
+      "*-rawreed": {
+        "base": "billpostingextra:billpost-rawreed"
+      },
+      "*-wovenbamboo": {
+        "base": "billpostingextra:billpost-wovenbamboo"
+      }
+    },
+    "texturesByType": {
+      "*-pelt": {
+        "all": { "base": "pelt_1_parchment" }
+      },
+      "*-pressedreed": {
+        "all": { "base": "pressedreed_1_parchment" }
+      },
+      "*-rawreed": {
+        "all": { "base": "rawreed_1_parchment" }
+      },
+      "*-wovenbamboo": {
+        "all": { "base": "wovenbamboo_1_parchment" }
+      }
+    },
+    "behaviors": [
+    ]
+  },
+  "server": {
+    "behaviors": [
+
+    ]
+  },
+  "sounds": {
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/face.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/lowerbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/upperbody.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/upperbodyover.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/head.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/shoulder.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": [ "clothes-{category}-*" ] },
+    "file": "simplecloth:itemtypes/wearable/waist.json",
+    "side": "Server"
+  }
+]

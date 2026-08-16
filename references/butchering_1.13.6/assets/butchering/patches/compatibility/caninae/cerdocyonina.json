@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-male-1-dead"
+    },
+    "file": "caninae:entities/animal/mammal/cerdocyonina-adult.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-male-1-dead"
+    },
+    "file": "caninae:entities/animal/mammal/cerdocyonina-adult.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-baby-1-dead"
+    },
+    "file": "caninae:entities/animal/mammal/cerdocyonina-baby.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "butchering:deadcaninae-baby-1-dead"
+    },
+    "file": "caninae:entities/animal/mammal/cerdocyonina-baby.json",
+    "dependsOn": [ { "modid": "caninae" } ]
+  }
+]

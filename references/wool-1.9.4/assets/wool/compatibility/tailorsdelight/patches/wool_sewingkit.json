@@ -1,0 +1,6 @@
+[
+  {
+    "op": "add", "path": "/0/enabled", "value": false,
+    "file": "wool:recipes/grid/sewingkit.json", "side": "Server"
+  }
+]

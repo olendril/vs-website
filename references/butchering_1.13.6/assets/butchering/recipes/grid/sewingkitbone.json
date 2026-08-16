@@ -1,0 +1,60 @@
+[
+	{
+		"ingredientPattern": "MMK,MMF",
+		"requiresTrait": "clothier",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "needle-bone",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flaxfibers",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 2,
+		"output": {
+			"type": "item",
+			"code": "game:sewingkit",
+			"quantity": 2
+		}
+	},
+	{
+		"ingredientPattern": "MMK,MMF",
+		"requiresTrait": "clothier",
+		"ingredients": {
+			"K": {
+				"type": "item",
+				"code": "needle-bone",
+				"quantity": 1
+			},
+			"M": {
+				"type": "item",
+				"code": "sinew-dry",
+				"quantity": 1
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flaxfibers",
+				"quantity": 2
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"recipeGroup": 3,
+		"output": {
+			"type": "item",
+			"code": "game:sewingkit",
+			"quantity": 1
+		}
+	}
+]

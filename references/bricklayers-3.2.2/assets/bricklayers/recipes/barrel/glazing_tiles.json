@@ -1,0 +1,56 @@
+[
+	{
+	"code": "glazedtiles_from_raw",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-white" }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedrawtile-raw-clear-dull-{color}", "stackSize": 1 }
+	},
+
+	{
+	"code": "glazedtiles_from_raw",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-light" }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedrawtile-raw-clear-dull-{color}", "stackSize": 1 }
+	},
+
+	{
+	"code": "glazedtiles_from_raw",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-blue" }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedrawtile-raw-clear-dull-{color}", "stackSize": 1 }
+	},
+
+	{
+	"code": "glazedtiles",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "type": "block", "code": "bricklayers:claytile-*-light", "name": "type", "allowedVariants": [ "dull", "polished" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedrawtile-raw-clear-dull-{color}", "stackSize": 1 }
+	},
+
+	{
+	"code": "glazedtiles",
+	"sealHours": 0.5,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 2, "consumeLitres": 1, "name": "color",
+			"allowedVariants": [ "black", "blue", "brown", "green", "greenblue", "lapislazuli", "malachite", "orange", "purple", "red", "redbrown", "yellow", "white" ] },
+		{ "type": "block", "code": "bricklayers:claytile-*-white", "name": "type", "allowedVariants": [ "dull", "polished" ] }
+	],
+	"output": { "type": "item", "code": "bricklayers:glazedrawtile-raw-clear-dull-{color}", "stackSize": 1 }
+	}
+]

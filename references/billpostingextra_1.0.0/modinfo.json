@@ -1,0 +1,13 @@
+{
+    "type": "Content",
+    "modid": "billpostingextra",
+    "name": "Billposting Extra",
+    "authors": [
+        "CaptainOats"
+    ],
+    "description": "Extra textures/item for the mod Billposting",
+    "version": "1.0.0",
+    "dependencies": {
+      "billposting": "*"
+    }
+}

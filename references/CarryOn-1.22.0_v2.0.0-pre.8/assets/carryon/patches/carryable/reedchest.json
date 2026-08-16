@@ -1,0 +1,34 @@
+[
+	{
+		"file": "game:blocktypes/reed/reedchest",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.ReedChest",
+				"interactDelay": 0.4,
+				"transformTemplates": [
+					"carry-reedchest"
+				],
+				"slots": {
+					"Hands": {
+						"animation": "carryon:holdlight",
+						"walkSpeedModifier": -0.15,
+						"hungerModifier": 0.05
+					},
+					"Back": {
+						"enabledCondition": "carryon.CarryablesOnBack.ReedChest",
+						"walkSpeedModifier": 0.0,
+						"hungerModifier": 0.1,
+						"excludedTypes": [
+							"aged",
+							"aged2"
+						]
+					}
+				}
+			}
+		}
+	}
+]

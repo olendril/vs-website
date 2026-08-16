@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "enabled": true,
+    "path": "/ingredientPattern",
+    "value": "FFS,FFN",
+    "file": "game:recipes/grid/sewingkit.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "game:recipes/grid/sewingkit.json",
+    "side": "Server"
+  }
+]

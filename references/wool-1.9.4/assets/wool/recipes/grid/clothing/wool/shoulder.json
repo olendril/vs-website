@@ -1,0 +1,95 @@
+[
+	{
+	"ingredientPattern": "WT,TS",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "wool:twine-wool-gray" }
+	},
+	"recipeGroup": 2,
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-shoulder-embroidered-collar" }
+	},
+
+	{
+	"ingredientPattern": "WWW,TNT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:twine-wool-darkgreen", "quantity": 4 },
+		"T": { "type": "item", "code": "wool:twine-wool-green" },
+		"N": { "type": "item", "code": "wool:kneedle-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-shoulder-woolen-scarf" }
+	},
+
+	{
+	"ingredientPattern": "GNG,FGF",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"F": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 2 },
+		"N": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-shoulder-survivor" }
+	},
+
+	{
+	"comment": "peasant kaftan",
+	"ingredientPattern": "CNC,CCC",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:twine-wool-pink", "quantity": 3 },
+		"N": { "type": "item", "code": "wool:kneedle-*", "isTool": true }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-shoulder-peasent-kaftan" }
+	},
+
+	{
+	"ingredientPattern": "BBB,DND",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 3 },
+		"D": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 2 },
+		"N": { "type": "item", "code": "wool:kneedle-*", "isTool": true }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-shoulder-artisans-scarf" }
+	},
+
+	{
+	"ingredientPattern": "KNK,FKF",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:leather-normal-black", "quantity": 3 },
+		"N": { "type": "item", "code": "game:flaxtwine" },
+		"F": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-shoulder-miner" }
+	},
+
+	{
+	"name": "minstrel coat",
+	"ingredientPattern": "RRR,ST_,_R_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "wool:cloth-wool-darkred", "quantity": 4 },
+		"T": { "type": "item", "code": "wool:twine-wool-blue" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-shoulder-minstrel-coat" }
+	}
+]

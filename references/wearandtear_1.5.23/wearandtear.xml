@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>wearandtear</name>
+    </assembly>
+    <members>
+        <member name="P:WearAndTear.Code.Behaviours.Part.Bonuses">
+            <summary>
+            The current bonuses applied to the part
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Code.Behaviours.Part.RequiresUpdateDecay">
+            <summary>
+            Wether decay has to be applied on this part (you would turn this off if you want to manually control durability)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Code.Behaviours.Part.HasMaintenanceLimit">
+            <summary>
+            Wether there is a limit to how much maintenance can be done to this part
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.Behaviours.Part.GetWearAndTearInfo(Vintagestory.API.Common.IPlayer,System.Text.StringBuilder)">
+            <summary>
+            Method to add info about this part to the string builder
+            </summary>
+            <param name="forPlayer">The player who will see the info</param>
+            <param name="dsc"/>
+        </member>
+        <member name="M:WearAndTear.Code.Behaviours.Part.DoMaintenanceFor(System.Single,Vintagestory.API.Common.EntityPlayer)">
+            <summary>
+            Repairs item and returns remaining repair strength
+            </summary>
+            <param name="maintenanceStrength">How much can be repaired</param>
+            <param name="player"/>
+            <returns>How much can still be repaired with this item (on other parts that is)</returns>
+        </member>
+        <member name="M:WearAndTear.Code.Behaviours.Part.OnBreak">
+            <summary>
+            Code that can run/override breaking behavior
+            </summary>
+            <returns>true if default behavior should run</returns>
+        </member>
+        <member name="M:WearAndTear.Code.Commands.DurabilityCommands.SetDurability(WearAndTear.Code.Behaviours.PartController,System.String,System.Single)">
+            <summary>
+            Sets the durability of a part on the targeted WearAndTear affected block
+            </summary>
+            <param name="controller"/>
+            <param name="PartIdentifier">The identifier of the part, either as index or as code</param>
+            <param name="Durability">The durability to set the part to, as a number between 0 and 1</param>
+            <example>/wearandtear setdurability frame 0.5</example>
+            <example>/wearandtear setdurability 1 0.5</example>
+        </member>
+        <member name="M:WearAndTear.Code.Commands.DurabilityCommands.RemoveAttributes(Vintagestory.API.Common.ItemSlot)">
+            <summary>
+            Clears all WearAndTear attributes from the itemstack
+            </summary>
+            <example>/wearandtear removeattributes</example>
+        </member>
+        <member name="P:WearAndTear.Code.WearAndTearModSystem.GameTickListenerIds">
+            <summary>
+            List of events that should be unregistered when disposing
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Code.WearAndTearModSystem.ServiceContainer">
+            <summary>
+            Access to the service container for this side
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.EnsureServiceContainerPresence(Vintagestory.API.Common.ICoreAPI)">
+            <summary>
+            Ensure that <see cref="P:WearAndTear.Code.WearAndTearModSystem.ServiceContainer" /> is loaded
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.LoadAutoConfigs(Vintagestory.API.Common.ICoreAPI)">
+            <summary>
+            Registers all configs as AutoConfigs in InsanityLib
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.AutoPatch(Vintagestory.API.Common.ICoreAPI)">
+            <summary>
+            Automatically patches everything uncategorized and all categories that match a modID.<br/>
+            Implement <see cref="M:WearAndTear.Code.WearAndTearModSystem.ManualPatches(HarmonyLib.Harmony,Vintagestory.API.Common.ICoreAPI)"/> to manually run additional patches
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.AutoRegistry(Vintagestory.API.Common.ICoreAPI)">
+            <summary>
+            Automatically registers implementations of the following to the class registry: <see cref="T:Vintagestory.API.Common.Item" />, <see cref="T:Vintagestory.API.Common.Block" />, <see cref="T:Vintagestory.API.Common.CollectibleBehavior" />, <see cref="T:Vintagestory.API.Common.BlockBehavior" />, <see cref="T:Vintagestory.API.Common.BlockEntity" />, <see cref="T:Vintagestory.API.Common.BlockEntityBehavior" /> and <see cref="T:InsanityLib.Extended.Transitions.ITransitionHandler" />.<br/>
+            Will also automatically register classes marked with <see cref="T:InsanityLib.Generators.Attributes.AssetCategoryAttribute" />.<br/>
+            Naming Scheme: "modid:classname"
+            </summary>
+        </member>
+        <member name="F:WearAndTear.Code.WearAndTearModSystem._api">
+            <summary>
+            Reference to the ICoreAPI (usefull for checking which side you are on)
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.AutoSetup(Vintagestory.API.Common.ICoreAPI)">
+            <summary>
+            Automatically runs the setup logic (<see cref="M:WearAndTear.Code.WearAndTearModSystem.EnsureServiceContainerPresence(Vintagestory.API.Common.ICoreAPI)" />  <see cref="M:WearAndTear.Code.WearAndTearModSystem.AutoPatch(Vintagestory.API.Common.ICoreAPI)" />, <see cref="M:WearAndTear.Code.WearAndTearModSystem.AutoRegistry(Vintagestory.API.Common.ICoreAPI)" />)<br/>
+            This should be called during <see cref="M:Vintagestory.API.Common.ModSystem.StartPre(Vintagestory.API.Common.ICoreAPI)" />
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.AutoAssetsLoaded(Vintagestory.API.Common.ICoreAPI)">
+            <summary>
+            Automatically handles stuff that should happen when the assets are loaded
+            </summary>
+        </member>
+        <member name="M:WearAndTear.Code.WearAndTearModSystem.AutoDispose">
+            <summary>
+            Method for automatically disposing stuff (based on attributes and stuff registered in other auto methods)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Client.WearAndTearClientConfig.VisualTearingMinDurability">
+            <summary>
+            If the durability drops bellow this amount of durability you will see visual tearing
+            (set to 0 to disable entirely)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Client.WearAndTearClientConfig.DisableVisualTearingOnMPBlocks">
+            <summary>
+            Wether visual tearing should be disabled on MP blocks
+            (MP blocks generally move/turn and since the tearing doesn't it will end up looking weirdly)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Client.WearAndTearClientConfig.WindmillRotoDecayedAppearance">
+            <summary>
+            Wether decayed windmills will have decayed models (look like they have are torn sails)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Client.WearAndTearClientConfig.WindmillRotorDecayAutoGenShapes">
+            <summary>
+            Wether missing shapes (for showing decay in model if `WindmillRotoDecayedAppearance` is set to true) should be auto generated
+            (Will still attempt to remove cloth if fully broken)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Client.WearAndTearClientConfig.EnableDebugLogging">
+            <summary>
+            If enabled, questionable events are logged (like when temperature data is invalid and creates NaN as a value)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.DecayProps.Type">
+            <summary>
+            Name of the decay engine to use
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.Code">
+            <summary>
+            The code of the part (for making certain kinds of parts)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.MaterialVariant">
+            <summary>
+            The variant of the material
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.ContentLevel">
+            <summary>
+            How much content this part has (affects the ammount of scrap generated)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.ScrapCode">
+            <summary>
+            What kind of scrap will be produced when this part is destroyed
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.RepairType">
+            <summary>
+            The type of repair tool that will be required to repair this part
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.AvgLifeSpanInYears">
+            <summary>
+            How long the object should last on average
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.DurabilityEfficiencyRatio">
+            <summary>
+            How the missing durability translates itself into loss in efficiency
+            (0 meaning no loss even when fully broken, 1 means it will stop working altogether when fully broken)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.IsCritical">
+            <summary>
+            Whether this part is critical to the object.
+            If this is set to true, the entire object will fall apart when durability reaches 0%
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.MaintenanceLimit">
+            <summary>
+            The maximum ammount of durability that can be repaired before the item has to be fully replaced
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.PartProps.Decay">
+            <summary>
+            The decay affecting this part (these are used to select the DecayEngines)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.ProtectivePartProps.EffectiveFor">
+            <summary>
+            Contains information on what parts will gain protection against which type of decay (and how much)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.ProtectiveTargetProps.Code">
+            <summary>
+            Parts with this code will gain this protection
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.ProtectiveTargetProps.RepairType">
+            <summary>
+            Parts of this repair type will gain this protection
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.ProtectiveTargetProps.DecayMultiplier">
+            <summary>
+            Multiplier on how much damage is done
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RegistryTemplates.ProtectiveTemplate.PartProps">
+            <summary>
+            The general part properties
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RegistryTemplates.ProtectiveTemplate.ProtectiveProps">
+            <summary>
+            The properties specific to protective parts
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RegistryTemplates.ReinforcementTemplate.DecayMultiplier">
+            <summary>
+            This is used to fill the multiplier of the protective part of the Metal Reinforcement Template
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RegistryTemplates.ReinforcementTemplate.AvgLifeSpanInYears">
+            <summary>
+            This is used to fill the average life span of the Metal Reinforcement Template
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.RepairType">
+            <summary>
+            This should match the RepairType of the part you want it to repair
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.RequiredMaterialVariant">
+            <summary>
+            This should match the MaterialVariant of the part you want it to repair
+            (leave NULL, if the variant is not important)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.RequiredTool">
+            <summary>
+            The tool you are required to hold in offhand while using this material to repair
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.RequiredTraits">
+            <summary>
+            The trait required to use this for maintenance
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.ToolDurabilityCost">
+            <summary>
+            How much durability the tool loses on repair
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.Strength">
+            <summary>
+            How much is repaired by using this item
+            (a strength of 1 would fully repair the item while 0 wouldn't do anything)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Props.RepairItemProps.MissingToolLangCode">
+            <summary>
+            This language code is used to get the message displayed when trying to repair without the required tool
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.Enabled">
+            <summary>
+            Wether parts should be automatically identified and registered.
+            (if set to false you will only get parts generated by the Feature Flags, such as windmills)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.IncludeFruitPress">
+            <summary>
+            Wether or not fruit press should be included
+            (This technically isn't a mechanically powdered block hence it requires an extra check)
+            (This works best with vannilla variants as it adds actual metal variants of the block)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.ModBlacklist">
+            <summary>
+            Any mod specified in here won't be affected by auto part registry
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.CodeBlacklist">
+            <summary>
+            Any block with matching code in here won't be affected by auto part registry
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.MinimalMetalCompositionPercentage">
+            <summary>
+            The minimal percentage the composition of metal ingredients is required for that metal to be the primary metal
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.MinimalMetalContentLevel">
+            <summary>
+            The minimal conent level required for a metal to count towards reinforcements
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.MinimalWoodCompositionPercentage">
+            <summary>
+            The minimal percentage the composition of wood ingredients is required for that wood to be the primary wood type
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.MinimalRockCompositionPercentage">
+            <summary>
+            The minimal percentage the composition of rock ingredients is required for that rock to be the primary rock type
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.RequireAllRecipesToContainMetal">
+            <summary>
+            Wether all recipes have to contain metal for it to apply metal reinforcement
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.DefaultFrameProps">
+            <summary>
+            The default parts to use for each BlockMaterial
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.DefaultProtectivePartProps">
+            <summary>
+            The default protective parts to use for each BlockMaterial
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.MetalReinforcementTemplate">
+            <summary>
+            This is the template used for generating metal reinforcement parts
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.AutoPartRegistryConfig.MetalConfig">
+            <summary>
+            The configuration for each metal (this information is used to fill the Metal Reinforcement Template)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.CompatibilityConfig.EncasedPartLifeSpanMultiplier">
+            <summary>
+            Multiplier on the lifespan of encased parts.
+            (Keep in mind that you can't do maintenance on encased parts due to their inaccessibility)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.CompatibilityConfig.DurabilityToXPRatio">
+            <summary>
+            The ratio of durability to XP gained when repairing blocks.
+            (100% durability would mean translate into 10 xp)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.CompatibilityConfig.RoughDurabilityEstimate">
+            <summary>
+            When enabled you will see rough estimates rather then exact percentages
+            (if you have XLib, you need to get a skill to see exact values otherwise you will need the "wearandtear-precisemeasurements" trait)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.CompatibilityConfig.LegacyCompatibility">
+             <summary>
+             Enables/Disabled extra code for handling old WearAndTear save data
+            
+             Disabling this will potentially increase performance but at the cost of causing old save data to be ignored
+             </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.DecayModifiersConfig.Wind">
+            <summary>
+            Multiplier on decay (damage) caused by wind
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.DecayModifiersConfig.Humidity">
+            <summary>
+            Multiplier on decay (damage) caused by humidity (rainfall)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.DecayModifiersConfig.Time">
+            <summary>
+            Multiplier on decay (damage) caused by the passing of time (Time decay is usually a secondary decay type)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.DecayModifiersConfig.Mold">
+            <summary>
+            Multiplier on decay of molds
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.DecayModifiersConfig.DecayWhileUnloaded">
+            <summary>
+            Wether decay should happen while the chunk is unloaded.
+            </summary>
+        </member>
+        <member name="T:WearAndTear.Config.Server.RubbleConfig">
+            <summary>
+            Configuration for rubble and scrap that will be generated when the block breaks
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.RubbleConfig.RubbleBlock">
+            <summary>
+            Wether a rubble block should be generated when the block breaks
+            (For this to work propperly you should also enable GenerateScrap)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.RubbleConfig.GenerateScrap">
+            <summary>
+            Wether scrap should be generated
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.RubbleConfig.FixedDropPercentage">
+            <summary>
+            The fixed percentage of content level that will always drop
+            (Drop = ContentLevel * ((Durability * DurabilityDropPercentage) + FixedDropPercentage)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.RubbleConfig.DurabilityDropPercentage">
+            <summary>
+            The percentage of content level that will drop based on durability
+            (Drop = ContentLevel * ((Durability * DurabilityDropPercentage) + FixedDropPercentage)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.RubbleConfig.SprintIntoDamage">
+            <summary>
+            How much damage you take from sprinting into rubble
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.RubbleConfig.FallIntoDamageMul">
+            <summary>
+            How much damage you take from falling onto rubble multiplied by the fall speed
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.HelveHammer">
+            <summary>
+            Whether helve hammers will decay
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.HelveHammerDurability">
+            <summary>
+            Helve Hammer durability mapping
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.DamageHelveHammerEvenIfNothingOnAnvil">
+            <summary>
+            If set to false, the helve hammer will only be damaged if there is actually something on the anvil
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.HelveAxe">
+            <summary>
+            Whether helve axes will decay
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.HelveAxeDurability">
+            <summary>
+            Helve Axe durability mapping
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.Pounder">
+            <summary>
+            Wether pounders have durability
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.PounderCapDurability">
+            <summary>
+            PounderCap durability mapping
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.Molds">
+            <summary>
+            Wether molds have durability
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.Clutch">
+            <summary>
+            The default clutch part
+            BEWARE: These settings don't actually do anything other then decide wether it's included in AutoPartRegistry for now.
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.SpecialPartsConfig.WindmillSails">
+            <summary>
+            The default windmill sail part
+            (You simple set this part to `null` if you want to disable the decay of windmill sails altogether)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.TraitRequirements">
+            <summary>
+            If enabled certain actions will require class traits
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.MinDurability">
+            <summary>
+            The lowest durability objects should ever drop to.
+            (Setting this higher means the objects will never fully break but only decrease in efficiency, this does not affect items such as helvehammers)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.DurabilityLeeway">
+            <summary>
+            Until which point the item/block is still considered to be fully repaired when broken
+            (If the actual durability is above the specified threshold then it won't affect the drops)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.MinMaintenanceDurability">
+            <summary>
+            The minimum durability is required before maintenance is allowed
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.DurabilityUpdateFrequencyInMs">
+            <summary>
+            How often the durability update method runs
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.MaintenanceRequiresInactivePart">
+            <summary>
+            Whether objects can only be repaired while they are not active
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.PollIntervalInDays">
+            <summary>
+            When calculating decay for stuff that was unloaded for a long time this decides the ammount of dates the rainfall/temperature is collected from to get an average
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.AllowForInfiniteMaintenance">
+            <summary>
+            Whether you can infinitely repair stuff
+            (When set true you won't ever have to replace stuff but can just continue to repair it)
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.RoomCheckFrequencyInMs">
+            <summary>
+            How often the check if entity is inside room is done
+            </summary>
+        </member>
+        <member name="P:WearAndTear.Config.Server.WearAndTearServerConfig.RoomExitCountLeeway">
+            <summary>
+            Leeway for considering something as Sheltered.
+            Setting this higher means that you can build larger tunnels and still having it be considered sheltered.
+            Setting this to -1 will make everything be considered outside
+            </summary>
+        </member>
+    </members>
+</doc>

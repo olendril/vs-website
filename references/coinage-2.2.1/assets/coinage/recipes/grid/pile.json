@@ -1,0 +1,35 @@
+﻿{
+  "ingredientPattern": "H_,CN,L_",
+  "name": "pile",
+  "height": 3,
+  "width": 2,
+    "ingredients": {
+        "H": {
+            "type": "item",
+            "code": "game:hammer-*",
+            "isTool": true,
+            "toolDurabilityCost": 10
+        },
+        "N": {
+            "type": "item",
+            "code": "game:metalnailsandstrips-*"
+        },
+        "C": {
+            "type": "item",
+            "code": "game:chisel-*",
+            "isTool": true,
+            "toolDurabilityCost": 10
+        },
+        "L": {
+            "type": "block",
+            "code": "game:log-placed-*-ud",
+            "quantity": 1,
+            "name": "wood",
+            "allowedVariants": [ "oak", "maple", "purpleheart", "redwood", "walnut", "ebony" ]
+        }
+    },
+  "output": {
+    "type": "block",
+    "code": "coinage:pile-{wood}-ns"
+  }
+}

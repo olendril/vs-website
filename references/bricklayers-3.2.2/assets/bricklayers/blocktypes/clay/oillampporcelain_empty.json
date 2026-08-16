@@ -1,0 +1,38 @@
+{
+	"inheritFrom": "game:blocktypes/clay/raw/oillamp.json",
+	"code": "porcelainoillampempty",
+	"variantgroups": [
+		{ "code": "form", "states": [ "genie" ] },
+		{ "code": "type", "states": [ "raw", "fired" ] },
+		{ "code": "color", "states": [ "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"shape": { "base": "game:block/clay/claylamp-ground", "ignoreElements": [ "Flame" ] },
+	"textures": {
+		"ceramic": { "base": "bricklayers:block/clay/raw/{color}" },
+                "fire": { "base": "game:block/transparent" },
+                "oil": { "base": "game:block/transparent" }
+	},
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "items": ["*"], "ceramics": ["*"] },
+	"sounds": { "walk": "walk/stone" },
+        "attributesByType": {
+		"porcelainoillampempty-genie-raw-*": {
+			"beehivekiln": {
+                                "0": { "type": "block", "code": "bricklayers:porcelainoillampempty-genie-fired-{color}" },
+                                "1": { "type": "block", "code": "bricklayers:porcelainoillampempty-genie-fired-{color}" },
+                                "2": { "type": "block", "code": "bricklayers:porcelainoillampempty-genie-fired-{color}" },
+                                "3": { "type": "block", "code": "bricklayers:porcelainoillampempty-genie-fired-{color}" }
+                        }
+                }
+        },
+        "combustiblePropsByType": {
+		"porcelainoillampempty-genie-raw-*": {
+                        "meltingPoint": 600,
+                        "meltingDuration": 30,
+                        "smeltedRatio": 1,
+                        "smeltingType": "fire",
+			"requiresContainer": false,
+			"smeltedStack": { "type": "block", "code": "bricklayers:porcelainoillampempty-genie-fired-{color}" }
+                }
+	}
+}

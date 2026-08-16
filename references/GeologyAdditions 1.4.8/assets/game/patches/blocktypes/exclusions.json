@@ -1,0 +1,15 @@
+[
+
+  {
+    "op": "add",
+    "path": "/skipVariants",
+    "value": [ "termitemound-jade-*", "termitemound-jasper-*" ],
+    "file": "game:blocktypes/creature/termitemound.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants",
+    "value": [ "termitemound-jade-*", "termitemound-jasper-*" ],
+    "file": "game:blocktypes/creature/termitemound-harvested.json"
+  }
+]

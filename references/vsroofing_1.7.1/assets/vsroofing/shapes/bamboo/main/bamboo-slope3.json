@@ -1,0 +1,95 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/east/slope-1/roof/corner-fill/ccw/lower,Root/east/slope-5/eave,Root/east/slope-5/roof/main/upper,Root/east/slope-3/roof/corner-fill,Root/east/slope-2/roof/main/upper,Root/east/slope-5/roof/main-fill,Root/east/slope-5/roof/corner/ccw/middle,Root/east/slope-1/ridge,Root/east/slope-1/roof/corner-fill/cw/upper,Root/east/slope-3/ridge/hip-fill,Root/east/slope-5,Root/east/slope-1/roof/corner-fill,Root/east/slope-2/ridge/hip,Root/east/slope-4,Root/east/slope-1,Root/east/slope-2,Root/east/slope-5/roof/corner-fill/ccw,Root/east/slope-5/roof/main/middle,Root/east/slope-3/roof/main,Root/east/slope-1/ridge/main-fill,Root/east/slope-2/roof/main-fill/lower,Root/east/slope-4/ridge/main-fill,Root/east/slope-4/eave,Root/east/slope-1/roof/main-fill/middle,Root/east/slope-4/roof/corner-fill/cw2,Root/east/slope-5/roof/corner-fill/ccw/lower,Root/east/slope-5/roof/corner-fill/ccw/middle,Root/east/slope-5/roof/corner/ccw,Root/east/slope-4/roof/corner-fill/cw/lower,Root/east/slope-3/ridge/main/lower,Root/east/slope-2/roof/main,Root/east/slope-2/ridge/main-fill/upper,Root/east/slope-3/roof/corner/ccw,Root/east/slope-4/ridge/main-fill/lower,Root/east/slope-1/roof/main-fill/upper,Root/east/slope-4/ridge/connect,Root/east/slope-4/roof/corner-fill/cw,Root/east/slope-5/roof/main,Root/east/slope-1/roof/corner,Root/east/slope-2/ridge/hip-fill,Root/east/slope-1/roof/corner-fill/ccw/upper,Root/east/slope-2/eave,Root/east/slope-2/ridge/hip/upper,Root/east/slope-4/ridge/hip/lower,Root/east/slope-5/roof/main/lower,Root/east/slope-1/ridge/hip/lower,Root/east/slope-1/ridge/hip-fill/lower,Root/east/slope-5/roof/corner,Root/east/slope-2/roof/main-fill,Root/east/slope-5/roof/corner-fill,Root/east/slope-3/ridge/main-fill,Root/east/slope-1/roof/corner-fill/cw/lower,Root/east/slope-3/roof/corner,Root/east/slope-4/roof/corner,Root/east/slope-5/roof/corner/cw/upper,Root/east/slope-2/roof/main/lower,Root/east/slope-2/roof/corner,Root/east/slope-2/ridge/main-fill/lower,Root/east/slope-1/roof/corner-fill/cw/middle,Root/east/slope-3/ridge/connect,Root/east/slope-5/roof/corner-fill/cw/upper2,Root/east/slope-4/roof/corner/cw/upper,Root/east/slope-1/ridge/hip/upper,Root/east/slope-5/roof/corner/cw/lower,Root/east/slope-2/roof/corner-fill,Root/east/slope-4/roof,Root/east/slope-1/roof/corner-fill/ccw,Root/east/slope-5/roof/corner/cw/middle,Root/east/slope-4/roof/main-fill/upper,Root/east/slope-5/roof/main-fill/lower,Root/east/slope-5/roof/corner/ccw/lower,Root/east/slope-2/ridge/hip2/upper2,Root/east/slope-5/roof/main-fill/upper,Root/east/slope-3/roof/corner/cw/middle,Root/east/slope-3/roof/main-fill,Root/east/slope-5/roof/corner-fill/cw/lower,Root/east/slope-1/eave,Root/east/slope-4/roof/corner/ccw/lower,Root/east/slope-5/ridge,Root/east/slope-4/roof/corner/cw/lower,Root/east/slope-4/roof/corner-fill,Root/east/slope-4/ridge/hip-fill,Root/east/slope-2/ridge,Root/east/slope-5/roof/corner-fill/cw/middle,Root/east/slope-2/ridge/main/lower,Root/east/slope-2/roof/corner-fill/ccw,Root/east/slope-4/roof/main-fill,Root/east/slope-4/roof/main/lower,Root/east/slope-5/roof/corner/ccw/upper,Root/east/slope-1/roof/main/lower,Root/east/slope-2/ridge/main-fill,Root/east/slope-1/ridge/main/upper,Root/east/slope-5/roof/corner-fill/cw/upper,Root/east/slope-3/ridge/hip,Root/east/slope-2/roof,Root/east/slope-3/roof/corner-fill/cw/middle,Root/east/slope-2/ridge/main/upper,Root/east/slope-2/roof/main-fill/upper,Root/east/slope-2/roof/corner/cw/lower,Root/east/slope-1/ridge/main-fill/upper,Root/east/slope-5/ridge/main-fill,Root/east/slope-1/roof/main/upper,Root/east/slope-1/roof/corner/cw/upper,Root/east/slope-2/roof/corner-fill/cw,Root/east/slope-4/roof/main/upper,Root/east/slope-1/roof/main/middle,Root/east/slope-1/ridge/main/lower,Root/east/slope-3/eave,Root/east/slope-1/ridge/hip-fill,Root/east/slope-4/roof/main,Root/east/slope-1/roof/corner-fill/cw,Root/east/slope-1/roof/corner-fill/ccw/middle,Root/east/slope-2/roof/corner/cw/upper,Root/east/slope-1/ridge/main-fill/lower,Root/east/slope-1/roof/main,Root/east/slope-4/roof/main-fill/lower,Root/east/slope-5/roof/main-fill/middle,Root/east/slope-5/roof/corner-fill/cw/middle2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material-1": "block/wood/planks/bamboo-top",
+		"material": "block/wood/planks/bamboosmooth"
+	},
+	"elements": [
+		{
+			"name": "main",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "middle",
+					"from": [ 0.0, 1.5, 0.0 ],
+					"to": [ 0.0, 1.5, 0.0 ],
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "0",
+							"from": [ 11.17, 9.75, -0.02 ],
+							"to": [ 18.17, 14.25, 16.01 ],
+							"rotationOrigin": [ 9.1716, 12.0, 8.0 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 0.0, 0.0, 4.5, 7.0 ], "rotation": 90 },
+								"east": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 0.0, 4.5, 7.0 ], "rotation": 90 },
+								"west": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "rotation": 90 },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "1",
+							"from": [ 4.17, 9.75, -0.02 ],
+							"to": [ 11.17, 14.25, 16.01 ],
+							"rotationOrigin": [ 9.1716, 12.0, 8.0 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 0.0, 7.0, 4.5, 14.0 ], "rotation": 90 },
+								"east": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 7.0, 4.5, 14.0 ], "rotation": 90 },
+								"west": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 7.0, 16.0, 14.0 ], "rotation": 90 },
+								"down": { "texture": "#material", "uv": [ 0.0, 7.0, 16.0, 14.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "2",
+							"from": [ 2.17, 1.75, -0.04 ],
+							"to": [ 9.17, 6.25, 16.02 ],
+							"rotationOrigin": [ 1.1716, 4.0, 8.0 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 0.0, 2.0, 4.5, 9.0 ], "rotation": 90 },
+								"east": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 2.0, 4.5, 9.0 ], "rotation": 90 },
+								"west": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 2.0, 16.0, 9.0 ], "rotation": 90 },
+								"down": { "texture": "#material", "uv": [ 0.0, 2.0, 16.0, 9.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "3",
+							"from": [ -4.83, 1.75, -0.04 ],
+							"to": [ 2.17, 6.25, 16.02 ],
+							"rotationOrigin": [ 1.1716, 4.0, 8.0 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 0.0, 9.0, 4.5, 16.0 ], "rotation": 90 },
+								"east": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 9.0, 4.5, 16.0 ], "rotation": 90 },
+								"west": { "texture": "#material-1", "uv": [ 0.0, 0.0, 16.0, 4.5 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 9.0, 16.0, 16.0 ], "rotation": 90 },
+								"down": { "texture": "#material", "uv": [ 0.0, 9.0, 16.0, 16.0 ], "rotation": 90 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,35 @@
+[
+	{
+	"ingredientPattern": "_T_,TST,_T_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"T": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "skipVariants": [ "mordant" ] },
+		"S": { "type": "item", "code": "game:stick" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "wool:cloth-wool-{color}" }
+	},
+
+	{
+	"ingredientPattern": "TT,TT",
+	"ingredients": {
+		"T": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "skipVariants": [ "mordant" ] }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "block", "code": "wool:wool-{color}" }
+	},
+
+	{
+	"ingredientPattern": "PS",
+	"ingredients": {
+		"P": { "type": "block", "code": "wool:wool-*", "name": "color", "skipVariants": [ "mordant" ] },
+		"S": { "type": "item", "code": "game:stick" }
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "wool:cloth-wool-{color}" }
+	}
+]

@@ -1,0 +1,33 @@
+[
+    {
+    "op": "add",
+    "path": "/game:v1.18expanded-matter-2",
+    "value": [
+                "/iir remap em:crushed-metal-temporal em:crushedluminous-metal-temporal force"
+	     ],
+    "file": "game:config/remaps.json"
+    },
+    {
+    "op": "add",
+    "path": "/game:v1.18expaned-matter-240",
+    "value": [
+		"/iir remap em:crushed-stone-granite em:crushed-ore-granite force",
+		"/iir remap em:powdered-stone-granite em:powdered-ore-granite force",
+		"/iir remap em:powdered-stone-bauxite em:powdered-ore-bauxite force"
+    ],
+    "file": "game:config/remaps.json"
+    },
+    {
+    "op": "add",
+    "path": "/game:v1.22expaned-matter-350",
+    "value": [
+		"/iir remap game:crushed-sphalerite em:crushed-ore-sphalerite force",
+		"/iir remap em:ash-organic-wood-sludge em:ash-organic-sludge force",
+		"/iir remap em:ash-inorganic-rock-dry em:ash-inorganic-rock",
+		"/iir remap em:ash-organic-plant-dry em:ash-organic-plant force",
+		"/iir remap em:ash-organic-wood-dry em:ash-organic-wood force",
+		"/iir remap game:crushed-galena em:crushed-ore-galena force"
+    ],
+    "file": "game:config/remaps.json"
+    }
+]

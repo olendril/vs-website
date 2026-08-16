@@ -1,0 +1,158 @@
+[
+  {
+    "op": "add",
+    "path": "/knockbackResistance",
+    "value": 0.9,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/fallDamageMultiplier",
+    "value": 0.75,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/onDeathStabilityRecovery",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnMaxQuantity",
+    "value": 20,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnIntervalMsMin",
+    "value": 3000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnIntervalMsMax",
+    "value": 5000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/0/spawnMobs",
+    "value": [
+      "bell-normal",
+      "bowtorn-deep",
+      "bowtorn-deep",
+      "bowtorn-tainted",
+      "shiver-deep",
+      "shiver-deep",
+      "shiver-deep",
+      "shiver-deep",
+      "shiver-tainted",
+      "shiver-tainted",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-deep",
+      "drifter-tainted",
+      "drifter-tainted",
+      "drifter-tainted",
+      "drifter-tainted",
+      "drifter-tainted",
+      "drifter-tainted",
+      "drifter-corrupt",
+      "drifter-corrupt",
+      "drifter-corrupt",
+      "drifter-corrupt",
+      "locust-bronze",
+      "locust-bronze",
+      "locust-bronze",
+      "locust-bronze",
+      "locust-bronze",
+      "locust-corrupt",
+      "locust-corrupt",
+      "locust-corrupt",
+      "locust-corrupt-sawblade"
+    ],
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/1/initialMinCoolDown",
+    "value": 4000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/1/maxduration",
+    "value": 5000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/1/mincooldown",
+    "value": 4000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/1/minduration",
+    "value": 3000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/2/maxduration",
+    "value": 60000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/2/minduration",
+    "value": 30000,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/2/stopRange",
+    "value": 8,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/aitasks/3/movespeed",
+    "value": 0.007,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/spawnconditions/runtime/spawnCapPlayerScaling",
+    "value": 0.5,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.0015,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  }
+]

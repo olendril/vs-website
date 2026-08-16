@@ -1,0 +1,257 @@
+{
+	"code": "deadsheep",
+	"class": "butcherable",
+	"variantgroups": [
+		{ "code": "type", "states": [ "male", "female", "baby"] },
+		{ "code": "skin", "states": [ "bighorn", "mouflon" ] },
+		{ "code": "texture", "states": [ "1" ] },
+		{ "code": "state", "states": [ "dead", "skinned", "bledout", "rotten" ] }
+	],
+	"allowedVariants": [
+		"deadsheep-male-*",
+		"deadsheep-female-*",
+		"deadsheep-baby-*"
+	],
+	"skipVariants": [
+	],
+	"maxstacksize": 1,
+	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0.2, "y1": 0, "z1": 0.2, "x2": 0.8, "y2": 0.5, "z2": 0.8 }}}],
+	"texturesByType": {
+		"deadsheep-male-bighorn-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/sheep/{skin}-male" } },
+		"deadsheep-female-bighorn-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/sheep/{skin}-female" } },
+		"deadsheep-baby-bighorn-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/sheep/{skin}-baby" } },
+		"deadsheep-male-mouflon-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/sheep/{skin}-adult" } },
+		"deadsheep-female-mouflon-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/sheep/{skin}-adult" } },
+		"deadsheep-baby-mouflon-*-dead": { "hide": { "base": "game:entity/animal/mammal/hooved/sheep/{skin}-baby" } },
+		"deadsheep-*-skinned": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadsheep-*-bledout": { "hide": { "base": "butchering:item/butchercreatures/animalredmeatbledout" } },
+		"deadsheep-*-rotten": { "hide": { "base": "game:block/creature/rot/rot" } }
+	},
+	"attributesByType": {
+		"deadsheep-male-bighorn-*": {
+			"size": 0.5,
+			"mass": 0.06,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 200,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/sheep/sheep-male-bighorn-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadsheep-male-mouflon-*": {
+			"size": 0.5,
+			"mass": 0.06,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 200,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/sheep/sheep-male-mouflon-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadsheep-female-bighorn-*": {
+			"size": 0.5,
+			"mass": 0.06,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 200,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/sheep/sheep-female-bighorn-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadsheep-female-mouflon-*": {
+			"size": 0.5,
+			"mass": 0.06,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 200,
+			"butcheringWorkLoad": "medium",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/sheep/sheep-male-mouflon-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+				{
+					"type": "item",
+					"code": "butchering:primemeat-raw",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					}
+				},
+				{
+					"type": "item",
+					"code": "butchering:offal-bloody",
+					"quantity": {
+						"avg": 2,
+						"var": 0.5
+					}
+				}
+			],
+			"skinningRewards": [
+			]
+		},
+		"deadsheep-baby-*": {
+			"size": 0.5,
+			"mass": 0,
+			"bloodType": "butchering:bloodportion",
+			"bloodAmount": 20,
+			"butcheringWorkLoad": "small",
+			"handbookByType": {
+				"*-rotten": {
+					"exclude": false
+				},
+				"*": {
+					"exclude": true
+				}
+			},
+			"hangingShape": { "base": "butchering:creatures/game/sheep/sheep-baby-bighorn-hanging" },
+			"excludeRewards": [],
+			"butcheringRewards": [
+			],
+			"skinningRewards": [
+			]
+		}
+	},
+	
+	"shapeByType": {
+		"deadsheep-male-bighorn-*": { "base": "creatures/game/sheep/sheep-male-bighorn-dead" },
+		"deadsheep-male-mouflon-*": { "base": "creatures/game/sheep/sheep-male-mouflon-dead" },
+		"deadsheep-female-bighorn-*": { "base": "creatures/game/sheep/sheep-female-bighorn-dead" },
+		"deadsheep-female-mouflon-*": { "base": "creatures/game/sheep/sheep-male-mouflon-dead" },
+		"deadsheep-baby-*": { "base": "creatures/game/sheep/sheep-baby-bighorn-dead" }
+	},
+	"storageFlagsbytype": {
+		"deadsheep-baby-*": 32769,
+		"*-rotten": 1,
+		"*": 32770
+	},
+    "transitionablePropsByType": {
+		"*-rotten": [],
+		"*": [
+			{
+				"type": "perish",
+				"freshHours": {
+					"avg": 80
+				},
+				"transitionHours": {
+					"avg": 24
+				},
+				"transitionedStack": {
+					"type": "item",
+					"code": "butchering:deadsheep-{type}-{skin}-1-rotten"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"heldTpIdleAnimation": "holdunderarm",
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -20, "y": 21, "z": 180 },
+		"origin": { "x": 0.53, "y": 0.35, "z": 0.5 },
+		"scale": 1,
+		"rotate": true
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -132, "y": -180, "z": -18 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.5, "y": -0.3, "z": -0.7 },
+		"rotation": { "x": -89, "y": -12, "z": 3 },
+		"scale": 0.86
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 33, "z": -180 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 4.5
+	}
+}

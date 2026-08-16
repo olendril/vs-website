@@ -1,0 +1,9 @@
+{
+	code: "tea-deerear-cold",
+	sealHours: 16,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1 },
+		{ type: "block", code: "game:mushroom-deerear-normal-north", quantity: 1 }
+	],
+	output: { type: "item", code: "steepandbrew:tea-deerear-cold", litres: 1 }
+}

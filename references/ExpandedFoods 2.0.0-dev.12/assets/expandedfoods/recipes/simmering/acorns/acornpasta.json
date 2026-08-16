@@ -1,0 +1,44 @@
+﻿[
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion",  "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:acornpasta-cut", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 15,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:acornpasta-cooked" },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion",  "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:acornpasta-dried", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 15,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:acornpasta-cooked" },
+			"requiresContainer": false
+		}
+	},
+	{
+		"Ingredients": [
+			{ "type": "item", "code": "waterportion",  "quantity": 10 },
+			{ "type": "item", "code": "expandedfoods:acornpasta-charred", "quantity": 1 }
+		],
+		"Simmering": {
+			"meltingPoint": 150,
+			"meltingDuration": 15,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": { "type": "item", "code": "expandedfoods:acornpasta-cooked" },
+			"requiresContainer": false
+		}
+	}
+]

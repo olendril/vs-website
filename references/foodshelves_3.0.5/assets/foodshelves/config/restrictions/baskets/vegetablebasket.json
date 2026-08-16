@@ -1,0 +1,39 @@
+{
+  "GroupingCodes": {
+    "large": [
+      "game:vegetable-cabbage"
+    ],
+    "medium": [
+      "game:vegetable-bellpepper",
+
+      "wildcraftfruit:vegetable-redbellpepper",
+      "wildcraftfruit:vegetable-orangebellpepper",
+      "wildcraftfruit:vegetable-yellowbellpepper",
+      "wildcraftfruit:vegetable-greenbellpepper"
+    ],
+    "standard": [
+      "game:vegetable-avocado",
+      "game:vegetable-onion",
+      "game:vegetable-turnip",
+      "game:vegetable-fennel",
+
+      "wildcraftfruit:vegetable-avocado",
+      "wildcraftfruit:vegetable-smoothavocado",
+      "wildcraftfruit:vegetable-tomato",
+      "wildcraftfruit:vegetable-oxheart",
+      "wildcraftfruit:vegetable-romatomato",
+      "wildcraftfruit:vegetable-tomatillo",
+      "wildcraftfruit:vegetable-habanero"
+    ],
+    "long": [
+      "game:vegetable-carrot",
+      "game:vegetable-parsnip",
+      "game:vegetable-cassava",
+
+      "wildcraftfruit:dryvegetable-eggplant",
+      "wildcraftfruit:vegetable-cucumber",
+      "wildcraftfruit:vegetable-jalapeno",
+      "wildcraftfruit:vegetable-cayenne"
+    ]
+  }
+}

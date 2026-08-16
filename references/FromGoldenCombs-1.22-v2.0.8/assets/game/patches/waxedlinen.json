@@ -1,0 +1,61 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "blocktypes/cloth/linen.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType",
+    "value": {
+      "*-waxed-*": {
+        "all": {
+          "base": "fromgoldencombs:block/cloth/linen/waxedlinen"
+        }
+      },
+      "*": {
+        "all": {
+          "base": "block/cloth/linen/{pattern}1"
+        }
+      }
+    },
+    "file": "blocktypes/cloth/linen.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "waxed",
+    "file": "blocktypes/cloth/linen.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/block-linen-waxed-*",
+    "value": "Linen (Waxed)",
+    "file": "lang/en.json",
+    "side": "server"
+  },
+  {
+	  "op": "add",
+	  "path":  "/attributes/inContainerTextureByType",
+	  "value": {
+		  "linen-waxed-*": { "base": "fromgoldencombs:block/cloth/linen/waxedlinen"},
+		  "linen-*": { "base": "block/cloth/linen/{pattern}1"}
+
+	  },
+     "file": "blocktypes/cloth/linen.json",
+    "side": "server"
+  },
+  {
+	  "op": "replace",
+	  "path":  "/creativeinventory",
+	  "value": { "general": ["*-diamond-down", "*-normal-down", "*-offset-down", "*-square-down"], 
+               "decorative": ["*-down"], 
+               "fromgoldencombs": ["*-waxed-down"]
+	  },
+     "file": "blocktypes/cloth/linen.json",
+    "side": "server"
+  }
+]

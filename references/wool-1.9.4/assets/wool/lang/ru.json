@@ -1,0 +1,211 @@
+{
+	"game:handbook-item-usage":					"Использование",
+	"wool:handbook-description":					"Описание",
+
+	"wool:settings_shearable":					"Стрижка",
+	"wool:settings_drops":						"Дополнительная добыча",
+	"wool:settings_recipes":					"Дополнительные рецепты",
+
+	"wool:setting_enable_sheep_shearable":				"Стрижка овец",
+	"wool:setting_enable_sheep_shearable_comment":			"Можно ли стричь толсторогих?",
+	"wool:setting_enable_goat_shearable":				"Стрижка коз",
+	"wool:setting_enable_goat_shearable_comment":			"Можно ли стричь коз?",
+	"wool:setting_enable_gazelle_shearable":			"Стрижка газель",
+	"wool:setting_enable_gazelle_shearable_comment":		"Можно ли стричь газель?",
+	"wool:setting_enable_deer_shearable":				"Стрижка оленей и лосей",
+	"wool:setting_enable_deer_shearable_comment":			"Можно ли стричь оленей, включая лосей?",
+	"wool:setting_enable_moose_shearable":				"Стрижка лосей",
+	"wool:setting_enable_moose_shearable_comment":			"Можно ли стричь лосей?",
+
+	"wool:setting_enable_drifter_drops":				"Дополнительная добыча с дрифтеров",
+	"wool:setting_enable_drifter_drops_comment":			"Должны ли мертвые дрифтеры сбрасывать дополнительные предметы, такие как руно и палки?\nЭта настройка НЕ изменяет количество льняных волокон, сбрасываемых дрифтерами.",
+
+	"wool:setting_enable_animal_drops":				"Дополнительная добыча с диких животных",
+	"wool:setting_enable_animal_drops_comment":			"Должна ли падать шерсть с убитых диких животных, таких как медведи, лисы, зайцы и волки?",
+
+	"wool:setting_enable_deer_drops":				"Дополнительная добыча с диких оленей, лосей и вапити",
+	"wool:setting_enable_deer_drops_comment":			"Должна ли с убитых диких оленей, лосей и вапити падать шерсть?",
+
+	"wool:setting_enable_bleach":					"Отбеливание",
+	"wool:setting_enable_bleach_comment":				"Можно ли отбеливать цветные волокна?",
+
+	"wool:gamemechanicinfo-animalshearing-title":			"Игровая механика: Стрижка животных",
+	"wool:gamemechanicinfo-animalshearing-text":			"<strong>Животноводство - Шерсть и стрижка</strong><br><br>Некоторых домашних животных можно стричь ради руна. <br>Животное должно быть как минимум 3-го поколения и быть живым, однако руно можно собирать и с мертвых животных. <br>Для достижения наилучшего результата используйте ножницы. В качестве альтернативы можно использовать нож, однако при этом выше вероятность травмировать животное во время стрижки. <br>Животным потребуется некоторое время, чтобы отрастить шерсть. У животных более высокого поколения шерсть растет быстрее, и они реже получают травмы во время стрижки.<br><br>Тип и цвет шерсти зависят от вида животного. Некоторые даже дают два цвета одновременно!<br><br><strong>Настройки</strong><br><br>Виды животных, которых можно стричь, зависят от конфигурации вашего мода. Для настройки и активации конфигурации необходимо установить <strong><font color='#4080a0'>ConfigLib</font></strong> и <strong><font color='#4080a0'>ImGui</font></strong>. <br>По умолчанию стричь можно толсторогих, коз, газелей, лосей, а также оленей.",
+
+	"wool:gamemechanicinfo-woolknitting-title":			"Игровая механика: Цветная шерсть и вязание",
+	"wool:gamemechanicinfo-woolknitting-text":			"<strong>Шерсть и вязание</strong><br><br>Для изготовления шерсти промойте необработанное животное руно известковой водой. Полученные шерстяные волокна затем можно объединить в шерстяной шпагат или иногда использовать непосредственно для вязания. <br><br><strong>Цветная шерсть</strong><br><br>Чтобы покрасить шерсть, вам понадобится либо шерстяной шпагат, либо шерстяная ткань. Затем протравите их либо разведенной бурой, либо хромитом, либо касситеритом в бочке. Протравленный шпагат или ткань затем можно запечатать в бочке с красителем по вашему выбору.",
+
+	"wool:item-fleece-angora-white":				"Мохеровое руно",
+	"wool:item-fleece-muskox-brown":				"Кивиютское руно",
+
+	"wool:item-fleece-generic-plain":				"Светлое руно",
+	"wool:item-fleece-generic-black":				"Чёрное руно",
+	"wool:item-fleece-generic-brown":				"Коричневое руно",
+	"wool:item-fleece-generic-redbrown":				"Красно-коричневое руно",
+	"wool:item-fleece-generic-lightbrown":				"Светло-коричневое руно",
+	"wool:item-fleece-generic-gray":				"Серое руно",
+	"wool:item-fleece-generic-yellow":				"Жёлтое руно",
+	"wool:item-fleece-generic-white":				"Белое руно",
+
+	"wool:itemdesc-fleece-generic-*":				"Необработанная шерсть животных.",
+
+	"wool:itemdesc-fleece-angora-white":				"Необработанное руно ангорских коз.",
+	"wool:itemdesc-fleece-muskox-brown":				"Необработанное коричневое руно овцебыка.",
+
+	"wool:itemdesc-fleece-generic-plain":				"Необработанное светлое руно.",
+	"wool:itemdesc-fleece-generic-black":				"Необработанное чёрное руно.",
+	"wool:itemdesc-fleece-generic-brown":				"Необработанное коричневое руно.",
+	"wool:itemdesc-fleece-generic-gray":				"Необработанное серое руно.",
+	"wool:itemdesc-fleece-generic-yellow":				"Необработанное жёлтое руно, мерцающее золотом.",
+	"wool:itemdesc-fleece-generic-lightbrown":			"Необработанное светло-коричневое руно.",
+	"wool:itemdesc-fleece-generic-redbrown":			"Необработанное красно-коричневое руно.",
+	"wool:itemdesc-fleece-generic-white":				"Необработанное белое руно.",
+
+	"wool:handbook-item-fleece":					"Довольно грязное и вонючее, необходимо промыть, прежде чем его можно будет использовать.",
+
+	"wool:item-fibers-angora-white":				"Мохеровые волокна",
+	"wool:item-fibers-muskox-brown":				"Кивиютские волокна",
+
+	"wool:item-fibers-generic-plain":				"Светлые шерстяные волокна",
+	"wool:item-fibers-generic-brown":				"Коричневые шерстяные волокна",
+	"wool:item-fibers-generic-black":				"Чёрные шерстяные волокна",
+	"wool:item-fibers-generic-gray":				"Серые шерстяные волокна",
+	"wool:item-fibers-generic-lightbrown":				"Светло-коричневые шерстяные волокна",
+	"wool:item-fibers-generic-redbrown":				"Красно-коричневые шерстяные волокна",
+	"wool:item-fibers-generic-white":				"Белые шерстяные волокна",
+	"wool:item-fibers-generic-yellow":				"Жёлтые шерстяные волокна",
+
+	"wool:itemdesc-fibers-angora-white":				"Легкие и пушистые натуральные волокна из ангоских коз.",
+	"wool:itemdesc-fibers-muskox-brown":				"Легкие и пушистые натуральные волокна из овцебыка.",
+
+	"wool:itemdesc-fibers-generic-plain":				"Натуральные светлые волокна животного.",
+	"wool:itemdesc-fibers-generic-brown":				"Натуральные коричневые волокна животного.",
+	"wool:itemdesc-fibers-generic-black":				"Натуральные чёрные волокна животного.",
+	"wool:itemdesc-fibers-generic-gray":				"Сероватые натуральные волокна животного.",
+	"wool:itemdesc-fibers-generic-lightbrown":			"Натуральные светло-коричневые волокна животного.",
+	"wool:itemdesc-fibers-generic-redbrown":			"Натуральные красно-коричневые волокна животного.",
+	"wool:itemdesc-fibers-generic-white":				"Натуральные белые волокна животного.",
+	"wool:itemdesc-fibers-generic-yellow":				"Натуральные жёлтые волокна животного, мерцающие золотом.",
+
+	"wool:handbook-item-fibers":					"Можно скрутить в шпагат и шерстяную ткань.",
+
+	"wool:item-twine-wool-mordant":					"Протравленный шерстяной шпагат",
+
+	"wool:item-twine-wool-plain":					"Шерстяной шпагат",
+	"wool:item-twine-wool-black":					"Чёрный шерстяной шпагат",
+	"wool:item-twine-wool-blue":					"Синий шерстяной шпагат",
+	"wool:item-twine-wool-brown":					"Коричневый шерстяной шпагат",
+	"wool:item-twine-wool-gray":					"Серый шерстяной шпагат",
+	"wool:item-twine-wool-green":					"Зелёный шерстяной шпагат",
+	"wool:item-twine-wool-orange":					"Апельсин шерстяной шпагат",
+	"wool:item-twine-wool-pink":					"Розовый шерстяной шпагат",
+	"wool:item-twine-wool-purple":					"Фиолетовый шерстяной шпагат",
+	"wool:item-twine-wool-red":					"Красный шерстяной шпагат",
+	"wool:item-twine-wool-white":					"Белый шерстяной шпагат",
+	"wool:item-twine-wool-yellow":					"Жёлтый шерстяной шпагат",
+	"wool:item-twine-wool-darkblue":				"Тёмно-синий шерстяной шпагат",
+	"wool:item-twine-wool-darkbrown":				"Тёмно-коричневый шерстяной шпагат",
+	"wool:item-twine-wool-darkgreen":				"Тёмно-зелёный шерстяной шпагат",
+	"wool:item-twine-wool-darkred":					"Тёмно-красный шерстяной шпагат",
+
+	"wool:itemdesc-twine-wool-*":					"Тонко скрученный шерстяной шпагат.",
+
+	"wool:handbook-item-twine-plain":				"Не очень прочная, но создаёт замечательную пушистую и мягкую шерсть.<br><br> Можно использовать для ремонта поврежденной одежды на 8%. Удерживая шпагат указателем мыши, щелкните <hk>левой кнопкой мыши</hk> по предмету одежды или доспеху, которые нужно отремонтировать, в инвентаре персонажа.",
+	"wool:handbook-item-twine-mordant":				"Можно покрасить в разные цвета.",
+	"wool:handbook-item-twine":					"Не очень прочная, но создаёт замечательную пушистую и мягкую шерсть",
+
+	"wool:item-clothes-upperbodyover-sweater-mohair-plain-white":		"Белый мохеровый свитер",
+	"wool:itemdesc-clothes-upperbodyover-sweater-mohair-*":			"<font color='#99c9f9'><i>Очень пушистый!</i></font><br>",
+	"game:handbook-sweater-mohair-plain-white":				"Связано из тончайшей белой шерсти ангорской козы.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-pinkgray":		"Розово-серый свитер",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-brown":		"Простой коричневый свитер",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluebrown":		"Сине-коричневый свитер",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-gray":		"Серый свитер",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-white":		"Светло-серый свитер",
+
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-gray":		"<font color='#99c9f9'><i>Прочная рабочая одежда пастуха для холодных дней</i></font><br>",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-white":		"<font color='#99c9f9'><i>Носить только по воскресеньям.</i></font><br>",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluered":		"Нордический свитер",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-bluered":	"<font color='#99c9f9'><i>Тёмно-синий, как холодные северные ночи, яркий, как снег в лесах, тёмно-красный, как кровь животных, пролитая на землю.</i></font><br>",
+	"game:handbook-sweater-wool-plain-bluered":				"Защищает от морозных ночей в полярных регионах и других местах.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-fishbone-brown":		"Качественный коричневый свитер",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-fishbone-*":		"<font color='#99c9f9'><i>Очень стильно.</i></font><br>",
+	"game:handbook-sweater-wool-fishbone-brown":				"Три разных вида дорогой шерсти, объединенные в одно прекрасное изделие из трикотажа.",
+
+	"wool:item-clothes-upperbodyover-sweater-qivuit-plain-brown":		"Светло-коричневый свитер",
+	"wool:itemdesc-clothes-upperbodyover-sweater-qivuit-plain-brown":	"<font color='#c99979'><i>Пахнет мужественно.</i></font><br>",
+	"game:handbook-sweater-qivuit-plain-brown":				"Редкая и дорогая шерсть овцебыка, связанная до совершенства.",
+
+	"game:handbook-sweater":						"Связано из теплой и мягкой шерсти.",
+	"game:handbook-leggings":						"Связано из теплой и мягкой шерсти.",
+
+	"wool:blockdesc-wool-*":						"Можно использовать как декор или для ремонта одежды на 40%.",
+	"wool:handbook-block-wool":						"Можно использовать для ремонта поврежденной одежды на 40%. Держа его в руке, щелкните <hk>левой кнопкой мыши</hk> по предмету одежды или доспехов, который нужно отремонтировать в инвентаре персонажа.",
+
+	"wool:block-wool-plain":						"Простая шерсть",
+	"wool:block-wool-black":						"Чёрная шерсть",
+	"wool:block-wool-blue":							"Синяя шерсть",
+	"wool:block-wool-brown":						"Коричневая шерсть",
+	"wool:block-wool-gray":							"Серая шерсть",
+	"wool:block-wool-green":						"Зелёная шерсть",
+	"wool:block-wool-orange":						"Оранжевая шерсть",
+	"wool:block-wool-pink":							"Розовая шерсть",
+	"wool:block-wool-purple":						"Фиолетовая шерсть",
+	"wool:block-wool-red":							"Красная шерсть",
+	"wool:block-wool-white":						"Белая шерсть",
+	"wool:block-wool-yellow":						"Жёлтая шерсть",
+	"wool:block-wool-darkblue":						"Тёмно-синяя шерсть",
+	"wool:block-wool-darkbrown":						"Тёмно-коричневая шерсть",
+	"wool:block-wool-darkgreen":						"Тёмно-зелёная шерсть",
+	"wool:block-wool-darkred":						"Тёмно-красная шерсть",
+
+	"wool:item-cloth-wool-mordant":						"Протравленная шерстяная ткань",
+
+	"wool:item-cloth-wool-plain":						"Простая шерстяная ткань",
+	"wool:item-cloth-wool-black":						"Чёрная шерстяная ткань",
+	"wool:item-cloth-wool-blue":						"Синяя шерстяная ткань",
+	"wool:item-cloth-wool-brown":						"Коричневая шерстяная ткань",
+	"wool:item-cloth-wool-gray":						"Серая шерстяная ткань",
+	"wool:item-cloth-wool-green":						"Зелёная шерстяная ткань",
+	"wool:item-cloth-wool-orange":						"Оранжевая шерстяная ткань",
+	"wool:item-cloth-wool-pink":						"Розовая шерстяная ткань",
+	"wool:item-cloth-wool-purple":						"Фиолетовая шерстяная ткань",
+	"wool:item-cloth-wool-red":						"Красная шерстяная ткань",
+	"wool:item-cloth-wool-white":						"Белая шерстяная ткань",
+	"wool:item-cloth-wool-yellow":						"Жёлтая шерстяная ткань",
+	"wool:item-cloth-wool-darkblue":					"Тёмно-синяя шерстяная ткань",
+	"wool:item-cloth-wool-darkbrown":					"Тёмно-коричневая шерстяная ткань",
+	"wool:item-cloth-wool-darkgreen":					"Тёмно-зелёная шерстяная ткань",
+	"wool:item-cloth-wool-darkred":						"Тёмно-красная шерстяная ткань",
+
+	"wool:item-kneedle-wood":						"Спицы для вязания (Дерево)",
+	"wool:item-kneedle-horn":						"Спицы для вязания (Рог)",
+	"wool:item-kneedle-bone":						"Спицы для вязания (Кость)",
+
+	"wool:block-clothblock-wool-plain":					"Простая шерсть",
+	"wool:block-clothblock-wool-black":					"Чёрная шерсть",
+	"wool:block-clothblock-wool-blue":					"Синяя шерсть",
+	"wool:block-clothblock-wool-brown":					"Коричневая шерсть",
+	"wool:block-clothblock-wool-gray":					"Серая шерсть",
+	"wool:block-clothblock-wool-green":					"Зелёная шерсть",
+	"wool:block-clothblock-wool-orange":					"Оранжевая шерсть",
+	"wool:block-clothblock-wool-pink":					"Розовая шерсть",
+	"wool:block-clothblock-wool-purple":					"Фиолетовая шерсть",
+	"wool:block-clothblock-wool-red":					"Красная шерсть",
+	"wool:block-clothblock-wool-white":					"Белая шерсть",
+	"wool:block-clothblock-wool-yellow":					"Жёлтая шерсть",
+	"wool:block-clothblock-wool-darkblue":					"Тёмно-синяя шерсть",
+	"wool:block-clothblock-wool-darkbrown":					"Тёмно-коричневая шерсть",
+	"wool:block-clothblock-wool-darkgreen":					"Тёмно-зелёная шерсть",
+	"wool:block-clothblock-wool-darkred":					"Тёмно-красная шерсть",
+
+	"wool:item-sack-wool-plain":						"Шерстяной мешок",
+	"wool:item-sack-wool-gray":						"Серый шерстяной мешок",
+	"wool:item-sack-wool-brown":						"Коричневый шерстяной мешок",
+	"wool:item-sack-wool-white":						"Белый шерстяной мешок",
+
+	"wool:itemdesc-sack-*":							"Увеличивает количество предметов, которые вы можете переносить"
+}

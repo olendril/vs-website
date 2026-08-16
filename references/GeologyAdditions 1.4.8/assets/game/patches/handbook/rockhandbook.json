@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/handbook/extraSections/-",
+    "file": "game:blocktypes/stone/rock.json",
+    "value": {
+      "title": "block-handbooktitle-{rock}",
+      "text": "block-handbooktext-{rock}"
+    }
+  }
+]

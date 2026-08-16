@@ -1,0 +1,48 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/5/validStacks",
+    "value": [
+      {
+        "type": "item",
+        "code": "artofgrowing:*vegetable-*",
+        "shapeElement": "bowl/vegetable2/*"
+      },
+      {
+        "type": "item",
+        "code": "artofgrowing:pickledlegume-*",
+        "shapeElement": "bowl/vegetable2/*"
+      },
+      {
+        "type": "item",
+        "code": "artofgrowing:seeds-*soybean",
+        "shapeElement": "bowl/vegetable2/*"
+      }
+    ],
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks",
+    "value": [
+      {
+        "type": "item",
+        "code": "artofgrowing:*vegetable-*",
+        "shapeElement": "bowl/vegetable3/*"
+      },
+      {
+        "type": "item",
+        "code": "artofgrowing:pickledlegume-*",
+        "shapeElement": "bowl/vegetable3/*"
+      },
+      {
+        "type": "item",
+        "code": "artofgrowing:seeds-*soybean",
+        "shapeElement": "bowl/vegetable3/*"
+      }
+    ],
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server"
+  }
+]

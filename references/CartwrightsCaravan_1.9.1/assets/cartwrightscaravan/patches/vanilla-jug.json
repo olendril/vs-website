@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity",
+    "value": { 
+      "categoryCode": "jug" , 
+      "texturePrefixCode": "jug-{color}-{state}"
+    
+    },
+    "file": "game:blocktypes/clay/fired/jug.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/vanilla/jug" }},
+    "file": "game:blocktypes/clay/fired/jug.json",
+    "side": "Server"
+  }
+]

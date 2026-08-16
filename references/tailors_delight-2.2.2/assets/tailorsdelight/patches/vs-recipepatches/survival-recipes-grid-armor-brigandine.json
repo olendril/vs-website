@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "enabled": true,
+    "path": "/0/ingredientPattern",
+    "value": "LPL,LAL",
+    "file": "game:recipes/grid/armor/brigandine.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/0/ingredients/A",
+    "value": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+    "file": "game:recipes/grid/armor/brigandine.json",
+    "side": "Server"
+  }
+]

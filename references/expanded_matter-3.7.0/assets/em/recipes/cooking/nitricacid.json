@@ -1,0 +1,47 @@
+[
+	{
+	"code": "nitricacid",
+	"comment": "Take five parts of pure flowers of nitre, three parts of Cyprus vitriol and two parts of Yemen alum. Powder them well, separately, until they are like dust and then place them in a flask. Plug the latter with a palm fibre and attach a glass receiver to it. Then invert the apparatus and heat the upper portion (i.e. the flask containing the mixture) with a gentle fire. There will flow down by reason of the heat an oil like cow's butter.",
+	"perishableProps": { "type": "None", "freshHours": { "avg": 72 }, "transitionHours": { "avg": 72 }, "transitionRatio": 1, "transitionedStack": { "type": "item", "code": "game:acid-full-nitric" } },
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "saltpeter", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:saltpeter", "quantity": 5 } ]
+		},
+		{
+		"code": "alum", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:crushed-alum" } ]
+		},
+		{
+		"code": "coppersulfate", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:sulfate-full-copper", "shapeElement": "bowl/water" } ],
+		"portionSizeLitres": 3
+		}
+	],
+	"cooksInto": { "type": "item", "code": "game:acid-full-nitric", "quantity": 250 }
+	},
+
+	{
+	"code": "nitricacid",
+	"comment": "slightly more efficient, because you need to grind the alum.",
+	"perishableProps": { "type": "None", "freshHours": { "avg": 72 }, "transitionHours": { "avg": 72 }, "transitionRatio": 1, "transitionedStack": { "type": "item", "code": "game:acid-full-nitric" } },
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "saltpeter", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:saltpeter", "quantity": 5 } ]
+		},
+		{
+		"code": "alum", "minQuantity": 2, "maxQuantity": 2,
+		"validStacks": [ { "type": "item", "code": "game:powder-alum" } ]
+		},
+		{
+		"code": "coppersulfate", "minQuantity": 1, "maxQuantity": 1,
+		"validStacks": [ { "type": "item", "code": "game:sulfate-full-copper", "shapeElement": "bowl/water" } ],
+		"portionSizeLitres": 3
+		}
+	],
+	"cooksInto": { "type": "item", "code": "game:acid-full-nitric", "quantity": 300 }
+	}
+]

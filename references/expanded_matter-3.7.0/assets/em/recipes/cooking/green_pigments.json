@@ -1,0 +1,23 @@
+[
+	{
+	"code": "cobaltgreen",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "em:powdered-ore-cobaltblue" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "sulfate", "minQuantity": 1, "maxQuantity": 1, "portionSizeLitres": 1,
+		"validStacks": [ { "type": "item", "code": "em:cobaltsulfateportion", "shapeElement": "bowl/water" } ]
+		},
+		{ "code": "chromium", "minQuantity": 1, "maxQuantity": 1, "validStacks": [ { "type": "item", "code": "game:crushed-chromite" } ] },
+		{ "code": "aluminum", "minQuantity": 1, "maxQuantity": 1, "validStacks": [ { "type": "item", "code": "game:crushed-bauxite" } ] },
+		{ "code": "flux", "minQuantity": 1, "maxQuantity": 1, "validStacks": [ { "type": "item", "code": "game:powder-sylvite" } ] }
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-cobaltgreen", "quantity": 3 }
+	}
+]

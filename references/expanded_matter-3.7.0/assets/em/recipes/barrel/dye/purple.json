@@ -1,0 +1,90 @@
+[
+	{
+		"code": "dye-purple-red",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-red", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-metal-nickel", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+	{
+		"code": "dye-purple-red",
+		"name": "dye-purple-red-lapis",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-red", "litres": 2 },
+			{ "type": "item", "code": "game:powder-lapislazuli", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+	{
+		"code": "dye-purple-red",
+		"name": "dye-purple-red-blue-pigments",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-red", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-*", "name": "blue", "quantity": 1, "allowedVariants": [ "cobaltblue", "cuprorivaite", "indigo", "prussianblue" ] }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+	{
+		"code": "dye-purple-blue",
+		"name": "dye-purple-blue-litharge",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-blue", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-*", "name": "red", "quantity": 1, "allowedVariants": [ "hematite", "litharge", "cadmiumselenide" ] }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+	{
+		"code": "dye-purple-blue",
+		"name": "dye-purple-blue-cinnabar",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-blue", "litres": 2 },
+			{ "type": "item", "code": "game:powder-cinnabar", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+	{
+		"code": "dye-purple-woad-blue",
+		"name": "dye-purple-woad-blue-litharge",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-woad", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-*", "name": "red", "quantity": 1, "allowedVariants": [ "hematite", "litharge", "cadmiumselenide" ] }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+	{
+		"code": "dye-purple-woad-blue",
+		"name": "dye-purple-woad-blue-cinnabar",
+		"ingredients": [
+			{ "type": "item", "code": "game:dye-woad", "litres": 2 },
+			{ "type": "item", "code": "game:powder-cinnabar", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 2 }
+	},
+
+	{
+		"code": "dye-purple-alum",
+		"comment": "very strong purple pigment",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 4 },
+			{ "type": "item", "code": "em:powdered-ore-manganeseviolet", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 4 }
+	},
+	{
+		"code": "dye-purple-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 4 },
+			{ "type": "item", "code": "em:powdered-ore-manganeseviolet", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 4 }
+	},
+	{
+		"code": "dye-purple-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 4 },
+			{ "type": "item", "code": "em:powdered-ore-manganeseviolet", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-purple", "litres": 4 }
+	}
+]

@@ -1,0 +1,128 @@
+{
+	"code": "cartsextra",
+
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"cartcanopy",
+				"cartsidetent",
+				"closedcanopy",
+				"cartsideboard"
+			]
+		},
+		{
+			"code": "form",
+			"states": [
+				"high",
+				"low",
+				"wood",
+				"cloth",
+				"slim",
+				"wide",
+				"single"
+			]
+		},
+		{
+			"code": "material",
+			"states": [
+				"white",
+				"black",
+				"brown",
+				"green",
+				"blue",
+				"orange",
+				"red",
+				"yellow",
+				"purple",
+				"pink",
+				"gray",
+				"normal"
+			]
+		},
+		{
+			"code": "wood",
+			"states": [ "aged" ],
+			"loadFromProperties": "game:block/wood"
+		}
+	],
+	"skipVariants": [
+		"*-aged"
+	],
+	"allowedVariants": [
+		"cartsextra-cartcanopy-wood-white-*",
+		"cartsextra-cartcanopy-cloth-*-oak",
+		"cartsextra-cartsidetent-low-*-oak",
+		"cartsextra-cartsidetent-high-*-oak",
+		"cartsextra-closedcanopy-cloth-*-oak",
+		"cartsextra-cartsideboard-cloth-*-oak"
+	],
+	"attributesByType": {
+		"*": {
+			"attachableToEntity": {
+				"texturePrefixCode": "",
+				"categoryCodeByType": {
+					"cartsextra-*canopy-*": "cartcanopy",
+					"cartsextra-*cartsidetent*": "cartside",
+					"cartsextra-*cartsideboard*": "cartsideboards"
+				},
+				"attachedShapeBySlotCodeByType": {
+					"*": {
+						"*": { "base": "item/canopy/basiccanopy-inventory" }
+					}
+				}
+			}
+		}
+	},
+	"behaviorsByType": {
+		"*": [
+			{ "name": "GroundStorable" }
+		]
+	},
+	"shapeByType": {
+		"*": { "base": "item/canopy/basiccanopy-inventory" }
+	},
+	"texturesByType": {
+		"*": {
+			"oak-h": { "base": "game:block/wood/bark/oak-h" },
+			"canopyitemcolor": { "base": "game:block/cloth/basic/{material}*" },
+			"mordant": { "base": "game:block/cloth/linen/mordant" },
+			"mordant2": { "base": "game:block/cloth/pelt" }
+		}
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"maxStackSize": 8,
+	"creativeinventory": {
+	},
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 139,
+				"y": -62,
+				"z": -14
+			},
+			"origin": {
+				"x": 0.56,
+				"y": 0.1,
+				"z": 0.4899
+			},
+			"scaleXyz": {
+				"x": -1.4,
+				"y": 1.4,
+				"z": 1.4
+			}
+		}
+
+	}
+
+}	
+
+

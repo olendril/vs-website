@@ -1,0 +1,19 @@
+{
+	"shearlib:shearable":				"<font color=\"tan\">Se puede esquilar y producirá {0} unidades de vellón.</font>",
+	"shearlib:shearablefull":			"<font color=\"lightgreen\">Se puede esquilar y producirá {0} unidades de vellón.</font>",
+	"shearlib:insufficientgen":			"<font color=\"tomato\">Demasiado salvaje para ser esquilado, debe ser al menos de la generación {0}.</font>",
+
+	"shearlib:hoursuntilshearable":			"<font color=\"orange\">El vellón es demasiado corto, faltan {0} horas para que esté listo para ser esquilado.</font>",
+	"shearlib:daysuntilshearable":			"<font color=\"orange\">El vellón es demasiado corto, faltan {0} días para que esté listo para ser esquilado.</font>",
+
+	"shearlib:daysmaxwool":				"Tarda {0} días para que crezca completamente su vellón hasta alcanzar {1} unidades.",
+	"shearlib:hoursmaxwool":			"Tarda {0} horas para que crezca completamente su vellón hasta {1} unidades.",
+
+	"shearlib:dayswaitmaxwool":			"Espere {0} días más para cosechar las {1} unidades completas de vellón.",
+	"shearlib:hourswaitmaxwool":			"Espere {0} horas más para cosechar las {1} unidades completas de vellón.",
+
+	"shearlib:shearsbonus":				"El uso de tijeras en lugar de un cuchillo proporciona <font color=\"yellow\">+{0} de vellón extra</font>.",
+
+	"shearlib:animaltoowildclient":			"El animal es demasiado salvaje y no te deja esquilarlo, necesita ser de la generación {0} para poder esquilarlo.",
+	"shearlib:animalinsufficientwoolclient":	"El animal aún no ha desarrollado suficiente vellón para poder esquilarlo, necesita un mínimo de {0} unidades para poder esquilarlo."
+}

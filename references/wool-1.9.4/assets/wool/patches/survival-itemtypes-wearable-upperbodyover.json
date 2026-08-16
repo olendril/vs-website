@@ -1,0 +1,27 @@
+[
+  {
+    "op": "move",
+    "frompath": "/attributesByType/*",
+    "path": "/attributesByType/wool-temp",
+    "file": "game:itemtypes/wearable/seraph/upperbodyover.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-hunter-coat",
+    "value": {
+	"clothescategory": "upperbodyover",
+	"inCharacterCreationDialog": false,
+	"warmth": 2.5
+    },
+    "file": "game:itemtypes/wearable/seraph/upperbodyover.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/attributesByType/wool-temp",
+    "path": "/attributesByType/*",
+    "file": "game:itemtypes/wearable/seraph/upperbodyover.json",
+    "side": "Server"
+  }
+]

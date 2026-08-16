@@ -1,0 +1,9 @@
+{
+	code: "kombucha-lilyofthevalley-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-lilyofthevalley", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-lilyofthevalley-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-lilyofthevalley", litres: 10 }
+}

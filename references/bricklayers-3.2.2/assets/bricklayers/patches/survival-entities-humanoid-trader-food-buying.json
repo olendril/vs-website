@@ -1,0 +1,13 @@
+[
+  {
+    "op": "addeach",
+    "path": "/buying/list/-",
+    "value": [
+	{ "code": "em:powdered-ore-boneash", "type": "item", "stacksize": 30, "stock": { "avg": 4, "var": 2 }, "price": { "avg": 4, "var": 0.5 } },
+	{ "code": "bricklayers:crockcolored-burned-blurple", "type": "block", "stacksize": 1, "stock": { "avg": 2, "var": 1 }, "price": { "avg": 5, "var": 0.5 } },
+	{ "code": "bricklayers:crockcolored-burned-purple", "type": "block", "stacksize": 1, "stock": { "avg": 2, "var": 1 }, "price": { "avg": 5, "var": 0.5 } }
+    ],
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "side": "Server"
+  }
+]

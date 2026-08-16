@@ -1,0 +1,247 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin/slice4,Root/origin/slice2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+    "textures": {
+      "reishi": "game:block/plant/mushroom/sagemushroom"
+    },
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 6.7, 3.6, 2.6 ],
+			"to": [ 6.7, 3.6, 2.6 ],
+			"rotationOrigin": [ 6.7, 3.6, 2.6 ],
+			"rotationX": 90.0,
+			"rotationY": 22.5,
+			"rotationZ": -45.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s",
+					"from": [ -7.8, 0.0, 2.9 ],
+					"to": [ -3.8, 1.0, 3.9 ],
+					"rotationOrigin": [ -3.8, 0.0, 2.9 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+						"east": { "texture": "#reishi", "uv": [ 1.5, 0.0, 2.5, 1.0 ] },
+						"south": { "texture": "#reishi", "uv": [ 5.5, 5.0, 9.5, 6.0 ] },
+						"west": { "texture": "#reishi", "uv": [ 5.0, 1.5, 6.0, 2.5 ] },
+						"up": { "texture": "#reishi", "uv": [ 3.5, 3.5, 7.5, 4.5 ] },
+						"down": { "texture": "#reishi", "uv": [ 4.0, 2.0, 8.0, 3.0 ] }
+					}
+				},
+				{
+					"name": "n",
+					"from": [ -4.1, 7.0, 3.1 ],
+					"to": [ -0.1, 8.0, 4.1 ],
+					"rotationOrigin": [ -4.1, 7.0, 3.1 ],
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 4.0, 4.5, 8.0, 5.5 ] },
+						"east": { "texture": "#reishi", "uv": [ 3.0, 2.0, 4.0, 3.0 ] },
+						"south": { "texture": "#reishi", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+						"west": { "texture": "#reishi", "uv": [ 6.0, 2.0, 7.0, 3.0 ] },
+						"up": { "texture": "#reishi", "uv": [ 5.0, 3.5, 9.0, 4.5 ] },
+						"down": { "texture": "#reishi", "uv": [ 4.0, 1.5, 8.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "cap",
+					"from": [ -9.6, 1.0, 3.1 ],
+					"to": [ -3.6, 2.0, 4.1 ],
+					"rotationOrigin": [ -3.6, 1.0, 3.1 ],
+					"rotationY": -67.5,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+						"east": { "texture": "#reishi", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#reishi", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+						"west": { "texture": "#reishi", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#reishi", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+						"down": { "texture": "#reishi", "uv": [ 0.0, 0.0, 6.0, 1.0 ] }
+					}
+				},
+				{
+					"name": "slice",
+					"from": [ -2.55, 3.0, 0.1 ],
+					"to": [ 0.45, 5.0, 1.08 ],
+					"rotationOrigin": [ -2.55, 3.0, 0.1 ],
+					"rotationX": 90.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 8.5, 8.5, 11.5, 10.5 ] },
+						"east": { "texture": "#reishi", "uv": [ 9.0, 9.0, 9.5, 11.0 ] },
+						"south": { "texture": "#reishi", "uv": [ 8.5, 9.5, 11.5, 11.5 ] },
+						"west": { "texture": "#reishi", "uv": [ 10.0, 9.0, 10.5, 11.0 ] },
+						"down": { "texture": "#reishi", "uv": [ 11.5, 8.5, 14.5, 9.0 ] }
+					},
+					"children": [
+						{
+							"name": "cap2",
+							"from": [ -4.0, 1.0, -0.01 ],
+							"to": [ 3.0, 2.0, 0.99 ],
+							"rotationOrigin": [ 3.0, 1.0, 3.0 ],
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#reishi", "uv": [ 0.0, 1.0, 7.0, 2.0 ] },
+								"east": { "texture": "#reishi", "uv": [ 0.0, 3.0, 1.0, 4.0 ] },
+								"south": { "texture": "#reishi", "uv": [ 0.0, 3.0, 7.0, 4.0 ] },
+								"west": { "texture": "#reishi", "uv": [ 0.0, 3.0, 1.0, 4.0 ] },
+								"up": { "texture": "#reishi", "uv": [ 0.0, 3.0, 7.0, 4.0 ] },
+								"down": { "texture": "#reishi", "uv": [ 0.0, 2.0, 7.0, 3.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "slice2",
+					"from": [ -1.8, 3.0, 2.7 ],
+					"to": [ 0.2, 5.0, 3.69 ],
+					"rotationOrigin": [ -0.8, 3.0, 3.7 ],
+					"rotationX": 90.0,
+					"rotationZ": 135.0,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 1.0, 10.0, 3.0, 12.0 ] },
+						"east": { "texture": "#reishi", "uv": [ 3.0, 11.5, 3.5, 13.5 ] },
+						"south": { "texture": "#reishi", "uv": [ 1.0, 11.0, 3.0, 13.0 ] },
+						"west": { "texture": "#reishi", "uv": [ 3.5, 12.0, 4.0, 14.0 ] },
+						"down": { "texture": "#reishi", "uv": [ 0.5, 13.0, 2.5, 13.5 ] }
+					},
+					"children": [
+						{
+							"name": "Cube12",
+							"from": [ -0.6, 1.5, -0.01 ],
+							"to": [ 2.4, 3.5, 1.0 ],
+							"rotationOrigin": [ 1.4, 1.5, 2.0 ],
+							"rotationZ": -20.5,
+							"faces": {
+								"north": { "texture": "#reishi", "uv": [ 9.5, 8.5, 12.5, 10.5 ] },
+								"east": { "texture": "#reishi", "uv": [ 9.5, 10.0, 10.5, 12.0 ] },
+								"south": { "texture": "#reishi", "uv": [ 8.5, 11.0, 11.5, 13.0 ] },
+								"west": { "texture": "#reishi", "uv": [ 11.0, 9.5, 12.0, 11.5 ] },
+								"down": { "texture": "#reishi", "uv": [ 12.0, 9.5, 15.0, 10.5 ] }
+							},
+							"children": [
+								{
+									"name": "cap13",
+									"from": [ -4.0, 1.0, -0.01 ],
+									"to": [ 3.0, 2.0, 1.02 ],
+									"rotationOrigin": [ 3.0, 1.0, 3.0 ],
+									"rotationZ": -15.0,
+									"faces": {
+										"north": { "texture": "#reishi", "uv": [ 0.0, 1.0, 7.0, 2.0 ] },
+										"east": { "texture": "#reishi", "uv": [ 0.0, 2.0, 1.0, 3.0 ] },
+										"south": { "texture": "#reishi", "uv": [ 0.0, 2.0, 7.0, 3.0 ] },
+										"west": { "texture": "#reishi", "uv": [ 0.0, 2.0, 1.0, 3.0 ] },
+										"up": { "texture": "#reishi", "uv": [ 0.0, 2.0, 7.0, 3.0 ] },
+										"down": { "texture": "#reishi", "uv": [ 0.0, 2.0, 7.0, 3.0 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "slice3",
+					"from": [ -2.2, 4.0, 4.0 ],
+					"to": [ -0.2, 6.0, 4.99 ],
+					"rotationOrigin": [ -1.2, 4.0, 5.0 ],
+					"rotationX": 90.0,
+					"rotationZ": 157.5,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 2.5, 10.0, 4.5, 12.0 ] },
+						"east": { "texture": "#reishi", "uv": [ 4.0, 11.5, 4.5, 13.5 ] },
+						"south": { "texture": "#reishi", "uv": [ 2.0, 11.0, 4.0, 13.0 ] },
+						"west": { "texture": "#reishi", "uv": [ 4.0, 13.0, 4.5, 15.0 ] },
+						"down": { "texture": "#reishi", "uv": [ 2.0, 13.0, 4.0, 13.5 ] }
+					},
+					"children": [
+						{
+							"name": "Cube15",
+							"from": [ -0.6, 1.5, -0.01 ],
+							"to": [ 2.4, 3.5, 1.0 ],
+							"rotationOrigin": [ 1.4, 1.5, 2.0 ],
+							"rotationZ": -20.5,
+							"faces": {
+								"north": { "texture": "#reishi", "uv": [ 11.0, 8.5, 14.0, 10.5 ] },
+								"east": { "texture": "#reishi", "uv": [ 10.5, 11.0, 11.5, 13.0 ] },
+								"south": { "texture": "#reishi", "uv": [ 9.0, 12.0, 12.0, 14.0 ] },
+								"west": { "texture": "#reishi", "uv": [ 11.0, 10.5, 12.0, 12.5 ] },
+								"down": { "texture": "#reishi", "uv": [ 12.0, 11.0, 15.0, 12.0 ] }
+							},
+							"children": [
+								{
+									"name": "cap16",
+									"from": [ -4.0, 1.0, -0.01 ],
+									"to": [ 3.0, 2.0, 1.02 ],
+									"rotationOrigin": [ 3.0, 1.0, 3.0 ],
+									"rotationZ": -15.0,
+									"faces": {
+										"north": { "texture": "#reishi", "uv": [ 0.0, 2.5, 7.0, 3.5 ] },
+										"east": { "texture": "#reishi", "uv": [ 0.0, 3.0, 1.0, 4.0 ] },
+										"south": { "texture": "#reishi", "uv": [ 0.0, 3.5, 7.0, 4.5 ] },
+										"west": { "texture": "#reishi", "uv": [ 0.0, 3.5, 1.0, 4.5 ] },
+										"up": { "texture": "#reishi", "uv": [ 0.0, 5.0, 7.0, 6.0 ] },
+										"down": { "texture": "#reishi", "uv": [ 0.0, 3.0, 7.0, 4.0 ] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "slice4",
+					"from": [ -0.55, 6.0, 3.7 ],
+					"to": [ 2.45, 8.0, 4.68 ],
+					"rotationOrigin": [ -0.55, 6.0, 3.7 ],
+					"rotationX": 90.0,
+					"rotationZ": 157.5,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 8.5, 11.0, 11.5, 13.0 ] },
+						"east": { "texture": "#reishi", "uv": [ 9.0, 12.0, 9.5, 14.0 ] },
+						"south": { "texture": "#reishi", "uv": [ 8.5, 12.5, 11.5, 14.5 ] },
+						"west": { "texture": "#reishi", "uv": [ 10.0, 12.0, 10.5, 14.0 ] },
+						"down": { "texture": "#reishi", "uv": [ 11.5, 12.5, 14.5, 13.0 ] }
+					},
+					"children": [
+						{
+							"name": "cap18",
+							"from": [ -4.0, 1.0, -0.01 ],
+							"to": [ 3.0, 2.0, 0.99 ],
+							"rotationOrigin": [ 3.0, 1.0, 3.0 ],
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#reishi", "uv": [ 0.5, 5.0, 7.5, 6.0 ] },
+								"east": { "texture": "#reishi", "uv": [ 0.0, 5.0, 1.0, 6.0 ] },
+								"south": { "texture": "#reishi", "uv": [ 0.0, 5.5, 7.0, 6.5 ] },
+								"west": { "texture": "#reishi", "uv": [ 0.0, 5.5, 1.0, 6.5 ] },
+								"up": { "texture": "#reishi", "uv": [ 0.0, 5.0, 7.0, 6.0 ] },
+								"down": { "texture": "#reishi", "uv": [ 0.0, 4.5, 7.0, 5.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "cap3",
+					"from": [ -4.2, 6.0, 3.1 ],
+					"to": [ 1.8, 7.0, 4.1 ],
+					"rotationOrigin": [ -4.2, 6.0, 3.1 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#reishi", "uv": [ 0.0, 6.5, 6.0, 7.5 ] },
+						"east": { "texture": "#reishi", "uv": [ 0.0, 6.5, 1.0, 7.5 ] },
+						"south": { "texture": "#reishi", "uv": [ 0.0, 6.5, 6.0, 7.5 ] },
+						"west": { "texture": "#reishi", "uv": [ 0.5, 6.0, 1.5, 7.0 ] },
+						"up": { "texture": "#reishi", "uv": [ 0.0, 6.0, 6.0, 7.0 ] },
+						"down": { "texture": "#reishi", "uv": [ 0.0, 6.5, 6.0, 7.5 ] }
+					}
+				}
+			]
+		}
+	]}

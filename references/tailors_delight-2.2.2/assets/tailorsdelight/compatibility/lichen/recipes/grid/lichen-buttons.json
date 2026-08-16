@@ -1,0 +1,39 @@
+[
+	{
+	"name": "horn-buttons",
+	"comment": "quantities here differ from the lichenredux variant, otherwise testsuite cries about duplicate recipes",
+	"ingredientPattern": "AK,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "lichen:antler-albino" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 3 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "AK,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "lichen:antler-large" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 4 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "AK,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "lichen:gems-horn" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 2 }
+	}
+]

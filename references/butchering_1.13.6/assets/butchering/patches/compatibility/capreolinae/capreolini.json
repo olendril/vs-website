@@ -1,0 +1,59 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/capreolinae/capreolini.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-capreolini-adult-female-*": "butchering:deadcapreolini-female-1-dead",
+        "cervidae-capreolini-adult-male-*": "butchering:deadcapreolini-male-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-adult.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-capreolini-adult-female-*": "butchering:deadcapreolini-female-1-dead",
+        "cervidae-capreolini-adult-male-*": "butchering:deadcapreolini-male-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-adult.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-capreolini-baby-*": "butchering:deadcapreolini-baby-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "cervidae-capreolini-baby-*": "butchering:deadcapreolini-baby-1-dead"
+      }
+    },
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "dependsOn": [ { "modid": "capreolinae" } ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/grindingPropsByType",
+	"value": { "powder-charcoal": { "groundStack": { "type": "item", "code": "em:powdered-ore-coal", "stacksize": 2 }, "hardnessTier": 1 } },
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/maxstacksizeByType",
+	"value": {
+		"powder-alum": 128,
+		"powder-cinnabar": 128,
+		"powder-lapislazuli": 128,
+		"powder-sylvite": 128,
+		"powder-sulfur": 128,
+		"powder-borax": 128,
+		"*": 64
+	},
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/attributes/pigmentByType",
+	"value": {},
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/attributes/pigmentByType/powder-lapislazuli",
+	"value": { "name": "Ultramarine", "color": { "red": 50, "green": 80, "blue": 120 } },
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/attributes/pigmentByType/powder-charcoal",
+	"value": { "name": "Carbon black", "color": { "red": 25, "green": 24, "blue": 22 } },
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/attributes/pigmentByType/powder-sulfur",
+	"value": { "name": "Sulfur yellow", "color": { "red": 230, "green": 214, "blue": 72 } },
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/attributes/pigmentByType/powder-cinnabar",
+	"value": { "name": "Vermilion", "color": { "red": 162, "green": 44, "blue": 23 } },
+	"file": "game:itemtypes/resource/crushed/powder.json",
+	"side": "Server"
+	},
+
+
+	{
+	"op": "addmerge",
+	"path": "/attributes/pigmentByType",
+	"value": { "powder-iron-oxide": { "name": "Rust", "color": { "red": 98, "green": 62, "blue": 25 } } },
+	"file": "game:itemtypes/resource/crushed/powder-graded.json",
+	"side": "Server"
+	}
+]

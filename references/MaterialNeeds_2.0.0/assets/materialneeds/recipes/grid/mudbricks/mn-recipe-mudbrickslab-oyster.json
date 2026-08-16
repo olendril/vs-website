@@ -1,0 +1,73 @@
+[
+	{
+		ingredientPattern: "BLF,GSG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"B": { type: "item", code: "game:clay-blue", quantity: 2  },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "materialneeds:oystermudbrickslab-dark-down-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FLB,GSG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"B": { type: "item", code: "game:clay-blue", quantity: 2  },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "materialneeds:oystermudbrickslab-dark-down-free", quantity: 4  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "BSF,GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"B": { type: "item", code: "game:clay-blue", quantity: 2 },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2 },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "materialneeds:oystermudbrickslab-light-down-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FSB,GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"B": { type: "item", code: "game:clay-blue", quantity: 2 },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2 },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "materialneeds:oystermudbrickslab-light-down-free", quantity: 4  }
+	},
+]

@@ -1,0 +1,26 @@
+[
+	{
+		"file": "game:blocktypes/wood/barrel",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.Barrel",
+				"transformTemplates": [
+					"carry-barrel"
+				],
+				"slots": {
+					"Hands": {
+						"hungerModifier": 0.3
+					},
+					"Back": {
+						"enabledCondition": "carryon.CarryablesOnBack.Barrel",
+						"hungerModifier": 0.4
+					}
+				}
+			}
+		}
+	}
+]

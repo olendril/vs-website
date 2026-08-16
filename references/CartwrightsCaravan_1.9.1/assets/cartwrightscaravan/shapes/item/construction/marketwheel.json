@@ -1,0 +1,317 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"aged": [16,16],
+		"bark": [16,16],
+		"bottom": [16,16],
+		"wheel": [16,16]
+	},
+	"textures": {
+		"wheel": "game:block/wood/bed/normal/bottom"
+	},
+	"elements": [
+		{
+			"name": "Cube4",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 7.0, 9.0 ] },
+				"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 7.5, 9.0 ] },
+				"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 9.5, 8.0 ] },
+				"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 7.5, 10.5 ] },
+				"up": { "texture": "#wheel", "uv": [ 7.0, 6.0, 7.5, 6.5 ], "rotation": 90 },
+				"down": { "texture": "#wheel", "uv": [ 7.5, 3.5, 8.0, 4.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "Wheel1",
+					"from": [ -3.0, 0.0, -0.5 ],
+					"to": [ -1.0, 1.0, 0.7 ],
+					"rotationOrigin": [ 0.0, 0.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+						"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+						"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+						"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+						"up": { "texture": "#wheel", "uv": [ 2.5, 9.0, 3.5, 11.0 ], "rotation": 90 },
+						"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "Wheel2",
+							"from": [ 0.0, -0.01, 1.2 ],
+							"to": [ 1.5, 0.99, 2.4 ],
+							"rotationOrigin": [ 6.0, -0.1, 1.2 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+								"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+								"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+								"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+								"up": { "texture": "#wheel", "uv": [ 2.5, 9.5, 3.5, 11.0 ], "rotation": 90 },
+								"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 6.5 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "Wheel3",
+									"from": [ 0.0, -0.01, 1.2 ],
+									"to": [ 2.0, 0.99, 2.4 ],
+									"rotationOrigin": [ 6.0, 0.1, 1.2 ],
+									"rotationY": -22.5,
+									"faces": {
+										"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+										"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+										"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+										"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+										"up": { "texture": "#wheel", "uv": [ 3.0, 9.0, 4.0, 11.0 ], "rotation": 90 },
+										"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+									},
+									"children": [
+										{
+											"name": "Wheel4",
+											"from": [ 0.0, 0.01, 1.2 ],
+											"to": [ 1.5, 1.01, 2.4 ],
+											"rotationOrigin": [ 6.0, 0.0, 1.2 ],
+											"rotationY": -22.5,
+											"faces": {
+												"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+												"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+												"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+												"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+												"up": { "texture": "#wheel", "uv": [ 2.0, 9.5, 3.0, 11.0 ], "rotation": 90 },
+												"down": { "texture": "#wheel", "uv": [ 3.0, 5.0, 4.0, 6.5 ], "rotation": 90 }
+											},
+											"children": [
+												{
+													"name": "Wheel5",
+													"from": [ 0.0, 0.01, 1.2 ],
+													"to": [ 2.0, 1.01, 2.4 ],
+													"rotationOrigin": [ 6.0, 0.1, 1.2 ],
+													"rotationY": -22.5,
+													"faces": {
+														"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+														"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+														"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+														"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+														"up": { "texture": "#wheel", "uv": [ 3.0, 9.0, 4.0, 11.0 ], "rotation": 90 },
+														"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+													},
+													"children": [
+														{
+															"name": "Wheel6",
+															"from": [ 0.0, -0.01, 1.2 ],
+															"to": [ 1.5, 0.99, 2.4 ],
+															"rotationOrigin": [ 6.0, -0.1, 1.2 ],
+															"rotationY": -22.5,
+															"faces": {
+																"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+																"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+																"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																"up": { "texture": "#wheel", "uv": [ 3.0, 9.5, 4.0, 11.0 ], "rotation": 90 },
+																"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 6.5 ], "rotation": 90 }
+															},
+															"children": [
+																{
+																	"name": "Wheel7",
+																	"from": [ 0.0, -0.01, 1.2 ],
+																	"to": [ 2.0, 0.99, 2.4 ],
+																	"rotationOrigin": [ 6.0, 0.0, 1.2 ],
+																	"rotationY": -22.5,
+																	"faces": {
+																		"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+																		"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																		"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+																		"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																		"up": { "texture": "#wheel", "uv": [ 2.0, 9.0, 3.0, 11.0 ], "rotation": 90 },
+																		"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+																	},
+																	"children": [
+																		{
+																			"name": "Wheel8",
+																			"from": [ 0.0, 0.01, 1.2 ],
+																			"to": [ 1.5, 1.01, 2.4 ],
+																			"rotationOrigin": [ 6.0, 0.1, 1.2 ],
+																			"rotationY": -22.5,
+																			"faces": {
+																				"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+																				"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																				"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+																				"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																				"up": { "texture": "#wheel", "uv": [ 2.5, 9.5, 3.5, 11.0 ], "rotation": 90 },
+																				"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 6.5 ], "rotation": 90 }
+																			},
+																			"children": [
+																				{
+																					"name": "Wheel9",
+																					"from": [ 0.0, 0.01, -1.2 ],
+																					"to": [ 2.0, 1.01, 0.0 ],
+																					"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+																					"rotationY": -22.5,
+																					"faces": {
+																						"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+																						"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																						"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+																						"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																						"up": { "texture": "#wheel", "uv": [ 2.5, 9.0, 3.5, 11.0 ], "rotation": 90 },
+																						"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+																					},
+																					"children": [
+																						{
+																							"name": "Wheel10",
+																							"from": [ 0.0, -0.01, 1.2 ],
+																							"to": [ 1.5, 0.99, 2.4 ],
+																							"rotationOrigin": [ 6.0, -0.1, 1.2 ],
+																							"rotationY": -22.5,
+																							"faces": {
+																								"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+																								"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																								"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+																								"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																								"up": { "texture": "#wheel", "uv": [ 2.5, 9.5, 3.5, 11.0 ], "rotation": 90 },
+																								"down": { "texture": "#wheel", "uv": [ 3.0, 5.0, 4.0, 6.5 ], "rotation": 90 }
+																							},
+																							"children": [
+																								{
+																									"name": "Wheel11",
+																									"from": [ 0.0, -0.01, 1.2 ],
+																									"to": [ 2.0, 0.99, 2.4 ],
+																									"rotationOrigin": [ 6.0, 0.1, 1.2 ],
+																									"rotationY": -22.5,
+																									"faces": {
+																										"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+																										"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																										"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+																										"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																										"up": { "texture": "#wheel", "uv": [ 2.5, 9.0, 3.5, 11.0 ], "rotation": 90 },
+																										"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+																									},
+																									"children": [
+																										{
+																											"name": "Wheel12",
+																											"from": [ 0.0, 0.01, 1.2 ],
+																											"to": [ 1.5, 1.01, 2.4 ],
+																											"rotationOrigin": [ 6.0, 0.0, 1.2 ],
+																											"rotationY": -22.5,
+																											"faces": {
+																												"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+																												"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																												"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+																												"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																												"up": { "texture": "#wheel", "uv": [ 3.0, 9.5, 4.0, 11.0 ], "rotation": 90 },
+																												"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 6.5 ], "rotation": 90 }
+																											},
+																											"children": [
+																												{
+																													"name": "Wheel13",
+																													"from": [ 0.0, 0.01, 1.2 ],
+																													"to": [ 2.0, 1.01, 2.4 ],
+																													"rotationOrigin": [ 6.0, 0.1, 1.2 ],
+																													"rotationY": -22.5,
+																													"faces": {
+																														"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+																														"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																														"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+																														"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																														"up": { "texture": "#wheel", "uv": [ 3.0, 9.0, 4.0, 11.0 ], "rotation": 90 },
+																														"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+																													},
+																													"children": [
+																														{
+																															"name": "Wheel14",
+																															"from": [ 0.0, -0.01, 1.2 ],
+																															"to": [ 1.5, 0.99, 2.4 ],
+																															"rotationOrigin": [ 6.0, -0.1, 1.2 ],
+																															"rotationY": -22.5,
+																															"faces": {
+																																"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+																																"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																																"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+																																"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																																"up": { "texture": "#wheel", "uv": [ 3.0, 9.5, 4.0, 11.0 ], "rotation": 90 },
+																																"down": { "texture": "#wheel", "uv": [ 2.0, 5.0, 3.0, 6.5 ], "rotation": 90 }
+																															},
+																															"children": [
+																																{
+																																	"name": "Wheel15",
+																																	"from": [ 0.0, -0.01, 1.2 ],
+																																	"to": [ 2.0, 0.99, 2.4 ],
+																																	"rotationOrigin": [ 6.0, 0.0, 1.2 ],
+																																	"rotationY": -22.5,
+																																	"faces": {
+																																		"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.5, 9.5 ] },
+																																		"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																																		"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+																																		"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																																		"up": { "texture": "#wheel", "uv": [ 2.5, 9.0, 3.5, 11.0 ], "rotation": 90 },
+																																		"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "rotation": 90 }
+																																	},
+																																	"children": [
+																																		{
+																																			"name": "Wheel16",
+																																			"from": [ 0.0, 0.01, 1.2 ],
+																																			"to": [ 1.5, 1.01, 2.4 ],
+																																			"rotationOrigin": [ 6.0, 0.1, 1.2 ],
+																																			"rotationY": -22.5,
+																																			"faces": {
+																																				"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 8.0, 9.5 ] },
+																																				"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 8.0, 9.5 ] },
+																																				"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 10.5, 8.5 ] },
+																																				"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 8.0, 11.0 ] },
+																																				"up": { "texture": "#wheel", "uv": [ 3.0, 9.5, 4.0, 11.0 ], "rotation": 90 },
+																																				"down": { "texture": "#wheel", "uv": [ 2.5, 5.0, 3.5, 6.5 ], "rotation": 90 }
+																																			}
+																																		}
+																																	]
+																																}
+																															]
+																														}
+																													]
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Wheel17",
+					"from": [ -1.5, 0.1, -1.5 ],
+					"to": [ 1.5, 0.9, 1.5 ],
+					"rotationOrigin": [ -1.5, 0.1, -1.5 ],
+					"faces": {
+						"north": { "texture": "#wheel", "uv": [ 6.5, 8.5, 9.5, 9.0 ] },
+						"east": { "texture": "#wheel", "uv": [ 7.0, 8.5, 10.0, 9.0 ] },
+						"south": { "texture": "#wheel", "uv": [ 9.0, 7.5, 12.0, 8.0 ] },
+						"west": { "texture": "#wheel", "uv": [ 7.0, 10.0, 10.0, 10.5 ] },
+						"up": { "texture": "#wheel", "uv": [ 2.0, 2.0, 5.0, 5.0 ], "rotation": 90 },
+						"down": { "texture": "#wheel", "uv": [ 2.0, 2.0, 5.0, 5.0 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	]}

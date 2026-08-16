@@ -1,0 +1,46 @@
+[
+	{
+		"ingredientPattern": "K,H",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "istool": true },
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 }
+		},
+		"name": "billpost-pelt-small",
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "paper-pelt", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "K,H",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "istool": true },
+			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 }
+		},
+		"name": "billpost-pelt-medium",
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "paper-pelt", "quantity": 2  }
+	},
+	{
+		"ingredientPattern": "K,H",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "istool": true },
+			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 }
+		},
+		"name": "billpost-pelt-large",
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "paper-pelt", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "K,H",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-*", "istool": true },
+			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 }
+		},
+		"name": "billpost-pelt-huge",
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "paper-pelt", "quantity": 5  }
+	}
+]

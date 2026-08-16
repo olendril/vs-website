@@ -1,0 +1,104 @@
+[
+  {
+    "op": "replace",
+    "comment": "jailor",
+    "path": "/0/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-tinbronze",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "comment": "scribe",
+    "path": "/1/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-bismuthbronze",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "path": "/2/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-brass",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "path": "/3/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-iron",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/4/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-iron",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/5/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-iron",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/6/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-iron",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/7/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-iron",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+
+  {
+    "op": "replace",
+    "path": "/8/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-gold",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/9/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-gold",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/10/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-gold",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/11/ingredients/B/code",
+    "value": "beltcraft:buckleandtip-gold",
+    "file": "dressmakers:recipes/grid/clothing/all/waist.json",
+    "dependsOn": [ { "modid": "beltcraft" } ],
+    "side": "Server"
+  }
+]

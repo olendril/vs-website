@@ -1,0 +1,54 @@
+[
+{
+	//For wooden tankards with leather binding 
+	ingredientPattern: "HC,LW",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"L": { type: "item", code: "game:leather-normal-*", name: "binding", allowedVariants: ["plain", "red", "gray", "black", "white", "pink", "purple", "yellow", "blue", "green", "orange"]},
+		"W": { type: "block", code: "game:log-placed-*-ud", name: "wood", allowedVariants: ["oak", "birch", "pine", "acacia", "aged", "larch", "baldcypress", "ebony", "kapok", "maple", "purpleheart", "redwood", "walnut"]},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "tankard-woodtype-{wood}.-leather-{binding}", quantity: 1},	
+},
+{
+	//For wooden tankards with metal bindings - nails and strips
+	ingredientPattern: "HC,NW",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*", name: "binding", allowedVariants: ["iron", "copper", "bismuthbronze", "blackbronze", "cupronickel", "gold", "meteoriciron", "silver", "steel", "tinbronze"]},
+		"W": { type: "block", code: "game:log-placed-*-ud", name: "wood", allowedVariants: ["oak", "birch", "pine", "acacia", "aged", "larch", "baldcypress", "ebony", "kapok", "maple", "purpleheart", "redwood", "walnut"]},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "tankard-woodtype-{wood}.-{binding}", quantity: 1},		
+},	
+{
+	//For wooden tankards with metal bindings - nuggets
+	ingredientPattern: "HC_,NWN",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:nugget-*", name: "binding", allowedVariants: ["malachite"], quantity: 2},
+		"W": { type: "block", code: "game:log-placed-*-ud", name: "wood", allowedVariants: ["oak", "birch", "pine", "acacia", "aged", "larch", "baldcypress", "ebony", "kapok", "maple", "purpleheart", "redwood", "walnut"]},
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "tankard-woodtype-{wood}.-{binding}", quantity: 1},	
+},
+{
+	//For wooden tankards with metal bindings - metal bits
+	ingredientPattern: "HC_,NWN",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalbit-*", name: "binding", allowedVariants: ["iron", "copper", "bismuthbronze", "blackbronze", "cupronickel", "gold", "meteoriciron", "silver", "steel", "tinbronze", "bismuth", "brass", "platinum", "nickel"], quantity: 2},
+		"W": { type: "block", code: "game:log-placed-*-ud", name: "wood", allowedVariants: ["oak", "birch", "pine", "acacia", "aged", "larch", "baldcypress", "ebony", "kapok", "maple", "purpleheart", "redwood", "walnut"]},
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "tankard-woodtype-{wood}.-{binding}", quantity: 1},	
+}
+]

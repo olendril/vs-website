@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "_S_,_TS,R__",
+	"ingredients": {
+		"R": { "type": "item", "code": "game:stone-*" },
+		"S": { "type": "item", "code": "game:stick" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:plumbandsquare" }
+	}
+]

@@ -1,0 +1,30 @@
+[
+	{
+		ingredientPattern: "G_G	CSC	GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2  },
+			"S": { type: "block", code: "game:gravel-*" },
+			"C": { type: "item", code: "game:clay-red", quantity: 4  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "materialneeds:redmudbrick-light", quantity: 4  }
+	},
+	{
+	ingredientPattern: "G_G	CLC	GSG",
+	enabled: true,
+	ingredients: {
+		"G": { type: "item", code: "game:drygrass", quantity: 2 },
+		"S": { type: "block", code: "game:gravel-*" },
+		"C": { type: "item", code: "game:clay-red", quantity: 2 },
+		"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+	},
+	name: "mudbrick",
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "materialneeds:redmudbrick-dark", quantity: 4  }
+	},
+]

@@ -1,0 +1,10 @@
+{
+	"block-smallcairn-*": "Малый керн",
+	"block-midcairn-*": "Средний керн",
+	"block-tallcairn-*": "Высокий керн",
+	"block-flatcairn-*": "Керн с плоской вершиной",
+	"block-cairnaltar-*": "Алтарный керн",
+	"block-buoy-*": "Буй",
+	"block-buoylantern-*": "Фонарный буй",
+	"block-bagbuoy": "Мешковый буй"
+}

@@ -1,0 +1,162 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-tourmalineschorl-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-tourmalineschorl-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-tourmalineschorl-arkose"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-tourmalineschorl-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-tourmalineschorl-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-tourmalineschorl-wacke"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-tourmalineschorl-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-tourmalineschorl-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-tourmalineschorl-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-tourmalineschorl-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-tourmalineschorl-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-tourmalineschorl-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-tourmalineschorl-arkose-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-tourmalineschorl-wacke-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-tourmalineschorl-monzonite-free"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-tourmalineschorl-syenite-free"
+	},
+]

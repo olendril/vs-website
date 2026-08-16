@@ -1,0 +1,183 @@
+[
+  {
+    "file": "game:shapes/entity/lore/supermech/thunderlord",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "Roar",
+      "code": "roar",
+      "quantityframes": 280,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "EaseOut",
+      "keyframes": [
+        {
+                                        "frame": 30,
+					"elements": {
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 20.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.44 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.72 },
+						"body-top": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 60,
+					"elements": {
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 20.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.36 },
+						"body-top": { "offsetX": 0.0, "offsetY": -0.25, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 }
+					}
+				},
+				{
+					"frame": 100,
+					"elements": {
+						"body-main": { "offsetX": 0.0, "offsetY": 0.7813, "offsetZ": 0.0 },
+						"body-top": { "offsetX": 0.0, "offsetY": -0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"rod2": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"eye": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"metatarsusR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"tibiarR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 125,
+					"elements": {
+						"body-main": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0 },
+						"body-top": { "offsetX": 0.0, "offsetY": 0.25, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"rod2": { "offsetX": -1.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -60.0 },
+						"eye": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"metatarsusR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"tibiarR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 165,
+					"elements": {
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -66.7826 },
+						"eye": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"tibiarR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"metatarsusR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"body-top": { "offsetX": 0.0, "offsetY": 0.2, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"body-main": { "offsetX": 0.0, "offsetY": 0.5, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 195,
+					"elements": {
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -75.0 },
+						"eye": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"tibiarR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.625 },
+						"body-top": { "offsetX": 0.0, "offsetY": 0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"body-main": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 225,
+					"elements": {
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -80.0 },
+						"eye": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"metatarsusR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"tibiarR-bone": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.25 },
+						"body-top": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"body-main": { "offsetX": 0.0, "offsetY": 0.5, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 245,
+					"elements": {
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
+						"body-top": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"body-main": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 279,
+					"elements": {
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 20.0 }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "game:shapes/entity/lore/supermech/thunderlord",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "Idle",
+      "code": "idle",
+      "quantityframes": 200,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+					"frame": 0,
+					"elements": {
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"neck4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"knee-tubeR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"knee-tubeL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"knee-tubeB": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"lowerleg-tubeR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"lowerleg-tubeL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"lowerleg-tubeB": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"body-top": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"rod6": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"rod7L1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"rod7R1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 100,
+					"elements": {
+						"neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"neck3": { "rotationX": 0.0, "rotationY": -3.0, "rotationZ": 4.0 },
+						"neck4": { "rotationX": 0.0, "rotationY": -2.0, "rotationZ": 5.0 },
+						"knee-tubeL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -4.0 },
+						"knee-tubeR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -7.0 },
+						"knee-tubeB": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
+						"lowerleg-tubeR": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"lowerleg-tubeL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -2.5 },
+						"lowerleg-tubeB": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 2.0 },
+						"neck2-extension": { "rotationX": 0.0, "rotationY": -2.0, "rotationZ": -2.0 },
+						"head": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 4.0 },
+						"body-top": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"rod6": { "rotationX": 0.0, "rotationY": -6.0, "rotationZ": -10.0 },
+						"rod7L1": { "rotationX": 6.0, "rotationY": 6.0, "rotationZ": -8.0 },
+						"rod7R1": { "rotationX": 6.0, "rotationY": -8.0, "rotationZ": -17.0 }
+          }
+        }
+      ]
+    }
+  }
+]

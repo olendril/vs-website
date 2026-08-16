@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingProps",
+    "value": { "crushedStack": { "type": "item", "code": "em:crushed-ore-flint" }, "quantity": { "avg": 1.5 }, "hardnessTier": 2 },
+    "file": "game:itemtypes/resource/flint.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inContainerTexture",
+    "value": { "base": "game:block/stone/flint" },
+    "file": "game:itemtypes/resource/flint.json",
+    "side": "Server"
+  }
+]

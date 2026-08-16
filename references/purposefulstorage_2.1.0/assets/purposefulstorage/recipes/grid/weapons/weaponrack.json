@@ -1,0 +1,36 @@
+[
+  {
+    "ingredientPattern": "_R_,SPS,SSS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:plank-{wood}" },
+      "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+      "R": { "type": "item", "code": "game:resin", "quantity": 2 }
+    },
+    "width": 3, "height": 3, "recipeGroup": 1,
+    "output": {
+      "type": "block",
+      "code": "weaponrack-normal-east",
+      "attributes": {
+        "PSAttributes": {
+          "wood": "{wood}"
+        }
+      }
+    }
+  },
+  {
+    "ingredientPattern": "B",
+    "ingredients": {
+      "B": {
+        "type": "block",
+        "code": "weaponrack-normal-east",
+        "attributes": {
+          "PSAttributes": {
+            "wood": "oak"
+          }
+        }
+      }
+    },
+    "width": 1, "height": 1, "recipeGroup": 1, "shapeless": true,
+    "output": { "type": "block", "code": "weaponrack-normal-east" }
+  }
+]

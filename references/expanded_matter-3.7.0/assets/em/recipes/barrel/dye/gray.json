@@ -1,0 +1,26 @@
+[
+	{
+		"code": "dye-gray-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 8 },
+			{ "type": "item", "code": "em:powdered-metal-rusty", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-gray", "litres": 8 }
+	},
+	{
+		"code": "dye-gray-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 8 },
+			{ "type": "item", "code": "em:powdered-metal-rusty", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-gray", "litres": 8 }
+	},
+	{
+		"code": "dye-gray-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 8 },
+			{ "type": "item", "code": "em:powdered-metal-rusty", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-gray", "litres": 8 }
+	}
+]

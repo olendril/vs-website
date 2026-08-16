@@ -1,0 +1,77 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/sperrylite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/-",
+		"value": [
+			"komatiite",
+			"syenite",
+			"pyroxenite",
+			"serpentinite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/sperrylite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-komatiite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/sperrylite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-syenite",
+		"value": [
+			"poor"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/sperrylite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-pyroxenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" },
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/sperrylite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	}
+]

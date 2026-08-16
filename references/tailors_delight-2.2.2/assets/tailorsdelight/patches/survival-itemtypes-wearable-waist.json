@@ -1,0 +1,18 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/lightHsvByType",
+	"comment": "in case it does not yet exist",
+	"value": { },
+	"file": "game:itemtypes/wearable/seraph/villager/nadiya/waist.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addmerge",
+	"path": "/lightHsvByType/*-miner-accessories",
+	"value": [ 7, 7, 6 ],
+	"file": "game:itemtypes/wearable/seraph/villager/nadiya/waist.json",
+	"side": "Server"
+	}
+]

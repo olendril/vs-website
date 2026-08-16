@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "_P_,PSP,_P_",
+    "ingredients": {
+      "P": { "type": "item", "code": "*:plank-*" },
+      "S": { "type": "block", "code": "foodshelves:breadshelf-normal-east" }
+    },
+    "width": 3, "height": 3, "recipeGroup": 1,
+    "copyAttributesFrom": "S",
+    "output": { "type": "block", "code": "eggshelf-normal-east" }
+  },
+  {
+    "ingredientPattern": "ST",
+    "ingredients": {
+      "S": { "type": "block", "code": "foodshelves:eggshelf-normal-east" },
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true }
+    },
+    "width": 2, "height": 1, "recipeGroup": 1, "shapeless": true,
+    "copyAttributesFrom": "S",
+    "output": { "type": "block", "code": "eggshelf-short-east", "quantity": 2 }
+  }
+]

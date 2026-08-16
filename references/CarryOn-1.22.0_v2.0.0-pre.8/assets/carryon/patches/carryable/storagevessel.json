@@ -1,0 +1,23 @@
+[
+	{
+		"file": "game:blocktypes/clay/fired/storagevessel",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"enabledCondition": "carryon.Carryables.StorageVessel",
+				"transformTemplates": [
+					"carry-storagevessel"
+				],
+				"slots": {
+					"Hands": {},
+					"Back": {
+						"enabledCondition": "carryon.CarryablesOnBack.StorageVessel"
+					}
+				}
+			}
+		}
+	}
+]

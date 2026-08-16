@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel","tinbronze","bismuthbronze","blackbronze","copper"] },
+	pattern: [[
+		
+		"________#######",
+		"_##############",
+		"________#######",
+		
+	]],
+	name: "Hand Wedge-{metal}",
+	code: "Hand Wedge-{metal}",
+	output: { type: "item", code: "handwedge-{metal}"   }
+}

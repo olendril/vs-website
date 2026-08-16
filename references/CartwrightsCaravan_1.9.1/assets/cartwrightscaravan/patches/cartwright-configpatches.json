@@ -1,0 +1,306 @@
+[
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*/1/forCategoryCodes/-",
+    "value": [ "vessel", "chest", "storage" ],
+    "file": "entities/nonliving/sled.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*/2/forCategoryCodes/-",
+    "value": [ "vessel", "chest", "storage" ],
+    "file": "entities/nonliving/sled.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*/3/forCategoryCodes/-",
+    "value": [ "vessel", "chest", "storage" ],
+    "file": "entities/nonliving/sled.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "remove",
+    "path": "/attributes/minGenerationToAllowHealing",
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "remove",
+    "path": "/attributes/minGenerationToAllowHealing",
+    "file": "entities/nonliving/marketstall.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "remove",
+    "path": "/attributes/minGenerationToAllowHealing",
+    "file": "entities/nonliving/sled.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/dropsByType/*sled*",
+    "value": [
+      {
+        "type": "block",
+        "code": "game:debarkedlog-{wood}-ud",
+        "quantityByType": {
+          "*": {
+            "avg": 8,
+            "var": 2
+          }
+        }
+      },
+      {
+        "type": "block",
+        "code": "game:log-placed-{wood}-ud",
+        "quantityByType": {
+          "*": {
+            "avg": 8,
+            "var": 2
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:resin",
+        "quantityByType": {
+          "*": {
+            "avg": 2,
+            "var": 1
+          }
+        }
+      }
+    ],
+    "file": "blocktypes/cartcarcass.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/dropsByType/*stall*",
+    "value": [
+      {
+        "type": "block",
+        "code": "game:supportbeam-{wood}",
+        "quantityByType": {
+          "*": {
+            "avg": 24,
+            "var": 6
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:plank-{wood}",
+        "quantityByType": {
+          "*": {
+            "avg": 24,
+            "var": 6
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:resin",
+        "quantityByType": {
+          "*": {
+            "avg": 4,
+            "var": 2
+          }
+        }
+      }
+    ],
+    "file": "blocktypes/cartcarcass.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/dropsByType/*slimcart*",
+    "value": [
+      {
+        "type": "block",
+        "code": "game:supportbeam-{wood}",
+        "quantityByType": {
+          "*": {
+            "avg": 32,
+            "var": 10
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:plank-{wood}",
+        "quantityByType": {
+          "*": {
+            "avg": 32,
+            "var": 10
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:resin",
+        "quantityByType": {
+          "*": {
+            "avg": 3,
+            "var": 2
+          }
+        }
+      }
+    ],
+    "file": "blocktypes/cartcarcass.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/dropsByType/*basiccart*",
+    "value": [
+      {
+        "type": "block",
+        "code": "game:supportbeam-{wood}",
+        "quantityByType": {
+          "*": {
+            "avg": 48,
+            "var": 12
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:plank-{wood}",
+        "quantityByType": {
+          "*": {
+            "avg": 48,
+            "var": 12
+          }
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:resin",
+        "quantityByType": {
+          "*": {
+            "avg": 4,
+            "var": 2
+          }
+        }
+      }
+    ],
+    "file": "blocktypes/cartcarcass.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*slim*/1/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*slim*/2/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*slim*/3/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*basic*/1/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*basic*/2/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*basic*/3/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*basic*/4/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*basic*/5/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlotsByType/*basic*/6/forCategoryCodes/-",
+    "value": [ "crate" ],
+    "file": "entities/nonliving/cart.json",
+    "side": "Server"
+  },  
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/behaviorConfigs/rideable/seatsByType/*",
+    "value": [
+				{
+					"apName": "Rider",
+					"selectionBox": "RiderGripAP",
+					"bodyYawLimit": 0.2,
+					"controllable": true,
+					"mountOffsetByType": {
+						"*open*": {
+							"x": 0.3,
+							"y": -1.1,
+							"z": 0
+						},
+						"*": {
+							"x": 0.3,
+							"y": -1.12,
+							"z": 0
+						}
+					}
+				},				
+				{ "apName": "Rider2", "selectionBox": "RightStorage1AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1.2,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} }, "mountRotationByType": { "*open*":{ "y": 0 }, "*classic*":{ "y": 0 }, "*":{ "y": 90 }}},
+				{ "apName": "Rider3", "selectionBox": "LeftStorage1AP", "bodyYawLimit": null, "controllable": false, "eyeHeight": 1.2,				
+					"mountOffsetByType": { "*": {"x":0,"y":0,"z":0} }, "mountRotationByType": { "*open*":{ "y": 0 }, "*classic*":{ "y": 0 }, "*":{ "y": 90 }}}
+			],
+    "file": "entities/nonliving/marketstall.json",
+    "side": "Server"
+  }
+]

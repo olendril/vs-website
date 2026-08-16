@@ -1,0 +1,112 @@
+[
+	{
+		"ingredientPattern": "K,G,F",
+		"enabled": true,
+		"ingredients": {
+			"F": { "type": "item", "code": "wool:fleece-*", "quantity": 2 },
+			"G": { "type": "item", "code": "game:drygrass", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 3 }
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-wool", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "K,G,F",
+		"enabled": true,
+		"ingredients": {
+			"F": { "type": "item", "code": "wool:fleece-*", "quantity": 2 },
+			"G": { "type": "item", "code": "game:thatch", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 3 }
+		},
+		"shapeless": true,
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-wool", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "K,S,H",
+		"comment": "Only hard stones, 1 output to encourage grinding with a quern. Knife-over-stone to distinguish between stone-over-knife from Tailor's Delight awl recipe.",
+		"enabled": true,
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+			"H": { "type": "item", "code": "game:antler-*" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "stone", "allowedVariants": [ "andesite", "basalt", "granite", "kimberlite", "obsidian", "peridotite", "suevite" ] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-horn", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "K,S,F",
+		"comment": "Only hard stones, 1 output to encourage grinding with a quern. Knife-over-stone to distinguish between stone-over-knife from Tailor's Delight awl recipe.",
+		"enabled": true,
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 },
+			"F": { "type": "item", "code": "game:fish-cooked", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stone-*", "name": "stone", "allowedVariants": [ "andesite", "basalt", "granite", "kimberlite", "obsidian", "peridotite", "suevite" ] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-fish", "quantity": 1 }
+	},
+
+	{
+		"ingredientPattern": "K,S,F",
+		"comment": "Only hard stones, 1 output to encourage grinding with a quern. Knife-over-stone to distinguish between stone-over-knife from Tailor's Delight awl recipe.",
+		"enabled": true,
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 },
+			"F": { "type": "item", "code": "game:fishchunk-*-2-cooked", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stone-*", "name": "stone", "allowedVariants": [ "andesite", "basalt", "granite", "kimberlite", "obsidian", "peridotite", "suevite" ] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-fish", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "K,S,F",
+		"comment": "Only hard stones, 1 output to encourage grinding with a quern. Knife-over-stone to distinguish between stone-over-knife from Tailor's Delight awl recipe.",
+		"enabled": true,
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 },
+			"F": { "type": "item", "code": "game:fishchunk-*-4-cooked" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "stone", "allowedVariants": [ "andesite", "basalt", "granite", "kimberlite", "obsidian", "peridotite", "suevite" ] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-fish", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "K,S,F",
+		"comment": "Only hard stones, 1 output to encourage grinding with a quern. Knife-over-stone to distinguish between stone-over-knife from Tailor's Delight awl recipe.",
+		"enabled": true,
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 6 },
+			"F": { "type": "item", "code": "game:fishchunk-*-7-cooked" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "stone", "allowedVariants": [ "andesite", "basalt", "granite", "kimberlite", "obsidian", "peridotite", "suevite" ] }
+		},
+		"recipeGroup": 2,
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-fish", "quantity": 2 }
+	},
+	{
+		"ingredientPattern": "K,S,F",
+		"comment": "Only hard stones, 1 output to encourage grinding with a quern. Knife-over-stone to distinguish between stone-over-knife from Tailor's Delight awl recipe.",
+		"enabled": true,
+		"ingredients": {
+			"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 8 },
+			"F": { "type": "item", "code": "game:fishchunk-*-9-cooked" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "stone", "allowedVariants": [ "andesite", "basalt", "granite", "kimberlite", "obsidian", "peridotite", "suevite" ] }
+		},
+		"recipeGroup": 3,
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "wool:fertilizer-organic-fish", "quantity": 3 }
+	}
+]

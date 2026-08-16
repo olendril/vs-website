@@ -1,0 +1,98 @@
+{
+	"code": "ivory",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "raw" ]
+		}
+	],
+	"maxstacksize": 16,
+	"materialDensity": 620,
+	"attributes": {
+	},
+	"shapeByType": {
+		"*-raw": { "base": "items/resources/ivory" }
+	},
+	"texturesByType": {
+		"*-raw": {
+			"ivory": {
+				"base": "item/resource/ivory"
+			},
+			"ivorybottom": {
+				"base": "item/resource/ivorybottom"
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"butchering": [ "*" ]
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 1,
+			"y": 90,
+			"z": 0
+		},
+		"scale": 2
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 3,
+			"y": 2,
+			"z": -0
+		},
+		"rotation": {
+			"x": -161,
+			"y": -180,
+			"z": 28
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.15,
+			"z": 0.5
+		},
+		"scale": 5.73
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.55,
+			"y": -0.1,
+			"z": -0.37
+		},
+		"rotation": {
+			"x": -79,
+			"y": -174,
+			"z": 94
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.12,
+			"z": 0.5
+		},
+		"scale": 1.21
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0.08,
+			"z": 0
+		},
+		"rotation": {
+			"x": -90,
+			"y": -9,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.22,
+			"z": 0.54
+		},
+		"scale": 6
+	}
+}

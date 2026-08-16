@@ -1,0 +1,15 @@
+{
+  "type": "content",
+  "modid": "aogbreedingaddonpatch",
+  "name": "Art of Growing: Breeding Addon",
+  "authors": [
+    "Fedarmens"
+  ],
+  "description": "Cultivation of plants from wild to cultivated varieties.",
+  "version": "1.2.2",
+  "dependencies": {
+    "game": "",
+    "coreofartspatch": "",
+    "artofgrowingpatch": ""
+  }
+}

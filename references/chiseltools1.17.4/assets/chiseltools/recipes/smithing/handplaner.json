@@ -1,0 +1,11 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel","blackbronze","tinbronze","bismuthbronze","copper"] },
+	pattern: [[
+		"________#####__",
+		"_############__",
+		"________#####__",
+	]],
+	name: "Hand Planer-{metal}",
+	code: "Hand Planer-{metal}",
+	output: { type: "item", code: "handplaner-{metal}"   }
+}

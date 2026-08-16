@@ -1,0 +1,11 @@
+{
+	enabled: false,
+	ingredientPattern: "NPN,P_P,NPN",
+	ingredients: {
+		"N": { type: "item", code: "game:metalnailsandstrips-*", name: "metal" },
+		"P": { type: "item", code: "game:plank-*",               name: "wood" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "sawmillsash", quantity: 1 }
+}

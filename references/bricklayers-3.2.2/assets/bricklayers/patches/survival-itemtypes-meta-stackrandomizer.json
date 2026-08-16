@@ -1,0 +1,54 @@
+[
+	{
+	"op": "addeach",
+	"path": "/attributesByType/*-ore/stacks/-",
+	"value": [
+		{ "type": "item", "code": "bricklayers:sherds-light", "quantity": { "avg": 4, "var": 3 }, "chance": 20 }
+	],
+	"file": "game:itemtypes/meta/stackrandomizer.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addeach",
+	"path": "/attributesByType/*-resource/stacks/-",
+	"value": [
+		{ "type": "item", "code": "bricklayers:sherds-light", "quantity": { "avg": 6, "var": 2 }, "chance": 5 }
+	],
+	"file": "game:itemtypes/meta/stackrandomizer.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addeach",
+	"comment": "clutter-workshop",
+	"path": "/attributesByType/*-workshop-basic/stacks/-",
+	"value": [
+		{ "type": "item", "code": "bricklayers:sherds-light", "quantity": { "avg": 6, "var": 2 }, "chance": 1 }
+	],
+	"file": "game:itemtypes/meta/stackrandomizer-clutter.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addeach",
+	"comment": "clutter-lab",
+	"path": "/attributesByType/*-lab/stacks/-",
+	"value": [
+		{ "type": "item", "code": "bricklayers:sherds-light", "quantity": { "avg": 6, "var": 2 }, "chance": 1 }
+	],
+	"file": "game:itemtypes/meta/stackrandomizer-clutter.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "addeach",
+	"comment": "mines",
+	"path": "/attributesByType/*-mines/stacks/-",
+	"value": [
+		{ "type": "item", "code": "bricklayers:sherds-light", "quantity": { "avg": 6, "var": 2 }, "chance": 1 }
+	],
+	"file": "game:itemtypes/meta/stackrandomizer-mines.json",
+	"side": "Server"
+	}
+]

@@ -1,0 +1,34 @@
+[
+	{
+	"enabled": false,
+	"ingredientPattern": "_BS,BSL,SLN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "block", "code": "game:supportbeam-*", "name": "wood", "allowedVariants": [ "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart" ], "quantity": 2 },
+		"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+		"L": { "type": "block", "code": "game:linen-*", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:sail", "quantity": 4 }
+	},
+
+	{
+	"enabled": false,
+	"ingredientPattern": "TBP,BPL,PLN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"T": { "type": "item", "code": "game:flaxtwine" },
+		"B": { "type": "block", "code": "game:supportbeam-*", "name": "wood", "allowedVariants": [ "birch", "oak", "maple", "pine", "acacia", "kapok", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart" ], "quantity": 2 },
+		"P": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+		"L": { "type": "block", "code": "game:linen-*", "quantity": 4 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:sail-large-oak", "quantity": 4 }
+	}
+]

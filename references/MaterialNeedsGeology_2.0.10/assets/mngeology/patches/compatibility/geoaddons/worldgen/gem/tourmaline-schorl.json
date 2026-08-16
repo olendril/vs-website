@@ -1,0 +1,17 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:worldgen/deposits/gem/tourmaline-schorl.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/-",
+		"value": [
+			"arkose",
+			"wacke",
+			"monzonite",
+			"syenite"
+		]
+	}
+]

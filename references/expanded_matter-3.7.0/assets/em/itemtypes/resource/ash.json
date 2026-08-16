@@ -1,0 +1,70 @@
+{
+        "code": "ash",
+	"enabled": false,
+	"variantgroups": [
+		{ "code": "category", "states": [ "organic", "inorganic" ] },
+		{ "code": "type", "states": [ "plant", "wood", "rock" ] },
+		{ "code": "state", "states": [ "dry", "sludge" ] }
+	],
+	"skipVariants": [
+		"ash-organic-rock-dry", "ash-organic-rock-sludge", "ash-inorganic-rock-sludge",
+		"ash-inorganic-plant-dry", "ash-inorganic-wood-dry", "ash-inorganic-plant-sludge", "ash-inorganic-wood-sludge"
+	],
+	"attributes": {
+		"inContainerTexture": { "base": "em:item/resource/ash/{category}/incontainer/{type}_{state}" },
+		"displaycaseable": true,
+		"shelvable": true,
+		"dissolveInWater": true,
+		"onDisplayTransform": {
+			"translation": { "x": 0.05, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.65
+		}
+	},
+	"attributesByType": {
+		"ash-organic-wood-sludge": {
+			"handbook": { "extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-ash-{category}-{type}-{state}" } ] },
+			"displaycaseable": false,
+			"shelvable": false,
+			"dissolveInWater": false
+		},
+		"ash-organic-plant-sludge": {
+			"handbook": { "extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-ash-{category}-{type}-{state}" } ] },
+			"displaycaseable": false,
+			"shelvable": false,
+			"dissolveInWater": false
+		},
+		"ash-inorganic-rock": {
+			"handbook": { "extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-ash-{category}-{type}-{state}" } ] },
+			"fertilizerProps": { "n": 25, "p": 25, "k": 2 },
+			"fertilizerTextureCode": "saltpeter"
+		},
+		"ash-*": {
+			"handbook": { "extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-ash-{category}-{type}-{state}" } ] }
+		}
+	},
+	"replaceable": 900,
+	"resistance": 1,
+	"emitSideAo": { "all": false },
+	"textures": { "all": { "base": "em:item/resource/ash/{category}/incontainer/{type}_{state}" } },
+        "shapeByType": {
+		"*": { "base": "em:item/resource/powdered" }
+	},
+        "creativeinventoryByType": {
+		"*": { "general": ["*"], "items": ["*"] }
+	},
+        "maxstacksize": 64,
+        "materialDensity": 500,
+	"heldTpIdleAnimation": "holdbothhands",
+	"tpHandTransform": {
+		"translation": { "x": -1.67, "y": -1.25, "z": -0.8 },
+		"rotation": { "x": 70, "y": 11, "z": -65 },
+		"scale": 0.41
+        },
+	"guiTransform": {
+		"translation": { "x": -2, "y": 1, "z": -25 },
+                "rotation": { "x": 158, "y": 28, "z": 3 },
+		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+		"scale": 2.5
+        }
+}

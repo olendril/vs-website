@@ -1,0 +1,63 @@
+{
+        "code": "powdered-stone",
+	"variantgroups": [
+		{ "code": "type", "states": [
+			"andesite",
+			"basalt", "bauxite",
+			"chert", "claystone", "conglomerate",
+			"granite",
+			"obsidian",
+			"peridotite", "phyllite",
+			"sandstone", "shale", "slate"
+		] }
+	],
+	"attributes": {
+		"inContainerTexture": { "base": "game:block/stone/sand/{type}" },
+		"displaycaseable": true,
+		"shelvable": true,
+		"onDisplayTransform": { "translation": { "x": 0.05, "y": 0, "z": 0 }, "origin": { "x": 0.5, "y": 0, "z": 0.5 }, "scale": 0.65 },
+		"onShelfTransform": { "translation": { "x": 0, "y": -0.1, "z": -0.07 }, "rotation": { "y": 95 }, "scale": 0.8 },
+		"pigmentByType": {
+		       "powdered-stone-bauxite": { "name": "Rusty red", "color": { "red": 123, "green": 62, "blue": 12 } }
+		}
+	},
+	"attributesByType": {
+		"@^powdered-stone-(bauxite|granite|obsidian)": {
+			"handbook": { "extraSections": [ { "title": "handbook-item-usage", "text": "handbook-item-usage-powdered-stone-{type}" } ] },
+			"inContainerTexture": { "base": "em:item/resource/powdered/stone/incontainer/{type}" }
+		}
+	},
+	"texturesByType": {
+		"@^powdered-stone-(bauxite|granite|obsidian)": {
+			"all": { "base": "em:item/resource/powdered/stone/incontainer/{type}" }
+		},
+		"*": { "all": { "base": "game:block/stone/sand/{type}" } }
+	},
+        "shape": { "base": "em:item/resource/powdered" },
+        "creativeinventory": { "general": ["*"], "items": ["*"] },
+	"combustiblePropsByType": {
+		"powdered-stone-bauxite": {
+			"meltingPoint": 1159,
+			"meltingDuration": 12,
+			"smeltingType": "convert",
+			"smeltedStack": { "type": "item", "code": "em:powdered-ore-corundum" },
+			"requiresContainer": false
+		}
+        },
+        "maxstacksize": 128,
+        "materialDensity": 600,
+	"heldTpIdleAnimation": "holdbothhands",
+	"guiTransform": {
+		"translation": { "x": -2, "y": 1, "z": -25 },
+                "rotation": { "x": 158, "y": 28, "z": 3 },
+		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+		"scale": 2.5
+        },
+	"tpHandTransform": { "translation": { "x": -1.35, "y": -0.85, "z": -0.55 }, "rotation": { "x": 70, "y": 11, "z": -65 }, "scale": 0.6 },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.141, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 1.5
+	}
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "file": "butchering:itemtypes/butchercreatures/pantherinae/panthera.json",
+    "dependsOn": [ { "modid": "pantherinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "pantherinae-panthera-adult-female-*": "butchering:deadpanthera-female-1-dead",
+        "pantherinae-panthera-adult-male-*": "butchering:deadpanthera-male-1-dead"
+      }
+    },
+    "file": "pantherinae:entities/animal/mammal/pantherinae-panthera-adult.json",
+    "dependsOn": [ { "modid": "pantherinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "pantherinae-panthera-adult-female-*": "butchering:deadpanthera-female-1-dead",
+        "pantherinae-panthera-adult-male-*": "butchering:deadpanthera-male-1-dead"
+      }
+    },
+    "file": "pantherinae:entities/animal/mammal/pantherinae-panthera-adult.json",
+    "dependsOn": [ { "modid": "pantherinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "pantherinae-panthera-baby-*": "butchering:deadpanthera-baby-1-dead"
+      }
+    },
+    "file": "pantherinae:entities/animal/mammal/pantherinae-panthera-baby.json",
+    "dependsOn": [ { "modid": "pantherinae" } ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "pantherinae-panthera-baby-*": "butchering:deadpanthera-baby-1-dead"
+      }
+    },
+    "file": "pantherinae:entities/animal/mammal/pantherinae-panthera-baby.json",
+    "dependsOn": [ { "modid": "pantherinae" } ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "file": "game:shapes/block/metal/lantern/large/ceiling.json",
+    "path": "/animations",
+    "value": [
+      {
+        "name": "lanternwalltilt",
+        "code": "lanternwalltilt",
+        "quantityframes": 31,
+        "onAnimationEnd": "Hold",
+        "onActivityStopped": "EaseOut",
+        "keyframes": [
+          { "frame": 0, "elements": { "Base1": { "rotationX": 0, "rotationY": 0, "rotationZ": 0 } } },
+          { "frame": 30, "elements": { "Base1": { "rotationX": 0, "rotationY": 0, "rotationZ": 0 } } }
+        ]
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "file": "game:shapes/block/metal/lantern/small/ceiling.json",
+    "path": "/animations",
+    "value": [
+      {
+        "name": "lanternwalltilt",
+        "code": "lanternwalltilt",
+        "quantityframes": 31,
+        "onAnimationEnd": "Hold",
+        "onActivityStopped": "EaseOut",
+        "keyframes": [
+          { "frame": 0, "elements": { "Ring": { "rotationX": 0, "rotationY": 0, "rotationZ": 0 } } },
+          { "frame": 30, "elements": { "Ring": { "rotationX": 0, "rotationY": 0, "rotationZ": 0 } } }
+        ]
+      }
+    ]
+  }
+]

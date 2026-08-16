@@ -1,0 +1,120 @@
+[
+  {
+    "op": "add",
+    "path": "/idleSoundChanceByType",
+    "value": {
+      "drifter-tainted": 0.4,
+      "drifter-corrupt": 0.5,
+      "drifter-nightmare": 0.5,
+      "drifter-double-headed": 0.6,
+      "*": 0.3
+    },
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/sounds",
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/soundsByType",
+    "value": {
+      "*-corrupt": {
+        "hurt": "temporalsymphony:creature/drifter/drifter-special-hurt",
+        "death": "temporalsymphony:creature/drifter/drifter-special-death",
+        "idle": {
+            "path": "temporalsymphony:creature/drifter/drifter-special-idle*",
+            "range": 20,
+            "pitch": {
+                "avg": 1,
+                "var": 0.3
+            }
+        }
+      },
+      "*-nightmare": {
+        "hurt": "temporalsymphony:creature/drifter/drifter-special-hurt",
+        "death": "temporalsymphony:creature/drifter/drifter-special-death",
+        "idle": {
+            "path": "temporalsymphony:creature/drifter/drifter-special-idle*",
+            "range": 24,
+            "pitch": {
+                "avg": 1,
+                "var": 0.3
+            }
+        }
+      },
+      "*-double-headed": {
+        "hurt": "temporalsymphony:creature/drifter/drifter-special-hurt",
+        "death": "temporalsymphony:creature/drifter/drifter-special-death",
+        "idle": {
+            "path": "temporalsymphony:creature/drifter/drifter-special-idle*",
+            "range": 24,
+            "pitch": {
+                "avg": 1,
+                "var": 0.3
+            }
+        }
+      },
+      "*": {
+        "hurt": "temporalsymphony:creature/drifter/drifter-hurt",
+        "death": "temporalsymphony:creature/drifter/drifter-death",
+        "idle": {
+            "path": "temporalsymphony:creature/drifter/drifter-idle*",
+            "range": 16,
+            "pitch": {
+                "avg": 1,
+                "var": 0.2
+            }
+        }
+      }
+    },
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/8/aitasks/2/sound",
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/2/soundByType",
+    "value": {
+      "*-corrupt": "temporalsymphony:creature/drifter/drifter-special-hit",
+      "*-nightmare": "temporalsymphony:creature/drifter/drifter-special-hit",
+      "*-double-headed": "temporalsymphony:creature/drifter/drifter-special-hit",
+      "*": "temporalsymphony:creature/drifter/drifter-hit"
+    },
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/2/soundStartMs",
+    "value": 350,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/8/aitasks/4/sound",
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/4/soundByType",
+    "value": {
+      "*-corrupt": "temporalsymphony:creature/drifter/drifter-special-aggro*",
+      "*-nightmare": "temporalsymphony:creature/drifter/drifter-special-aggro*",
+      "*-double-headed": "temporalsymphony:creature/drifter/drifter-special-aggro*",
+      "*": "temporalsymphony:creature/drifter/drifter-aggro*"
+    },
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "insanitylib",
+    "name": "InsanityLib",
+    "authors": [
+        "TheInsanityGod"
+    ],
+    "description": "Library with utility code for modding Vintage Story",
+    "version": "2.0.3",
+    "dependencies": {
+      "game": ""
+    }
+}

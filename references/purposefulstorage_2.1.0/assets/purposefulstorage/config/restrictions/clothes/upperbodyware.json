@@ -1,0 +1,10 @@
+{
+  "CollectibleTypes": [],
+  "CollectibleCodes": [
+    "*:clothes-upperbody-*",
+    "*:clothes-upperbodyover-*",
+    "game:clothes-nadiya-upperbody-*",
+    "game:clothes-nadiya-upperbodyover-*"
+  ],
+  "BlacklistedCodes": []
+}

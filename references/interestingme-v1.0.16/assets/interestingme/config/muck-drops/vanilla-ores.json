@@ -1,0 +1,591 @@
+[
+	// ── IME Muck Drop Table — Vanilla Ore Blocks ─────────────────────────────
+	// Ore block code format: game:ore-{quality}-{orename}-{hostrock}
+	// Wildcards only support a trailing *, so we use one entry per quality tier
+	// per ore, with the host rock wildcarded: game:ore-poor-nativecopper-*
+	//
+	// Layer counts per quality (Design Doc §2.2):
+	//   poor:      1 ore layer
+	//   medium:    2 ore layers
+	//   rich:      3 ore layers
+	//   bountiful: 4 ore layers
+	// All tiers also produce 2±1 stone layers.
+	//
+	// Add more ores by copying a block of 4 entries and changing the ore name.
+	// Unusual naming (e.g. quartz_nativegold) still follows the same format.
+	// Optional gating: add "requiresMod": "modid" to any entry, or switch to
+	// the top-level wrapper form if you want to gate the whole file.
+
+	// ── Nativecopper ─────────────────────────────────────────────────────────
+
+	{
+		blockCode: "game:ore-poor-nativecopper-*",
+		oreCode: "game:ore-nativecopper",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-nativecopper-*",
+		oreCode: "game:ore-nativecopper",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-nativecopper-*",
+		oreCode: "game:ore-nativecopper",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-nativecopper-*",
+		oreCode: "game:ore-nativecopper",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	// ── Hematite ─────────────────────────────────────────────────────────────
+
+	{
+		blockCode: "game:ore-poor-hematite-*",
+		oreCode: "game:ore-hematite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-hematite-*",
+		oreCode: "game:ore-hematite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-hematite-*",
+		oreCode: "game:ore-hematite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-hematite-*",
+		oreCode: "game:ore-hematite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	// ── Cassiterite ───────────────────────────────────────────────────────────
+
+	{
+		blockCode: "game:ore-poor-cassiterite-*",
+		oreCode: "game:ore-cassiterite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-cassiterite-*",
+		oreCode: "game:ore-cassiterite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-cassiterite-*",
+		oreCode: "game:ore-cassiterite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-cassiterite-*",
+		oreCode: "game:ore-cassiterite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	// ── Quartz ────────────────────────────────────────────────────────────────
+
+	{
+		blockCode: "game:ore-quartz-*",
+		oreCode: "game:ore-quartz",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+
+	// Graded ores
+
+	{
+		blockCode: "game:ore-poor-diamond-*",
+		oreCode: "game:ore-diamond",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-diamond-*",
+		oreCode: "game:ore-diamond",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-diamond-*",
+		oreCode: "game:ore-diamond",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-diamond-*",
+		oreCode: "game:ore-diamond",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-olivine_peridot-*",
+		oreCode: "game:ore-olivine_peridot",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-olivine_peridot-*",
+		oreCode: "game:ore-olivine_peridot",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-olivine_peridot-*",
+		oreCode: "game:ore-olivine_peridot",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-olivine_peridot-*",
+		oreCode: "game:ore-olivine_peridot",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-emerald-*",
+		oreCode: "game:ore-emerald",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-emerald-*",
+		oreCode: "game:ore-emerald",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-emerald-*",
+		oreCode: "game:ore-emerald",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-emerald-*",
+		oreCode: "game:ore-emerald",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-bismuthinite-*",
+		oreCode: "game:ore-bismuthinite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-bismuthinite-*",
+		oreCode: "game:ore-bismuthinite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-bismuthinite-*",
+		oreCode: "game:ore-bismuthinite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-bismuthinite-*",
+		oreCode: "game:ore-bismuthinite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-chromite-*",
+		oreCode: "game:ore-chromite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-chromite-*",
+		oreCode: "game:ore-chromite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-chromite-*",
+		oreCode: "game:ore-chromite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-chromite-*",
+		oreCode: "game:ore-chromite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-galena-*",
+		oreCode: "game:ore-galena",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-galena-*",
+		oreCode: "game:ore-galena",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-galena-*",
+		oreCode: "game:ore-galena",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-galena-*",
+		oreCode: "game:ore-galena",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-ilmenite-*",
+		oreCode: "game:ore-ilmenite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-ilmenite-*",
+		oreCode: "game:ore-ilmenite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-ilmenite-*",
+		oreCode: "game:ore-ilmenite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-ilmenite-*",
+		oreCode: "game:ore-ilmenite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-magnetite-*",
+		oreCode: "game:ore-magnetite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-magnetite-*",
+		oreCode: "game:ore-magnetite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-magnetite-*",
+		oreCode: "game:ore-magnetite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-magnetite-*",
+		oreCode: "game:ore-magnetite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-limonite-*",
+		oreCode: "game:ore-limonite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-limonite-*",
+		oreCode: "game:ore-limonite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-limonite-*",
+		oreCode: "game:ore-limonite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-limonite-*",
+		oreCode: "game:ore-limonite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-malachite-*",
+		oreCode: "game:ore-malachite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-malachite-*",
+		oreCode: "game:ore-malachite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-malachite-*",
+		oreCode: "game:ore-malachite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-malachite-*",
+		oreCode: "game:ore-malachite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-pentlandite-*",
+		oreCode: "game:ore-pentlandite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-pentlandite-*",
+		oreCode: "game:ore-pentlandite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-pentlandite-*",
+		oreCode: "game:ore-pentlandite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-pentlandite-*",
+		oreCode: "game:ore-pentlandite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-rhodochrosite-*",
+		oreCode: "game:ore-rhodochrosite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-rhodochrosite-*",
+		oreCode: "game:ore-rhodochrosite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-rhodochrosite-*",
+		oreCode: "game:ore-rhodochrosite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-rhodochrosite-*",
+		oreCode: "game:ore-rhodochrosite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-sphalerite-*",
+		oreCode: "game:ore-sphalerite",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-sphalerite-*",
+		oreCode: "game:ore-sphalerite",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-sphalerite-*",
+		oreCode: "game:ore-sphalerite",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-sphalerite-*",
+		oreCode: "game:ore-sphalerite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-quartz_nativegold-*",
+		oreCode: "game:ore-quartz_nativegold",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-quartz_nativegold-*",
+		oreCode: "game:ore-quartz_nativegold",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-quartz_nativegold-*",
+		oreCode: "game:ore-quartz_nativegold",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-quartz_nativegold-*",
+		oreCode: "game:ore-quartz_nativegold",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-quartz_nativesilver-*",
+		oreCode: "game:ore-quartz_nativesilver",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-quartz_nativesilver-*",
+		oreCode: "game:ore-quartz_nativesilver",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-quartz_nativesilver-*",
+		oreCode: "game:ore-quartz_nativesilver",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-quartz_nativesilver-*",
+		oreCode: "game:ore-quartz_nativesilver",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	{
+		blockCode: "game:ore-poor-galena_nativesilver-*",
+		oreCode: "game:ore-galena_nativesilver",
+		stoneLayers: { avg: 5, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 1, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-medium-galena_nativesilver-*",
+		oreCode: "game:ore-galena_nativesilver",
+		stoneLayers: { avg: 4, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-rich-galena_nativesilver-*",
+		oreCode: "game:ore-galena_nativesilver",
+		stoneLayers: { avg: 3, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 3, var: 0, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-bountiful-galena_nativesilver-*",
+		oreCode: "game:ore-galena_nativesilver",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 4, var: 0, dist: "UNIFORM" },
+	},
+
+	// Ungraded ores
+
+	{
+		blockCode: "game:ore-bituminouscoal-*",
+		oreCode: "game:ore-bituminouscoal",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-lignite-*",
+		oreCode: "game:ore-lignite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-anthracite-*",
+		oreCode: "game:ore-anthracite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-alum-*",
+		oreCode: "game:ore-alum",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-borax-*",
+		oreCode: "game:ore-borax",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-cinnabar-*",
+		oreCode: "game:ore-cinnabar",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-flourite-*",
+		oreCode: "game:ore-flourite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-graphite-*",
+		oreCode: "game:ore-graphite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-kernite-*",
+		oreCode: "game:ore-kernite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-lapislazuli-*",
+		oreCode: "game:ore-lapislazuli",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-olivine-*",
+		oreCode: "game:ore-olivine",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-phosphorite-*",
+		oreCode: "game:ore-phosphorite",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	},
+	{
+		blockCode: "game:ore-sulfur-*",
+		oreCode: "game:ore-sulfur",
+		stoneLayers: { avg: 2, var: 1, dist: "UNIFORM" },
+		oreLayers: { avg: 2.5, var: 1.5, dist: "UNIFORM" },
+	}
+]

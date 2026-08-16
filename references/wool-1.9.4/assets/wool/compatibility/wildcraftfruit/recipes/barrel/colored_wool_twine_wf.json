@@ -1,0 +1,41 @@
+[
+	{
+	"code": "colored-twine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "wildcraftfruit:dye-spindle", "name": "color", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-plain" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-red" }
+	},
+
+	{
+	"code": "colored-twine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "wildcraftfruit:dye-spindle", "name": "color", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-yellow" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-red" }
+	},
+
+	{
+	"code": "colored-twine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "wildcraftfruit:dye-spindle", "name": "color", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-orange" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-red" }
+	},
+
+	{
+	"code": "colored-twine",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "wildcraftfruit:dye-spindle", "name": "color", "litres": 0.5, "consumeLitres": 0.5 },
+		{ "type": "item", "code": "wool:twine-wool-white" }
+	],
+	"output": { "type": "item", "code": "wool:twine-wool-pink" }
+	}
+]

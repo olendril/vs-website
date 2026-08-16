@@ -1,0 +1,112 @@
+[
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-arenite" },
+		"R": { type: "item", code: "game:stone-arenite", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-arenite-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-arkose" },
+		"R": { type: "item", code: "game:stone-arkose", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-arkose-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-komatiite" },
+		"R": { type: "item", code: "game:stone-komatiite", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-komatiite-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-marl" },
+		"R": { type: "item", code: "game:stone-marl", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-marl-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-monzonite" },
+		"R": { type: "item", code: "game:stone-monzonite", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-monzonite-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-pyroxenite" },
+		"R": { type: "item", code: "game:stone-pyroxenite", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-pyroxenite-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-serpentinite" },
+		"R": { type: "item", code: "game:stone-serpentinite", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-serpentinite-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-syenite" },
+		"R": { type: "item", code: "game:stone-syenite", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-syenite-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-tufa" },
+		"R": { type: "item", code: "game:stone-tufa", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-tufa-north", quantity: 2 }
+},
+{
+	ingredientPattern: "SRG	RRR	RRR",
+	ingredients: {
+		"S": { type: "block", code: "game:sand-*" },
+		"G": { type: "block", code: "game:gravel-wacke" },
+		"R": { type: "item", code: "game:stone-wacke", }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:cobblestonefan-wacke-north", quantity: 2 }
+},
+]

@@ -1,0 +1,25 @@
+[
+	{
+	"ingredientPattern": "TBS,BSL,SL_",
+	"ingredients": {
+		"B": { "type": "block", "code": "wildcrafttree:supportbeam-*", "name": "wood", "allowedVariants": ["saxaul", "catalpa", "jacaranda", "empresstree", "honeylocust", "dalbergia", "elm", "guajacum", "umnini", "banyan", "beech", "bearnut", "poplar", "willow", "eucalyptus", "ghostgum", "ohia", "bluemahoe", "sal", "mahogany", "sycamore", "ginkgo", "douglasfir", "cedar", "spruce", "yew", "tuja", "redcedar", "kauri", "satinash", "fir", "tamanu", "spurgetree", "azobe", "leadwood", "linden", "horsechestnut", "tigerwood", "sapele", "ash", "mangrove"], "quantity": 2 },
+		"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 3 },
+		"L": { "type": "block", "code": "game:linen-*", "quantity": 2 }
+	},
+	"width": 3, "height": 3, "recipeGroup": 2,
+	"output": { "type": "item", "code": "game:sail", "quantity": 4 }
+	},
+
+	{
+	"ingredientPattern": "TBS,BSL,SL_",
+	"ingredients": {
+		"B": { "type": "block", "code": "wildcrafttree:supportbeam-*", "name": "wood", "allowedVariants": ["saxaul", "catalpa", "jacaranda", "empresstree", "honeylocust", "dalbergia", "elm", "guajacum", "umnini", "banyan", "beech", "bearnut", "poplar", "willow", "eucalyptus", "ghostgum", "ohia", "bluemahoe", "sal", "mahogany", "sycamore", "ginkgo", "douglasfir", "cedar", "spruce", "yew", "tuja", "redcedar", "kauri", "satinash", "fir", "tamanu", "spurgetree", "azobe", "leadwood", "linden", "horsechestnut", "tigerwood", "sapele", "ash", "mangrove"], "quantity": 2 },
+		"S": { "type": "item", "code": "wildcrafttree:plank-*", "quantity": 4, "name": "plank", "allowedVariants": ["saxaul", "catalpa", "jacaranda", "empresstree", "honeylocust", "dalbergia", "elm", "guajacum", "umnini", "banyan", "beech", "bearnut", "poplar", "willow", "eucalyptus", "ghostgum", "ohia", "bluemahoe", "sal", "mahogany", "sycamore", "ginkgo", "douglasfir", "cedar", "spruce", "yew", "tuja", "redcedar", "kauri", "satinash", "fir", "tamanu", "spurgetree", "azobe", "leadwood", "linden", "horsechestnut", "tigerwood", "sapele", "ash", "mangrove"] },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 4 },
+		"L": { "type": "block", "code": "game:linen-*", "quantity": 4 }
+	},
+	"width": 3, "height": 3, "recipeGroup": 2,
+	"output": { "type": "item", "code": "game:sail-large-oak", "quantity": 4 }
+	}
+]

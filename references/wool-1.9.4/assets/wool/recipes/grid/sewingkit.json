@@ -1,0 +1,13 @@
+[
+	{
+		"ingredientPattern": "TTS,TT_",
+		"requiresTrait": "clothier",
+		"ingredients": {
+			"T": { "type": "item", "code": "wool:twine-wool-plain" },
+			"S": { "type": "item", "code": "game:stick" }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:sewingkit" }
+	}
+]

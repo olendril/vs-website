@@ -1,0 +1,26 @@
+[
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "materialneeds:log-placed-darkaged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-veryaged", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "materialneeds:log-placed-darkaged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-veryaged", quantity: 12  }
+	},
+]

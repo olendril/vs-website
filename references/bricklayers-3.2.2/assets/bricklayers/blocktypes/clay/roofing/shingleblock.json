@@ -1,0 +1,18 @@
+{
+	"inheritFrom": "game:blocktypes/clay/shingleblock.json",
+	"code": "clayshingleblock",
+	"variantgroups": [
+		{ "code": "material", "states": [ "malachite", "green", "blurple", "purple" ] }
+	],
+	"shape": { "base": "game:block/basic/cube" },
+	"textures": {
+		"all": { "base": "bricklayers:block/clay/shingles/{material}" }
+        },
+	"blockmaterialByType": {
+		"*": "Ceramic"
+	},
+	"creativeinventory": { "general": [ "*" ], "decorative": [ "*" ], "ceramics": [ "*" ] },
+	"sound": {
+		"walk": "game:walk/stone", "place": "game:block/ceramicplace"
+	}
+}

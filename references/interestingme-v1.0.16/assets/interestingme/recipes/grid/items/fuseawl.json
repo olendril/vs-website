@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "HLC",
+	ingredients: {
+		"C": { type: "item", code: "game:chisel-copper" },
+		"H": { type: "item", code: "game:stick" },
+		"L": { type: "item", code: "game:leather-normal-plain" }
+	},
+	width: 1,
+	height: 3,
+	output: { type: "item", code: "interestingme:fuseawl", quantity: 1 }
+}

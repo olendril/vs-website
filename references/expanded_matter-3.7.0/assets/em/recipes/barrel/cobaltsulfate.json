@@ -1,0 +1,11 @@
+[
+	{
+	"code": "cobaltsulfate",
+	"sealHours": 24,
+	"ingredients": [
+		{ "type": "item", "code": "game:acid-full-sulfuric", "litres": 1 },
+		{ "type": "item", "code": "em:powdered-ore-pentlandite", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "em:cobaltsulfateportion", "litres": 1 }
+	}
+]

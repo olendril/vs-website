@@ -1,0 +1,112 @@
+[
+	{
+	"ingredientPattern": "RTR,_S_",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"R": { "type": "item", "code": "wool:cloth-wool-red" },
+		"T": { "type": "item", "code": "wool:twine-wool-red" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-waist-tailor-belt" }
+	},
+
+	{
+	"ingredientPattern": "_S_,BRB,_C_",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"R": { "type": "item", "code": "game:rope" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-brass" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-waist-blackguard-belt" }
+	},
+
+	{
+	"ingredientPattern": "_N_,BRB,_C_",
+	"enabled": true,
+	"requiresTrait": "merciless",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"R": { "type": "item", "code": "game:rope", "quantity": 2 },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-brass" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-waist-blackguard-belt" }
+	},
+
+	{
+	"ingredientPattern": "GKG,ACS",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"K": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "brass", "zinc" ] },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-waist-alchemist" }
+	},
+
+	{
+	"ingredientPattern": "GKG,CAC",
+	"enabled": true,
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:leather-normal-plain", "quantity": 3 },
+		"K": { "type": "item", "code": "tailorsdelight:buttons-*", "name": "button", "allowedVariants": [ "brass", "zinc" ] },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true, "toolDurabilityCost": 3 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-waist-alchemist" }
+	},
+
+	{
+	"ingredientPattern": "BGB,ACS",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown", "quantity": 2 },
+		"B": { "type": "item", "code": "wool:twine-wool-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-zinc" }
+	},
+	"recipeGroup": 4,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-waist-clockmaker-belt" }
+	},
+
+	{
+	"ingredientPattern": "BGB,ACS",
+	"enabled": true,
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"G": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 6 },
+		"B": { "type": "item", "code": "wool:twine-wool-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "tailorsdelight:buttons-zinc" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-waist-clockmaker-belt" }
+	}
+]

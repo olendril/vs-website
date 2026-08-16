@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "patches": {
+    "boolean": {
+      "wool:patches/survival-entities-animal-mammal-hooved-sheep-adult-shearable.json":		{ "-/value/enabled": "SHEEP_SHEARABLE" },
+      "wool:patches/survival-entities-animal-mammal-hooved-goat-shearable.json": 		{ "-/enabled": "GOAT_SHEARABLE" },
+      "wool:patches/survival-entities-animal-mammal-hooved-gazelle-adult-shearable.json":	{ "-/enabled": "GAZELLE_SHEARABLE" },
+      "wool:patches/survival-entities-animal-mammal-hooved-deer-adult-shearable.json":		{ "-/enabled": "DEER_SHEARABLE" },
+      "wool:patches/survival-entities-animal-mammal-hooved-moose-adult-shearable.json": 	{ "-/enabled": "MOOSE_SHEARABLE" },
+      "wool:patches/survival-entities-lore-drifter.json":					{ "-/enabled": "DRIFTER_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-bear-adult.json":				{ "-/enabled": "ANIMAL_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-fox-adult.json":				{ "-/enabled": "ANIMAL_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-fox-baby.json":				{ "-/enabled": "ANIMAL_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hare-adult.json":				{ "-/enabled": "ANIMAL_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-wolf-adult.json":				{ "-/enabled": "ANIMAL_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-sheep-drops.json":			{ "-/enabled": "ANIMAL_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-gazelle-adult-drops.json":		{ "-/enabled": "GAZELLE_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-gazelle-baby-drops.json":		{ "-/enabled": "GAZELLE_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-deer-adult-drops.json":		{ "-/enabled": "DEER_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-deer-baby-drops.json":		{ "-/enabled": "DEER_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-moose-adult-drops.json":		{ "-/enabled": "DEER_DROPS" },
+      "wool:patches/survival-entities-animal-mammal-hooved-moose-baby.json":			{ "-/enabled": "DEER_DROPS" },
+      "wool:patches/survival-blocktypes-wood-pan.json":						{ "-/enabled": "ENABLE_PANNING" },
+      "wool:recipes/barrel/bleaching_fibers.json":						{ "-/enabled": "ENABLE_BLEACH" },
+      "wool:recipes/grid/soil.json":								{ "-/enabled": "ENABLE_SOIL" }
+    }
+  },
+  "settings": {
+    "boolean": {
+      "SHEEP_SHEARABLE": {
+        "name": "enable_sheep_shearable",
+        "ingui": "wool:setting_enable_sheep_shearable",
+        "comment": "wool:setting_enable_sheep_shearable_comment",
+        "weight": 1,
+        "default": true
+      },
+      "GOAT_SHEARABLE": {
+        "name": "enable_goat_shearable",
+        "ingui": "wool:setting_enable_goat_shearable",
+        "comment": "wool:setting_enable_goat_shearable_comment",
+        "weight": 2,
+        "default": true
+      },
+      "GAZELLE_SHEARABLE": {
+        "name": "enable_gazelle_shearable",
+        "ingui": "wool:setting_enable_gazelle_shearable",
+        "comment": "wool:setting_enable_gazelle_shearable_comment",
+        "weight": 3,
+        "default": true
+      },
+      "DEER_SHEARABLE": {
+        "name": "enable_deer_shearable",
+        "ingui": "wool:setting_enable_deer_shearable",
+        "comment": "wool:setting_enable_deer_shearable_comment",
+        "weight": 4,
+        "default": true
+      },
+      "MOOSE_SHEARABLE": {
+        "name": "enable_moose_shearable",
+        "ingui": "wool:setting_enable_moose_shearable",
+        "comment": "wool:setting_enable_moose_shearable_comment",
+        "weight": 5,
+        "default": true
+      },
+
+      "DRIFTER_DROPS": {
+        "name": "enable_drifter_drops",
+        "ingui": "wool:setting_enable_drifter_drops",
+        "comment": "wool:setting_enable_drifter_drops_comment",
+        "weight": 10,
+        "default": true
+      },
+      "ANIMAL_DROPS": {
+        "name": "enable_animal_drops",
+        "ingui": "wool:setting_enable_animal_drops",
+        "comment": "wool:setting_enable_animal_drops_comment",
+        "weight": 11,
+        "default": true
+      },
+      "DEER_DROPS": {
+        "name": "enable_deer_drops",
+        "ingui": "wool:setting_enable_deer_drops",
+        "comment": "wool:setting_enable_deer_drops_comment",
+        "weight": 12,
+        "default": true
+      },
+      "GAZELLE_DROPS": {
+        "name": "enable_gazelle_drops",
+        "ingui": "wool:setting_enable_gazelle_drops",
+        "comment": "wool:setting_enable_gazelle_drops_comment",
+        "weight": 13,
+        "default": true
+      },
+
+      "ENABLE_PANNING": {
+        "name": "enable_panning",
+        "ingui": "wool:setting_enable_panning",
+        "comment": "wool:setting_enable_panning_comment",
+        "weight": 20,
+        "default": true
+      },
+
+      "ENABLE_BLEACH": {
+        "name": "enable_bleach",
+        "ingui": "wool:setting_enable_bleach",
+        "comment": "wool:setting_enable_bleach_comment",
+        "weight": 30,
+        "default": true
+      },
+
+      "ENABLE_SOIL": {
+        "name": "enable_soil",
+        "ingui": "wool:setting_enable_soil",
+        "comment": "wool:setting_enable_soil_comment",
+        "weight": 40,
+        "default": true
+      }
+    }
+  },
+  "formatting": [
+    {
+      "type": "separator",
+      "weight": 0.1,
+      "title": "wool:settings_shearable"
+    },
+    {
+      "type": "separator",
+      "weight": 9,
+      "title": "wool:settings_drops"
+    },
+    {
+      "type": "separator",
+      "weight": 19,
+      "title": "wool:settings_panning"
+    },
+    {
+      "type": "separator",
+      "weight": 29,
+      "title": "wool:settings_recipes"
+    }
+  ]
+}

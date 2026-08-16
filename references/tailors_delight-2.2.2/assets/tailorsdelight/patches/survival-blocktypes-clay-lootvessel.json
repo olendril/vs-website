@@ -1,0 +1,25 @@
+[
+  {
+    "op": "addeach",
+    "path": "/attributes/lootListByType/*-forage/-",
+    "value": [
+	{ "type": "item", "chance": 0.2,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "tailorsdelight:twine-gray" ] },
+	{ "type": "item", "chance": 0.1,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "tailorsdelight:twine-brown", "tailorsdelight:twine-darkbrown", "tailorsdelight:twine-black" ] }
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/attributes/lootListByType/*-arcticsupplies/-",
+    "value": [
+	{ "type": "item", "chance": 0.12,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "tailorsdelight:twine-gray" ] },
+	{ "type": "item", "chance": 0.10,  "minQuantity": 2, "maxQuantity": 4, "codes": [ "tailorsdelight:twine-black", "tailorsdelight:twine-brown" ] },
+	{ "type": "item", "chance": 0.05,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "tailorsdelight:twine-blue", "tailorsdelight:twine-red", "tailorsdelight:twine-green" ] },
+	{ "type": "item", "chance": 0.05,  "minQuantity": 2, "maxQuantity": 8, "codes": [ "tailorsdelight:twine-yellow", "tailorsdelight:twine-orange" ] }
+    ],
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,388 @@
+[
+	{
+	"name": "nadiyan-alchemist-boots",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-darkred" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-alchemist-boots",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leather-darkred", "quantity": 3 },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-hunter-boots",
+	"enabled": true,
+	"ingredientPattern": "TBT,GSG,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkblue" },
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-hunter" }
+	},
+
+	{
+	"name": "nadiyan-hunter-boots",
+	"enabled": true,
+	"ingredientPattern": "BTB,GSG,LKL",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:cloth-darkblue" },
+		"G": { "type": "item", "code": "game:hide-pelt-medium" },
+		"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 3 },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-hunter" }
+	},
+
+	{
+	"name": "nadiyan-tailor-boots",
+	"enabled": true,
+	"ingredientPattern": "BTB,GSG,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-black" },
+		"G": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-tailor" }
+	},
+
+	{
+	"name": "nadiyan-brown-fur-lined-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PBP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-plain" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkbrown", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-winter1" }
+	},
+
+	{
+	"name": "nadiyan-blue-fur-lined-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-plain" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 4 },
+		"S": { "type": "item", "code": "tailorsdelight:twine-darkbrown", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-winter2" }
+	},
+
+	{
+	"name": "nadiyan-shepherd-boots",
+	"enabled": true,
+	"requiresTrait": "clothier",
+	"ingredientPattern": "CTC,PKP",
+	"ingredients": {
+		"C": { "type": "item", "code": "tailorsdelight:leatherbundle-pelt" },
+		"P": { "type": "item", "code": "tailorsdelight:leather-nadiyan", "quantity": 2 },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-blue", "quantity": 4 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-shepherd" }
+	},
+
+	{
+	"name": "nadiyan-pristine-miner-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-miner-clean" }
+	},
+
+	{
+	"name": "nadiyan-miner-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-black" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-black" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-miner" }
+	},
+
+	{
+	"name": "nadiyan-guard-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-black" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-guard" }
+	},
+
+	{
+	"name": "nadiyan-guard-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "soldier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-black" },
+		"P": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 3 },
+		"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 3 },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-guard" }
+	},
+
+	{
+	"name": "nadiyan-fisher-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-black" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-fisher" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-darkred" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-blacksmith" }
+	},
+
+	{
+	"name": "nadiyan-beekeeper-boots",
+	"enabled": true,
+	"ingredientPattern": "CTC,PSP,LKL",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "game:cloth-black" },
+		"P": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"K": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 },
+		"S": { "type": "item", "code": "tailorsdelight:leatherstrips-plain", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-beekeeper" }
+	},
+
+	{
+	"name": "nadiyan-barber-boots",
+	"enabled": true,
+	"ingredientPattern": "TST,ACN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-barber" }
+	},
+
+	{
+	"name": "nadiyan-musician-boots",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-orange" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-musician" }
+	},
+
+	{
+	"name": "nadiyan-innkeeper-boots",
+	"enabled": true,
+	"ingredientPattern": "T_T,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-nadiyan" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gray" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-innkeeper" }
+	},
+
+	{
+	"name": "nadiyan-white-peasant-shoes",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-white" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-peasantwhite" }
+	},
+
+	{
+	"name": "nadiyan-brown-peasant-shoes",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-brown" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-peasantbrown" }
+	},
+
+	{
+	"name": "nadiyan-blue-peasant-shoes",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-blue" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkbrown" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-peasantblue" }
+	},
+
+	{
+	"name": "nadiyan-beige-peasant-shoes",
+	"enabled": true,
+	"ingredientPattern": "TCT,ASN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "item", "code": "game:cloth-gray" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-gray" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-foot-peasantbeige" }
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+	"op": "addeach",
+	"path": "/variantgroups/0/states/-",
+	"value": [
+		"trader-male-pottery-cold", "trader-male-pottery-temperate", "trader-male-pottery-desert",
+		"trader-female-pottery-cold", "trader-female-pottery-temperate", "trader-female-pottery-desert",
+		"trader-male-glass-cold", "trader-male-glass-temperate", "trader-male-glass-desert",
+		"trader-female-glass-cold", "trader-female-glass-temperate", "trader-female-glass-desert"
+	],
+	"file": "game:itemtypes/creature/creature.json",
+	"side": "Server"
+	}
+]

@@ -1,10 +1,85 @@
 ---
 title: Vintage Story Server
-description: Documentation and guides for the Vintage Story server.
+description: Find your way onto the Vintage Story multiplayer server, browse the mods, and discover helpful guides.
+template: splash
+hero:
+  title: Vintage Story Server
+  tagline: A shared world for exploring, building, and surviving together. Start here to learn how to join and find your way around the server.
+  actions:
+    - text: Join the server
+      link: /getting-started/joining/
+      icon: right-arrow
+      variant: primary
+    - text: Read the guides
+      link: /guides/
+      icon: open-book
+      variant: secondary
 ---
 
-# Vintage Story Server
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-Welcome to the server documentation. This home page is a placeholder for an introduction and useful links.
+## Server information
 
-Start with [Getting Started](/getting-started/) to find the initial setup information.
+<div
+  aria-label="Basic server information"
+  style="border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; padding: 1rem;"
+>
+  <dl style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1rem; margin: 0;">
+    <div>
+      <dt style="color: var(--sl-color-gray-3); font-size: var(--sl-text-sm); font-weight: 600; margin-bottom: 0.35rem;">
+        Server address
+      </dt>
+      <dd style="margin: 0; overflow-wrap: anywhere;">
+        <code>Shared privately with approved players</code>
+      </dd>
+    </div>
+    <div>
+      <dt style="color: var(--sl-color-gray-3); font-size: var(--sl-text-sm); font-weight: 600; margin-bottom: 0.35rem;">
+        Vintage Story version
+      </dt>
+      <dd style="margin: 0; overflow-wrap: anywhere;">
+        <code>Vintage Story 1.22</code>
+      </dd>
+    </div>
+  </dl>
+</div>
+
+## Start here
+
+<CardGrid>
+  <LinkCard
+    title="How to join"
+    description="Install Vintage Story, connect to the server, and get ready for your first session."
+    href="/getting-started/joining/"
+  />
+  <LinkCard
+    title="Server rules"
+    description="Review the expectations that help keep the server welcoming and enjoyable."
+    href="/getting-started/rules/"
+  />
+  <LinkCard
+    title="Mods"
+    description="See which mods are part of the server and find their documentation."
+    href="/mods/"
+  />
+</CardGrid>
+
+## Featured guides
+
+<CardGrid>
+  <Card title="Priority guides">
+    <p>Start with the [Mods inventory](/mods/), then read the [priority guides](/guides/).</p>
+  </Card>
+  <Card title="Community picks">
+    <p>Bring questions about recipes, controls, and compatibility to the server community.</p>
+  </Card>
+</CardGrid>
+
+## Join the community
+
+<Card title="Discord and community">
+  <p>
+    Stay in touch with other players, ask questions, and hear about server news through the private
+    community channel.
+  </p>
+</Card>

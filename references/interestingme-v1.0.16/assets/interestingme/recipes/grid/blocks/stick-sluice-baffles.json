@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "S,D",
+	ingredients: {
+		"S": { type: "item", code: "game:stick", quantity: 4 },
+		"D": { type: "block", code: "game:soil-*-none", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "interestingme:stick-sluice-baffles-north", quantity: 1 }
+}

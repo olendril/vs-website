@@ -1,0 +1,130 @@
+{
+  "code": "cart",
+  "class": "ItemCreature",
+  "maxstacksize": 1,
+  "variantgroups": [
+    {
+      "code": "name",
+      "states": [ "cart" ]
+    },
+    {
+      "code": "type",
+      "states": [ "basiccart", "slimcart", "sturdycart" ]
+    },
+    {
+      "code": "version",
+      "states": [ "classic" ]
+    },
+    {
+      "code": "wood",
+      "states": [ "aged" ],
+      "loadFromProperties": "game:block/wood"
+    }
+  ],
+  "skipVariants": [
+    "*-sturdycart-*"
+  ],
+  "shapeByType": {
+    "*-basiccart-*": { "base": "entity/nonliving/basiccart" },
+    "*-slimcart-*": { "base": "entity/nonliving/slimcart" },
+    "*-sturdycart-*": { "base": "entity/nonliving/sturdycart" }
+
+  },
+  "storageFlags": 2,
+  "texturesByType": {
+    "*": {
+      "blackbronze": { "base": "game:block/metal/plate/blackbronze" },
+      "iron": { "base": "game:block/metal/plate/iron" },
+      "oak-h": { "base": "game:block/wood/bark/{wood}-h" },
+      "oak": { "base": "game:block/wood/debarked/{wood}" },
+      "oak1": { "base": "game:block/wood/planks/{wood}1" },
+      "top": { "base": "game:block/wood/echochamber/top" },
+      "generic": { "base": "game:block/wood/planks/generic" },
+      "mordant": { "base": "game:block/cloth/linen/mordant" },
+      "mordant2": { "base": "game:block/cloth/pelt" }
+    }
+  },
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "*cart-{type}-*" ]
+    }
+  },
+    "creativeinventory": {
+      "general": [ "*" ],
+      "cartwrightscaravan": [ "*" ]
+    },
+    "materialDensity": 600,
+
+
+
+    "guiTransformByType": {
+      "*-slim*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": -111,
+          "z": -157
+        },
+        "origin": {
+          "x": 2.3,
+          "y": 0.75,
+          "z": 0.7
+        },
+        "scale": 0.37
+      },
+
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": -21,
+          "y": -72,
+          "z": -180
+        },
+        "origin": {
+          "x": 3,
+          "y": 0.5,
+          "z": 0.46
+        },
+        "scale": 0.4
+      }
+    },
+    "fpHandTransform": {
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.15,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15,
+        "z": 0.5
+      },
+      "scale": 6
+    }
+  }

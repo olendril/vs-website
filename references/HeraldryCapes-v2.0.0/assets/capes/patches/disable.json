@@ -1,0 +1,18 @@
+[
+    {
+        "file": "capes:recipes/grid/cape-to-banner.json",
+        "op": "addmerge",
+        "path": "/enabled/0",
+        "value": false,
+        "dependsOn": [{ "modid": "heraldrybanners", "invert": true }],
+        "side": "server"
+    },
+    {
+        "file": "capes:recipes/grid/cape-to-banner.json",
+        "op": "addmerge",
+        "path": "/enabled/1",
+        "value": false,
+        "dependsOn": [{ "modid": "heraldrybanners", "invert": true }],
+        "side": "server"
+    }
+]

@@ -1,0 +1,39 @@
+[
+	{
+	"code": "glazing-clear-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 12, "name": "color", "consumeLitres": 12 },
+		{ "type": "block", "code": "game:clayplanter-*-fired", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-raw-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-milky-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 12, "name": "color", "consumeLitres": 12 },
+		{ "type": "block", "code": "game:clayplanter-*-fired", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-raw-milky-{color}-plain", "stackSize": 1 }
+	},
+
+	{
+	"code": "glazing-clear-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-clear-*", "litres": 12, "name": "color", "consumeLitres": 12 },
+		{ "type": "block", "code": "bricklayers:plantercolored-burnt-malachite", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-raw-clear-{color}-plain", "stackSize": 1 }
+	},
+	{
+	"code": "glazing-milky-colored-planter",
+	"sealHours": 2,
+	"ingredients": [
+		{ "type": "item", "code": "bricklayers:glazing-milky-*", "litres": 12, "name": "color", "consumeLitres": 12 },
+		{ "type": "block", "code": "bricklayers:plantercolored-burnt-malachite", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "bricklayers:glazedplanter-raw-milky-{color}-plain", "stackSize": 1 }
+	}
+]

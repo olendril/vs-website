@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "NNN,NCN, T ",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"C": { "type": "block", "code": "tailorsdelight:panel-cloth-small-none-red" },
+		"T": { "type": "item", "code": "wool:twine-wool-plain" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-arm-tailor-needlepuff" }
+	}
+]

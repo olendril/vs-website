@@ -1,0 +1,18 @@
+{
+	ingredientPattern: "ABCDEFGHI",
+	ingredients: {
+		"A": { type: "block", code: "game:flower-cornflower-free", quantity: 1 },
+		"B": { type: "block", code: "game:flower-forgetmenot-free", quantity: 1 },
+		"C": { type: "block", code: "game:flower-woad-free", quantity: 1 },
+		"D": { type: "block", code: "game:flower-bluebell-free", quantity: 1 },
+		"E": { type: "block", code: "game:flower-heather-free", quantity: 1 },
+		"F": { type: "block", code: "game:flower-catmint-free", quantity: 1 },
+		"G": { type: "block", code: "game:flower-lupine-blue-free", quantity: 1 },
+		"H": { type: "block", code: "game:flower-mugwort-free", quantity: 1 },
+		"I": { type: "block", code: "game:flower-edelweiss-free", quantity: 1 }
+	},
+	width: 3,
+	height: 3,
+	shapeless: true,
+	output: { type: "item", code: "steepandbrew:herbbundle-green", quantity: 1 }
+}

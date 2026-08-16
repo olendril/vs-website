@@ -1,0 +1,16 @@
+{
+  "type": "code",
+  "modid": "farseer",
+  "name": "Farseer",
+  "authors": [
+    "Badgerson"
+  ],
+  "description": "Draws silhouettes of the terrain outside of your view distance",
+  "version": "1.4.0",
+  "dependencies": {
+    "game": "1.22.0"
+  },
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

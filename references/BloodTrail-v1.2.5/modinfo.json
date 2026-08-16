@@ -1,0 +1,13 @@
+{
+    "type": "Code",
+    "modid": "bloodtrail",
+    "name": "BloodTrail",
+    "authors": [
+        "Aylor222"
+    ],
+    "description": "Animals leave blood trails when wounded by a player.",
+    "version": "1.2.5",
+    "dependencies": {
+      "game": "1.22.0"
+    }
+}

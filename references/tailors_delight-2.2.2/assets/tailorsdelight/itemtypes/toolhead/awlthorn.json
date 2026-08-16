@@ -1,0 +1,30 @@
+{
+	"code": "awlthorn",
+	"variantgroups": [
+		{ "code": "type", "states": [ "copper", "cupronickel", "electrum", "gold", "silver", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
+	],
+	"heldTpUseAnimation": "interactstatic",
+	"shape": { "base": "tailorsdelight:item/tool/awlthorn" },
+	"textures": { "metal": { "base": "game:block/metal/ingot/{type}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 4,
+	"guiTransform": {
+		"rotate": false,
+		"translation": { "x": -7, "y": 0, "z": 0 },
+		"rotation": { "x": -158, "y": 0, "z": -44 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 5
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.45 },
+		"scale": 3.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.85, "y": -0.2, "z": -0.48 },
+		"rotation": { "x": 0, "y": 0, "z": -30 },
+		"scale": 1
+	}
+}

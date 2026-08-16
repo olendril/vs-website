@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-steel" },
+	pattern: [[
+		"##########",
+		"##########",
+	],[
+		"##########",
+		"##########",
+	]],
+	name: "Steel Short Hand Drill",
+	code: "interestingme:starterdrillsteel",
+	output: { type: "item", code: "interestingme:starterdrillsteel" }
+}

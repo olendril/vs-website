@@ -1,0 +1,11 @@
+[
+  {
+    "op": "replace",
+    "comment": "miner cape",
+    "compatibility": [ "wool", "tailorsdelight" ],
+    "path": "/5/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+    "file": "wool:recipes/grid/clothing/wool/shoulder.json",
+    "side": "Server"
+  }
+]

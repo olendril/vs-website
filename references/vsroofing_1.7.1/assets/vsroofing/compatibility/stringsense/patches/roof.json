@@ -1,0 +1,52 @@
+[
+    // straw
+    {
+		"op": "replace",
+    	"path": "/attributes/Roofs/straw/Textures/normal-side",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": {
+			"base": "game:block/plant/grassroofing/normal-side"
+		}
+    },
+	{
+		"op": "replace",
+    	"path": "/attributes/Roofs/straw/Textures/normal-top",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": {
+			"base": "game:block/plant/grassroofing/normal-top"
+		}
+    },
+	// Thatch
+	{
+		"op": "replace",
+    	"path": "/attributes/Roofs/thatch/Textures/material",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": {
+			"base": "game:block/plant/grassroofing/normal-side"
+		}
+    },
+	{
+		"op": "replace",
+    	"path": "/attributes/Roofs/thatch/Textures/side",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": {
+			"base": "game:block/plant/grassroofing/normal-side"
+		}
+    },
+	{
+		"op": "replace",
+    	"path": "/attributes/Roofs/thatch/Textures/up",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": {
+			"base": "game:block/plant/grassroofing/normal-top"
+		}
+    },
+	{
+		"op": "replace",
+    	"path": "/attributes/Roofs/thatch/Textures/down",
+    	"file": "vsroofing:blocktypes/roof.json",
+        "value": {
+			"base": "game:block/plant/grassroofing/normal-top"
+		}
+    }
+]

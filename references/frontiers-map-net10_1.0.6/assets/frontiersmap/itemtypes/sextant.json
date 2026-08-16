@@ -1,0 +1,36 @@
+{
+	"code": "sextant",
+	"class": "ItemSextant",
+	"maxstacksize": 1,
+	"shape": { "base": "sextant" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"guiTransform": {
+		 translation: { x: 0, y: 10, z: 0 },
+    rotation: { x: 180, y: 14, z: 20 },
+    origin: { x: 0.5, y: 0.3, z: 0.5 },
+    scale: 2.18
+	},
+	"fpHandTransform": {
+    "translation": { "x": -0.35, "y": -0.45, "z": 0.55 },
+    "rotation": { "x": -20, "y": 0, "z": 75 },
+    "origin": { "x": 0.2, "y": 0.5, "z": 0.5 },
+    "scale": 2.5
+  },
+
+  "tpHandTransform": {		
+     translation: { x: -0.8, y: -0.25, z: -0.55 },
+    rotation: { x: 6, y: -24, z: -10 },
+    scale: 0.8
+  },
+	"heldTpUseAnimation": "sextant-aim",
+	"heldRightTpIdleAnimation": "hold-sextant",
+	
+	"groundTransform": {
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+		"scale": 3.75
+	},
+	"attributes": {
+		"toolTier": 0
+	}
+}

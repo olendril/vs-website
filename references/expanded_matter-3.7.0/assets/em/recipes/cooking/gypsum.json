@@ -1,0 +1,20 @@
+[
+	{
+	"code": "gypsum",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 72 },
+		"transitionHours": { "avg": 72 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:sulfate-full-calcium" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"ingredients": [
+		{
+		"code": "liqud", "minQuantity": 1, "maxQuantity": 1, "portionSizeLitres": 1,
+		"validStacks": [ { "type": "item", "code": "game:sulfate-full-calcium", "shapeElement": "game:bowl/water" } ]
+		}
+	],
+	"cooksInto": { "type": "item", "code": "em:powdered-ore-gypsum", "quantity": 1 }
+	}
+]

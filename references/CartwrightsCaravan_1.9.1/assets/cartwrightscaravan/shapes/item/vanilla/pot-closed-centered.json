@@ -1,0 +1,122 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {		
+		"mordant": "game:block/cloth/linen/mordant",
+		"mordant2": "game:block/cloth/pelt",
+		"ceramic": "game:block/clay/pot/brown"
+	},
+	"elements": [
+		{
+			"name": "floor",
+			"from": [ 1.0, 0.0, 1.0 ],
+			"to": [ 7.0, 0.5, 7.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#ceramic", "uv": [ 0.5, 12.0, 6.5, 12.5 ] },
+				"east": { "texture": "#ceramic", "uv": [ 0.5, 12.0, 6.5, 12.5 ] },
+				"south": { "texture": "#ceramic", "uv": [ 0.5, 12.0, 6.5, 12.5 ] },
+				"west": { "texture": "#ceramic", "uv": [ 0.5, 12.0, 6.5, 12.5 ] },
+				"up": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 6.0 ] },
+				"down": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 6.0 ] }
+			},
+			"children": [
+				{
+					"name": "N",
+					"from": [ -0.5, 0.5, -0.5 ],
+					"to": [ 6.5, 4.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 7.0, 12.0 ] },
+						"east": { "texture": "#ceramic", "uv": [ 6.0, 8.0, 7.0, 12.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 7.0, 12.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 1.0, 12.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 7.0, 9.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 0.0, 10.5, 7.0, 11.5 ] }
+					}
+				},
+				{
+					"name": "S",
+					"from": [ -0.5, 0.5, 5.5 ],
+					"to": [ 6.5, 4.5, 6.5 ],
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 7.0, 12.0 ] },
+						"east": { "texture": "#ceramic", "uv": [ 6.0, 8.0, 7.0, 12.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 7.0, 12.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 6.0, 8.0, 7.0, 12.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 0.0, 8.0, 7.0, 9.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 0.0, 10.5, 7.0, 11.5 ] }
+					}
+				},
+				{
+					"name": "W",
+					"from": [ -0.5, 0.5, 0.5 ],
+					"to": [ 0.5, 4.5, 5.5 ],
+					"faces": {
+						"east": { "texture": "#ceramic", "uv": [ 1.0, 8.0, 6.0, 12.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 1.0, 8.0, 6.0, 12.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 1.0, 1.0, 6.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#ceramic", "uv": [ 0.5, 11.5, 5.5, 12.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E",
+					"from": [ 5.5, 0.5, 0.5 ],
+					"to": [ 6.5, 4.5, 5.5 ],
+					"faces": {
+						"east": { "texture": "#ceramic", "uv": [ 0.5, 8.0, 5.5, 12.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 1.0, 1.5, 6.0, 5.5 ] },
+						"up": { "texture": "#ceramic", "uv": [ 1.0, 1.0, 6.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#ceramic", "uv": [ 1.0, 11.5, 6.0, 12.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "S neck",
+					"from": [ 0.0, 4.5, 0.0 ],
+					"to": [ 6.0, 5.5, 6.0 ],
+					"rotationOrigin": [ 0.0, 0.0, -5.0 ],
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 1.0 ] },
+						"east": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 1.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 1.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 1.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 14.5, 6.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 8.0, 0.0, 14.0, 6.0 ] }
+					}
+				},
+				{
+					"name": "lid",
+					"from": [ 0.5, 5.5, 0.5 ],
+					"to": [ 5.5, 6.0, 5.5 ],
+					"rotationOrigin": [ 3.0, 5.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 1.0, 0.0, 6.0, 0.5 ] },
+						"east": { "texture": "#ceramic", "uv": [ 1.0, 0.0, 6.0, 0.5 ] },
+						"south": { "texture": "#ceramic", "uv": [ 1.0, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#ceramic", "uv": [ 1.0, 0.0, 6.0, 0.5 ] },
+						"up": { "texture": "#ceramic", "uv": [ 9.0, 10.5, 14.0, 15.5 ] },
+						"down": { "texture": "#ceramic", "uv": [ 9.0, 10.5, 14.0, 15.5 ] }
+					}
+				},
+				{
+					"name": "S neck2",
+					"from": [ 2.5, 5.5, 2.5 ],
+					"to": [ 3.5, 6.5, 3.5 ],
+					"rotationOrigin": [ 2.5, 1.0, -2.5 ],
+					"faces": {
+						"north": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 9.5, 1.0 ] },
+						"east": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 9.5, 1.0 ] },
+						"south": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 9.5, 1.0 ] },
+						"west": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 9.5, 1.0 ] },
+						"up": { "texture": "#ceramic", "uv": [ 8.5, 0.0, 9.5, 1.0 ] },
+						"down": { "texture": "#ceramic", "uv": [ 8.0, 0.0, 9.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,69 @@
+[
+	{
+		ingredientPattern: "FLF,GSG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"F": { type: "item", code: "game:clay-fire", quantity: 4  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:mudbrickslab-dark-down-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FLF,GSG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"F": { type: "item", code: "game:clay-fire", quantity: 4  },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:mudbrickslab-dark-down-free", quantity: 4  }
+	},
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "FSF,GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"F": { type: "item", code: "game:clay-fire", quantity: 2 },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:mudbrickslab-light-down-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "FSF,GLG",
+		enabled: true,
+		ingredients: {
+			"G": { type: "item", code: "game:drygrass", quantity: 2 },
+			"S": { type: "block", code: "game:gravel-*" },
+			"F": { type: "item", code: "game:clay-fire", quantity: 4 },
+			"L": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["low", "medium"]  }
+		},
+		name: "mudbrick",
+		width: 3,
+		height: 2,
+		recipeGroup: 2,
+		output: { type: "block", code: "game:mudbrickslab-light-down-free", quantity: 4  }
+	},
+]

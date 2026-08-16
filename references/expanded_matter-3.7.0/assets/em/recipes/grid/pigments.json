@@ -1,0 +1,59 @@
+[
+	{
+	"name": "cadmiumred",
+	"ingredientPattern": "CCS",
+	"enabled": true,
+	"recipeGroup": 6,
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-cadmiumsulfide", "quantity": 1 },
+		"S": { "type": "item", "code": "em:powdered-ore-sphalerite", "quantity": 1 }
+	},
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "em:powdered-ore-cadmiumselenide", "quantity": 3 }
+	},
+
+	{
+	"name": "cadmiumorange",
+	"ingredientPattern": "CCS",
+	"enabled": true,
+	"recipeGroup": 8,
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-cadmiumselenide", "quantity": 1 },
+		"S": { "type": "item", "code": "em:powdered-ore-sphalerite", "quantity": 1 }
+	},
+	"shapeless": true,
+	"width": 3,
+	"height": 1,
+	"output": { "type": "item", "code": "em:powdered-ore-cadmiumsulfoselenide", "quantity": 3 }
+	},
+
+	{
+	"name": "cadmiumorange",
+	"ingredientPattern": "CS",
+	"enabled": true,
+	"recipeGroup": 6,
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-cadmiumsulfide", "quantity": 4 },
+		"S": { "type": "item", "code": "em:powdered-ore-sphalerite", "quantity": 5 }
+	},
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "em:powdered-ore-cadmiumsulfoselenide", "quantity": 9 }
+	},
+
+	{
+	"name": "cadmiumgreen",
+	"ingredientPattern": "CS",
+	"enabled": true,
+	"recipeGroup": 6,
+	"ingredients": {
+		"C": { "type": "item", "code": "em:powdered-ore-cadmiumsulfide", "quantity": 1 },
+		"S": { "type": "item", "code": "em:powdered-ore-chromiumoxide", "quantity": 1 }
+	},
+	"shapeless": true,
+	"width": 2,
+	"height": 1,
+	"output": { "type": "item", "code": "em:powdered-ore-cadmiumgreen", "quantity": 2 }
+	}
+]

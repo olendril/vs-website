@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "vs_shearlib/1.0.0": {
+        "runtime": {
+          "vs_shearlib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "vs_shearlib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿[
+    // Manidae
+    {
+        "side": "server",
+        "file": "manidae:entities/land/manidae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "manidae:entities/land/manidae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

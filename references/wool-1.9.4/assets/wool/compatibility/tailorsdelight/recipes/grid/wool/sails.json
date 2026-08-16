@@ -1,0 +1,16 @@
+[
+	{
+	"ingredientPattern": "_TS,TSL,SLN",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:stick", "quantity": 2 },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 1 },
+		"N": { "type": "block", "code": "tailorsdelight:needle-*" },
+		"L": { "type": "block", "code": "wool:wool-*", "quantity": 2, "name": "wool", "allowedVariants": [ "plain", "white" ] }
+	},
+	"recipeGroup": 6,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:sail", "quantity": 4 }
+	}
+]

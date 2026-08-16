@@ -1,0 +1,31 @@
+[
+	{
+	"op": "add",
+	"path": "/client/behaviors/-",
+	"value": { "code": "multiply", "enabledByType": { "gazelle-*-adult-female": true, "*": false } },
+	"dependsOn": [ { "modid": "detailedanimals", "invert": true } ],
+	"file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"path": "/server/behaviors/-",
+	"value": {
+		"code": "multiply",
+		"enabledByType": { "gazelle-*-adult-female": true, "gazelle-*": false },
+		"spawnEntityCodesByType": { "gazelle-*-adult-female": [ { "code":"gazelle-{type}-baby-male"}, {"code": "gazelle-{type}-baby-female"} ] },
+		"requiresNearbyEntityCodeByType": { "gazelle-*-adult-female": "gazelle-{type}-adult-male" },
+		"requiresNearbyEntityRange": 6,
+		"spawnQuantityMin": 1,
+		"spawnQuantityMax": 1,
+		"pregnancyDays": 27,
+		"multiplyCooldownDaysMin": 8,
+		"multiplyCooldownDaysMax": 22,
+		"portionsEatenForMultiply": 10
+	},
+	"dependsOn": [ { "modid": "detailedanimals", "invert": true } ],
+	"file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+	"side": "Server"
+	}
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/server/behaviors/2/drops/0/quantityByType/*/avg",
+    "value": 8,
+    "file": "entities/land/cart.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/server/behaviors/2/drops/0/quantityByType/*/avg",
+    "value": 4,
+    "file": "entities/land/marketstall.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/server/behaviors/2/drops/1/quantityByType/*open*/avg",
+    "value": 4,
+    "file": "entities/land/marketstall.json",
+    "side": "Server"
+  }
+]

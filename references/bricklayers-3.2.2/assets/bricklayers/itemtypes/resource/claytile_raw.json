@@ -1,0 +1,127 @@
+{
+	"code": "clayrawtile",
+	"behaviors": [
+		{ "name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/ceramicplace",
+				"stackingModel": "bricklayers:block/clay/tilepile",
+				"collisionBox": { "x1": 0.0312, "y1": 0, "z1": 0.0312, "x2": 0.95, "y2": 0.0625, "z2": 0.95 },
+				"cbScaleYByLayer": 1,
+				"modelItemsToStackSizeRatio": 3,
+				"stackingCapacity": 16,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 2,
+				"upSolid": true,
+				"maxFireableByType": {
+					"clayrawtile-raw-*": 12
+				}
+			}
+		}
+	],
+	"attributes": {
+		"handbook": { "groupBy": [ "clayrawtile-raw-*", "clayrawtile-burnt-*" ],
+			"extraSectionsByType": {
+				"*-raw-*": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-clayrawtile" } ],
+				"*-burnt-*": [ { "title": "game:handbook-item-usage", "text": "handbook-item-usage-clayrawtile-burnt" } ]
+			}
+		}
+	},
+	"attributesByType": {
+                "clayrawtile-raw-blue": {
+			"beehivekiln": {
+				"0": { "type": "item", "code": "bricklayers:clayrawtile-burnt-light" },
+				"1": { "type": "item", "code": "bricklayers:clayrawtile-burnt-blue" },
+				"2": { "type": "item", "code": "bricklayers:clayrawtile-burnt-darkgrey" },
+				"3": { "type": "item", "code": "bricklayers:clayrawtile-burnt-black" }
+			}
+		},
+                "clayrawtile-raw-fire": {
+			"beehivekiln": {
+				"0": { "type": "item", "code": "bricklayers:clayrawtile-burnt-fire" },
+				"1": { "type": "item", "code": "bricklayers:clayrawtile-burnt-fire" },
+				"2": { "type": "item", "code": "bricklayers:clayrawtile-burnt-fire" },
+				"3": { "type": "item", "code": "bricklayers:clayrawtile-burnt-yellow" }
+			}
+		},
+                "clayrawtile-raw-red": {
+			"beehivekiln": {
+				"0": { "type": "item", "code": "bricklayers:clayrawtile-burnt-pink" },
+				"1": { "type": "item", "code": "bricklayers:clayrawtile-burnt-orange" },
+				"2": { "type": "item", "code": "bricklayers:clayrawtile-burnt-red" },
+				"3": { "type": "item", "code": "bricklayers:clayrawtile-burnt-brown" }
+			}
+		},
+                "clayrawtile-raw-malachite": {
+			"beehivekiln": {
+				"0": { "type": "item", "code": "bricklayers:clayrawtile-burnt-malachite" },
+				"1": { "type": "item", "code": "bricklayers:clayrawtile-burnt-green" },
+				"2": { "type": "item", "code": "bricklayers:clayrawtile-burnt-blurple" },
+				"3": { "type": "item", "code": "bricklayers:clayrawtile-burnt-purple" }
+			}
+		},
+                "clayrawtile-raw-*": {
+			"beehivekiln": {
+				"0": { "type": "item", "code": "bricklayers:clayrawtile-burnt-{color}" },
+				"1": { "type": "item", "code": "bricklayers:clayrawtile-burnt-{color}" },
+				"2": { "type": "item", "code": "bricklayers:clayrawtile-burnt-{color}" },
+				"3": { "type": "item", "code": "bricklayers:clayrawtile-burnt-{color}" }
+			}
+		}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "raw", "burnt" ] },
+		{ "code": "color", "states": [ "black", "blurple", "blue", "brown", "darkgrey", "fire", "red", "green", "light", "pink", "purple", "malachite", "orange", "yellow", "lavender", "paleblue", "palegreen", "palered", "peach", "sunflower", "white" ] }
+	],
+	"skipVariants": [ "clayrawtile-raw-black", "clayrawtile-raw-blurple", "clayrawtile-raw-brown", "clayrawtile-raw-darkgrey", "clayrawtile-raw-green", "clayrawtile-raw-orange", "clayrawtile-raw-pink", "clayrawtile-raw-purple", "clayrawtile-raw-light", "clayrawtile-raw-yellow" ],
+	"shape": { "base": "bricklayers:block/basic/layers/05voxel_15" },
+	"maxstacksize": 16,
+	"blockmaterial": "Ceramic",
+	"creativeinventory": { "general": ["*"], "decorative": ["*"], "ceramics": ["*"] },
+	"replaceable": 700,
+	"resistance": 1,
+	"emitSideAo": { "all": false },
+	"texturesByType": {
+		"*-raw-*": { "all": { "base": "bricklayers:block/clay/raw/{color}", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } },
+		"*-blue": { "all": { "base": "bricklayers:block/clay/hardened/{color}1", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } },
+		"*": { "all": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": [ "bricklayers:block/ceramic/overlay_tile" ] } }
+	},
+	"sounds": {
+		"place": "game:block/ceramicplace",
+		"break": "game:block/rock-break-pickaxe",
+		"hit": "game:block/rock-hit-pickaxe",
+		"walk": "game:walk/stone"
+	},
+	"materialDensity": 2000,
+	"combustiblePropsByType": {
+		"clayrawtile-raw-*" : {
+			"meltingPoint": 975,
+			"meltingDuration": 12,
+			"smeltingType": "fire",
+			"smeltedStackByType": {
+				"clayrawtile-raw-blue":		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-brown" },
+				"clayrawtile-raw-fire":		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-fire" },
+				"clayrawtile-raw-red":		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-brown" },
+				"clayrawtile-raw-malachite":	{ "type": "item", "code": "bricklayers:clayrawtile-burnt-green" },
+				"clayrawtile-raw-*":		{ "type": "item", "code": "bricklayers:clayrawtile-burnt-{color}" }
+			}
+		}
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"rotation": { "x": -42, "y": 9, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0312, "z": 0.5 }
+        },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 90, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.12, "y": 0.23, "z": -0.85 },
+		"rotation": { "x": 94, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.48
+	}
+}

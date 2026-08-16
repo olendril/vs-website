@@ -1,0 +1,10 @@
+{
+	"code": "awlthorn-{metal}",
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": [ "copper", "cupronickel", "electrum", "gold", "silver", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	"pattern": [[
+		"########",
+		"______##"
+	]],
+	"name": "Awlthorn",
+	"output": { "type": "item", "code": "tailorsdelight:awlthorn-{metal}" }
+}

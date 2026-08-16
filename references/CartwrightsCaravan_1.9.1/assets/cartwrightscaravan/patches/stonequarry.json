@@ -1,0 +1,13 @@
+[
+    {    
+    "enabled": false,
+    "op": "addMerge",
+    "path": "/attributes/attachableToEntity",
+    "value": {
+      "categoryCode": "storage",
+      "attachedShape": { "base": "cartwrightscaravan:block/stoneslabs/{size}" }
+    },
+    "file": "stonequarry:blocktypes/stoneslab.json",
+    "side": "Server",
+  },
+]

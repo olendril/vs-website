@@ -1,0 +1,416 @@
+[
+	{
+	"name": "nadiyan-alchemist-hat",
+	"enabled": true,
+	"ingredientPattern": "YAY,WB_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"B": { "type": "item", "code": "tailorsdelight:twine-purple" },
+		"W": { "type": "item", "code": "tailorsdelight:twine-white" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-alchemist-hat",
+	"enabled": true,
+	"ingredientPattern": "YAY,WB_",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"B": { "type": "item", "code": "tailorsdelight:twine-purple", "quantity": 2 },
+		"W": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-alchemist" }
+	},
+
+	{
+	"name": "nadiyan-barber-hat",
+	"enabled": true,
+	"ingredientPattern": "BDB,ST_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"D": { "type": "item", "code": "tailorsdelight:twine-darkbrown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-barber" }
+	},
+
+	{
+	"name": "nadiyan-fisher-hat",
+	"enabled": true,
+	"ingredientPattern": "DSP,WBO",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"P": { "type": "item", "code": "game:cloth-plain", "quantity": 2 },
+		"W": { "type": "item", "code": "tailorsdelight:twine-white" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"O": { "type": "item", "code": "tailorsdelight:twine-orange" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-fisher" }
+	},
+
+	{
+	"name": "nadiyan-hunter-hat",
+	"enabled": true,
+	"ingredientPattern": "DSD,B_R",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkbrown" },
+		"R": { "type": "item", "code": "tailorsdelight:twine-darkred" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-hunter" }
+	},
+
+	{
+	"name": "nadiyan-hunter-hat",
+	"enabled": true,
+	"ingredientPattern": "DSD,B_R",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkbrown", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:twine-darkred", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-hunter" }
+	},
+
+	{
+	"name": "nadiyan-innkeeper-hat",
+	"enabled": true,
+	"ingredientPattern": "DSD,W_W",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"W": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-innkeeper" }
+	},
+
+	{
+	"name": "nadiyan-miner-hat",
+	"enabled": true,
+	"ingredientPattern": "DSR,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:checkeredcloth-darkred", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:checkeredcloth-darkbrown" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-purple", "quantity": 2 },
+		"O": { "type": "item", "code": "tailorsdelight:twine-brown", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-miner" }
+	},
+
+	{
+	"name": "nadiyan-musician-hat",
+	"enabled": true,
+	"ingredientPattern": "DSR,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:checkeredcloth-darkbrown", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:checkeredcloth-darkred" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-blue", "quantity": 2 },
+		"O": { "type": "item", "code": "tailorsdelight:twine-orange", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-musician" }
+	},
+
+	{
+	"name": "nadiyan-blue-peasant-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:cloth-darkblue", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-blue" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-blue" },
+		"O": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-peasantblue" }
+	},
+
+	{
+	"name": "nadiyan-tan-peasant-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-orange", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-brown" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-blue" },
+		"O": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-peasanttan" }
+	},
+
+	{
+	"name": "nadiyan-beige-peasant-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-plain" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-brown" },
+		"O": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-peasantbeige" }
+	},
+
+	{
+	"name": "nadiyan-red-peasant-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BTB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:cloth-darkred", "quantity": 2 },
+		"W": { "type": "item", "code": "tailorsdelight:cloth-darkbrown" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-white" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-peasantred" }
+	},
+
+	{
+	"name": "nadiyan-brown-peasant-hat",
+	"enabled": true,
+	"ingredientPattern": "WSD,BTB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:cloth-darkbrown" },
+		"W": { "type": "item", "code": "game:cloth-brown", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-peasantbrown" }
+	},
+
+
+	{
+	"name": "nadiyan-white-peasant-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BTB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "game:cloth-white", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-brown" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkbrown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkred", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-peasantwhite" }
+	},
+
+	{
+	"name": "nadiyan-shepherd-hat",
+	"enabled": true,
+	"ingredientPattern": "WSW,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:cloth-plain" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"O": { "type": "item", "code": "game:flaxtwine" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-shepherd" }
+	},
+
+	{
+	"name": "nadiyan-tailor-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BOB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:cloth-darkblue", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-blue" },
+		"O": { "type": "item", "code": "tailorsdelight:twine-white" },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-tailor" }
+	},
+
+	{
+	"name": "nadiyan-brown-fur-lined-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BTB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-raw", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-white", "quantity": 2 },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-blue", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-winter1" }
+	},
+
+	{
+	"name": "nadiyan-blue-fur-lined-hat",
+	"enabled": true,
+	"ingredientPattern": "DSW,BTR",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-raw", "quantity": 2 },
+		"W": { "type": "item", "code": "game:cloth-white", "quantity": 2 },
+		"R": { "type": "item", "code": "tailorsdelight:twine-red" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 },
+		"S": { "type": "item", "code": "game:sewingkit" }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-winter2" }
+	},
+
+	{
+	"name": "nadiyan-beekeeper-hood",
+	"enabled": true,
+	"ingredientPattern": "WNW,YWL,BTB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "game:cloth-white" },
+		"N": { "type": "item", "code": "game:sewingkit" },
+		"Y": { "type": "item", "code": "game:cloth-yellow" },
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-white" },
+		"B": { "type": "item", "code": "tailorsdelight:twine-darkblue" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-beekeeper" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-hood",
+	"enabled": true,
+	"ingredientPattern": "DAC,BGB,ZHS",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"G": { "type": "block", "code": "game:glass-smoky" },
+		"Z": { "type": "item", "code": "game:metalplate-zinc" },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true },
+		"C": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-blacksmith" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-hood",
+	"enabled": true,
+	"ingredientPattern": "DAC,BGB,ZHS",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 3 },
+		"G": { "type": "block", "code": "game:glass-smoky" },
+		"Z": { "type": "item", "code": "game:metalplate-zinc" },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true },
+		"C": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 3 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-blacksmith" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-hood",
+	"enabled": true,
+	"ingredientPattern": "DAC,BGB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:leatherbundle-darkbrown" },
+		"G": { "type": "item", "code": "game:clothes-nadiya-face-blacksmith" },
+		"C": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black" }
+	},
+	"recipeGroup": 4,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-blacksmith" }
+	},
+
+	{
+	"name": "nadiyan-blacksmith-hood",
+	"enabled": true,
+	"ingredientPattern": "DAC,BGB",
+	"requiresTrait": "tinkerer",
+	"ingredients": {
+		"D": { "type": "item", "code": "tailorsdelight:leather-darkbrown", "quantity": 3 },
+		"G": { "type": "item", "code": "game:clothes-nadiya-face-blacksmith" },
+		"C": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 3 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"B": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-head-blacksmith" }
+	}
+]

@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "name": "Coinage",
+  "modid": "coinage",
+  "description": "Adds customizable coins and coinmaking tools to the game",
+  "authors": [
+    "xel"
+  ],
+  "version": "2.2.1",
+  "dependencies": {
+    "game": "1.22.0"
+  }
+}

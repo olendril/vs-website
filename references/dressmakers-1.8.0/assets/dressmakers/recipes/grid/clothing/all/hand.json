@@ -1,0 +1,155 @@
+[
+	{
+	"ingredientPattern": "LAL,_T_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"L": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-scribe" }
+	},
+
+	{
+	"ingredientPattern": "GYG,WAW,WTW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-white" },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gold" },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 },
+		"T": { "type": "item", "code": "tailorsdelight:twine-white", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-hand-deep" }
+	},
+
+	{
+	"ingredientPattern": "GYG,WAW,WYW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-purple" },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gold", "quantity": 3 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-hand-king" }
+	},
+
+	{
+	"ingredientPattern": "GYG,WAW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gold" },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-prince-gloves" }
+	},
+
+	{
+	"ingredientPattern": "GYG,WAW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-plain" },
+		"G": { "type": "item", "code": "tailorsdelight:twine-gold" },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-yellow", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-noble-riding-gloves" }
+	},
+
+	{
+	"ingredientPattern": "YWY,WBW,_A_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-darkgreen" },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 },
+		"B": { "type": "item", "code": "game:beeswax" },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-hand-lackey-gloves" }
+	},
+
+	{
+	"ingredientPattern": "YCY,WAW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"W": { "type": "item", "code": "tailorsdelight:leatherbundle-darkred" },
+		"C": { "type": "item", "code": "game:cloth-red" },
+		"Y": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-laced-handsome-gloves" }
+	},
+
+	{
+	"ingredientPattern": "BNB,SFS",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"S": { "type": "item", "code": "game:cloth-blue" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"F": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-survivor" }
+	},
+
+	{
+	"ingredientPattern": "BNB,TFT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-black" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 2 },
+		"F": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-miner" }
+	},
+
+	{
+	"ingredientPattern": "BNB,TFT",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-black" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-black", "quantity": 3 },
+		"F": { "type": "item", "code": "tailorsdelight:twine-gray", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-miner" }
+	},
+
+	{
+	"ingredientPattern": "GSG,TNT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "game:cloth-gray" },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true },
+		"T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-hand-surgeon" }
+	}
+]

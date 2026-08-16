@@ -1,0 +1,29 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "titanium", "steel" ]
+	},
+	"pattern": [
+		[
+			"_####____",
+			"_#__####_",
+			"_#______#",
+			"__####__#",
+			"_____####",
+			"####_____",
+			"#__####__",
+			"#______#_",
+			"_####__#_",
+			"____####_"
+		]
+	],
+	"name": "8 Bighooks",
+	"code": "bighook8-{metal}",
+	"output": {
+		"type": "item",
+		"code": "aculinaryartillery:bighook-{metal}",
+		"stacksize": 8
+	}
+}

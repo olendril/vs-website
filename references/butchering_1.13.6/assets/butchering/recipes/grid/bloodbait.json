@@ -1,0 +1,124 @@
+[
+	{
+		"ingredientPattern": "FWF",
+		"ingredients": {
+			"W": {
+				"type": "block",
+				"code": "game:woodbucket"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flour-*",
+				"allowedVariants": [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ]
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 1
+			}
+		},
+		"name": "bloodbait",
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "fishingbait-blood",
+			"quantity": 6
+		}
+	},
+	{
+		"ingredientPattern": "FWF",
+		"ingredients": {
+			"W": {
+				"type": "block",
+				"code": "game:bowl-*-fired"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flour-*",
+				"allowedVariants": [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ]
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 1
+			}
+		},
+		"name": "bloodbait",
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "fishingbait-blood",
+			"quantity": 6
+		}
+	},
+	{
+		"ingredientPattern": "FWF",
+		"ingredients": {
+			"W": {
+				"type": "block",
+				"code": "game:jug-*-fired"
+			},
+			"F": {
+				"type": "item",
+				"code": "game:flour-*",
+				"allowedVariants": [ "flax", "millet", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower" ]
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "butchering:bloodportion"
+				},
+				"requiresLitres": 1
+			}
+		},
+		"name": "bloodbait",
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "fishingbait-blood",
+			"quantity": 6
+		}
+	},
+	{
+		"name": "fishingpole-bait-blood",
+		"recipeGroup": 3,
+		"ingredientPattern": "R,B",
+		"shapeless": true,
+		"ingredients": {
+			"R": {
+				"type": "item",
+				"code": "game:fishingpole-simple-{type}",
+				"allowedVariants": ["wood", "bamboo"],
+				"quantity": 1
+			},
+			"B": {
+				"type": "item",
+				"code": "fishingbait-blood",
+				"quantity": 1
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"output": {
+			"type": "item",
+			"code": "game:fishingpole-simple-{type}",
+			"quantity": 1
+		}
+	}
+]

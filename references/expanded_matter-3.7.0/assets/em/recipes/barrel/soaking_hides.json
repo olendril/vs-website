@@ -1,0 +1,38 @@
+[
+	{
+	"code": "soakedhidezincsulfate",
+	"sealHours": 16,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-zinc", "litres": 2, "consumeLitres": 2 },
+		{ "type": "item", "code": "game:hide-*-small", "name": "type", "quantity": 1, "allowedVariants": [ "raw", "salted" ] }
+	],
+	"output": { "type": "item", "code": "game:hide-soaked-small", "stackSize": 1 }
+        },
+	{
+	"code": "soakedhidezincsulfate",
+	"sealHours": 16,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-zinc", "litres": 4, "consumeLitres": 4 },
+		{ "type": "item", "code": "game:hide-*-medium", "name": "type", "quantity": 1, "allowedVariants": [ "raw", "salted" ] }
+	],
+	"output": { "type": "item", "code": "game:hide-soaked-medium", "stackSize": 1 }
+        },
+	{
+	"code": "soakedhidezincsulfate",
+	"sealHours": 16,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-zinc", "litres": 6, "consumeLitres": 6 },
+		{ "type": "item", "code": "game:hide-*-large", "name": "type", "quantity": 1, "allowedVariants": [ "raw", "salted" ] }
+	],
+	"output": { "type": "item", "code": "game:hide-soaked-large", "stackSize": 1 }
+        },
+	{
+	"code": "soakedhidezincsulfate",
+	"sealHours": 16,
+	"ingredients": [
+		{ "type": "item", "code": "game:sulfate-full-zinc", "litres": 10, "consumeLitres": 10 },
+		{ "type": "item", "code": "game:hide-*-huge", "name": "type", "quantity": 1, "allowedVariants": [ "raw", "salted" ] }
+	],
+	"output": { "type": "item", "code": "game:hide-soaked-huge", "stackSize": 1 }
+        }
+]

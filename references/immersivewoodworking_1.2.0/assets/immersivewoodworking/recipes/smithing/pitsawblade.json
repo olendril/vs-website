@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"_##############_",
+		"################",
+		"################",
+		"_#_#_#_#_#_#_#__"
+	]],
+	name: "pitsawblade",
+	code: "pitsawblade-{metal}",
+	output: { type: "item", code: "pitsawblade-{metal}" }
+}

@@ -1,0 +1,188 @@
+{
+    "code": "coinpress",
+    "class": "coinpress",
+    "entityClass": "becoinpress",
+    "behaviors": [
+        {
+            "name": "Container"
+        },
+        {
+            "name": "NWOrientable"
+        }
+    ],
+    "entityBehaviors": [
+        {
+            "name": "Animatable"
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "wood",
+            "states": [ "oak", "walnut", "ebony" ]
+        },
+        {
+            "code": "orientation",
+            "states": [ "ns", "we" ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*-ns" ],
+        "coinage": [ "*-ns" ]
+    },
+    "blockmaterial": "wood",
+    "materialDensity": 450,
+    "shapeInventory": {
+        "base": "coinage:block/coinpress/inventory"
+    },
+    "shape": {
+        "base": "coinage:block/coinpress/base",
+        "rotateYByType": {
+            "*-we": 90
+        }
+    },
+    "textures": {
+        "iron": {
+            "base": "game:block/metal/sheet/iron1"
+        },
+        "steel": {
+            "base": "game:block/metal/sheet/steel1"
+        },
+        "plank": {
+            "base": "game:block/wood/planks/{wood}1"
+        },
+        "oak": {
+            "base": "game:block/wood/treetrunk/{wood}"
+        }
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "walk": "game:walk/wood1",
+        "hit": "game:block/planks",
+        "break": "game:block/planks"
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "coinage:coinpress-{wood}-ns"
+        }
+    ],
+    "facecullmode": "default",
+    "lightAbsorption": 0,
+    "emitSideAo": { "all": false },
+    "sideopaque": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "maxstacksize": 1,
+    "replaceable": 160,
+    "resistance": 4,
+
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldRightReadyAnimation": "heldblockready",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "selectionBoxes": [
+        {
+            "z1": 0.125,
+            "y1": 0,
+            "x1": 0.125,
+            "z2": 0.875,
+            "y2": 0.125,
+            "x2": 0.875,
+            "rotateYByType": {
+                "*-we": 90
+            }
+        },
+        {
+            "z1": 0.2951,
+            "y1": 0.125,
+            "x1": 0.2326,
+            "z2": 0.7001,
+            "y2": 0.2752,
+            "x2": 0.7626,
+            "rotateYByType": {
+                "*-we": 90
+            }
+        },
+        {
+            "z1": 0.3125,
+            "y1": 0.25,
+            "x1": 0.375,
+            "z2": 0.6875,
+            "y2": 1,
+            "x2": 0.625,
+            "rotateYByType": {
+                "*-we": 90
+            }
+        }
+    ],
+    "collisionBoxes": [
+        {
+            "z1": 0.125,
+            "y1": 0,
+            "x1": 0.125,
+            "z2": 0.875,
+            "y2": 0.125,
+            "x2": 0.875,
+            "rotateYByType": {
+                "*-we": 90
+            }
+        },
+        {
+            "z1": 0.2951,
+            "y1": 0.125,
+            "x1": 0.2374,
+            "z2": 0.7001,
+            "y2": 1.0877,
+            "x2": 0.7674,
+            "rotateYByType": {
+                "*-we": 90
+            }
+        }
+    ],
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.6,
+            "z": 0.5
+        },
+        "scale": 0.97
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.9,
+            "y": -0.8,
+            "z": -0.5
+        },
+        "rotation": {
+            "x": 87,
+            "y": -5,
+            "z": -75
+        },
+        "scale": 0.59
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 2.59
+    }
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-low-topazpink-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-topazpink-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-gem.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-high-topazpink-monzonite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/looseores.json",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "looseores-topazpink-monzonite-free"
+	},
+]

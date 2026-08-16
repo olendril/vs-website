@@ -1,0 +1,224 @@
+[
+	{
+	"ingredientPattern": "PRP,CBC,CKC",
+	"ingredients": {
+		"R": { "type": "item", "code": "wool:twine-wool-darkred", "quantity": 6 },
+		"B": { "type": "item", "code": "wool:twine-wool-blue", "quantity": 6 },
+		"C": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 4 },
+		"P": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
+		"K": { "type": "item", "code": "wool:kneedle-*", "isTool": true, "toolDurabilityCost": 8 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-reindeer-herder-fur-coat" }
+	},
+
+	{
+	"ingredientPattern": "RYR,BKB,RWR",
+	"ingredients": {
+		"B": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"W": { "type": "item", "code": "wool:cloth-wool-white" },
+		"K": { "type": "item", "code": "wool:kneedle-*", "isTool": true, "toolDurabilityCost": 4 },
+		"Y": { "type": "item", "code": "wool:twine-wool-yellow", "quantity": 2 },
+		"R": { "type": "item", "code": "wool:twine-wool-red", "quantity": 3 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-cerise-embroidered-reindeer-herder-coat" }
+	},
+
+	{
+	"ingredientPattern": "BCB,BPB",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:twine-wool-plain", "quantity": 2 },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"P": { "type": "item", "code": "game:hide-pelt-medium" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-warm-robe" }
+	},
+
+	{
+	"ingredientPattern": "CFC,FLF,WLW",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-plain" },
+		"L": { "type": "item", "code": "game:hide-pelt-medium" },
+		"F": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+		"W": { "type": "item", "code": "game:fat" }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-surgeon" }
+	},
+
+	{
+	"ingredientPattern": "CCC,CBC,_S_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-miner" }
+	},
+
+	{
+	"ingredientPattern": "CDC,CBC,_N_",
+	"requiresTrait": "hardy",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"D": { "type": "item", "code": "wool:cloth-wool-gray", "quantity": 2 },
+		"N": { "type": "item", "code": "game:flaxtwine" },
+		"B": { "type": "item", "code": "wool:twine-wool-black", "quantity": 3 }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-miner" }
+	},
+
+	{
+	"ingredientPattern": "CCC,C_C,GSB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"B": { "type": "item", "code": "wool:twine-wool-black", "quantity": 2 },
+		"G": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 2 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-marketeer" }
+	},
+
+	{
+	"ingredientPattern": "CKC,CSC,BGB",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"B": { "type": "item", "code": "wool:cloth-wool-black" },
+		"G": { "type": "item", "code": "wool:twine-wool-gray", "quantity": 3 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-great-steppe-mantle" }
+	},
+
+	{
+	"ingredientPattern": "CKC,CTC",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-yellow" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"T": { "type": "item", "code": "wool:twine-wool-darkbrown", "quantity": 4 }
+	},
+	"recipeGroup": 5,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" }
+	},
+
+	{
+	"ingredientPattern": "GSG,BTB,YNY",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"G": { "type": "item", "code": "wool:cloth-wool-green" },
+		"B": { "type": "item", "code": "wool:cloth-wool-blue" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"T": { "type": "item", "code": "wool:twine-wool-darkgreen" },
+		"Y": { "type": "item", "code": "wool:twine-wool-yellow" },
+		"N": { "type": "item", "code": "wool:twine-wool-yellow", "quantity": 4 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-spice-merchants-coat" }
+	},
+
+	{
+	"ingredientPattern": "BAB,FPF,_P_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:hide-pelt-medium" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"A": { "type": "item", "code": "wool:twine-wool-darkbrown" },
+		"F": { "type": "item", "code": "game:flaxtwine", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-huntsmans-tunic" }
+	},
+
+	{
+	"ingredientPattern": "BAB,FPF,_P_",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"P": { "type": "item", "code": "game:hide-pelt-medium" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"A": { "type": "item", "code": "wool:twine-wool-darkbrown" },
+		"F": { "type": "item", "code": "game:flaxtwine", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-huntsmans-tunic" }
+	},
+
+	{
+	"ingredientPattern": "BNB,FPF,_P_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"P": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"N": { "type": "item", "code": "game:flaxtwine" },
+		"F": { "type": "item", "code": "wool:twine-wool-black", "quantity": 2 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" }
+	},
+
+	{
+	"ingredientPattern": "BNB,FPF,_P_",
+	"requiresTrait": "bowyer",
+	"ingredients": {
+		"P": { "type": "item", "code": "wool:cloth-wool-gray" },
+		"B": { "type": "item", "code": "wool:cloth-wool-brown" },
+		"N": { "type": "item", "code": "game:flaxtwine" },
+		"F": { "type": "item", "code": "wool:twine-wool-black", "quantity": 3 }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" }
+	},
+
+	{
+	"name": "colt mantle",
+	"ingredientPattern": "DND,GYG,KSK",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"K": { "type": "item", "code": "wool:twine-wool-black" },
+		"S": { "type": "item", "code": "game:sewingkit" },
+		"G": { "type": "item", "code": "wool:cloth-wool-darkgreen" },
+		"Y": { "type": "item", "code": "wool:cloth-wool-yellow" },
+		"N": { "type": "item", "code": "wool:twine-wool-green" },
+		"D": { "type": "item", "code": "wool:cloth-wool-darkblue" }
+	},
+	"recipeGroup": 3,
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-upperbodyover-cobalt-mantle" }
+	}
+]

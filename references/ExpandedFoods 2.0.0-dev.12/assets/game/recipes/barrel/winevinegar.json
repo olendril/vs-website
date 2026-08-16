@@ -1,0 +1,20 @@
+[
+ {
+  "code": "winevinegar",
+  "sealHours": 336,
+  "ingredients": [ { "type": "item", "code": "game:ciderportion-*", "name": "fruit", "skipVariants": ["mead", "spelt", "rice", "rye", "amaranth", "cassava"], "litres": 0.01 } ],
+  "output": { "type": "item", "code": "game:vinegarportion", "litres": 0.01 }
+ },
+ {
+  "code": "winevinegar",
+  "sealHours": 336,
+  "ingredients": [ { "type": "item", "code": "expandedfoods:strongwineportion-*", "name": "fruit", "skipVariants": ["mead", "spelt", "rice", "rye", "amaranth", "cassava"], "litres": 0.01 } ],
+  "output": { "type": "item", "code": "game:vinegarportion", "litres": 0.01 }
+ },
+ {
+  "code": "winevinegar",
+  "sealHours": 336,
+  "ingredients": [ { "type": "item", "code": "expandedfoods:potentwineportion-*", "name": "fruit", "skipVariants": ["mead", "spelt", "rice", "rye", "amaranth", "cassava"], "litres": 0.01 } ],
+  "output": { "type": "item", "code": "game:vinegarportion", "litres": 0.01 }
+ }
+]

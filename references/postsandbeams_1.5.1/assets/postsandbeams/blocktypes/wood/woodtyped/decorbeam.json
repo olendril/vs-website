@@ -1,0 +1,167 @@
+{
+	"code": "decorbeam",
+	"class": "Block",
+	"behaviors": [
+		{
+			"name": "NWOrientableCustomDrops",
+			"properties": {
+				"drop": {
+					"type": "block",
+					"code": "decorbeam-{wood}-{bark}-we"
+				}
+			}
+		}
+	],
+	"attributes": {
+		"handbook": {
+			"groupBy": [
+				"decorbeam-{wood}-*"
+			]
+		}
+	},
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [
+				"aged"
+			],
+			"loadFromPropertiesCombine": [
+				"game:block/wood"
+			]
+		},
+		{
+			"code": "bark",
+			"states": [
+				"barked",
+				"debarked"
+			]
+		},
+		{
+			"code": "orientation",
+			"states": [
+				"ns",
+				"we"
+			]
+		}
+	],
+	"creativeinventory": {
+		"general": [
+			"*-we"
+		],
+		"decorative": [
+			"*-we"
+		]
+	},
+	"shapeByType": {
+		"*-ns": {
+			"base": "postsandbeams:block/wood/beam",
+			"rotateY": 90
+		},
+		"*-we": {
+			"base": "postsandbeams:block/wood/beam",
+			"rotateY": 0
+		}
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"blockmaterial": "Wood",
+	"texturesByType": {
+		"*-barked-*": {
+			"bark-h": {
+				"base": "game:block/wood/bark/{wood}-h",
+				"overlays": [
+					"game:block/slightlydarker"
+				]
+			},
+			"bark": {
+				"base": "game:block/wood/bark/{wood}"
+			},
+			"cut": {
+				"base": "game:block/wood/debarked/{wood}"
+			}
+		},
+		"*-debarked-*": {
+			"bark-h": {
+				"base": "game:block/wood/debarked/{wood}",
+				"overlays": [
+					"game:block/slightlydarker"
+				]
+			},
+			"bark": {
+				"base": "game:block/wood/debarked/{wood}",
+				"rotation": 90
+			},
+			"cut": {
+				"base": "game:block/wood/debarked/{wood}"
+			}
+		}
+	},
+	"replaceable": 600,
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"collisionbox": {
+		"x1": 0.0,
+		"y1": 0.5,
+		"z1": 0.25,
+		"x2": 1.0,
+		"y2": 1.0,
+		"z2": 0.75,
+		"rotateYByType": {
+			"*-ns": 90,
+			"*-we": 0
+		}
+	},
+	"selectionbox": {
+		"x1": 0.0,
+		"y1": 0.5,
+		"z1": 0.25,
+		"x2": 1.0,
+		"y2": 1.0,
+		"z2": 0.75,
+		"rotateYByType": {
+			"*-ns": 90,
+			"*-we": 0
+		}
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 20
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.8,
+			"y": -0.68,
+			"z": -0.41
+		},
+		"rotation": {
+			"x": 99,
+			"y": -10,
+			"z": -6
+		},
+		"scale": 0.5
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0.08,
+			"y": -0.2,
+			"z": 0.6
+		},
+		"rotation": {
+			"x": 33,
+			"y": 134,
+			"z": -102
+		}
+	}
+}

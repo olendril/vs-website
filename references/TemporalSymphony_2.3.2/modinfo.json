@@ -1,0 +1,12 @@
+{
+  "Type": "code",
+  "Name": "Temporal Symphony",
+  "ModID": "temporalsymphony",
+  "Version": "2.3.2",
+  "Website": "",
+  "Description": "Replaces temporal storm chat warnings with audio-visual cues. Tweaks to many things temporal and rust creature alike.",
+  "Authors": ["SaltyWater", "prototype464"],
+  "Contributors": ["CreativeRealms"],
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

@@ -1,0 +1,55 @@
+{
+  "requiresMod": "advancedgeology",
+  "entries": [
+    {
+      "blockCode": "game:rock-arenite",
+      "stoneCode": "game:rock-arenite",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-arkose",
+      "stoneCode": "game:rock-arkose",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-komatiite",
+      "stoneCode": "game:rock-komatiite",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-marl",
+      "stoneCode": "game:rock-marl",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-monzonite",
+      "stoneCode": "game:rock-monzonite",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-pyroxenite",
+      "stoneCode": "game:rock-pyroxenite",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-serpentinite",
+      "stoneCode": "game:rock-serpentinite",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-syenite",
+      "stoneCode": "game:rock-syenite",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-tufa",
+      "stoneCode": "game:rock-tufa",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    },
+    {
+      "blockCode": "game:rock-wacke",
+      "stoneCode": "game:rock-wacke",
+      "stoneLayers": { "avg": 6, "var": 1, "dist": "UNIFORM" }
+    }
+  ]
+}

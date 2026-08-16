@@ -1,0 +1,39 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureSizes": { },
+	"textures": { },
+	"elements": [
+		{
+			"name": "handle",
+			"from": [ 11.0, -0.5, 7.5 ],
+			"to": [ 15.0, 0.5, 8.5 ],
+			"rotationOrigin": [ 10.0, -1.0, 8.0 ],
+			"rotationY": 180.0,
+			"faces": {
+				"north": { "texture": "#handle", "uv": [ 0.0, 2.0, 4.0, 3.0 ] },
+				"east": { "texture": "#handle", "uv": [ 3.0, 0.0, 4.0, 1.0 ] },
+				"south": { "texture": "#handle", "uv": [ 0.0, 4.5, 4.0, 5.5 ] },
+				"west": { "texture": "#handle", "uv": [ 3.0, 0.0, 4.0, 1.0 ] },
+				"up": { "texture": "#handle", "uv": [ 0.0, 2.0, 4.0, 3.0 ] },
+				"down": { "texture": "#handle", "uv": [ 0.0, 3.0, 4.0, 4.0 ] }
+			},
+			"children": [
+				{
+					"name": "punch",
+					"from": [ -3.0, 0.5, 0.4 ],
+					"to": [ 0.0, 0.7, 0.6 ],
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#metal", "uv": [ 1.0, 1.0, 4.0, 1.5 ] },
+						"south": { "texture": "#metal", "uv": [ 0.0, 7.0, 3.0, 7.5 ] },
+						"west": { "texture": "#metal", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#metal", "uv": [ 1.0, 2.0, 4.0, 2.5 ] },
+						"down": { "texture": "#metal", "uv": [ 0.0, 0.0, 3.0, 0.5 ] }
+					}
+				}
+			]
+		}
+	]}

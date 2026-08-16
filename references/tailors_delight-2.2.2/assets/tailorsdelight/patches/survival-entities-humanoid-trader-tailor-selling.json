@@ -1,0 +1,15 @@
+[
+  {
+    "op": "addeach",
+    "path": "/selling/list/-",
+    "value": [
+	{ "code": "tailorsdelight:ruler-maple",			"type": "item", "stacksize": 1, "stock": { "avg": 2, "var": 1 }, "price": { "avg": 4, "var": 0.75 } },
+	{ "code": "tailorsdelight:ruler-pine",			"type": "item", "stacksize": 1, "stock": { "avg": 2, "var": 1 }, "price": { "avg": 4, "var": 0.75 } },
+	{ "code": "tailorsdelight:ruler-birch",			"type": "item", "stacksize": 1, "stock": { "avg": 2, "var": 1 }, "price": { "avg": 4, "var": 0.75 } },
+	{ "code": "tailorsdelight:leatherbundle-darkblue",	"type":  "item", "stacksize":  2, "stock": { "avg": 2, "var": 0.8 }, "price": { "avg": 6, "var": 0.5 } },
+	{ "code": "tailorsdelight:leather-darkblue",		"type":  "item", "stacksize":  4, "stock": { "avg": 2, "var": 0.8 }, "price": { "avg": 3, "var": 0.5 } }
+    ],
+    "file": "game:config/tradelists/villager-alba.json",
+    "side": "Server"
+  }
+]

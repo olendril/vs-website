@@ -1,0 +1,119 @@
+[
+	{
+		"ingredientPattern": "SLS,RHF",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+			"H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+			"R": { "type": "item", "code": "game:resin", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flint", "quantity": 1 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "SLS,RHF",
+		"recipeGroup": 1,
+		"ingredients": {
+			"L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+			"H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+			"R": { "type": "item", "code": "game:fat", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flint", "quantity": 1 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "SLS,RHF",
+		"recipeGroup": 1,
+		"ingredients": {
+			"L": { "type": "block", "code": "game:log-*", "quantity": 2 },
+			"H": { "type": "item", "code": "hook-flint", "quantity": 2 },
+			"R": { "type": "item", "code": "game:fat-rendered", "quantity": 1 },
+			"F": { "type": "item", "code": "game:flint", "quantity": 1 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "butcherhook-flint-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "SLS,RHF",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+			"H": { "type": "item", "code": "hook-*", "quantity": 2, "name": "material", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ] },
+			"R": { "type": "item", "code": "game:resin", "quantity": 1 },
+			"F": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 2, "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze" ] },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "butcherhook-{material}-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "SLS,RHF",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:plank-*", "quantity": 4 },
+			"H": { "type": "item", "code": "hook-iron", "quantity": 2 },
+			"R": { "type": "item", "code": "game:resin", "quantity": 1 },
+			"F": { "type": "item", "code": "game:metalnailsandstrips-iron", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 4 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "butcherhook-iron-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "HW",
+		"ingredients": {
+			"H": { "type": "block", "code": "butcherhook-*-north", "quantity": 1, "name": "material", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ] },
+			"W": { "type": "item", "code": "game:wrench-*", "istool":  true }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "block", "code": "butcherhookceiling-{material}-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "HW",
+		"ingredients": {
+			"H": { "type": "block", "code": "butcherhookceiling-*-north", "quantity": 1, "name": "material", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ] },
+			"W": { "type": "item", "code": "game:wrench-*", "istool":  true }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "block", "code": "butcherhook-{material}-north", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "C,H",
+		"ingredients": {
+			"H": { "type": "block", "code": "butcherhook-*-north", "quantity": 1, "name": "material", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ] },
+			"C": { "type": "item", "code": "game:chisel-*", "istool":  true }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "hook-{material}", "quantity": 2  }
+	},
+	{
+		"ingredientPattern": "C,H",
+		"ingredients": {
+			"H": { "type": "block", "code": "butcherhookceiling-*-north", "quantity": 1, "name": "material", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ] },
+			"C": { "type": "item", "code": "game:chisel-*", "istool":  true }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "hook-{material}", "quantity": 2  }
+	},
+	{
+		"ingredientPattern": "C,H",
+		"ingredients": {
+			"H": { "type": "item", "code": "hook-*", "quantity": 1, "name": "material", "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ] },
+			"C": { "type": "item", "code": "game:chisel-*", "istool":  true }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:metalbit-{material}", "quantity": 5  }
+	}
+]

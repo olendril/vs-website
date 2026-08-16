@@ -1,0 +1,24 @@
+[
+	{
+		"ingredientPattern": "H,R,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "istool": true },
+			"R": { "type": "item", "code": "game:cattailtops", "quantity": 1 }
+		},
+		"name": "billpost-pressedreed",
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "paper-pressedreed", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "H,R,R",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "istool": true },
+			"R": { "type": "item", "code": "game:papyrustops", "quantity": 1 }
+		},
+		"name": "billpost-pressedreed",
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "paper-pressedreed", "quantity": 1  }
+	}
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+	"code": "shearable",
+	"enabledByType": {
+		"deer-moose-adult-*": true,
+		"deer-moose-baby-*": false
+	},
+	"hoursPerUnit" : 50,
+	"hoursPerUnitGenerationalReduction" : 0.5,
+	"hoursPerUnitMaxReduction" : 8.0,
+	"maxGenBonus" : 4,
+	"generationalMaxGrowthBonus" : 1,
+	"generationalScratchChanceReduction" : 0.04,
+	"minQuantity": 8,
+	"maxQuantity": 16,
+	"minGen": 1,
+	"shearsBonus": 2,
+	"scratchChance": 0.45,
+	"drop": "wool:fleece-generic-brown",
+	"shearSound": "game:sounds/player/scrape.ogg"
+    },
+    "file": "game:entities/animal/mammal/hooved/moose-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+	"code": "shearable",
+	"enabledByType": {
+		"deer-moose-adult-*": true,
+		"deer-moose-baby-*": false
+	},
+	"hoursPerUnit" : 50,
+	"hoursPerUnitGenerationalReduction" : 0.5,
+	"hoursPerUnitMaxReduction" : 8.0,
+	"maxGenBonus" : 4,
+	"generationalMaxGrowthBonus" : 1,
+	"generationalScratchChanceReduction" : 0.04,
+	"minQuantity": 8,
+	"maxQuantity": 16,
+	"minGen": 1,
+	"shearsBonus": 2,
+	"scratchChance": 0.45,
+	"drop": "wool:fleece-generic-brown",
+	"shearSound": "game:sounds/player/scrape.ogg"
+    },
+    "file": "game:entities/animal/mammal/hooved/moose-adult.json",
+    "side": "Server"
+  }
+]

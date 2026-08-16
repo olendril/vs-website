@@ -1,0 +1,114 @@
+{
+  code: "goblet-jeweled", 
+  class: "BlockLiquidContainerTopOpened",
+  variantgroups: [
+		{ code: "metal", states: ["bismuthbronze", "tinbronze", "blackbronze", "brass", "copper", "silver", "iron", "steel", "meteoriciron", "gold", "platinum"] },
+		{ code: "jewel", states: ["amethyst", "cinnabar", "diamond", "emerald", "lapislazuli", "malachite", "onyx", "quartz", "rosequartz", "ruby", "turquoise", "olivine"]}
+	],
+  creativeinventory: 
+  {
+    general: ["*"], "decorative": ["*"]
+	},
+
+  shape: {
+    base: "shapes/block/jeweledgoblet"
+  },
+  
+	behaviors: [
+	{ name: "GroundStorable", properties: { layout: "Quadrants", collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 
+	} } },
+	{ name: "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" 
+	},
+	{ name: "RightClickPickup"
+	},
+	{
+	  name: "MilkingContainer"
+	},
+	],
+  
+  "heldTpIdleAnimation": "holdbothhands",
+  blockmaterial: "Metal",
+  maxStackSize: 4,
+  replaceable: 0,
+  resistance: 0.75,
+  liquidSelectable: 1,
+  
+  texturesByType: {
+	  "goblet-jeweled-*-*": {
+			"body": { base: "game:block/metal/ingot/{metal}*"}, 
+			"stem": { base: "game:block/metal/plate/{metal}*"},
+			"lip":  { base: "game:block/metal/plate/{metal}*"},
+			"gem":  { base: "block/stone/jewels/{jewel}*"}
+	  },
+	},
+
+
+  	guiTransform: 
+	{
+	origin: { x: 0.5, y: 0.17, z: 0.5 },
+	scale: 4
+	},	
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.28, z: -0.3 },
+		rotation: { x: 90, y: -5, z: -90 },
+		scale: 1.7
+	},
+	fpHandTransform: 
+	{
+	scale: 2
+	},
+
+	groundTransform: 
+	{
+	scale: 4.5
+	},
+	
+		attributes: 
+	{
+		groundStorageTransform: 
+		{
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.5
+		},
+		onDisplayTransform: 
+		{
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			rotation: { x: 0, y: 90, z: 0 },
+			scale: 1.2
+		},		
+		shelvable: true,
+		displayable: {
+			shelf: {
+				size: { width: 3, height: 6, length: 3 },
+				RandYRotAngle: 0,
+				"transform": {
+					scale: 1.15,
+					translation: { x: 0, y: 0.075, z: 0 },
+					rotation: { x: 0, y: 0, z: 0 },
+				},
+			},
+		},
+		
+		"handbook": {
+		"groupBy": [ "goblet-jeweled-{metal}*" ]
+		},
+		
+		liquidContainerProps: 
+		{
+				capacityLitres: 1,
+				transferSizeLitres: 0.5,
+				emptyShapeLoc: "shapes/block/jeweledgoblet",
+				opaqueContentShapeLoc: "shapes/block/gobletliquidcontents",
+				liquidContentShapeLoc: "shapes/block/gobletliquidcontents",
+				liquidMaxYTranslate: 0.1
+		},	
+	},
+	sounds: {
+		"place": "game:block/plate",
+		"hit": "game:tool/breakreinforced",
+		"break": "game:block/wood-tool",
+		"walk": "game:walk/stone2"
+
+		}	
+	
+}

@@ -1,0 +1,21 @@
+﻿[
+    // Carcharodontosauridae
+    {
+        "side": "server",
+        "file": "carcharodontosauridae:entities/land/carcharodontosauridae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "carcharodontosauridae:entities/land/carcharodontosauridae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

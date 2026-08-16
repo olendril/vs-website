@@ -1,0 +1,544 @@
+{
+  "version": 7,
+  "patches": {
+    "boolean": {
+      "cartwrightscaravan:entities/nonliving/cart.json": {
+        "/client/PitchStep": "cartpitch",
+        "/client/behaviors/code=ropetieable/enabledByType/*slimcart*": "slimcartropetieable",
+        "/server/behaviors/code=ropetieable/enabledByType/*slimcart*": "slimcartropetieable",
+        "/client/behaviors/code=ropetieable/enabledByType/*basiccart*": "widecartropetieable",
+        "/server/behaviors/code=ropetieable/enabledByType/*basiccart*": "widecartropetieable",
+        "/behaviorConfigs/rideableaccessories/dropContentsOnDeath": "cartdropContents"
+      },
+      "cartwrightscaravan:entities/nonliving/marketstall.json": {
+        "/client/PitchStep": "marketstallpitch",
+        "/client/behaviors/code=ropetieable/enabledByType/*": "marketstallropetieable",
+        "/server/behaviors/code=ropetieable/enabledByType/*": "marketstallropetieable",
+        "/behaviorConfigs/rideableaccessories/dropContentsOnDeath": "stalldropContents"
+      },
+      "cartwrightscaravan:entities/nonliving/sled.json": {
+        "/client/PitchStep": "sledpitch",
+        "/client/behaviors/code=ropetieable/enabledByType/*": "sledropetieable",
+        "/server/behaviors/code=ropetieable/enabledByType/*": "sledropetieable",
+        "/behaviorConfigs/rideableaccessories/dropContentsOnDeath": "sleddropContents"
+      },
+      "cartwrightscaravan:patches/cartwright-configpatches.json": {
+        "/0/enabled": "sledchestable",
+        "/1/enabled": "sledchestable",
+        "/2/enabled": "sledchestable",
+        "/10/enabled": "cartcrateable",
+        "/11/enabled": "cartcrateable",
+        "/12/enabled": "cartcrateable",
+        "/13/enabled": "cartcrateable",
+        "/14/enabled": "cartcrateable",
+        "/15/enabled": "cartcrateable",
+        "/16/enabled": "cartcrateable",
+        "/17/enabled": "cartcrateable",
+        "/18/enabled": "cartcrateable",
+        "/19/enabled": "allowmarketstallsitting"
+      }
+    },
+    "float": {
+      "cartwrightscaravan:entities/nonliving/cart.json": {
+        "/behaviorConfigs/gait/gaits/code=walk/movespeedByType/*-basiccart-*": "basiccartwalkspeed",
+        "/behaviorConfigs/gait/gaits/code=jog/movespeedByType/*-basiccart-*": "basiccartjogspeed",
+        "/behaviorConfigs/gait/gaits/code=sprint/movespeedByType/*-basiccart-*": "basiccartsprintspeed",
+        "/behaviorConfigs/gait/gaits/code=walkback/movespeedByType/*-basiccart-*": "basiccartwalkbackspeed",
+        "/behaviorConfigs/gait/gaits/code=walk/movespeedByType/*-slimcart-*": "slimcartwalkspeed",
+        "/behaviorConfigs/gait/gaits/code=jog/movespeedByType/*-slimcart-*": "slimcartjogspeed",
+        "/behaviorConfigs/gait/gaits/code=sprint/movespeedByType/*-slimcart-*": "slimcartsprintspeed",
+        "/behaviorConfigs/gait/gaits/code=walkback/movespeedByType/*-slimcart-*": "slimcartwalkbackspeed",
+        "/behaviorConfigs/gait/gaits/code=swim/movespeed": "cartswimspeed",
+        "/behaviorConfigs/controlledphysics/stepHeight": "cartstepheight",
+        "/behaviorConfigs/controlledphysics/stepUpSpeed": "cartstepupspeed",
+        "/fallDamageMultiplier": "cartfalldamage"
+      },
+      "cartwrightscaravan:entities/nonliving/marketstall.json": {
+        "/behaviorConfigs/gait/gaits/code=walk/movespeed": "marketstallwalkspeed",
+        "/behaviorConfigs/gait/gaits/code=jog/movespeed": "marketstalljogspeed",
+        "/behaviorConfigs/gait/gaits/code=sprint/movespeed": "marketstallsprintspeed",
+        "/behaviorConfigs/gait/gaits/code=walkback/movespeed": "marketstallwalkbackspeed",
+        "/behaviorConfigs/gait/gaits/code=swim/movespeed": "marketstallswimspeed",
+        "/behaviorConfigs/controlledphysics/stepHeight": "marketstallstepheight",
+        "/behaviorConfigs/controlledphysics/stepUpSpeed": "marketstallstepupspeed",
+        "/fallDamageMultiplier": "marketstallfalldamage"
+      },
+      "cartwrightscaravan:entities/nonliving/sled.json": {
+        "/behaviorConfigs/gait/gaits/code=walk/movespeed": "sledwalkspeed",
+        "/behaviorConfigs/gait/gaits/code=jog/movespeed": "sledjogspeed",
+        "/behaviorConfigs/gait/gaits/code=sprint/movespeed": "sledsprintspeed",
+        "/behaviorConfigs/gait/gaits/code=walkback/movespeed": "sledwalkbackspeed",
+        "/behaviorConfigs/gait/gaits/code=swim/movespeed": "sledswimspeed",
+        "/behaviorConfigs/controlledphysics/stepHeight": "sledstepheight",
+        "/behaviorConfigs/controlledphysics/stepUpSpeed": "sledstepupspeed",
+        "/fallDamageMultiplier": "sledfalldamage"
+      },
+      "cartwrightscaravan:itemtypes/cartflute.json": {
+        "/durabilityByType/*classic*": "flutedurability"
+      }
+    }
+  },
+  "settings": [
+    {
+      "type": "separator",
+      "title": "Behaviors",
+      "weight": 1.0
+    },
+    {
+      "type": "separator",
+      "text": "Item Behavior",
+      "weight": 1.0
+    },        
+    {
+      "code": "flutedurability",
+      "type": "float",
+      "ingui": "setting-flutedurability",
+      "default": 1,
+      "range": {
+        "min": 1,
+        "max": 500,
+        "step": 1
+      }
+    },    
+    {
+      "type": "separator",
+      "text": "Cart Behavior",
+      "weight": 1.0
+    },
+    {
+      "code": "cartfalldamage",
+      "type": "float",
+      "ingui": "setting-falldamage",
+      "default": 0,
+      "range": {
+        "min": 0,
+        "max": 1,
+        "step": 0.1
+      }
+    },
+    {
+      "code": "cartpitch",
+      "type": "boolean",
+      "ingui": "setting-pitch",
+      "default": false
+    },
+    {
+      "code": "cartdropContents",
+      "type": "boolean",
+      "ingui": "setting-dropcontentsondeath",
+      "default": true
+    },
+    {
+      "code": "cartstepheight",
+      "type": "float",
+      "ingui": "setting-stepheight",
+      "default": 1.2,
+      "range": {
+        "min": 0.2,
+        "max": 1.2,
+        "step": 0.1
+      }
+    },
+    {
+      "code": "cartstepupspeed",
+      "type": "float",
+      "ingui": "setting-stepupspeed",
+      "default": 0.2,
+      "range": {
+        "min": 0.1,
+        "max": 1.0,
+        "step": 0.01
+      }
+    },
+    {
+      "code": "cartcrateable",
+      "type": "boolean",
+      "ingui": "setting-cartcrateable",
+      "default": false
+    },
+    {
+      "type": "separator",
+      "text": "Marktestall & Wheelbarrow Behavior",
+      "weight": 1.0
+    },
+    {
+      "code": "marketstallfalldamage",
+      "type": "float",
+      "ingui": "setting-falldamage",
+      "default": 0,
+      "range": {
+        "min": 0,
+        "max": 1,
+        "step": 0.1
+      }
+    },
+    {
+      "code": "marketstallpitch",
+      "type": "boolean",
+      "ingui": "setting-pitch",
+      "default": false
+    },
+    {
+      "code": "stalldropContents",
+      "type": "boolean",
+      "ingui": "setting-dropcontentsondeath",
+      "default": true
+    },
+    {
+      "code": "marketstallstepheight",
+      "type": "float",
+      "ingui": "setting-stepheight",
+      "default": 1.2,
+      "range": {
+        "min": 0.2,
+        "max": 1.2,
+        "step": 0.1
+      }
+    },
+    {
+      "code": "marketstallstepupspeed",
+      "type": "float",
+      "ingui": "setting-stepupspeed",
+      "default": 0.2,
+      "range": {
+        "min": 0.1,
+        "max": 1.0,
+        "step": 0.01
+      }
+    },
+    {
+      "type": "separator",
+      "text": "Sled Behavior",
+      "weight": 1.0
+    },
+    {
+      "code": "sledfalldamage",
+      "type": "float",
+      "ingui": "setting-falldamage",
+      "default": 0,
+      "range": {
+        "min": 0,
+        "max": 1,
+        "step": 0.1
+      }
+    },
+    {
+      "code": "sledpitch",
+      "type": "boolean",
+      "ingui": "setting-pitch",
+      "default": false
+    },
+    {
+      "code": "sleddropContents",
+      "type": "boolean",
+      "ingui": "setting-dropcontentsondeath",
+      "default": true
+    },
+    {
+      "code": "sledstepheight",
+      "type": "float",
+      "ingui": "setting-stepheight",
+      "default": 1.2,
+      "range": {
+        "min": 0.2,
+        "max": 1.2,
+        "step": 0.1
+      }
+    },
+    {
+      "code": "sledstepupspeed",
+      "type": "float",
+      "ingui": "setting-stepupspeed",
+      "default": 0.2,
+      "range": {
+        "min": 0.1,
+        "max": 1.0,
+        "step": 0.01
+      }
+    },
+    {
+      "code": "sledchestable",
+      "type": "boolean",
+      "ingui": "setting-sledchestable",
+      "default": false
+    },
+    {
+      "type": "separator",
+      "title": "Speeds",
+      "weight": 1.0
+    },
+    {
+      "type": "separator",
+      "text": "Walk Speed",
+      "weight": 1.0
+    },
+    {
+      "code": "basiccartwalkspeed",
+      "type": "float",
+      "ingui": "setting-basiccart",
+      "default": 0.015,
+      "range": {
+        "min": 0.010,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "slimcartwalkspeed",
+      "type": "float",
+      "ingui": "setting-slimcart",
+      "default": 0.016,
+      "range": {
+        "min": 0.010,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "marketstallwalkspeed",
+      "type": "float",
+      "ingui": "setting-marketstall",
+      "default": 0.017,
+      "range": {
+        "min": 0.010,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "sledwalkspeed",
+      "type": "float",
+      "ingui": "setting-sled",
+      "default": 0.020,
+      "range": {
+        "min": 0.010,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },    {
+      "type": "separator",
+      "text": "Jog Speed",
+      "weight": 1.0
+    },
+    {
+      "code": "basiccartjogspeed",
+      "type": "float",
+      "ingui": "setting-basiccart",
+      "default": 0.030,
+      "range": {
+        "min": 0.010,
+        "max": 0.100,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "slimcartjogspeed",
+      "type": "float",
+      "ingui": "setting-slimcart",
+      "default": 0.033,
+      "range": {
+        "min": 0.010,
+        "max": 0.100,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "marketstalljogspeed",
+      "type": "float",
+      "ingui": "setting-marketstall",
+      "default": 0.034,
+      "range": {
+        "min": 0.010,
+        "max": 0.100,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "sledjogspeed",
+      "type": "float",
+      "ingui": "setting-sled",
+      "default": 0.035,
+      "range": {
+        "min": 0.010,
+        "max": 0.100,
+        "step": 0.001
+      }
+    },
+    {
+      "type": "separator",
+      "text": "Sprint Speed",
+      "weight": 1.0
+    },
+    {
+      "code": "basiccartsprintspeed",
+      "type": "float",
+      "ingui": "setting-basiccart",
+      "default": 0.040,
+      "range": {
+        "min": 0.020,
+        "max": 0.150,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "slimcartsprintspeed",
+      "type": "float",
+      "ingui": "setting-slimcart",
+      "default": 0.045,
+      "range": {
+        "min": 0.020,
+        "max": 0.150,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "marketstallsprintspeed",
+      "type": "float",
+      "ingui": "setting-marketstall",
+      "default": 0.048,
+      "range": {
+        "min": 0.020,
+        "max": 0.150,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "sledsprintspeed",
+      "type": "float",
+      "ingui": "setting-sled",
+      "default": 0.05,
+      "range": {
+        "min": 0.020,
+        "max": 0.150,
+        "step": 0.001
+      }
+    },
+    {
+      "type": "separator",
+      "text": "Backwards Speed",
+      "weight": 1.0
+    },
+    {
+      "code": "basiccartwalkbackspeed",
+      "type": "float",
+      "ingui": "setting-basiccart",
+      "default": 0.007,
+      "range": {
+        "min": 0.001,
+        "max": 0.040,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "slimcartwalkbackspeed",
+      "type": "float",
+      "ingui": "setting-slimcart",
+      "default": 0.008,
+      "range": {
+        "min": 0.001,
+        "max": 0.040,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "marketstallwalkbackspeed",
+      "type": "float",
+      "ingui": "setting-marketstall",
+      "default": 0.01,
+      "range": {
+        "min": 0.001,
+        "max": 0.040,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "sledwalkbackspeed",
+      "type": "float",
+      "ingui": "setting-sled",
+      "default": 0.022,
+      "range": {
+        "min": 0.001,
+        "max": 0.040,
+        "step": 0.001
+      }
+    },
+    {
+      "type": "separator",
+      "text": "Swim Speed",
+      "weight": 1.0
+    },
+    {
+      "code": "cartswimspeed",
+      "type": "float",
+      "ingui": "setting-cart",
+      "default": 0.020,
+      "range": {
+        "min": 0.001,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "marketstallswimspeed",
+      "type": "float",
+      "ingui": "setting-marketstall",
+      "default": 0.020,
+      "range": {
+        "min": 0.001,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },
+    {
+      "code": "sledswimspeed",
+      "type": "float",
+      "ingui": "setting-sled",
+      "default": 0.020,
+      "range": {
+        "min": 0.001,
+        "max": 0.050,
+        "step": 0.001
+      }
+    },
+    {
+      "type": "separator",
+      "title": "Experimental",
+      "weight": 1.0
+    },
+    {
+      "code": "allowmarketstallsitting",
+      "type": "boolean",
+      "ingui": "setting-allowmarketstallsitting",
+      "default": false
+    },
+    {
+      "type": "separator",
+      "text": "Allow Vehicles to be pulled by rope (very janky!)",
+      "weight": 1.0
+    },
+    {
+      "code": "slimcartropetieable",
+      "type": "boolean",
+      "ingui": "setting-slimcart",
+      "default": false
+    },
+    {
+      "code": "widecartropetieable",
+      "type": "boolean",
+      "ingui": "setting-basiccart",
+      "default": false
+    },
+    {
+      "code": "marketstallropetieable",
+      "type": "boolean",
+      "ingui": "setting-marketstallropetieable",
+      "default": false
+    },
+    {
+      "code": "sledropetieable",
+      "type": "boolean",
+      "ingui": "setting-sledropetieable",
+      "default": false
+    }
+  ]
+}

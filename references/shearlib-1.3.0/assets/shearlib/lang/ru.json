@@ -1,0 +1,21 @@
+{
+	"shearlib:shearable":				"<font color=\"tan\">Можно постричь и получить {0} единиц руна.</font>",
+	"shearlib:shearablefull":			"<font color=\"lightgreen\">Можно постричь и получить {0} единиц руна.</font>",
+	"shearlib:insufficientgen":			"<font color=\"tomato\">Слишком дикий, чтобы его стричь, должно быть как минимум {0} поколение.</font>",
+
+	"shearlib:hoursuntilshearable":			"<font color=\"orange\">Шерсть слишком короткая, {0} часов до стрижки.</font>",
+	"shearlib:daysuntilshearable":			"<font color=\"orange\">Шерсть слишком короткая, {0} дней до стрижки.</font>",
+
+	"shearlib:daysmaxwool":				"Требуется {0} дней, чтобы полностью вырастить свою шерсть до {1} единиц.",
+	"shearlib:hoursmaxwool":			"Требуется {0} часов, чтобы полностью вырастить свою шерсть до {1} единиц.",
+
+	"shearlib:dayswaitmaxwool":			"Подождите еще {0} дней, чтобы собрать полные {1} единиц руна.",
+	"shearlib:hourswaitmaxwool":			"Подождите еще {0} часов, чтобы собрать полные {1} единиц руна.",
+
+	"shearlib:shearsbonus":				"Использование ножниц вместо ножа обеспечивает <font color=\"yellow\">+{0} бонус руна</font>.",
+
+	"shearlib:animaltoowildclient":			"Животное слишком дикое и не позволит вам его постричь, для этого нужно {0} поколение.",
+	"shearlib:animalinsufficientwoolclient":	"У животного еще не выросло достаточно шерсти, чтобы его можно было стричь, ему нужно минимум {0} единиц, чтобы его можно было постричь.",
+	"shearlib:dropnotfound":			"ShearLib: Невозможно найти '{0}' для добычи во время стрижки.",
+	"shearlib:dropsecondnotfound":			"ShearLib: Невозможно найти '{0}' вторичной добычи во время стрижки."
+}

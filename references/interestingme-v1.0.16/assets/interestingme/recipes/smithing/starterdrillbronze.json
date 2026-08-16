@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-tinbronze" },
+	pattern: [[
+		"##########",
+		"##########",
+	],[
+		"##########",
+		"##########",
+	]],
+	name: "Bronze Short Hand Drill",
+	code: "interestingme:starterdrillbronze",
+	output: { type: "item", code: "interestingme:starterdrillbronze" }
+}

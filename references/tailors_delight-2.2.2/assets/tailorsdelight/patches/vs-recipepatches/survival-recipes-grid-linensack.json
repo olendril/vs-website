@@ -1,0 +1,28 @@
+[
+  {
+    "op": "replace",
+    "enabled": true,
+    "comment": "linensack",
+    "path": "/ingredientPattern",
+    "value": "N,T,L",
+    "file": "game:recipes/grid/linensack.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "enabled": true,
+    "comment": "linensack",
+    "path": "/height",
+    "value": 3,
+    "file": "game:recipes/grid/linensack.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "enabled": true,
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "tailorsdelight:needle-*" },
+    "file": "game:recipes/grid/linensack.json",
+    "side": "Server"
+  }
+]

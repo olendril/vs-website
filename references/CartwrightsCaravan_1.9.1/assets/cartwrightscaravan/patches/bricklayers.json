@@ -1,0 +1,216 @@
+[
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity",
+    "value": {
+      "categoryCode": "blcrock",
+      "texturePrefixCode": "crockcolored-{color}"
+    },
+    "file": "bricklayers:blocktypes/clay/crockcolored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/@crockcolored-burned-(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/bricklayercrock" }},
+    "file": "bricklayers:blocktypes/clay/crockcolored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/crockcolored-burned-*/attachableToEntity",
+    "value": {
+      "categoryCode": "blcrock",
+      "texturePrefixCode": "crockcolored-{color}"
+    },
+    "file": "bricklayers:blocktypes/clay/crockcolored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/crockcolored-burned-*/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/bricklayercrock" }},
+    "file": "bricklayers:blocktypes/clay/crockcolored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity",
+    "value": {
+      "categoryCode": "blvat",
+      "texturePrefixCode": "vatliquidsmall-{color}-{lid}"
+    },
+    "file": "bricklayers:blocktypes/clay/vat_liquid_small_colored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/bricklayervat" }},
+    "file": "bricklayers:blocktypes/clay/vat_liquid_small_colored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity",
+    "value": {
+      "categoryCode": "blvat",
+      "texturePrefixCode": "vatliquidsmall-{color}-{lid}"
+    },
+    "file": "bricklayers:blocktypes/clay/vat_liquid_small_colored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/@.*(lavender|paleblue|palegreen|palered|peach|sunflower|white)/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/bricklayervat" }},
+    "file": "bricklayers:blocktypes/clay/vat_liquid_small_colored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/*burnt*",
+    "value": {"attachableToEntity":{
+      "categoryCode": "blflowerpot",
+      "texturePrefixCode": "flowerpot-{state}-{color}"
+    }},
+    "file": "bricklayers:blocktypes/clay/flowerpotcolored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/*burnt*/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-burnt" }},
+    "file": "bricklayers:blocktypes/clay/flowerpotcolored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/glazedflowerpot-burnt-*-gold-*/attachableToEntity",
+    "value": {
+      "categoryCode": "blflowerpot",
+      "texturePrefixCode": "flowerpot-{state}-{type}-{color}-{pattern}"
+    },
+    "file": "bricklayers:blocktypes/clay/flowerpotglazed.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/glazedflowerpot-burnt-*-gold-*/attachableToEntity/attachedShapeBySlotCodeByType",
+    "value": {  "*plain": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-plain" }},
+                "*checker": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-checker" }},
+                "*lines": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-lines" }}},
+    "file": "bricklayers:blocktypes/clay/flowerpotglazed.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/glazedflowerpot-burnt-*/attachableToEntity",
+    "value": {
+      "categoryCode": "blflowerpot",
+      "texturePrefixCode": "flowerpot-{state}-{type}-{color}-{pattern}"
+    },
+    "file": "bricklayers:blocktypes/clay/flowerpotglazed.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/glazedflowerpot-burnt-*/attachableToEntity/attachedShapeBySlotCodeByType",
+    "value": {  "*plain": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-plain" }},
+                "*checker": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-checker" }},
+                "*lines": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blflowerpot-lines" }}},
+    "file": "bricklayers:blocktypes/clay/flowerpotglazed.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/*-burnt-*/attachableToEntity",
+    "value": {
+      "categoryCode": "blteaset",
+      "texturePrefixCode": "smallpot-{type}-{color}"
+    },
+    "file": "bricklayers:blocktypes/clay/smallpotcolored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/*-burnt-*/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blsmallpot" }},
+    "file": "bricklayers:blocktypes/clay/smallpotcolored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/coloredlargepot-burnt-*/attachableToEntity",
+    "value": {
+      "categoryCode": "blteaset",
+      "texturePrefixCode": "largepot-{type}-{color}"
+    },
+    "file": "bricklayers:blocktypes/clay/largepotcolored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/coloredlargepot-burnt-*/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/bllargepot" }},
+    "file": "bricklayers:blocktypes/clay/largepotcolored.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/*-burnt-*/attachableToEntity",
+    "value": {
+      "categoryCode": "blteaset",
+      "texturePrefixCode": "sugarbowl-{type}-{color}"
+    },
+    "file": "bricklayers:blocktypes/clay/sugarbowlcolored.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "bricklayers"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributesByType/*-burnt-*/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/blsugarbowl" }},
+    "file": "bricklayers:blocktypes/clay/sugarbowlcolored.json",
+    "side": "Server"
+  }
+]

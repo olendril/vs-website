@@ -1,0 +1,195 @@
+[
+  {
+    "op": "addeach", "path": "/variantgroups/1/states/-", 
+	"value": ["gaberylbixbite", "gacorundumsapphire", "gatopazamber", "gatopazblue", "gatopazpink", "gaazurite", "gachalcopyrite", "gasmithsonite", "gapyrite", "gawulfenite", "gajade" ],
+	"file": "tankardsandgoblets:blocktypes/jeweledgoblet.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "geoaddons" } ]
+  },
+
+
+  {
+    "op": "add", "path": "/texturesByType", "value": 
+	{ 
+	"goblet-jeweled-*-gaberylbixbite": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/ungraded/berylbixbite"}
+		},
+	"goblet-jeweled-*-gacorundumsapphire": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/ungraded/corundumsapphire"}
+		},
+		"goblet-jeweled-*-gatopazamber": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "tankardsandgoblets:block/stone/jewels/topazamber"}
+		},
+		"goblet-jeweled-*-gatopazblue": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/ungraded/topazblue"}
+		},
+		"goblet-jeweled-*-gatopazpink": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/ungraded/topazpink"}
+		},
+	"goblet-jeweled-*-gaazurite": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/nugget/azurite"}
+		},
+	"goblet-jeweled-*-gachalcopyrite": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/nugget/chalcopyrite"}
+		},
+	"goblet-jeweled-*-gasmithsonite": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "game:item/resource/nugget/smithsonite"}
+		},
+	"goblet-jeweled-*-gapyrite": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "tankardsandgoblets:block/stone/jewels/pyrite"}
+		},	
+	"goblet-jeweled-*-gawulfenite": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "tankardsandgoblets:block/stone/jewels/wulfenite"}
+		},	
+	"goblet-jeweled-*-gajade": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "tankardsandgoblets:block/stone/jewels/jade1"}
+		},	
+	"goblet-jeweled-*-*": {
+			"body": { "base": "game:block/metal/ingot/{metal}*"}, 
+			"stem": { "base": "game:block/metal/plate/{metal}*"},
+			"lip":  { "base": "game:block/metal/plate/{metal}*"},
+			"gem":  { "base": "tankardsandgoblets:block/stone/jewels/{jewel}*"}
+		},
+	},
+	
+    "file": "tankardsandgoblets:blocktypes/jeweledgoblet.json",
+    "side": "Server",
+	"dependsOn": [ { "modid": "geoaddons" } ]
+  },
+
+  
+  {
+    "op": "add",
+    "path": "/5",
+    "value": {
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:gem-*-rough", name: "gem", allowedVariants: ["berylbixbite", "topazamber", "topazblue", "topazpink", "corundumsapphire"]},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-ga{gem}", quantity: 1},
+	},
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+	"dependsOn": [ { "modid": "geoaddons" }]
+ },
+ 
+ {
+    "op": "add",
+    "path": "/6",
+    "value": {
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:nugget-*", name: "gem", allowedVariants: ["azurite", "chalcopyrite", "pyrite", "smithsonite", "wulfenite"], quantity: 4},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-ga{gem}", quantity: 1},	
+	},
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+	"dependsOn": [ { "modid": "geoaddons" }]
+  },
+  
+  {
+    "op": "add",
+    "path": "/7",
+    "value": {
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:stone-jade", name: "gem", quantity: 4},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-gajade", quantity: 1},	
+	},
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+	"dependsOn": [ { "modid": "geoaddons" }]
+  },
+  
+  {
+    "op": "add",
+    "path": "/8",
+    "value": {
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:gem-berylaquamarine-rough"},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-turquoise", quantity: 1},
+	},
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+	"dependsOn": [ { "modid": "geoaddons" }]
+  },
+  
+    {
+    "op": "add",
+    "path": "/9",
+    "value": {
+	ingredientPattern: "HC,GP,_N",
+	ingredients: {
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5},
+		"N": { type: "item", code: "game:metalnailsandstrips-*"},
+		"G": { type: "item", code: "game:gem-corundumruby-rough"},
+		"P": { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "brass", "silver", "steel", "meteoriciron", "gold", "platinum"]}
+	},
+	width: 2,
+	height: 3,
+	output: { type: "block", code: "goblet-jeweled-{metal}-ruby", quantity: 1},	
+	},
+    "file": "tankardsandgoblets:recipes/grid/jeweledgoblet.json",
+	"dependsOn": [ { "modid": "geoaddons" }]
+  },
+  
+
+]

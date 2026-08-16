@@ -1,0 +1,48 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-thomson-adult-male": "butchering:deadgazelle-male-thomson-1-dead",
+        "*-thomson-adult-female": "butchering:deadgazelle-male-thomson-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-thomson-adult-male": "butchering:deadgazelle-male-thomson-1-dead",
+        "*-thomson-adult-female": "butchering:deadgazelle-male-thomson-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-thomson-baby-*": "butchering:deadgazelle-baby-thomson-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/gazelle-baby.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "itemByType": {
+        "*-thomson-baby-*": "butchering:deadgazelle-baby-thomson-1-dead"
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/gazelle-baby.json"
+  }
+]

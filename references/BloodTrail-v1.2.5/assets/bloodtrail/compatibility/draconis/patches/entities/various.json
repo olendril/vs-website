@@ -1,0 +1,75 @@
+﻿[
+  // Draconis
+  {
+    "side": "server",
+    "file": "draconis:entities/alpini/dragon",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehavior"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/alpini/dragon",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehaviorParticles"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/autumnus/wyvern",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehavior"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/autumnus/wyvern",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehaviorParticles"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/cuprocaudus/drake",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehavior"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/cuprocaudus/drake",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehaviorParticles"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/weaver/dragon",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehavior"
+    }
+  },
+  {
+    "side": "server",
+    "file": "draconis:entities/weaver/dragon",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "EntityBleedingBehaviorParticles"
+    }
+  }
+]

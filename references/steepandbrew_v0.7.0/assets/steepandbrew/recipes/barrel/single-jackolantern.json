@@ -1,0 +1,9 @@
+{
+	code: "tea-jackolantern-cold",
+	sealHours: 16,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1 },
+		{ type: "block", code: "game:mushroom-jackolantern-normal", quantity: 1 }
+	],
+	output: { type: "item", code: "steepandbrew:tea-jackolantern-cold", litres: 1 }
+}

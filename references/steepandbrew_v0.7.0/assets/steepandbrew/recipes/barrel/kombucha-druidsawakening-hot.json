@@ -1,0 +1,9 @@
+{
+	code: "kombucha-druidsawakening-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-druidsawakening", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-druidsawakening-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-druidsawakening", litres: 10 }
+}

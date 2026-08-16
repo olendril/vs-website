@@ -1,0 +1,9 @@
+{
+	code: "kombucha-sickener-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-sickener", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-sickener-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-sickener", litres: 10 }
+}

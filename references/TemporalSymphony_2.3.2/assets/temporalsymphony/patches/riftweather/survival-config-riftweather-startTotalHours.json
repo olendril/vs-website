@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/patterns/0/startTotalHours",
+    "value": 72,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/1/startTotalHours",
+    "value": 0,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/2/startTotalHours",
+    "value": 72,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/3/startTotalHours",
+    "value": 216,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/4/startTotalHours",
+    "value": 360,
+    "file": "game:config/riftweather.json"
+  },
+  {
+    "op": "replace",
+    "path": "/patterns/5/startTotalHours",
+    "value": 720,
+    "file": "game:config/riftweather.json"
+  }
+]

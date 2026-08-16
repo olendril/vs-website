@@ -1,0 +1,37 @@
+{
+	"code": "cookedbones",
+	"heldTpIdleAnimation": "holdbothhands",
+	"attributes": {
+		"inContainerTexture": { "base": "bricklayers:item/resource/crushed/incontainer/cookedbones" },
+		"displaycaseable": true,
+		"shelvable": true,
+		"onDisplayTransform": {
+			"translation": { "x": 0.05, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.65
+		}
+	},
+	"textures":{ "all": { "base": "bricklayers:item/resource/crushed/incontainer/cookedbones" } },
+	"shape": { "base": "em:item/resource/crushed" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "ceramics": ["*"] },
+	"grindingProps": { "groundStack": { "type": "item", "code": "em:powdered-ore-boneash", "quantity": 2 } },
+	"maxstacksize": 64,
+	"materialDensity": 900,
+	"guiTransform": {
+		"translation": { "x": 3, "y": 1, "z": -25 },
+		"rotation": { "x": 158, "y": 22, "z": 3 },
+		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+		"scale": 2.54
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.67, "y": -1.25, "z": -0.8 },
+		"rotation": { "x": 70, "y": 11, "z": -65 },
+		"scale": 0.41
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.2, "z": 0 },
+		"rotation": { "x": -4, "y": 8, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 1.92
+	}
+}

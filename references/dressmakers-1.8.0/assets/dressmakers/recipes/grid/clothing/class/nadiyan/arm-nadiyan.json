@@ -1,0 +1,83 @@
+[
+	{
+	"name": "nadiyan-seashell-bracelet",
+	"enabled": true,
+	"ingredientPattern": "_B_,SAT,_L_",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"B": { "type": "item", "code": "tailorsdelight:buttons-shells" },
+		"L": { "type": "item", "code": "tailorsdelight:leather-darkbrown" },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"T": { "type": "item", "code": "tailorsdelight:twine-brown" }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "game:clothes-nadiya-arm-seashell-bracelet" }
+	},
+
+	{
+	"name": "nadiyan-peasant-bracers-white",
+	"enabled": true,
+	"ingredientPattern": "BYB,TAT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-white" },
+		"B": { "type": "item", "code": "game:cloth-gray" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-arm-peasant-bracerswhite" }
+	},
+
+	{
+	"name": "nadiyan-peasant-bracers-brown",
+	"enabled": true,
+	"ingredientPattern": "BYB,TAT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-gray" },
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkblue", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-arm-peasant-bracersbrown" }
+	},
+
+	{
+	"name": "nadiyan-guard-bracers",
+	"enabled": true,
+	"ingredientPattern": "BYB,TAT",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"Y": { "type": "item", "code": "tailorsdelight:leatherbundle-yellow" },
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkred", "quantity": 2 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-arm-guard-bracers" }
+	},
+
+	{
+	"name": "nadiyan-guard-bracers",
+	"enabled": true,
+	"ingredientPattern": "BYB,TAT",
+	"requiresTrait": "merciless",
+	"ingredients": {
+		"Y": { "type": "item", "code": "game:leather-normal-yellow", "quantity": 3 },
+		"B": { "type": "item", "code": "game:cloth-brown" },
+		"T": { "type": "item", "code": "tailorsdelight:twine-darkred", "quantity": 3 },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true }
+	},
+	"recipeGroup": 2,
+	"width": 3,
+	"height": 2,
+	"output": { "type": "item", "code": "game:clothes-nadiya-arm-guard-bracers" }
+	}
+]

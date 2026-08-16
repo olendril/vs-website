@@ -1,0 +1,420 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps/butchering:smoked-none-primemeat",
+    "value": {
+      "saturation": 220,
+      "foodcategory": "Protein",
+      "health": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps/butchering:smoked-none-*",
+    "value": {
+      "saturation": 140,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps/butchering:smoked-cured-*",
+    "value": {
+      "saturation": 130,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "expandedfoods:itemtypes/food/mixing/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/3/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/3/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/4/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/4/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/5/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/6/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/6/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/ingredients/3/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/8/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-none-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/3/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/3/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/4/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/4/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/5/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/6/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/6/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/ingredients/2/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/7/ingredients/3/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/8/ingredients/1/inputs/-",
+    "value": {
+      "type": "item",
+      "code": "butchering:smoked-cured-*",
+      "quantity": 1
+    },
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }
+]

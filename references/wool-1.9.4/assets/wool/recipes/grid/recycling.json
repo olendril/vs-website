@@ -1,0 +1,28 @@
+[
+	{
+	"comment": "Intentionally giving only 3 to match colored twine recipe and to simulate loss on cutting.",
+	"ingredientPattern": "S,C",
+	"ingredients": {
+		"C": { "type": "block", "code": "wool:wool-*", "name": "color" },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true }
+	},
+	"recipeGroup": 5,
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "wool:twine-wool-{color}", "quantity": 3 }
+	},
+
+	{
+	"comment": "Intentionally giving only 4 from the original 5 to account for cutting loss",
+	"ingredientPattern": "K,C",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:sack-wool-*", "name": "color" },
+		"K": { "type": "item", "code": "game:shears-*", "isTool": true }
+	},
+	"recipeGroup": 5,
+	"shapeless": true,
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "wool:twine-wool-{color}", "quantity": 4 }
+	}
+]

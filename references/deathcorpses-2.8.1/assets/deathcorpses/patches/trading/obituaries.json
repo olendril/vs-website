@@ -1,0 +1,36 @@
+[
+  {
+    "file": "game:config/tradelists/trader-survivalgoods.json",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "deathcorpses:obituaries",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 1 },
+      "price": { "avg": 5, "var": 2 }
+    },
+    "side": "server",
+    "condition": {
+      "when": "deathcorpses:ObituariesEnabled",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:config/tradelists/trader-treasurehunter.json",
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "deathcorpses:obituaries",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 2 },
+      "price": { "avg": 3, "var": 1 }
+    },
+    "side": "server",
+    "condition": {
+      "when": "deathcorpses:ObituariesEnabled",
+      "isValue": "true"
+    }
+  }
+]

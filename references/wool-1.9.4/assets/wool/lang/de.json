@@ -1,0 +1,254 @@
+{
+	"game:handbook-item-usage":					"Anwendung",
+	"wool:handbook-description":					"Beschreibung",
+
+	"wool:settings_shearable":					"Schur",
+	"wool:settings_drops":						"Bonus-Ertrag nach Tod",
+	"wool:settings_panning":					"Schürfen",
+	"wool:settings_recipes":					"Weitere Rezepte",
+	
+        "wool:setting_enable_sheep_shearable":				"Schafschur möglich",
+        "wool:setting_enable_sheep_shearable_comment":			"Können Schafe geschoren werden?",
+        "wool:setting_enable_goat_shearable":				"Ziegenschur möglich",
+        "wool:setting_enable_goat_shearable_comment":			"Können Ziegen geschoren werden?",
+        "wool:setting_enable_gazelle_shearable":			"Gazellenschur möglich",
+        "wool:setting_enable_gazelle_shearable_comment":		"Können Gazellen geschoren werden?",
+        "wool:setting_enable_deer_shearable":				"Scheren von Wapitis, Rehen und Hirschen",
+        "wool:setting_enable_deer_shearable_comment":			"Können Wapitis, Rehe und Hirsche geschoren werden?",
+        "wool:setting_enable_moose_shearable":				"Elchschur",
+        "wool:setting_enable_moose_shearable_comment":			"Können Elche geschoren werden?",
+
+        "wool:setting_enable_drifter_drops":				"Zusatz-Ertrag von Driftern",
+        "wool:setting_enable_drifter_drops_comment":			"Sollen tote Drifter zusätzliche Gegenstände wie Flausch und Stöcke fallen lassen?\nDies ändert NICHT die Menge an Flaxfasern, die Drifter bringen.",
+
+	"wool:setting_enable_animal_drops":				"Zusatz-Ertrag von wilden Tieren",
+        "wool:setting_enable_animal_drops_comment":			"Sollen tote, wile Tiere wie Bären, Füchse, Hasen und Wölfe Flausch geben?",
+
+	"wool:setting_enable_deer_drops":				"Zusatz-Ertrag von Rehen, Elchen und Hirschen",
+        "wool:setting_enable_deer_drops_comment":			"Sollen tote Rehe, Elche und Hirsche Flausch geben?",
+
+	"wool:setting_enable_gazelle_drops":				"Zusatz-Ertrag von Gazellen",
+        "wool:setting_enable_gazelle_drops_comment":			"Sollen tote Gazellen Flausch geben?",
+
+        "wool:setting_enable_panning":					"Zusatz-Ertrag beim Schürfen",
+        "wool:setting_enable_panning_comment":				"Sollen beim Schürfen zusätzlich Flausch und Fasern anfallen?",
+
+        "wool:setting_enable_bleach":					"Bleichen",
+        "wool:setting_enable_bleach_comment":				"Können farbige Fasern gebleicht werden?",
+
+        "wool:setting_enable_soil":					"Fruchtbarkeit der Erde verbessern",
+        "wool:setting_enable_soil_comment":				"Kann Erde mit höherer Fruchtbarkeit hergestellt werden?",
+
+	"wool:gamemechanicinfo-animalshearing-title":			"Spielmechanik: Flausch und Wolle",
+	"wool:gamemechanicinfo-animalshearing-text": 			"<strong>Tierhaltung - Flausch und Wolle</strong><br><br>Einige Tiere wie Schafe und Ziegen können geschoren werden, um Flausch zu erhalten. Aus Flausch kann Wolle hergestellt werden. <br>Das Tier muss am Leben und mindestens Generation 1 sein, von toten Tieren kann manchmal noch Flausch eingesammelt werden. <br>Für die Schur wird am besten eine Schere benutzt, aber zur Not geht auch ein Messer, allerdings ist dann der Ertrag geringer und die Verletzungsgefahr für das Tier steigt. <br>Das Fell der Tiere benötigt einige Zeit, um wieder zu wachsen. Bei höheren Generationen wächst das Fell schneller und das Verletzungsrisiko sinkt, sie produzieren auch etwas mehr Flausch.<br><br>Die Art und Farbe Flausch, die von einem Tier gewonnen werden kann, hängt von der Art und Rasse des Tieres ab. Manche produzieren sogar zwei verschiedenfarbige Flauscharten gleichzeitig!<br><br><strong>Konfiguration</strong>  Welche Tiere geschoren werden können, hängt von der Mod-Konfiguration ab. Um diese zu ändern, und damit sie aktiv ist, müssen<strong><font color='#4080a0'>ConfigLib</font></strong> und <strong><font color='#4080a0'>ImGui</font></strong> installiert sein. <br>Standardmäßig können Schafe, Ziegen, Gazellen, Elche sowie Rehe/Hirsche geschoren werden.",
+
+	"wool:gamemechanicinfo-woolknitting-title":			"Spielmechanik: Farbige Wolle & Stricken",
+	"wool:gamemechanicinfo-woolknitting-text": 			"<strong>Farbige Wolle & Stricken</strong><br><br>Um Wolle herzustellen, muss roher Flausch in Kalkwasser eingeweicht werden. Dies ergibt Wollfasern, die zu Wollfäden verarbeitet werden können, oder in manchen Fällen auch direkt zum Stricken verwendet werden.<br><br><strong>Farbige Wolle</strong><br><br>Um Wolle zu färben, braucht es entweder Wollfäden, oder Wolltuch. Diese werden entweder mit verdünntem Borax, Chromit oder Kassiterit gebeizt und dann mit dem Farbstoff Eurer Wahl in einem Fass eingefärbt.",
+
+	"wool:item-fleece-angora-white":				"Angoraflausch",
+	"wool:item-fleece-muskox-brown":				"Qiviutflausch",
+
+	"wool:item-fleece-generic-plain":				"Heller Flausch",
+	"wool:item-fleece-generic-black":				"Schwarzer Flausch",
+	"wool:item-fleece-generic-brown":				"Brauner Flausch",
+	"wool:item-fleece-generic-gray":				"Grauer Flausch",
+	"wool:item-fleece-generic-redbrown":				"Rotbrauner Flausch",
+	"wool:item-fleece-generic-lightbrown":				"Hellbrauner Flausch",
+	"wool:item-fleece-generic-white":				"Weißer Flausch",
+	"wool:item-fleece-generic-yellow":				"Gelber Flausch",
+
+	"wool:itemdesc-fleece-generic-*":				"Haare und Flausch eines haarigen Tieres.",
+
+	"wool:itemdesc-fleece-angora-white":				"Haare und Flausch der Angora-Ziege.",
+	"wool:itemdesc-fleece-muskox-brown":				"Braune Haare und Flausch eines Moschusochsen",
+
+	"wool:itemdesc-fleece-generic-plain":				"Helle Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-brown":				"Braune Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-black":				"Schwarze Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-gray":				"Graue Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-redbrown":			"Rotbraune Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-lightbrown":			"Hellbraune Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-white":				"Weiße Haare und Flausch.",
+	"wool:itemdesc-fleece-generic-yellow":				"Gelbe Haare und Flausch.",
+
+	"wool:handbook-item-fleece":					"Ziemlich schmutzig und riecht streng. Muss vor der Verwendung für Fasern gewaschen werden. Kann zerkleinert als Dünger verwendet werden.",
+
+	"wool:item-fertilizer-organic-wool":				"Organischer Woll-Dünger",
+	"wool:itemdesc-fertilizer-organic-wool":			"Aus rohen, ungewaschenen Tierhaaren und Flausch.",
+
+	"wool:item-fertilizer-organic-horn":				"Hornspäne",
+	"wool:itemdesc-fertilizer-organic-horn":			"Dünger aus gemahlenem Tierhorn.",
+
+	"wool:item-fertilizer-organic-fish":				"Fischmehl",
+	"wool:itemdesc-fertilizer-organic-fish":			"Organischer Dünger aus getrockneten Fischresten.",
+
+	"wool:item-fertilizer-organic-feather":				"Gemahlene Federn",
+	"wool:itemdesc-fertilizer-organic-feather":			"Organischer Dünger aus gekochten und gemahlenen Federn.",
+
+	"wool:item-fibers-angora-white":				"Mohairfasern",
+	"wool:item-fibers-muskox-brown":				"Qiviutfasern",
+
+	"wool:item-fibers-generic-plain":				"Helle Wollfasern",
+	"wool:item-fibers-generic-brown":				"Braune Wollfasern",
+	"wool:item-fibers-generic-black":				"Schwarze Wollfasern",
+	"wool:item-fibers-generic-gray":				"Graue Wollfasern",
+	"wool:item-fibers-generic-redbrown":				"Rotbraune Wollfasern",
+	"wool:item-fibers-generic-lightbrown":				"Hellbraune Wollfasern",
+	"wool:item-fibers-generic-yellow":				"Gelbe Wollfasern",
+	"wool:item-fibers-generic-white":				"Weiße Wollfasern",
+
+	"wool:itemdesc-fibers-angora-white":				"Sehr leichte Naturfasern der Angora-Ziege.",
+	"wool:itemdesc-fibers-muskox-brown":				"Sehr weiche Naturfasern eines Moschusochsen.",
+
+	"wool:itemdesc-fibers-generic-plain":				"Helle Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-black":				"Schwarze Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-brown":				"Braune Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-lightbrown":			"Hellbraune Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-redbrown":			"Rotbraune Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-gray":				"Graue Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-yellow":				"Gelbe Naturfasern eines Tieres.",
+	"wool:itemdesc-fibers-generic-white":				"Weiße Naturfasern eines Tieres.",
+
+	"wool:handbook-item-fibers":					"Kann zu Garn gesponnen und zu Wollstoff verarbeitet werden.",
+
+	"wool:item-twine-wool-mordant":					"Gebeizter Wollfaden",
+
+	"wool:item-twine-wool-plain":					"Heller Wollfaden",
+	"wool:item-twine-wool-black":					"Schwarzer Wollfaden",
+	"wool:item-twine-wool-blue":					"Blauer Wollfaden",
+	"wool:item-twine-wool-brown":					"Brauner Wollfaden",
+	"wool:item-twine-wool-gray":					"Grauer Wollfaden",
+	"wool:item-twine-wool-green":					"Grüner Wollfaden",
+	"wool:item-twine-wool-orange":					"Oranger Wollfaden",
+	"wool:item-twine-wool-pink":					"Rosafarbener Wollfaden",
+	"wool:item-twine-wool-purple":					"Violetter Wollfaden",
+	"wool:item-twine-wool-red":					"Roter Wollfaden",
+	"wool:item-twine-wool-white":					"Weißer Wollfaden",
+	"wool:item-twine-wool-yellow":					"Gelber Wollfaden",
+	"wool:item-twine-wool-darkblue":				"Dunkelblauer Wollfaden",
+	"wool:item-twine-wool-darkbrown":				"Dunkelbrauner Wollfaden",
+	"wool:item-twine-wool-darkgreen":				"Dunkelgrüner Wollfaden",
+	"wool:item-twine-wool-darkred":					"Dunkelroter Wollfaden",
+
+	"wool:itemdesc-twine-wool-*":					"Fein gesponnene Wollfäden",
+
+	"wool:handbook-item-twine-plain":				"Nicht sehr stark, aber ergibt wunderbar weiche und kuschelige Wolle.<br><br> Mit Wollfäden kannst du beschädigte Kleidung um 8% reparieren. Klicke mit dem Faden in der Hand mit <hk>leftmouse</hk> auf das zu reparierende Kleidungs- oder Rüstungsteil in deinem Charakterinventar.",
+	"wool:handbook-item-twine-mordant":				"Kann zu verschiedenen Farben gefärbt werden.",
+	"wool:handbook-item-twine":					"Nicht sehr stark, aber ergibt wunderbar weiche und kuschelige Wolle.",
+
+	"wool:item-clothes-upperbodyover-sweater-mohair-plain-white":		"Weißer Angora-Pullover",
+	"wool:itemdesc-clothes-upperbodyover-sweater-mohair-*":			"<font color='#99c9f9'><i>Sehr flauschig!</i></font><br>",
+	"game:handbook-sweater-mohair-plain-white":				"Aus feinster Angora-Wolle gestrickt.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-pinkgray":		"Rosagrauer Pullover",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-brown":		"Schlichter brauner Pullover",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluebrown":		"Blaubrauner Pullover",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-gray":              "Grauer Pullover",
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-white":		"Hellgrauer Pullover",
+
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-gray":		"<font color='#99c9f9'><i>Arbeitskleidungs des Hirten für kalte Tage.</i></font><br>",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-white":		"<font color='#99c9f9'><i>Sonntagskleidung.</i></font><br>",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-plain-bluered":		"Nordischer Pullover",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-plain-bluered":	"<font color='#99c9f9'><i>Dunkelblau wie die kalten Nordnächte, hell wie der eisige Boden der verschneiten Wälder, dunkelrot wie das Blut der Tiere darauf.</i></font><br>",
+	"game:handbook-sweater-wool-plain-bluered":				"Schützt vor kalten Nächten in der Polarregion und auch anderswo.",
+
+	"wool:item-clothes-upperbodyover-sweater-wool-fishbone-brown":		"Schicker brauner Pullover",
+	"wool:itemdesc-clothes-upperbodyover-sweater-wool-fishbone-*":		"<font color='#99c9f9'><i>Sehr elegant.</i></font><br>",
+	"game:handbook-sweater-wool-fishbone-brown":				"Drei unterschiedliche, teure Wollarten zu einem stilvollen Stück Strickware kombiniert.",
+
+	"wool:item-clothes-upperbodyover-sweater-qivuit-plain-brown":		"Hellbrauner Pullover",
+	"wool:itemdesc-clothes-upperbodyover-sweater-qivuit-plain-brown":	"<font color='#c99979'><i>Riecht männlich.</i></font><br>",
+	"game:handbook-sweater-qivuit-plain-brown":				"Seltene und teure Moschusochsen-Wolle herausragend verarbeitet.",
+
+	"game:handbook-sweater":						"Aus warmer, heimeliger Wolle gestrickt.",
+	"game:handbook-leggings":						"Aus warmer, heimeliger Wolle gestrickt.",
+	"game:handbook-leggings-mohair":					"Aus feinster Angora-Wolle gestrickt.",
+	"game:handbook-leggings-qivuit":					"Seltene und teure Moschusochsen-Wolle herausragend verarbeitet.",
+	"game:handbook-leggings-game":						"Aus feinstem Reh- und Ziegen-Unterbauchfell.",
+	"game:handbook-leggings-noble":						"Aus teurer rosafarbener Wolle. Der letzte Schrei am Hof, gleichermaßen geliebt von Prinzen und Prinzessinnen.",
+
+	"wool:item-clothes-lowerbody-leggings-mohair":				"Warme Angora-Wollhosen",
+	"wool:item-clothes-lowerbody-leggings-qivuit":				"Warme Moschusochsen-Wollhosen",
+	"wool:item-clothes-lowerbody-leggings-game":				"Warme Jäger-Wollhosen",
+	"wool:item-clothes-lowerbody-leggings-noble":				"Warme Edelleute-Wollhosen",
+
+	"wool:blockdesc-wool-*":						"Kann als Dekor benutzt werden, oder um Kleidung um 40% zu reparieren.",
+	"wool:handbook-block-wool":						"Klicke mit der Wolle in der Hand mit <hk>leftmouse</hk> auf das zu reparierende Kleidungs- oder Rüstungsteil in deinem Charakterinventar.",
+
+	"wool:block-wool-plain":						"Wolle",
+	"wool:block-wool-black":						"Schwarze Wolle",
+	"wool:block-wool-blue":							"Blaue Wolle",
+	"wool:block-wool-brown":						"Braune Wolle",
+	"wool:block-wool-gray":							"Graue Wolle",
+	"wool:block-wool-green":						"Grüne Wolle",
+	"wool:block-wool-orange":						"Orange Wolle",
+	"wool:block-wool-pink":							"Rosafarbene Wolle",
+	"wool:block-wool-purple":						"Violette Wolle",
+	"wool:block-wool-red":							"Rote Wolle",
+	"wool:block-wool-white":						"Weiße Wolle",
+	"wool:block-wool-yellow":						"Gelbe Wolle",
+	"wool:block-wool-darkblue":						"Dunkelblaue Wolle",
+	"wool:block-wool-darkbrown":						"Dunkelbraune Wolle",
+	"wool:block-wool-darkgreen":						"Dunkelgrüne Wolle",
+	"wool:block-wool-darkred":						"Dunkelrote Wolle",
+
+	"wool:item-cloth-wool-mordant":						"Gebeiztes Wolltuch",
+
+	"wool:item-cloth-wool-plain":						"Wolltuch",
+	"wool:item-cloth-wool-black":						"Schwarzes Wolltuch",
+	"wool:item-cloth-wool-blue":						"Blaues Wolltuch",
+	"wool:item-cloth-wool-brown":						"Braunes Wolltuch",
+	"wool:item-cloth-wool-gray":						"Graues Wolltuch",
+	"wool:item-cloth-wool-green":						"Grünes Wolltuch",
+	"wool:item-cloth-wool-orange":						"Oranges Wolltuch",
+	"wool:item-cloth-wool-pink":						"Rosafarbenes Wolltuch",
+	"wool:item-cloth-wool-purple":						"Violettes Wolltuch",
+	"wool:item-cloth-wool-red":						"Rotes Wolltuch",
+	"wool:item-cloth-wool-white":						"Weißes Wolltuch",
+	"wool:item-cloth-wool-yellow":						"Gelbes Wolltuch",
+
+	"wool:item-cloth-wool-darkblue":					"Dunkelblaues Wolltuch",
+	"wool:item-cloth-wool-darkbrown":					"Dunkelbraunes Wolltuch",
+	"wool:item-cloth-wool-darkgreen":					"Dunkelgrünes Wolltuch",
+	"wool:item-cloth-wool-darkred":						"Dunkelrotes Wolltuch",
+
+	"wool:item-kneedle-wood":						"Stricknadeln (Holz)",
+	"wool:item-kneedle-horn":						"Stricknadeln (Horn)",
+	"wool:item-kneedle-bone":						"Stricknadeln (Knochen)",
+
+	"wool:block-clothblock-wool-plain":					"Wolle",
+	"wool:block-clothblock-wool-black":					"Schwarze Wolle",
+	"wool:block-clothblock-wool-blue":					"Blaue Wolle",
+	"wool:block-clothblock-wool-brown":					"braune Wolle",
+	"wool:block-clothblock-wool-gray":					"Graue Wolle",
+	"wool:block-clothblock-wool-green":					"Grüne Wolle",
+	"wool:block-clothblock-wool-orange":					"Orange Wolle",
+	"wool:block-clothblock-wool-pink":					"Rosafarbene Wolle",
+	"wool:block-clothblock-wool-purple":					"Violette Wolle",
+	"wool:block-clothblock-wool-red":					"Rote Wolle",
+	"wool:block-clothblock-wool-white":					"Weiße Wolle",
+	"wool:block-clothblock-wool-yellow":					"Gelbe Wolle",
+	"wool:block-clothblock-wool-darkblue":					"Dunkelblaue Wolle",
+	"wool:block-clothblock-wool-darkbrown":					"Dunkelbraune Wolle",
+	"wool:block-clothblock-wool-darkgreen":					"Dunkelgrüne Wolle",
+	"wool:block-clothblock-wool-darkred":					"Dunkelrote Wolle",
+
+	"wool:item-sack-wool-plain":						"Wollsack",
+	"wool:item-sack-wool-gray":						"Grauer Wollsack",
+	"wool:item-sack-wool-brown":						"Brauner Wollsack",
+	"wool:item-sack-wool-white":						"Weißer Wollsack",
+
+	"wool:itemdesc-sack-*":							"Erhöht die Anzahl der Gegenstände, die du tragen kannst.",
+
+	"wildcraftfruit:item-poultice-linen-falseorange":			"Milchorangenumschlag (aus Stoff)",
+	"wildcraftfruit:item-poultice-linen-snowberry":				"Schneebeerenumschlag (aus Stoff)",
+	"wildcraftfruit:item-poultice-linen-bryony":				"Zaunrübenbeerenumschlag (aus Stoff)",
+	"wildcraftfruit:item-poultice-linen-resin-elder":			"Harz-Holunderblütenumschlag (aus Stoff)",
+	"wildcraftfruit:item-poultice-linen-ivy-vinegar":			"Efeubeeren-Essigumschlag (aus Stoff)",
+	"wildcraftfruit:item-poultice-linen-baneberry":				"Christophskrautumschlag (aus Stoff)",
+	"wildcraftfruit:item-poultice-linen-bearberry":				"Bärentraubenumschlag (aus Stoff)",
+
+	"game:item-poultice-linen-honey-sulfur":				"Honig-Schwefelumschlag (aus Stoff)",
+	"game:item-poultice-linen-horsetail":					"Schachtelhalmumschlag (aus Stoff)"
+}

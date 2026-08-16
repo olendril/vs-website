@@ -1,0 +1,41 @@
+{
+	code: "halflog",
+	class: "iw-halflog",
+	shape: { base: "immersivewoodworking:item/halflog" },
+	heldTpIdleAnimation: "holdbothhandslarge",
+	textures: {
+		"wood": { base: "game:block/wood/bark/oak" },
+		"wood_corner": { base: "game:block/wood/treetrunk/oak" },
+		"debarked_wood": { base: "game:block/wood/debarked/oak" }
+	},
+	maxStackSize: 16,
+	materialDensity: 600,
+	combustibleProps: { burnTemperature: 750, burnDuration: 42 },
+	creativeinventory: { "general": ["*"] },
+	attributes: {
+		handbook: {
+			extraSections: [
+				{ title: "immersivewoodworking:halflog-handbook-title", text: "immersivewoodworking:halflog-handbook-text" }
+			]
+		}
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 5, y: -6, z: 0 },
+		rotation: { x: 2, y: 137, z: -21 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.15, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 3.3
+	},
+	tpHandTransform: {
+		translation: { x: -0.5, y: 0.1, z: -0.55 },
+		rotation: { x: -79, y: 1, z: -102 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.6
+	}
+}

@@ -1,0 +1,10 @@
+[
+	{
+	"code": "dilutedsaltpeter",
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 2 },
+		{ "type": "item", "code": "game:saltpeter", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "em:dilutedsaltpeterportion", "litres": 1 }
+	}
+]

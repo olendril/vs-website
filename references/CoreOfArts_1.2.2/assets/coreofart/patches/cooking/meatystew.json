@@ -1,0 +1,24 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "vegetable-*",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "vegetable-*",
+      "shapeElement": "bowl/vegetable 2/*"
+    },
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "Server"
+  }
+]

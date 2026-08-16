@@ -1,0 +1,66 @@
+[
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hare-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hare-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable/drops",
+    "enabled": true,
+    "value": [],
+    "file": "game:entities/animal/mammal/hare-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/behaviorConfigs/harvestable/drops/-",
+    "enabled": true,
+    "value": [
+	    { "type": "item", "code": "wool:fleece-generic-white",
+		"quantityByType": {
+			"hare-arctic-adult-*": { "avg": 1.5, "var": 0.75 },
+			"*": { "avg": 0, "var": 0 } } },
+	    { "type": "item", "code": "wool:fleece-generic-gray",
+		"quantityByType": {
+			"hare-ashgrey-adult-*": { "avg": 1, "var": 1 },
+			"hare-lightgrey-adult-*": { "avg": 1, "var": 1 },
+			"hare-silver-adult-*": { "avg": 1, "var": 1 },
+			"*": { "avg": 0, "var": 0 } } },
+	    { "type": "item", "code": "wool:fleece-generic-lightbrown",
+		"quantityByType": {
+			"hare-lightbrown-adult-*": { "avg": 1, "var": 1 },
+			"hare-desert-adult-*": { "avg": 1, "var": 1 },
+			"hare-smokegrey-adult-*": { "avg": 0.75, "var": 0.75 },
+			"*": { "avg": 0, "var": 0 } } },
+	    { "type": "item", "code": "wool:fleece-generic-brown",
+		"quantityByType": {
+			"hare-darkbrown-adult-*": { "avg": 1, "var": 1 },
+			"hare-smokegrey-adult-*": { "avg": 0.75, "var": 0.75 },
+			"*": { "avg": 0, "var": 0 } } },
+	    { "type": "item", "code": "wool:fleece-generic-yellow",
+		"quantityByType": {
+			"hare-gold-adult-*": { "avg": 1, "var": 1 },
+			"*": { "avg": 0, "var": 0 } } }
+    ],
+    "file": "game:entities/animal/mammal/hare-adult.json",
+    "side": "Server"
+  }
+]

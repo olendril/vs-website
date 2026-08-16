@@ -1,0 +1,11 @@
+{
+	code: "tea-forestspring-cold",
+	sealHours: 16,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1 },
+		{ type: "block", code: "game:flower-cowparsley-free", quantity: 1 },
+		{ type: "block", code: "game:flower-cornflower-free", quantity: 1 },
+		{ type: "block", code: "game:flower-wilddaisy-free", quantity: 1 }
+	],
+	output: { type: "item", code: "steepandbrew:tea-forestspring-cold", litres: 1 }
+}

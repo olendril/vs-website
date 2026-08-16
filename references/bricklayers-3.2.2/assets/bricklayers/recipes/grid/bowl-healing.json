@@ -1,0 +1,131 @@
+[
+	{
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_C_",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_P_",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:porcelainbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:coloredbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_C_",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:coloredbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_P_",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:coloredbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+
+	{
+		"ingredientPattern": "SBS,_L_",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-linen-honey-sulfur", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_C_",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "SBS,_P_",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:powder-sulfur" },
+			"B": { "type": "block", "code": "bricklayers:glazedbowl-burnt-*" }
+		},
+		"attributes": {
+			"liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "game:poultice-reed-honey-sulfur", "quantity": 4 }
+	}
+
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hooved/goat-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hooved/goat-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable/drops",
+    "enabled": true,
+    "value": [],
+    "file": "game:entities/animal/mammal/hooved/goat-baby.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/behaviorConfigs/harvestable/drops/-",
+    "enabled": true,
+    "value": [
+	{ "type": "item", "code": "wool:fleece-angora-white", "quantityByType": { "goat-angora-baby-*": { "avg": 4, "var": 1 }, "*": { "avg": 0 } } },
+	{ "type": "item", "code": "wool:fleece-muskox-brown", "quantityByType": { "goat-muskox-baby-*": { "avg": 3, "var": 1 }, "*": { "avg": 0 } } },
+	{ "type": "item", "code": "wool:fleece-generic-white", "quantityByType": { "goat-valais-baby-*": { "avg": 2, "var": 1 }, "*": { "avg": 0 } } },
+	{ "type": "item", "code": "wool:fleece-generic-plain",
+		"quantityByType": {
+			"goat-mountain-baby-*": { "avg": 4, "var": 1 },
+			"goat-ibexnub-baby-*": { "avg": 2, "var": 1 },
+			"goat-takingold-baby-*": { "avg": 0, "var": 0 },
+			"*": { "avg": 0 }
+		}
+	},
+	{ "type": "item", "code": "wool:fleece-generic-black", "quantityByType": { "goat-valais-baby-*": { "avg": 2, "var": 1 }, "*": { "avg": 0 } } },
+	{ "type": "item", "code": "wool:fleece-generic-brown",
+		"quantityByType": {
+			"goat-nubian-baby-*": { "avg": 2, "var": 1 },
+			"goat-markhor-baby-*": { "avg": 2, "var": 1 },
+			"goat-turdag-baby-*": { "avg": 2, "var": 1 },
+			"goat-ibexnub-baby-*": { "avg": 0, "var": 0 },
+			"goat-ibexalp-baby-*": { "avg": 2, "var": 1 },
+			"*": { "avg": 0 }
+		}
+	},
+	{ "type": "item", "code": "wool:fleece-generic-yellow",
+		"quantityByType": {
+			"goat-takingold-baby-*": { "avg": 0, "var": 0 },
+			"goat-sirohi-baby-*": { "avg": 0, "var": 0 },
+			"*": { "avg": 0 }
+		}
+	},
+	{ "type": "item", "code": "wool:fleece-generic-gray", "quantityByType": { "goat-takingold-baby-*": { "avg": 2, "var": 1 }, "*": { "avg": 0 } } },
+	{ "type": "item", "code": "wool:fleece-generic-redbrown", "quantityByType": { "goat-sirohi-baby-*": { "avg": 2, "var": 1 }, "*": { "avg": 0 } } }
+    ],
+    "file": "game:entities/animal/mammal/hooved/goat-baby.json",
+    "side": "Server"
+  }
+]

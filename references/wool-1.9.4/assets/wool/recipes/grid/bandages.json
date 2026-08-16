@@ -1,0 +1,27 @@
+[
+	{
+	"ingredientPattern": "W,W",
+	"enabled": true,
+	"ingredients": {
+		"W": { "type": "item", "code": "wool:twine-wool-*", "name": "color", "allowedVariants": [ "plain", "white" ] }
+	},
+	"recipeGroup": 2,
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:bandage-clean", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "K,W",
+	"enabled": true,
+	"ingredients": {
+		"W": { "type": "block", "code": "wool:wool-*", "name": "color", "allowedVariants": [ "plain", "white" ] },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true }
+	},
+	"recipeGroup": 7,
+	"shapeless": true,
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "game:bandage-clean", "quantity": 4 }
+	}
+]

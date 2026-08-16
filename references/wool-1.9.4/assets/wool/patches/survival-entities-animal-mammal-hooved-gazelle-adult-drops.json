@@ -1,0 +1,55 @@
+[
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable",
+    "enabled": true,
+    "value": {},
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addmerge",
+    "comment": "in case it is not there yet",
+    "path": "/behaviorConfigs/harvestable/drops",
+    "enabled": true,
+    "value": [],
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+    "side": "Server"
+  },
+
+  {
+    "op": "addeach",
+    "path": "/behaviorConfigs/harvestable/drops/-",
+    "enabled": true,
+    "value": [
+	{ "type": "item", "code": "wool:fleece-generic-plain",
+		"quantityByType": {
+			"gazelle-*-adult-male": { "avg": 3, "var": 2 },
+			"gazelle-*-adult-female": { "avg": 4, "var": 2 },
+			"*": { "avg": 0 }
+		}
+	},
+	{ "type": "item", "code": "wool:fleece-generic-yellow",
+		"quantityByType": {
+			"gazelle-*-adult-male": { "avg": 2, "var": 1 },
+			"gazelle-*-adult-female": { "avg": 3, "var": 1.25 },
+			"*": { "avg": 0 }
+		}
+	}
+    ],
+    "file": "game:entities/animal/mammal/hooved/gazelle-adult.json",
+    "side": "Server"
+  }
+]

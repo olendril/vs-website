@@ -1,0 +1,7 @@
+{
+  "CollectibleTypes": [
+    "game:BlockPie",
+    "game:ItemCheese"
+  ],
+  "CollectibleCodes": []
+}

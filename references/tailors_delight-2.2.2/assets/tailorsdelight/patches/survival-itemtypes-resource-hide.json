@@ -1,0 +1,38 @@
+[
+	{
+	"op": "replace",
+	"comment": "slim down so you can walk smoothly over them.",
+	"path": "/behaviors/0/properties/collisionBox",
+	"value": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.04, "z2": 1 },
+	"file": "game:itemtypes/resource/hide.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "replace",
+	"path": "/behaviors/0/properties/collisionBox",
+	"value": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.04, "z2": 1 },
+	"file": "game:itemtypes/resource/hide-species.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "replace",
+	"path": "/behaviors/0/properties/collisionBox",
+	"value": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.04, "z2": 1 },
+	"file": "game:itemtypes/resource/hide-species-headed.json",
+	"side": "Server"
+	},
+
+	{
+	"op": "add",
+	"comment": "add tags so recipes can target them specifically",
+	"path": "/tagsByType/*-huge/-",
+	"value": "hide-generic",
+	"file": "game:itemtypes/resource/hide.json",
+	"side": "Server"
+	},
+	{ "op": "add", "path": "/tagsByType/*-large/-", "value": "hide-generic", "file": "game:itemtypes/resource/hide.json", "side": "Server" },
+	{ "op": "add", "path": "/tagsByType/*-medium/-", "value": "hide-generic", "file": "game:itemtypes/resource/hide.json", "side": "Server" },
+	{ "op": "add", "path": "/tagsByType/*-small/-", "value": "hide-generic", "file": "game:itemtypes/resource/hide.json", "side": "Server" }
+]

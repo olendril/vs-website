@@ -1,0 +1,30 @@
+[
+	{
+		"enabled": false,
+		"ingredients": [
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "butchering:offal-bloody",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"inputs": [
+					{
+						"type": "item",
+						"code": "game:waterportion",
+						"quantity": 20
+					}
+				]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "butchering:offal-clean",
+			"stackSize": 1
+		}
+	}
+]

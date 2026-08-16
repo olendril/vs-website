@@ -1,0 +1,58 @@
+﻿[
+    {
+        "ingredientPattern": "H,P",
+        "name": "punch",
+        "recipeGroup": 1,
+        "height": 2,
+        "width": 1,
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "P": {
+                "type": "item",
+                "code": "coinage:punchpart-*",
+                "name": "metal",
+                "allowedVariants": [ "blackbronze", "iron", "meteoriciron", "steel" ]
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "coinage:punch-{metal}"
+        }
+    },
+    {
+        "ingredientPattern": "SO,N_",
+        "name": "punch repair",
+        "recipeGroup": 2,
+        "height": 2,
+        "width": 2,
+        "shapeless": true,
+        "ingredients": {
+            "O": {
+                "type": "item",
+                "code": "coinage:punch-*",
+                "name": "oldmetal",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "N": {
+                "type": "item",
+                "code": "coinage:punchpart-*",
+                "name": "metal",
+                "allowedVariants": [ "blackbronze", "iron", "meteoriciron", "steel" ]
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            }
+        },
+        "copyAttributesFrom": "O",
+        "averageDurability": false,
+        "output": {
+            "type": "item",
+            "code": "coinage:punch-{metal}"
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+	{
+		"code": "dye-pink-alum",
+		"name": "dye-pink-rhodochrosite-alum",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedalumportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-pink", "litres": 2 }
+	},
+	{
+		"code": "dye-pink-cassiterite",
+		"name": "dye-pink-rhodochrosite-cassiterite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedcassiteriteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-pink", "litres": 2 }
+	},
+	{
+		"code": "dye-pink-chromite",
+		"name": "dye-pink-rhodochrosite-chromite",
+		"ingredients": [
+			{ "type": "item", "code": "game:dilutedchromiteportion", "litres": 2 },
+			{ "type": "item", "code": "em:powdered-ore-rhodochrosite", "quantity": 1 }
+		],
+		"output": { "type": "item", "code": "game:dye-pink", "litres": 2 }
+	}
+]

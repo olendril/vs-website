@@ -1,0 +1,9 @@
+{
+	code: "kombucha-catmint-cold",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-catmint", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-catmint-cold", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-catmint", litres: 10 }
+}

@@ -1,0 +1,41 @@
+[
+	{
+		"file": "game:blocktypes/wood/sign",
+		"side": "Server",
+		"op": "add",
+		"path": "/behaviors",
+		"value": [
+			{
+				"name": "Carryable",
+				"properties": {
+					"enabledCondition": "carryon.Carryables.Sign",
+					"labelRenderSettings": {
+						"transform": {
+							"translation": [ 0.508, 0.863, 0.063 ],
+							"scale": [ 0.916, 1.01, 1.0 ]
+						},
+						"attachedTransform": {
+							"translation": [ 0, -0.01, 0 ]
+						},
+						"maxWidth": 200,
+						"maxHeight": 96
+					},
+					"rootRenderFacing": "north",
+					"rootRenderVariant": "wall",
+					"transformGroups": {
+						"hands": [
+							{
+								"id": "root",
+								"translation": [ -0.16, 0.12, 0.0 ],
+								"rotation": [ 0.0, -90.0, -40.0 ]
+							}
+						]
+					},
+					"slots": {
+						"Hands": {}
+					}
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,28 @@
+[
+	{
+	"ingredientPattern": "SAS, L ,SKS",
+	"ingredients": {
+		"S": { "type": "item", "code": "game:stick" },
+		"L": { "type": "item", "code": "wool:cloth-wool-*", "name": "color", "quantity": 1, "skipVariants": [ "mordant" ] },
+		"A": { "type": "item", "code": "tailorsdelight:needle-*" },
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 4 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "tailorsdelight:panel-cloth-full-none-{color}", "quantity": 2 }
+	},
+
+	{
+	"ingredientPattern": "S ,CN,R ",
+	"requiresTrait": "clothier",
+	"ingredients": {
+		"C": { "type": "item", "code": "wool:cloth-wool-*", "name": "color", "quantity": 1, "skipVariants": [ "mordant" ] },
+		"S": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 4 },
+		"R": { "type": "item", "code": "tailorsdelight:ruler-*", "isTool": true },
+		"N": { "type": "item", "code": "tailorsdelight:needle-*" }
+	},
+	"width": 2,
+	"height": 3,
+	"output": { "type": "block", "code": "tailorsdelight:panel-cloth-small-none-{color}", "quantity": 4 }
+	}
+]

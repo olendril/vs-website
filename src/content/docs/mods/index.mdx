@@ -1,8 +1,17 @@
 ---
 title: Mods
-description: Placeholder for the mods used by the server.
+description: Browse all 89 mod packages installed on the server.
 ---
+
+import ModCard from '../../../components/ModCard.astro';
+import { allMods, SERVER_VERSION } from '../../../data/mods';
 
 # Mods
 
-Mod documentation and installation notes will be organized here.
+This server runs **{allMods.length} mod packages** on Vintage Story **{SERVER_VERSION}**. Select any mod to open its page on the Vintage Story ModDB. Installed versions shown here are the server source of truth; upstream projects may publish newer releases.
+
+<div class="mod-card-grid" aria-label="Installed mods">
+  {allMods.map((mod) => (
+    <ModCard mod={mod.slug} />
+  ))}
+</div>

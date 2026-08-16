@@ -1,0 +1,149 @@
+/*
+ * A warm, mineral-and-clay palette inspired by the materials of Vintage Story.
+ * The colors are intentionally original and are applied through Starlight's
+ * design tokens so the whole documentation UI stays coherent.
+ */
+:root {
+  /* Dark mode is Starlight's default theme. */
+  --sl-color-white: #fff8e8;
+  --sl-color-gray-1: #f5ead6;
+  --sl-color-gray-2: #d8c8ad;
+  --sl-color-gray-3: #ad987b;
+  --sl-color-gray-4: #75634d;
+  --sl-color-gray-5: #473a2d;
+  --sl-color-gray-6: #2e271f;
+  --sl-color-black: #201a15;
+
+  --sl-hue-orange: 28;
+  --sl-hue-green: 92;
+  --sl-hue-blue: 188;
+  --sl-hue-purple: 284;
+  --sl-hue-red: 8;
+
+  --sl-color-accent-low: #4f2d24;
+  --sl-color-accent: #d67a45;
+  --sl-color-accent-high: #ffd0a4;
+  --sl-color-text: var(--sl-color-gray-2);
+  --sl-color-text-accent: var(--sl-color-accent-high);
+  --sl-color-text-invert: #2e1c14;
+  --sl-color-bg: var(--sl-color-black);
+  --sl-color-bg-nav: var(--sl-color-gray-6);
+  --sl-color-bg-sidebar: var(--sl-color-gray-6);
+  --sl-color-bg-inline-code: var(--sl-color-gray-5);
+  --sl-color-bg-accent: var(--sl-color-accent-high);
+  --sl-color-hairline-light: #5a4937;
+  --sl-color-hairline: #2a221b;
+  --sl-color-hairline-shade: #17120f;
+
+  --site-card-radius: 0.75rem;
+  --site-card-shadow: 0 0.75rem 1.75rem rgb(17 12 8 / 22%);
+  --site-card-bg: color-mix(in srgb, var(--sl-color-bg) 94%, var(--sl-color-accent-low));
+  --site-card-bg-hover: color-mix(in srgb, var(--sl-color-bg) 88%, var(--sl-color-accent-low));
+}
+
+:root[data-theme='light'] {
+  --sl-color-white: #2a221c;
+  --sl-color-gray-1: #2a221c;
+  --sl-color-gray-2: #493c2e;
+  --sl-color-gray-3: #6f5b46;
+  --sl-color-gray-4: #a89478;
+  --sl-color-gray-5: #d7c6aa;
+  --sl-color-gray-6: #eee4d1;
+  --sl-color-gray-7: #f8f1e5;
+  --sl-color-black: #fffaf1;
+
+  --sl-color-accent-low: #f1d6c3;
+  --sl-color-accent: #b85732;
+  --sl-color-accent-high: #7b351f;
+  --sl-color-text: var(--sl-color-gray-2);
+  --sl-color-text-accent: var(--sl-color-accent);
+  --sl-color-text-invert: var(--sl-color-black);
+  --sl-color-bg: var(--sl-color-black);
+  --sl-color-bg-nav: var(--sl-color-gray-7);
+  --sl-color-bg-sidebar: var(--sl-color-bg);
+  --sl-color-bg-inline-code: var(--sl-color-gray-6);
+  --sl-color-bg-accent: var(--sl-color-accent);
+  --sl-color-hairline-light: #e2d2ba;
+  --sl-color-hairline: #eee4d1;
+  --sl-color-hairline-shade: #eee4d1;
+
+  --site-card-shadow: 0 0.75rem 1.75rem rgb(89 61 35 / 10%);
+}
+
+/* Give splash pages a little more presence without changing their layout. */
+[data-has-hero] .hero {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--sl-color-accent-low) 55%, transparent),
+    transparent 72%
+  );
+  border-radius: var(--site-card-radius);
+  padding-inline: clamp(1rem, 3vw, 2.5rem);
+}
+
+[data-has-hero] .hero h1 {
+  text-wrap: balance;
+}
+
+/* Keep the homepage information and Starlight cards visually related. */
+.sl-markdown-content [aria-label='Basic server information'],
+.sl-markdown-content .sl-link-card,
+.sl-markdown-content .card {
+  background-color: var(--site-card-bg);
+  box-shadow: var(--site-card-shadow);
+}
+
+.sl-markdown-content [aria-label='Basic server information'] {
+  border-color: var(--sl-color-hairline-light);
+}
+
+.sl-markdown-content .sl-link-card,
+.sl-markdown-content .card,
+.sl-markdown-content .mod-card {
+  border-radius: var(--site-card-radius);
+}
+
+.sl-markdown-content .sl-link-card:hover,
+.sl-markdown-content .sl-link-card:focus-within,
+.sl-markdown-content .mod-card__link:hover {
+  background-color: var(--site-card-bg-hover);
+}
+
+.sl-markdown-content .sl-link-card:focus-within {
+  outline: 2px solid var(--sl-color-accent);
+  outline-offset: 2px;
+}
+
+/* Mod cards get a quiet surface and a clear focus/hover boundary. */
+.sl-markdown-content .mod-card {
+  background-color: var(--site-card-bg);
+  border-color: var(--sl-color-hairline-light);
+  box-shadow: var(--site-card-shadow);
+  overflow: hidden;
+}
+
+.sl-markdown-content .mod-card__link:focus-visible {
+  outline-color: var(--sl-color-accent);
+}
+
+.sl-markdown-content .mod-card__icon {
+  border-radius: 0.5rem;
+}
+
+.sl-markdown-content .mod-card__meta {
+  margin-top: 0.65rem;
+  color: var(--sl-color-gray-3);
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sl-markdown-content .sl-link-card,
+  .sl-markdown-content .mod-card,
+  .sl-markdown-content .mod-card__link {
+    transition:
+      background-color 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+  }
+}

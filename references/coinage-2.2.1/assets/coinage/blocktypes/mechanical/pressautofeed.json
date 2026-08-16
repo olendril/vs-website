@@ -1,0 +1,140 @@
+{
+    "code": "pressautofeed",
+    "class": "pressautofeed",
+    "entityClass": "bepressautofeed",
+    "behaviors": [
+        { "name": "Container" },
+        {
+            "name": "HorizontalOrientable"
+        },
+        {
+            "name": "UnstableFalling",
+            "properties": { "exceptions": [ "woodenaxle-ud" ] }
+        }
+    ],
+    "entityBehaviors": [
+        {
+            "name": "Animatable"
+        },
+        {
+            "name": "MPConsumer",
+            "properties": { "mechPartShape": null }
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*-north" ],
+        "coinage": [ "*-north" ]
+    },
+    "blockmaterial": "metal",
+    "materialDensity": 450,
+    "shapeInventory": {
+        "base": "coinage:block/autofeeder/base"
+    },
+    "shape": {
+        "base": "coinage:block/autofeeder/base",
+        "rotateYByType": {
+            "*-south": 180,
+            "*-east": 270,
+            "*-west": 90
+        }
+    },
+    "textures": {
+        "black": { "base": "game:block/leather/black" },
+        "normal1": { "base": "game:block/metal/corroded/normal1" },
+        "copper1": { "base": "game:block/metal/sheet-plain/copper1" },
+        "steel": { "base": "game:block/metal/sheet/steel1" },
+        "rusty-iron": { "base": "game:block/metal/tarnished/rusty-iron" },
+        "plank": { "base": "game:block/wood/planks/oak1" },
+        "oak": { "base": "game:block/wood/treetrunk/oak" }
+    },
+    "sounds": {
+        "place": "game:block/planks",
+        "walk": "game:walk/wood1",
+        "hit": "game:block/planks",
+        "break": "game:block/planks"
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "coinage:pressautofeed-north"
+        }
+    ],
+    "facecullmode": "default",
+    "lightAbsorption": 0,
+    "emitSideAo": { "all": false },
+    "sideopaque": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "maxstacksize": 1,
+    "replaceable": 160,
+    "resistance": 4,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldRightReadyAnimation": "heldblockready",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "selectionBox": {
+        "z1": -0.125,
+        "y1": 0,
+        "x1": 0.0625,
+        "z2": 0.9375,
+        "y2": 0.875,
+        "x2": 0.9375,
+        "rotateYByType": {
+            "*-north": 180,
+            "*-west": 270,
+            "*-east": 90
+        }
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.4,
+            "y": 0.6,
+            "z": 0.5
+        },
+        "scale": 1.08
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.9,
+            "y": -0.8,
+            "z": -0.5
+        },
+        "rotation": {
+            "x": 87,
+            "y": -5,
+            "z": -75
+        },
+        "scale": 0.59
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 2.59
+    }
+}

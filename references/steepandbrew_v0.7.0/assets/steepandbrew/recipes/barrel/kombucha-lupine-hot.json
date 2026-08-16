@@ -1,0 +1,9 @@
+{
+	code: "kombucha-lupine-hot",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "steepandbrew:scoby-lupine", quantity: 1, consumeQuantity: 0 },
+		{ type: "item", code: "steepandbrew:tea-lupine-hot", litres: 10 }
+	],
+	output: { type: "item", code: "steepandbrew:kombucha-lupine", litres: 10 }
+}

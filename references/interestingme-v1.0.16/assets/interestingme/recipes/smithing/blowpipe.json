@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "game:ingot-copper" },
+	pattern: [[
+		"##########",
+		"##########",
+	],[
+		"##########",
+		"##########",
+	]],
+	name: "Blowpipe",
+	code: "interestingme:blowpipe",
+	output: { type: "item", code: "interestingme:blowpipe" }
+}

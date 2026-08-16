@@ -1,0 +1,97 @@
+{
+  "enabled": false,
+  "code": "storagebarrel",
+  "classByType": { "*": "BlockGenericTypedContainer" },
+  "entityClassByType": { "*": "GenericTypedContainer" },
+  "variantgroups": [
+    {
+      "code": "variant",
+      "states": [
+        "oak"
+      ]
+    }
+  ],
+  "attributes": {
+    "attachableToEntity": {
+      "categoryCodeByType": {
+        "cartsstorage-*": "storage"
+      }
+    },
+    "inventoryClassName": "chest",
+    "defaultType": "normal",
+    "types": [
+      "normal"
+    ],
+    "drop": {
+      "normal": true
+    },
+    "quantitySlots": {
+      "normal": 16
+    },
+    "dialogTitleLangCode": {
+      "normal": "chestcontents"
+    },
+    "storageType": {
+      "normal": 32
+    },
+    "retrieveOnly": {
+      "normal": false
+    },
+    "spoilSpeedMulByFoodCat": {
+      "normal": {
+        "vegetable": 0.8,
+        "grain": 0.6
+      }
+    },
+    "shape": { "base": "game:block/wood/barrel/closed" },
+    "variantByGroup": "variant",
+    "variantByGroupInventory": "variant"
+
+  },
+  "behaviorsByType": {
+    "*": [
+      { "name": "Lockable" },
+      { "name": "Container" },
+      { "name": "BoatableGenericTypedContainer" }
+    ]
+  },
+  "entityBehaviorsByType": {
+    "*": [
+      {
+        "name": "Animatable"
+      }
+    ]
+  },
+
+  "shape": { "base": "game:block/wood/barrel/closed" },
+  "texture": {
+    "blackbronze4": { "base": "game:block/metal/sheet/blackbronze4" },
+    "bottom": { "base": "game:block/wood/barrel/bottom" },
+    "aged": { "base": "game:block/wood/debarked/aged" }
+  },
+  "heldTpIdleAnimationByType": {
+    "*": "holdbothhands"
+  },
+  "maxStackSize": 16,
+  "creativeinventory": {
+    "general": [ "*" ],
+    "cartwrightscaravan": [ "*" ]
+  },
+  "renderAlphaTest": 0.25,
+  "guiTransform": {
+    "rotation": {
+      "x": -30,
+      "y": -44,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.05,
+      "y": 0.9,
+      "z": 0
+    },
+    "scale": 0.97
+  }
+
+}	
+
+

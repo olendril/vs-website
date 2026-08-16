@@ -1,0 +1,11 @@
+{
+	"game:tabname-ceramics":					"Ceramika",
+	"game:tabname-glass":						"Szkło",
+	"game:tabname-luminous":					"Świetlny",
+
+	"em:item-crushed-metal-lead":					"Kruszony ołów",
+
+	"em:item-powdered-ore-magnesiumhydroxide":			"Wodorotlenek magnezu",
+	"em:item-powdered-ore-magnesiumoxide":				"Tlenek magnezu",
+	"em:item-powdered-ore-manganesedioxide":			"Tlenek manganu"
+}

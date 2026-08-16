@@ -1,0 +1,21 @@
+﻿[
+    // Hadrosauroidea
+    {
+        "side": "server",
+        "file": "hadrosauroidea:entities/land/hadrosauroidea",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "hadrosauroidea:entities/land/hadrosauroidea",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

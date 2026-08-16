@@ -1,0 +1,21 @@
+﻿[
+    // Felinae
+    {
+        "side": "server",
+        "file": "felinae:entities/land/felinae",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehavior"
+        }
+    },
+    {
+        "side": "server",
+        "file":  "felinae:entities/land/felinae",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "EntityBleedingBehaviorParticles"
+        }
+    }
+]

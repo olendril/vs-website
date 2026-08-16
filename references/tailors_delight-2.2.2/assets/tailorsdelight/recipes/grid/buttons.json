@@ -1,0 +1,172 @@
+[
+	{
+	"ingredientPattern": "KA,BS",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"B": { "type": "item", "code": "game:bone" },
+		"S": { "type": "item", "code": "game:stick" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-mixed" }
+	},
+
+	{
+	"name": "seashell-buttons",
+	"ingredientPattern": "KA,LD,ST",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"L": { "type": "block", "code": "game:seashell-*-latte" },
+		"D": { "type": "block", "code": "game:seashell-*-darkpurple" },
+		"S": { "type": "block", "code": "game:seashell-*-seafoam" },
+		"T": { "type": "block", "code": "game:seashell-*-turquoise" }
+	},
+	"width": 2,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-shells", "quantity": 2 }
+	},
+	{
+	"name": "seashell-buttons",
+	"ingredientPattern": "KA,PD,ST",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"P": { "type": "block", "code": "game:seashell-*-plain" },
+		"D": { "type": "block", "code": "game:seashell-*-darkpurple" },
+		"S": { "type": "block", "code": "game:seashell-*-seafoam" },
+		"T": { "type": "block", "code": "game:seashell-*-turquoise" }
+	},
+	"width": 2,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-shells", "quantity": 2 }
+	},
+	{
+	"name": "seashell-buttons",
+	"ingredientPattern": "KA,CD,ST",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"C": { "type": "block", "code": "game:seashell-*-cinnamon" },
+		"D": { "type": "block", "code": "game:seashell-*-darkpurple" },
+		"S": { "type": "block", "code": "game:seashell-*-seafoam" },
+		"T": { "type": "block", "code": "game:seashell-*-turquoise" }
+	},
+	"width": 2,
+	"height": 3,
+	"shapeless": true,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-shells", "quantity": 2 }
+	},
+
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-09" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 4 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-08" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 3 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-07" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 2 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-06" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 2 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-05" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 2 }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-04" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn" }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-03" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn" }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-02" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn" }
+	},
+	{
+	"name": "horn-buttons",
+	"ingredientPattern": "KA,H_",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true },
+		"A": { "type": "item", "code": "tailorsdelight:awl-*", "isTool": true },
+		"H": { "type": "item", "code": "game:antler-*-01" }
+	},
+	"width": 2,
+	"height": 2,
+	"output": { "type": "item", "code": "tailorsdelight:buttons-horn", "quantity": 1 }
+	}
+]

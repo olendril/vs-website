@@ -1,0 +1,78 @@
+[
+  {    
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity",
+    "value": { 
+      "categoryCode": "mpcrock" , 
+      "texturePrefixCode": "crock-{metal}"
+    
+    },
+    "file": "metalpots:blocktypes/metalcrock.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "Smallitem*": { "base": "cartwrightscaravan:item/modded/metalpotscrock" }},
+    "file": "metalpots:blocktypes/metalcrock.json",
+    "side": "Server"
+  },  
+  {    
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "replace",
+    "path": "/attributes/attachableToEntity/categoryCode",
+    "value": "metalpot",
+    "file": "metalpots:blocktypes/metalpot.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "*torage*": { "base": "block/metal/metalpot-closed" }},
+    "file": "metalpots:blocktypes/metalpot.json",
+    "side": "Server"
+  },
+  {    
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "addmerge",
+    "path": "/attributes/attachableToEntity/attachedShapeBySlotCode",
+    "value": { "*Seat*": { "base": "block/metal/metalpot-closed" }},
+    "file": "metalpots:blocktypes/metalpot.json",
+    "side": "Server"
+  },  
+  {
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/7/forCategoryCodes/-",
+    "value": [ "metalpot" ],
+    "file": "game:entities/animal/mammal/hooved/elk-tamed.json",
+    "side": "Server"
+  },  
+  {
+    "dependsOn": [{"modid": "metalpots"}],
+    "enabled": true,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/8/forCategoryCodes/-",
+    "value": [ "metalpot" ],
+    "file": "game:entities/animal/mammal/hooved/elk-tamed.json",
+    "side": "Server"
+  },  
+  {
+    "dependsOn": [{"modid": "craftablecompanion"}],
+    "enabled": true,
+    "op": "addeach",
+    "path": "/behaviorConfigs/rideableaccessories/wearableSlots/1/forCategoryCodes/-",
+    "value": [ "metalpot" ],
+    "file": "craftablecompanion:entities/land/mechcompanion.json",
+    "side": "Server"
+  }
+]

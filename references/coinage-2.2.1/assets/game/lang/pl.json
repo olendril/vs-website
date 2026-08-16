@@ -1,0 +1,6 @@
+{
+    "tabname-coinage": "Monety",
+    "gamemechanicinfo-coinage": "Monety",
+    "gamemechanicinfo-coinage-title": "Monety",
+    "gamemechanicinfo-coinage-text": "<strong>Krążki mennicze</strong><br/>Pierwszym krokiem do wybijania własnych monet jest stworzenie <a href=\"handbook://item-coinage:punch-iron\">stempla monetarnego</a>. Kliknij <hk>rightmouse</hk> stempel, aby rozpocząć tworzenie kształtu monet. Gdy stempel będzie gotowy, użyj go razem z metalowymi płytami, aby wytworzyć <a href=\"handbooksearch://planchet\">krążki mennicze</a>.<br/><br/><strong>Wybijanie</strong><br/>Twórz własne wzory monet, klikając <hk>rightmouse</hk> za pomocą <a href=\"handbook://item-coinage:trussell-iron\">trussela</a>. Trzymając trussel i młot, umieść krążki mennicze w <a href=\"handbooksearch://coining pile\">stosie menniczym</a> razem z <a href=\"handbook://item-coinage:anvildie-iron\">matrycą kowadłową</a>, a następnie kliknij <hk>rightmouse</hk> stos, aby wybić monety.<br/><br/>Pamiętaj, aby skopiować swój wzór na nowy trussel, zanim oryginał się zepsuje! Umieść pusty trussel w stosie menniczym, trzymaj stary i wbij wzór młotem.<br/>Stempel monetarny można skopiować w podobny sposób, wytwarzając go razem z pustym."
+}
