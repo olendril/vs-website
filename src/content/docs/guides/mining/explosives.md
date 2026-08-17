@@ -12,7 +12,7 @@ tags:
 
 # Explosives
 
-Blasting is the fast way to turn ore or rock into a large amount of muck. It is
+Blasting is the fast way to turn ore or rock into a large amount of [muck](../muck-and-how-to-handle-it/). It is
 also the fastest way to collapse your mine, so treat each shot as a planned
 engineering operation.
 
@@ -20,7 +20,7 @@ engineering operation.
 
 A drill hole starts at zero blocks deep. Strike the drill first, then use its
 turn interaction to advance it. Each successful strike-and-turn cycle adds one
-block. 
+block.
 
 The reference depth ranges are:
 
@@ -58,7 +58,6 @@ block deep before it can be cleaned or loaded.
 
 ![Fuse Setup](/images/guides/mining/fuse.png)
 
-
 ## How the blast behaves
 
 The blast travels down the drilled hole in short steps rather than appearing as
@@ -73,4 +72,4 @@ with the Blowpipe before attempting to reuse it.
 
 After the blast, wait for every connected charge to finish. Inspect the roof,
 support beams, and retreat route before collecting the muck. Follow [Cave-ins
-and safety](./cave-in-and-safety/) whenever the blast opens a new room.
+and safety](../cave-in-and-safety/) whenever the blast opens a new room.

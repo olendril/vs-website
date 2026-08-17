@@ -43,4 +43,3 @@ first, then attach the beams. Keep the support visible so it is easy to see
 which ceiling blocks are covered.
 
 ![Post and Beam](/images/guides/mining/postandbeam.png)
-

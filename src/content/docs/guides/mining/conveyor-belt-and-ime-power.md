@@ -12,7 +12,7 @@ tags:
 
 # Conveyor belts and IME power
 
-Convoyer belts are a great way to move muck between machines, and automate screening and crushing.
+Convoyer belts are a great way to move [muck](../muck-and-how-to-handle-it/) between machines, and automate [screening and crushing](../sluices-and-screen/).
 
 ## The IME power bridge
 
@@ -25,7 +25,6 @@ IME power blocks can also pass power through touching faces, so a connector is
 not required at every step. Keep the network physically connected and leave a
 reachable face for troubleshooting.
 
-
 ## Conveyor blocks
 
 - **Flat Conveyor:** Moves muck directly on top of it forward one block and up
@@ -37,7 +36,6 @@ reachable face for troubleshooting.
   body, and outputs it at the output's height in its facing direction.
 
 ![Convoyer Belt](/images/guides/mining/convoyer-belt.png)
-
 
 ## Troubleshooting
 

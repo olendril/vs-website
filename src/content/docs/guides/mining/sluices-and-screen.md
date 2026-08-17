@@ -69,7 +69,7 @@ ore type at a time. Empty it before mixing a new ore into the line.
 
 A **Screen** accepts raw muck from the block above it and separates it into
 approximately 75% coarse muck and 25% fine muck. The coarse fraction exits
-through the back; the fine fraction exits through the bottom. 
+through the back; the fine fraction exits through the bottom.
 
 The screen recipe uses support beams, planks, and seven tin-bronze rods. It is a
 late copper or bronze workshop project and should be placed where both outputs
@@ -82,7 +82,7 @@ can be collected.
                      |
                      v
               +---------------+
-              |    SCREEN     | ---> coarse muck: crusher or hammer to 
+              |    SCREEN     | ---> coarse muck: crusher or hammer to
               +---------------+                    turn into fine muck
                      |
                      v
@@ -90,13 +90,14 @@ can be collected.
 ```
 
 The screen does not turn coarse muck into a usable sluice input. Send coarse
-muck to the powered jaw crusher. The crusher returns approximately 75% fine
-muck and 25% raw muck; screen or buffer those outputs before returning the
-fine fraction to water processing.
+muck to a bronze hammer for now, or to the [powered jaw crusher](../conveyor-belt-and-ime-power/) once you reach
+the Iron Age. The hammer turns the coarse muck into fine muck. The crusher
+returns approximately 75% fine muck and 25% raw muck; screen or buffer those
+outputs before returning the fine fraction to water processing.
 
 ## Sieve and non-metallic muck
 
-A Sieve is useful to gather iron before the first bloomery.
+A Sieve is useful to gather iron before the first [bloomery](../bloomery/).
 Put muck on top of the sieve. Ore muck yields only one nugget per
 layer, which makes it an emergency copper or iron bootstrap rather than a
 production method. Stone muck produces host-rock materials such as stone, sand,

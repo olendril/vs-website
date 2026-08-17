@@ -13,9 +13,9 @@ tags:
 # Bloomery furnaces
 
 The IME **Bloomery Door** is also called the high-temperature furnace. In the
-reference setup it processes iron-bearing muck: hematite, magnetite, limonite,
+reference setup it processes [iron-bearing muck](../muck-and-how-to-handle-it/): hematite, magnetite, limonite,
 and the compatible pyrite from Geology Additions. It is not the furnace for
-copper, tin, or other non-ferrous ores. For them look at the [Smelting Furnace](../smelting-furnaces).
+copper, tin, or other non-ferrous ores. For them look at the [Smelting Furnace](../smelting-furnaces/).
 
 ## Construction rules
 
@@ -32,18 +32,17 @@ again to cycle tiers.
 
 ![Bloomery preview](/images/guides/mining/bloomery-preview.png)
 
-
 ## Tiers and block positions
 
 The `Muck fuel cells` column means positions where the bloomery can hold its muck charge;
 it does not mean that every position is a dedicated charcoal slot. Fuel is
 calculated from the total muck layers.
 
-| Tier | Firebrick needed |                      Muckpile solts | Fuel required                 |
-|------|-----------------:|------------------------------------:|-------------------------------|
-| 1    |               39 |                               1 x 4 | 1 fuel unit per 2 muck layers |
-| 2    |               69 |                               4 x 4 | 1 fuel unit per 4 muck layers |
-| 3    |               99 |                               9 x 5 | 1 fuel unit per 6 muck layers |
+| Tier | Firebrick needed | Muckpile solts | Fuel required                 |
+| ---- | ---------------: | -------------: | ----------------------------- |
+| 1    |               39 |          1 x 4 | 1 fuel unit per 2 muck layers |
+| 2    |               69 |          4 x 4 | 1 fuel unit per 4 muck layers |
+| 3    |               99 |          9 x 5 | 1 fuel unit per 6 muck layers |
 
 Charcoal supplies one fuel unit. Coal coke supplies two. Add the muck first,
 then drop charcoal or coal coke as item entities onto a projected muck cell,
@@ -53,7 +52,6 @@ fuel in an explicitly empty or air position.** The bloomery does not use smelt
 pots or flux.
 
 ![Bloomery fuel](/images/guides/mining/bloomery-fuel.png)
-
 
 ### Practical layouts
 
@@ -88,6 +86,6 @@ The reference output creates one Iron Bloom per 100 iron units, then returns
 the remaining eligible iron as nuggets. Continue with the normal Vintage Story
 iron and steel route after breaking the mass.
 
-If the first iron is the only missing ingredient for the door, use the Sieve as
+If the first iron is the only missing ingredient for the door, use the [Sieve](../sluices-and-screen/) as
 an emergency bridge: ore muck in a sieve produces nuggets very inefficiently,
 but a few iron nuggets can unlock the first bloomery.

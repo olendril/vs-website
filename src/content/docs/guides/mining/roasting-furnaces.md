@@ -11,7 +11,7 @@ tags:
 
 # Roasting furnaces
 
-Roasting improves the availability of ore muck before the final furnace. It is
+Roasting improves the availability of [ore muck](../muck-and-how-to-handle-it/) before the final furnace. It is
 especially important for iron, where roasting is the route to maximum
 availability before the bloomery.
 
@@ -22,7 +22,6 @@ show a tier projection and crouch-right-click again to cycle tiers. Build the
 projected brick shell, grate, fuel, muck, door-top, and open smoke spaces.
 
 ![Image of the Roasting Furnaces Preview](/images/guides/mining/roasting-preview.png)
-
 
 Every fuel position must contain fuel. The lowest fuel temperature controls the
 furnace, and the roast requires at least 600°C. The reference timing is an
@@ -38,11 +37,11 @@ These are the projected positions from the IME 1.0.16 patterns. `Muck cells`
 counts the vertical charge positions; the `charge grid` describes their
 horizontal arrangement.
 
-| Tier | Furnace brick needed | Grates | Fuel positions | Muck cells |  Ramp / hold / cool |
-| ---- | ----------------------: |-------:| -------------: | ---------: | ------------------ |
-| 1    |                      50 |      1 |              1 |          3 |  1 h / 8 h / 1 h    |
-| 2    |                      75 |      4 |              2 |         12 | 2 h / 8 h / 2 h    |
-| 3    |                     124 |      9 |              4 |         27 | 4 h / 8 h / 4 h    |
+| Tier | Furnace brick needed | Grates | Fuel positions | Muck cells | Ramp / hold / cool |
+| ---- | -------------------: | -----: | -------------: | ---------: | ------------------ |
+| 1    |                   50 |      1 |              1 |          3 | 1 h / 8 h / 1 h    |
+| 2    |                   75 |      4 |              2 |         12 | 2 h / 8 h / 2 h    |
+| 3    |                  124 |      9 |              4 |         27 | 4 h / 8 h / 4 h    |
 
 All three tiers use the same brick families: clay brick, fire-clay brick
 variants such as fire brick, or refractory brick. Every tier also requires a
@@ -50,7 +49,6 @@ grate material accepted by the projection—at least firebrick or refractory
 grate in the reference implementation.
 
 ![Image of the Roasting Furnaces](/images/guides/mining/roasting-furnaces.png)
-
 
 ### Practical layouts
 
@@ -62,6 +60,7 @@ grate in the reference implementation.
   is the batch roasting layout for a mature processing hall.
 
 Each muck column can be three block high.
+
 ## Availability gains
 
 For non-iron ore, roasting adds 35 percentage points of availability. Starting
@@ -77,5 +76,5 @@ Iron uses its own availability results:
 | Fine            |                        100% |
 
 Roast selected ore muck once, then send non-iron concentrates to a [smelting
-furnace](../smelting-furnaces) or send roasted iron muck to the [bloomery](../bloomery). Keep stone
-muck out of the charge because it provides no ore availability to improve.
+furnace](../smelting-furnaces/) or send roasted iron muck to the [bloomery](../bloomery/). Keep [stone
+muck](../muck-and-how-to-handle-it/) out of the charge because it provides no ore availability to improve.

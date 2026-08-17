@@ -13,7 +13,7 @@ tags:
 # Smelting furnaces
 
 The IME low-temperature furnace is called the **Smeltery Door** in-game. It
-turns concentrated non-ferrous ore muck into Pig Metal. It is the furnace used
+turns [concentrated non-ferrous ore muck](../muck-and-how-to-handle-it/) into Pig Metal. It is the furnace used
 for copper, tin, bismuth, zinc, lead, silver, gold, and platinum; iron uses the
 [bloomery](../bloomery/) instead.
 
@@ -36,11 +36,11 @@ The counts below are the **projected positions** in the IME 1.0.16 patterns.
 They are useful for gathering materials, but they are not a replacement for
 the in-game projection.
 
-| Tier | Valid furnace brick family                                     | Brick needed | Smelt pots | Fuel positions |  Ramp / hold / cool |
-| ---- | -------------------------------------------------------------- |-------------:| ---------: | -------------: |  ------------------ |
-| 1    | Mudbrick, clay brick including fire brick, or refractory brick |           37 |          1 |              1 |   1 h / 8 h / 1 h    |
-| 2    | Clay brick or refractory brick                                 |           85 |          4 |              2 |   2 h / 8 h / 2 h    |
-| 3    | Fire-clay brick or refractory brick                            |          129 |          9 |              3 |   4 h / 8 h / 4 h    |
+| Tier | Valid furnace brick family                                     | Brick needed | Smelt pots | Fuel positions | Ramp / hold / cool |
+| ---- | -------------------------------------------------------------- | -----------: | ---------: | -------------: | ------------------ |
+| 1    | Mudbrick, clay brick including fire brick, or refractory brick |           37 |          1 |              1 | 1 h / 8 h / 1 h    |
+| 2    | Clay brick or refractory brick                                 |           85 |          4 |              2 | 2 h / 8 h / 2 h    |
+| 3    | Fire-clay brick or refractory brick                            |          129 |          9 |              3 | 4 h / 8 h / 4 h    |
 
 On this server, the tier-1 mudbrick route is the intended first furnace. The
 installed compatibility patch may also accept supported decorative or glazed

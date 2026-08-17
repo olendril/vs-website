@@ -16,7 +16,23 @@ export default defineConfig({
         },
         {
           label: 'Guides',
-          items: [{ autogenerate: { directory: 'guides' } }],
+          items: [
+            { label: 'Guides', link: '/guides/' },
+            { autogenerate: { directory: 'guides/economy' } },
+            {
+              label: 'Farming',
+              items: [{ autogenerate: { directory: 'guides/farming' } }],
+            },
+            { autogenerate: { directory: 'guides/fibercraft' } },
+            {
+              label: 'Mining',
+              items: [{ autogenerate: { directory: 'guides/mining' } }],
+            },
+            { autogenerate: { directory: 'guides/navigation' } },
+            { autogenerate: { directory: 'guides/toolsmith' } },
+            { autogenerate: { directory: 'guides/waterfall' } },
+            { autogenerate: { directory: 'guides/woodworking' } },
+          ],
         },
         {
           label: 'Mods',
