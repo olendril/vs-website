@@ -11,4 +11,4 @@ description: Shared-world expectations for a welcoming and stable server.
 - Keep roleplay and proximity voice chat considerate; mute or report disruptive behavior.
 - Report broken recipes, rendering, or compatibility behavior to staff on discord.
 - Make your building believable, no floating platforms, no dirt shack when you are at the steel age.
-- If you lose something that you didn't claim, I can't help you :( 
+- If you lose something that you didn't claim, I can't help you :( So claim your stuff: https://wiki.vintagestory.at/Land_claiming ! 

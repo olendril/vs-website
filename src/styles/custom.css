@@ -1,73 +1,74 @@
 /*
- * A warm, mineral-and-clay palette inspired by the materials of Vintage Story.
- * The colors are intentionally original and are applied through Starlight's
- * design tokens so the whole documentation UI stays coherent.
+ * A charcoal, parchment, copper, and muted-teal palette inspired by the
+ * materials and atmosphere of Vintage Story. The colors are intentionally
+ * original and are applied through Starlight's design tokens so the whole
+ * documentation UI stays coherent.
  */
 :root {
   /* Dark mode is Starlight's default theme. */
-  --sl-color-white: #fff8e8;
-  --sl-color-gray-1: #f5ead6;
-  --sl-color-gray-2: #d8c8ad;
-  --sl-color-gray-3: #ad987b;
-  --sl-color-gray-4: #75634d;
-  --sl-color-gray-5: #473a2d;
-  --sl-color-gray-6: #2e271f;
-  --sl-color-black: #201a15;
+  --sl-color-white: #f8f0df;
+  --sl-color-gray-1: #f1e6d0;
+  --sl-color-gray-2: #d4c5a9;
+  --sl-color-gray-3: #a79b84;
+  --sl-color-gray-4: #776f64;
+  --sl-color-gray-5: #4b5555;
+  --sl-color-gray-6: #30393b;
+  --sl-color-black: #1d2426;
 
   --sl-hue-orange: 28;
-  --sl-hue-green: 92;
-  --sl-hue-blue: 188;
+  --sl-hue-green: 104;
+  --sl-hue-blue: 184;
   --sl-hue-purple: 284;
   --sl-hue-red: 8;
 
-  --sl-color-accent-low: #4f2d24;
-  --sl-color-accent: #d67a45;
-  --sl-color-accent-high: #ffd0a4;
+  --sl-color-accent-low: #3e5050;
+  --sl-color-accent: #c77642;
+  --sl-color-accent-high: #f4c58f;
   --sl-color-text: var(--sl-color-gray-2);
   --sl-color-text-accent: var(--sl-color-accent-high);
-  --sl-color-text-invert: #2e1c14;
+  --sl-color-text-invert: #202729;
   --sl-color-bg: var(--sl-color-black);
-  --sl-color-bg-nav: var(--sl-color-gray-6);
-  --sl-color-bg-sidebar: var(--sl-color-gray-6);
-  --sl-color-bg-inline-code: var(--sl-color-gray-5);
+  --sl-color-bg-nav: #273133;
+  --sl-color-bg-sidebar: #242d2f;
+  --sl-color-bg-inline-code: #3a4546;
   --sl-color-bg-accent: var(--sl-color-accent-high);
-  --sl-color-hairline-light: #5a4937;
-  --sl-color-hairline: #2a221b;
-  --sl-color-hairline-shade: #17120f;
+  --sl-color-hairline-light: #5c6662;
+  --sl-color-hairline: #333d3e;
+  --sl-color-hairline-shade: #151b1d;
 
   --site-card-radius: 0.75rem;
   --site-card-shadow: 0 0.75rem 1.75rem rgb(17 12 8 / 22%);
-  --site-card-bg: color-mix(in srgb, var(--sl-color-bg) 94%, var(--sl-color-accent-low));
-  --site-card-bg-hover: color-mix(in srgb, var(--sl-color-bg) 88%, var(--sl-color-accent-low));
+  --site-card-bg: color-mix(in srgb, var(--sl-color-bg) 92%, var(--sl-color-accent-low));
+  --site-card-bg-hover: color-mix(in srgb, var(--sl-color-bg) 84%, var(--sl-color-accent-low));
 }
 
 :root[data-theme='light'] {
-  --sl-color-white: #2a221c;
-  --sl-color-gray-1: #2a221c;
-  --sl-color-gray-2: #493c2e;
-  --sl-color-gray-3: #6f5b46;
-  --sl-color-gray-4: #a89478;
-  --sl-color-gray-5: #d7c6aa;
-  --sl-color-gray-6: #eee4d1;
-  --sl-color-gray-7: #f8f1e5;
-  --sl-color-black: #fffaf1;
+  --sl-color-white: #273133;
+  --sl-color-gray-1: #273133;
+  --sl-color-gray-2: #3f4948;
+  --sl-color-gray-3: #68716d;
+  --sl-color-gray-4: #989686;
+  --sl-color-gray-5: #cec5b1;
+  --sl-color-gray-6: #e4dbc8;
+  --sl-color-gray-7: #f3ecdc;
+  --sl-color-black: #fbf7ed;
 
-  --sl-color-accent-low: #f1d6c3;
-  --sl-color-accent: #b85732;
-  --sl-color-accent-high: #7b351f;
+  --sl-color-accent-low: #e5c8a8;
+  --sl-color-accent: #a95332;
+  --sl-color-accent-high: #6e3326;
   --sl-color-text: var(--sl-color-gray-2);
   --sl-color-text-accent: var(--sl-color-accent);
   --sl-color-text-invert: var(--sl-color-black);
   --sl-color-bg: var(--sl-color-black);
-  --sl-color-bg-nav: var(--sl-color-gray-7);
+  --sl-color-bg-nav: #e9dfcb;
   --sl-color-bg-sidebar: var(--sl-color-bg);
   --sl-color-bg-inline-code: var(--sl-color-gray-6);
   --sl-color-bg-accent: var(--sl-color-accent);
-  --sl-color-hairline-light: #e2d2ba;
-  --sl-color-hairline: #eee4d1;
-  --sl-color-hairline-shade: #eee4d1;
+  --sl-color-hairline-light: #d3c4a7;
+  --sl-color-hairline: #e8deca;
+  --sl-color-hairline-shade: #e8deca;
 
-  --site-card-shadow: 0 0.75rem 1.75rem rgb(89 61 35 / 10%);
+  --site-card-shadow: 0 0.75rem 1.75rem rgb(49 55 52 / 12%);
 }
 
 /* Give splash pages a little more presence without changing their layout. */
