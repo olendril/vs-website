@@ -10,8 +10,6 @@ tags:
   - ore-processing
 ---
 
-# Sluices and screen
-
 Water is the first efficient way to separate ore from its host material. The
 water must flow through the sluice rather than merely stand in the same block;
 IME then moves muck layers downstream at intervals of roughly 5 to 15 seconds.

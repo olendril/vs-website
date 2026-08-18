@@ -10,8 +10,6 @@ tags:
   - exploration
 ---
 
-# Maps and Waymarkers
-
 The Vanilla map is disabled on this server.
 Use **Frontier's Map** to record a route and **Wilderlands Waymarkers** to make
 that route visible when you travel through the world.

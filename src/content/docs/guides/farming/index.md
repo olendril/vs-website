@@ -11,8 +11,6 @@ tags:
   - apiculture
 ---
 
-# Farming with Art of Growing
-
 Art of Growing turns farming into a longer crop cycle with more growth stages,
 crop-specific nutrients, and useful by-products. The Breeding Addon adds seven
 varieties: **Wild**, **Small**, **Medium**, **Decent**, **Large**, **Hefty**, and

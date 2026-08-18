@@ -9,8 +9,6 @@ tags:
   - meat
 ---
 
-# Butchering
-
 **You can still collect meat the vanilla way, but you will have fewer drops.**
 
 The **Butchering** mod replaces instant animal drops with a short processing

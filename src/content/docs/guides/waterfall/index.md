@@ -9,8 +9,6 @@ tags:
   - building
 ---
 
-# Waterfall and Water Placement
-
 **Waterfall** changes the usual water-bucket expectation: you cannot place a
 new water source just anywhere. Water must be manually spread from a naturally
 generated liquid body.

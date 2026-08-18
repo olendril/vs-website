@@ -3,8 +3,6 @@ title: Guides
 description: Practical guides organized around survival playstyles and projects.
 ---
 
-# Guides
-
 These guides follow the server's survival playstyles: gathering, building, exploration, and the systems that connect them.
 
 ## Available guides

@@ -10,8 +10,6 @@ tags:
   - safety
 ---
 
-# Explosives
-
 Blasting is the fast way to turn ore or rock into a large amount of [muck](../muck-and-how-to-handle-it/). It is
 also the fastest way to collapse your mine, so treat each shot as a planned
 engineering operation.

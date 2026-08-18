@@ -9,8 +9,6 @@ tags:
   - ore-processing
 ---
 
-# Roasting furnaces
-
 Roasting improves the availability of [ore muck](../muck-and-how-to-handle-it/) before the final furnace. It is
 especially important for iron, where roasting is the route to maximum
 availability before the bloomery.

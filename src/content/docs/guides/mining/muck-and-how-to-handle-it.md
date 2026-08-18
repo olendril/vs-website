@@ -9,8 +9,6 @@ tags:
   - ore-processing
 ---
 
-# Muck and how to handle it
-
 Muck is the material produced when ore is mined with a pickaxe or when ore or
 rock is blasted. It is the basic transport and processing unit for the mining
 system: the ore is inside the muck, and the muck must be separated before the

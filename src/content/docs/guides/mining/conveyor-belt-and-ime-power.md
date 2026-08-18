@@ -10,8 +10,6 @@ tags:
   - muck
 ---
 
-# Conveyor belts and IME power
-
 Convoyer belts are a great way to move [muck](../muck-and-how-to-handle-it/) between machines, and automate [screening and crushing](../sluices-and-screen/).
 
 ## The IME power bridge

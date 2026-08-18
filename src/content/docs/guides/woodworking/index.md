@@ -9,8 +9,6 @@ tags:
   - immersive-woodworking
 ---
 
-# Woodworking
-
 The server uses **ImmersiveWoodworking** to turn raw logs into firewood, sticks,
 planks, and support beams through dedicated stations. Use the in-game guide's
 **Woodworking** overview for exact recipes and machine-part lists.

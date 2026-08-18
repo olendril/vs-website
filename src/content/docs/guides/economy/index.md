@@ -10,8 +10,6 @@ tags:
   - player-shops
 ---
 
-# Economy
-
 **Coinage** provides the coins, while **Vinconomy** provides the shops that
 sell and buy goods from other players. The mods do not assign a value to a
 coin automatically, so agree on denominations and prices before putting a

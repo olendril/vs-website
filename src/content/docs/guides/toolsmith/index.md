@@ -9,8 +9,6 @@ tags:
   - tools
 ---
 
-# Toolsmith Forging
-
 Toolsmith keeps the normal Vintage Story forging process but makes many tools
 modular. A **Tinkered Tool** uses a head, handle, and optional binding. A
 **Smithed Tool** comes out of smithing as one complete tool.

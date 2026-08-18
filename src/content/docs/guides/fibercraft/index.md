@@ -10,8 +10,6 @@ tags:
   - tailoring
 ---
 
-# Fibercraft and Dressmakers
-
 The basic textile route is **fiber → twine → cloth → clothing**. Immersive
 Fibercraft supplies the spinning and weaving stations; Dressmakers adds more
 clothing recipes.

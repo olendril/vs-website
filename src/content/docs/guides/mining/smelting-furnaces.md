@@ -10,8 +10,6 @@ tags:
   - pig-metal
 ---
 
-# Smelting furnaces
-
 The IME low-temperature furnace is called the **Smeltery Door** in-game. It
 turns [concentrated non-ferrous ore muck](../muck-and-how-to-handle-it/) into Pig Metal. It is the furnace used
 for copper, tin, bismuth, zinc, lead, silver, gold, and platinum; iron uses the

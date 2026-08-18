@@ -10,8 +10,6 @@ tags:
   - metallurgy
 ---
 
-# Mining progression
-
 Interesting Mining & Extraction changes mining trip into a complete
 ore-processing chain. Copper is found at the surface, ore is mined as muck,
 and that muck must be separated before it becomes useful metal. Follow the

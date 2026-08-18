@@ -9,8 +9,6 @@ tags:
   - supports
 ---
 
-# Cave-ins and mine supports
-
 The server uses Interesting Ore Gen (IOG) for cave-ins. Supports and natural
 rock pillars let you control where you mine instead of opening an unsupported
 ceiling.

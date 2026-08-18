@@ -10,8 +10,6 @@ tags:
   - steel
 ---
 
-# Bloomery furnaces
-
 The IME **Bloomery Door** is also called the high-temperature furnace. In the
 reference setup it processes [iron-bearing muck](../muck-and-how-to-handle-it/): hematite, magnetite, limonite,
 and the compatible pyrite from Geology Additions. It is not the furnace for
