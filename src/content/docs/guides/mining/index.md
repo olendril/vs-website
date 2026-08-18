@@ -121,7 +121,7 @@ practical:
 1. Make a [**Screen**](./sluices-and-screen/) to separate raw muck into coarse and fine muck. Collect
    both outputs so the coarse fraction is not lost.
 2. Use a **bronze hammer** to crush coarse muck into fine muck for now. This is
-   the manual step until the jaw crusher becomes available.
+   the manual step until the jaw crusher becomes available. You can do it by placing a single coarse ore pile on the ground and pressing shift + Left Click 5 times.
 3. Make a [**roasting furnace**](./roasting-furnaces/) to improve the availability of processed ore.
    Roast ore muck once before sending it to the appropriate [smelting furnace](./smelting-furnaces/) or
    [bloomery](./bloomery/).

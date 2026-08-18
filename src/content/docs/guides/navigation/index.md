@@ -12,6 +12,7 @@ tags:
 
 # Maps and Waymarkers
 
+The Vanilla map is disabled on this server.
 Use **Frontier's Map** to record a route and **Wilderlands Waymarkers** to make
 that route visible when you travel through the world.
 
@@ -23,7 +24,6 @@ that route visible when you travel through the world.
 3. Craft a **Sextant** when you need a precise location. Hold right-click for
    a few seconds while aiming at a block or landmark, then import the saved
    measurement with the Sextant button in the lower-right of the map.
-4. Export a map to share it, or import a map onto a new or existing map.
 
 The installed Legacy Stamp Pack adds additional stamp choices for Frontier's
 Map. Use the in-game handbook's **Frontier's Map Guide** for the basic controls.

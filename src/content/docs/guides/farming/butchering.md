@@ -11,9 +11,11 @@ tags:
 
 # Butchering
 
+**You can still collect meat the vanilla way, but you will have fewer drops.**
+
 The **Butchering** mod replaces instant animal drops with a short processing
 chain. Prepare a knife, a **Skinning Hook**, and a **Butchering Table** before
-you go hunting. A **Butchering Bag** is optional, but makes larger carcasses
+you go hunting. A **Butchering Bag** is optional but makes larger carcasses
 easier to carry.
 
 ## Quick process
@@ -36,6 +38,4 @@ blood. A **Smoking Rack** under a lit campfire can preserve the resulting food.
 
 This page is only a quick route. For exact recipes, drop uses, blood and
 smoking details, and other exceptions, open the in-game handbook's
-**Butchering: Guide** and **Butchering: Info** entries.
-
-For more information on Butchering: https://mods.vintagestory.at/butchering
+**Butchering: Guide** and **Butchering: Info** entries or go on the website: https://mods.vintagestory.at/butchering

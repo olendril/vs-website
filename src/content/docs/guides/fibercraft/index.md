@@ -32,9 +32,6 @@ clothing recipes.
    Delight**. Some clothing is available to everyone; class clothing may
    require the **Clothier** trait or the relevant class.
 
-Leave enough room for the stations: the Spinning Wheel is a 2×2×2 structure
-and the Flying Shuttle Loom is 3×2×2.
-
 ## Use the in-game guide
 
 Open the handbook entries **Crafting Mechanic: Spinning Wheel**, **Crafting

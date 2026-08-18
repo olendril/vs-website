@@ -32,7 +32,6 @@ coin bag keeps minted currency easier to carry and sort.
 
 ## Buy from a Vinconomy shop
 
-Find shops through the **Player Shops** map layer or a shop's public waypoint.
 Open a stall to see its stock and price, then hold the required payment while
 making the purchase. Keep enough inventory or container space for the goods.
 
@@ -47,11 +46,11 @@ making the purchase. Keep enough inventory or container space for the goods.
 
 Sales proceeds go into the linked register. Empty it regularly: a full
 register cannot receive payment, so connected stalls cannot complete sales.
-An optional **Shop Ledger** can record sales by year and month. A
-**Purchase Crate** can be used when the shop should buy goods from players
-instead of selling its own stock.
+An optional **Shop Ledger** can record sales by year and month.
 
 For exchanging denominations, configure a **Shop Teller Machine** with two
 currencies and enough stock in the register to cover both directions. Its
 conversions are bidirectional, so only use ratios that are intended to work
 both ways.
+
+If ou need more info : https://mods.vintagestory.at/vinconomy & https://mods.vintagestory.at/coinage

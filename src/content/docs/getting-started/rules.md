@@ -6,7 +6,9 @@ description: Shared-world expectations for a welcoming and stable server.
 # Rules
 
 - Respect other players, their builds, and their marked claims.
-- Ask before taking, moving, or modifying another player's property.
-- Do not deliberately damage the world, exploit bugs, or use unauthorized packages.
+- If you see something that's not claimed but obviously created by a player, don't mess with it.
+- Do not deliberately grief the world, exploit bugs, or cheat in some way.
 - Keep roleplay and proximity voice chat considerate; mute or report disruptive behavior.
-- Share useful discoveries and report broken recipes, rendering, or compatibility behavior to staff with the mod name and installed version.
+- Report broken recipes, rendering, or compatibility behavior to staff on discord.
+- Make your building believable, no floating platforms, no dirt shack when you are at the steel age.
+- If you lose something that you didn't claim, I can't help you :( 

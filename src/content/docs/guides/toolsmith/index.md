@@ -30,15 +30,8 @@ A freshly forged sharp head still needs honing. Hold the tool in your main hand
 and a **Whetstone** in your offhand, then hold right-click. A placed
 **Grindstone** works the same way and is the better workshop option.
 
-## Reforge worn tools
-
-When a metal head or Smithed Tool is low on durability, place it in the
-Workbench's reforge slot and strike it with a hammer. Take the resulting
-workpiece to the forge and repair it using its original smithing recipe. If the
-original recipe produced multiple pieces, prepare the complete set before
-starting the reforge.
 
 Use the in-game handbook entries **Toolsmithing - The Basics**, **Crafting and
 Deconstruction Methods**, **Durability, Sharpness and Wear**, and **Secrets of
-the Reforge** for the full rules. See [Toolsmith on ModDB](https://mods.vintagestory.at/show/mod/22096)
-for current mod information.
+the Reforge** for the full details. See [Toolsmith on ModDB](https://mods.vintagestory.at/show/mod/22096)
+for more information.

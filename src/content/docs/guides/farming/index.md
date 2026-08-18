@@ -18,16 +18,6 @@ crop-specific nutrients, and useful by-products. The Breeding Addon adds seven
 varieties: **Wild**, **Small**, **Medium**, **Decent**, **Large**, **Hefty**, and
 **Gigantic**.
 
-## Start a field
-
-Prepare farmland with a hoe, plant your seeds, and keep the field hydrated.
-Check the crop entry in the in-game guide for its growth stages, growing time,
-and required nutrient. Replenish the nutrient the crop uses when the farmland
-needs it, and leave space to replant after harvesting.
-
-Harvest only mature crops. Keep some of the resulting seeds or seedlings for
-the next planting instead of turning the whole harvest into food.
-
 ## Improve your varieties
 
 Begin with Wild seeds and plant the best seed varieties you find. A mature crop
@@ -46,8 +36,7 @@ reserve them for meals or for expanding your best seed stock.
   slow the process. A hayfork helps collect larger amounts.
 
 The in-game guide's **Crops** tab is the best reference for an individual
-crop's stages and the items it produces. Keep a small seed reserve, improve one
-or two varieties first, and expand the field once the harvest is reliable.
+crop's stages and the items it produces. 
 
 For animal processing, see the short [Butchering](./butchering/) subguide. Use
 the in-game handbook's **Butchering: Guide** and **Butchering: Info** entries
@@ -70,3 +59,4 @@ near the field, orchard, or berry patch, and use the in-game **From Golden
 Combs** handbook for hive construction and pollination details.
 
 For more information on Art of Growing: https://mods.vintagestory.at/artofgrowing & https://mods.vintagestory.at/aogbreedingaddon
+And For more information on Golden Combs: https://mods.vintagestory.at/goldencombs

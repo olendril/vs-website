@@ -65,8 +65,8 @@ Use bins for valuable ore or for buffering a machine line. Muck cannot be placed
 ## Choosing the next process
 
 | Input           | Best next step                                                                        | Why                                                   |
-| --------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Coarse ore muck | [Crush](../sluices-and-screen/)                                                       | Coarse muck cannot be processed by sluice baffles     |
+| --------------- |---------------------------------------------------------------------------------------| ----------------------------------------------------- |
+| Coarse ore muck | Crush using hammer or use [Jaw Crusher](../èconveyor-belt-and-ime-power/)             | Coarse muck cannot be processed by sluice baffles     |
 | Raw ore muck    | [Screen](../sluices-and-screen/)                                                      | The raw ore have less availability than fine ore muck |
 | Fine ore muck   | Proper [sluice baffles](../sluices-and-screen/) or a [furnace](../smelting-furnaces/) | Fine muck has the highest starting availability       |
 | Stone muck      | [Sieve](../sluices-and-screen/) or a planned tailings dump                            | It has no metal content                               |

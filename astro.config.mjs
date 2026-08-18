@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Vintage Story Server',
+      title: 'Land of the Lost',
       customCss: ['/src/styles/custom.css'],
       sidebar: [
         { label: 'Home', link: '/' },
