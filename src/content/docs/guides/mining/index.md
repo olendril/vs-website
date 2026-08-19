@@ -53,13 +53,6 @@ bag or storage place at the mine mouth. Mark the surface position of the
 deposit; a good copper location will remain useful after the first tools are
 replaced.
 
-> **Image placeholder — surface copper location**
->
-> Show a copper surface rock or indicator beside exposed stone, with a player
-> marking the position and a visible path back to camp. The image should make
-> the location, surrounding geology, and route easy to read. Suggested file:
-> `public/images/guides/mining/surface-copper-location.webp`
-
 ## Early Copper Age
 
 This is the first complete muck-to-metal loop.
